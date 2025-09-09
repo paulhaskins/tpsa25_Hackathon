@@ -26,6 +26,9 @@ try:
 except ImportError:
     BeautifulSoup = None
 
+# CKAN Action API base for Smart Dublin
+CKAN_BASE = "https://data.smartdublin.ie/api/3/action"
+
 # Dataset pages that actually host the SCATS resources
 DATASET_PAGES = [
     # 2024
@@ -55,6 +58,47 @@ def _norm_month_token(m: str) -> list[str]:
 
 def _abs_url(base: str, href: str) -> str:
     return urljoin(base if base.endswith("/") else base + "/", href)
+
+
+def ckan_package_show(name_or_id: str) -> dict:
+    """Call CKAN package_show for a dataset slug or id and return the result dict.
+
+    Raises RuntimeError if CKAN returns success=false or HTTP errors occur.
+    """
+    r = requests.get(f"{CKAN_BASE}/package_show", params={"id": name_or_id}, timeout=30)
+    r.raise_for_status()
+    data = r.json()
+    if not data.get("success"):
+        raise RuntimeError(f"CKAN error: {data}")
+    return data["result"]
+
+
+def list_scats_zip_urls_for_half(year: int, half: str) -> list[str]:
+    """Return ZIP resource URLs for a given half-year dataset (jan-jun or jul-dec)."""
+    assert half in {"jan-jun", "jul-dec"}
+    slug = f"dcc-scats-detector-volume-{half}-{year}"
+    pkg = ckan_package_show(slug)
+    urls: list[str] = []
+    for res in pkg.get("resources", []):
+        url = res.get("url") or ""
+        fmt = (res.get("format") or "").lower()
+        if url.lower().endswith(".zip") or fmt == "zip":
+            urls.append(url)
+    return urls
+
+
+def find_scats_zip_links_ckan(month: str, year: int) -> list[str]:
+    """Use CKAN to list ZIP resource URLs for the appropriate half, ranked by month match."""
+    month_l = month.strip().lower()
+    half = "jan-jun" if month_l in {"january", "february", "march", "april", "may", "june"} else "jul-dec"
+    urls = list_scats_zip_urls_for_half(year, half)
+
+    def rank(u: str):
+        return (0 if month_l in u.lower() else 1, u)
+
+    # Keep only links that mention the target year to avoid cross-year mixes
+    urls = [u for u in urls if str(year) in u]
+    return sorted(urls, key=rank)
 
 def get_scats_download_links(pages: list[str] | str) -> list[str]:
     """
@@ -107,27 +151,65 @@ def download_scats_zip(month: str, year: int,
     if url:
         candidates = [url]
     else:
-        # Rank links from dataset pages
+        # 1) Prefer CKAN resource listing for the correct half-year
+        try:
+            ckan_urls = find_scats_zip_links_ckan(month, year)
+        except Exception:
+            ckan_urls = []
+
+        # 2) Fallback to scraping known dataset pages and ranking
         ranked = find_scats_zip_links(DATASET_PAGES, month=month, year=year)
-        # If nothing scored well, just gather everything we can
-        candidates = ranked or get_scats_download_links(DATASET_PAGES + SEARCH_PAGES)
+        scraped = ranked or get_scats_download_links(DATASET_PAGES + SEARCH_PAGES)
+
+        # Filter scraped links by year token if possible
+        scraped = [u for u in scraped if str(year) in u] or scraped
+
+        # 3) Merge, keeping order (CKAN results first)
+        merged: list[str] = []
+        seen: set[str] = set()
+        for u in [*ckan_urls, *scraped]:
+            if u not in seen:
+                seen.add(u)
+                merged.append(u)
+        candidates = merged
 
         # As an absolute last resort, try a very loose match by year only
         if not candidates and year:
             candidates = [u for u in get_scats_download_links(DATASET_PAGES + SEARCH_PAGES) if str(year) in u]
 
+    # Build a stable local filename to avoid cross-year names from the portal
+    safe_month = month.strip().lower()
+    stable_name = f"scats_{year}_{safe_month}.zip"
+    out_path = dest_dir / stable_name
+
+    # Stream download with simple retries
     last_error: Exception | None = None
     for cand in candidates:
+        # Skip obviously wrong links
+        if not cand.lower().endswith(".zip"):
+            continue
+        if str(year) not in cand:
+            # enforce year token match to avoid saving 2024 zips for 2019
+            continue
         try:
-            r = requests.get(cand, timeout=60)
-            r.raise_for_status()
-            # naive ZIP signature check
-            if not r.content or not cand.lower().endswith(".zip"):
-                continue
-            name = Path(cand).name or f"scats{month}{year}.zip"
-            out_path = dest_dir / name
-            out_path.write_bytes(r.content)
-            return out_path
+            for attempt in range(3):
+                try:
+                    with requests.get(cand, timeout=90, stream=True) as r:
+                        r.raise_for_status()
+                        with open(out_path, "wb") as f:
+                            for chunk in r.iter_content(chunk_size=1024 * 256):
+                                if chunk:
+                                    f.write(chunk)
+                    # crude ZIP signature check (first two bytes 'PK')
+                    head = out_path.read_bytes()[:2]
+                    if head != b"PK":
+                        raise ValueError("Downloaded file is not a ZIP (no PK header)")
+                    return out_path
+                except Exception as e:
+                    last_error = e
+                    if attempt == 2:
+                        raise
+            
         except Exception as e:
             last_error = e
             continue

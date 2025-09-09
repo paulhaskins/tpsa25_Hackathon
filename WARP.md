@@ -20,7 +20,34 @@ python -m traffic_model.cli build --place "Dublin, Ireland" --out data/processed
 python -m traffic_model.cli simplify --in data/processed/dublin.graphml --out data/processed/dublin_simplified.graphml
 
 # Attach flow time-series data to graph nodes
-python -m traffic_model.cli attach-flow --graph data/processed/dublin_simplified.graphml --flows data/sample_flows.csv --out data/processed/dublin_with_flows.graphml
+python -m traffic_model.cli attach-flow --graph data/processed/dublin_simplified.graphml --flows examples/sample_flows.csv --out data/processed/dublin_with_flows.graphml
+```
+
+### Traffic Simulation CLI
+```bash
+# View simulation commands
+python -m traffic_sim.cli --help
+
+# Run demo simulation with config file
+python -m traffic_sim.cli demo --config configs/demo.yml
+
+# Run OSM-based simulation
+python -m traffic_sim.cli osm --place "Dublin, Ireland" --steps 12 --beta 0.5 --alpha 1.0
+```
+
+### Data Hub CLI  
+```bash
+# List available SCATS datasets
+python -m datahub.cli scats-list
+
+# Download SCATS data for specific month/year
+python -m datahub.cli scats-get February 2024 --out data/raw
+
+# List TII portal resources
+python -m datahub.cli tii-list
+
+# Load TII traffic count data
+python -m datahub.cli tii-load path_or_url
 ```
 
 ### Development and Testing
@@ -38,12 +65,18 @@ python tests/test_flows.py
 python tests/test_load_graph.py
 python tests/test_neighborhoods.py
 python tests/test_viz.py
+python tests/test_sim_smoke.py
 
 # Run the comprehensive integration test
 python tests/quick_test.py
 
 # Check dependencies are available
 python -c "import osmnx, networkx, pandas, folium, typer; print('All dependencies available')"
+
+# Test CLI commands
+traffic-model --help
+traffic-sim --help
+datahub --help
 ```
 
 ### Environment Setup
