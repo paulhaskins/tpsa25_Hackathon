@@ -1,0 +1,11 @@
+place: "Dublin, Ireland"
+steps: 24
+dt_minutes: 60
+beta: 0.5
+alpha: 1.0
+n_residential: 5
+n_sinks: 3
+schedules:
+  work_hours: [9, 18]
+  parks_weekend_boost: 1.5
+

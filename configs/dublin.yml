@@ -1,0 +1,13 @@
+place: "Dublin, Ireland"
+network_type: "drive"
+build:
+  out: "data/processed/dublin.graphml"
+simplify:
+  in: "data/processed/dublin.graphml"
+  out: "data/processed/dublin_simplified.graphml"
+flows:
+  graph: "data/processed/dublin_simplified.graphml"
+  csv: "data/sample_flows.csv"
+  out: "data/processed/dublin_with_flows.graphml"
+
+

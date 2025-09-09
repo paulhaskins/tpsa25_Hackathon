@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Envs
+.env
+.venv/
+venv/
+ENV/
+
+# Data & cache
+data/**
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+cache/**
+
+# Ignore local data sources and large artifacts
+google-drive/**
+*.csv
+*.graphml
+*.npy
+*.parquet
+*.feather
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Builds
+dist/
+build/
+
+

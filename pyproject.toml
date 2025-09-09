@@ -1,0 +1,14 @@
+[project]
+name = "traffic-model"
+version = "0.1.0"
+description = "Traffic modelling for infrastructure optimisation (hackathon)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Hackathon Team" }]
+dependencies = []
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+

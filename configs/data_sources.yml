@@ -1,0 +1,19 @@
+scats_slugs:
+  - dcc-scats-detector-volume-jan-jun-2024
+  - dcc-scats-detector-volume-jul-dec-2024
+  - dcc-scats-detector-volume-jan-jun-2025
+
+month_aliases:
+  Jan: January
+  Feb: February
+  Mar: March
+  Apr: April
+  May: May
+  Jun: June
+  Jul: July
+  Aug: August
+  Sep: September
+  Oct: October
+  Nov: November
+  Dec: December
+

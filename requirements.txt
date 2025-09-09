@@ -1,0 +1,9 @@
+osmnx>=1.9.3
+networkx>=3.2
+matplotlib>=3.6.0
+pillow>=9.0.0
+typer>=0.12
+pandas>=2.2
+folium>=0.16
+numpy>=1.26
+requests>=2.32
