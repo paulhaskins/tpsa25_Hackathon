@@ -21,6 +21,7 @@ data/**
 !data/.gitkeep
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/*.json
 cache/**
 *.html
 *.json
