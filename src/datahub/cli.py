@@ -6,7 +6,7 @@ from typing import Optional
 import typer
 import pandas as pd
 
-from .scats import discover_scats_resources, rank_resources, load_month
+from .scats import discover_scats_resources, rank_resources, load_month, process_all_scats_data, load_scats_profiles
 from .tii import fetch_tii_portal_metadata, load_tii_counts_export
 
 
@@ -47,6 +47,31 @@ def tii_load(export: str) -> None:
     df = load_tii_counts_export(export)
     typer.echo(f"Loaded TII export: shape={df.shape}")
     typer.echo(df.head().to_string(index=False))
+
+
+@app.command()
+def scats_process(scats_dir: str = "data/raw/scats", output_dir: str = "data/processed") -> None:
+    """Process all SCATS archives and create demand profiles."""
+    typer.echo("Processing all SCATS data...")
+    demand_profiles = process_all_scats_data(Path(scats_dir), Path(output_dir))
+    typer.echo(f"Created demand profiles: {len(demand_profiles)} site-hour combinations")
+    typer.echo(f"Unique sites: {demand_profiles['Site'].nunique()}")
+    typer.echo(f"Hours covered: {sorted(demand_profiles['hour'].unique())}")
+
+
+@app.command()
+def scats_profiles(profiles_file: str = "data/processed/scats_demand_profiles.csv") -> None:
+    """Load and display SCATS demand profiles."""
+    try:
+        df = load_scats_profiles(Path(profiles_file))
+        typer.echo(f"Loaded SCATS profiles: shape={df.shape}")
+        typer.echo(f"Unique sites: {df['Site'].nunique()}")
+        typer.echo(f"Hours: {sorted(df['hour'].unique())}")
+        typer.echo("\nSample data:")
+        typer.echo(df.head(10).to_string(index=False))
+    except FileNotFoundError as e:
+        typer.echo(f"Error: {e}")
+        typer.echo("Run 'datahub scats-process' first to create the profiles file.")
 
 
 def main() -> None:

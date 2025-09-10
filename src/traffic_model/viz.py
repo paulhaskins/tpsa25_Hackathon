@@ -11,6 +11,7 @@ import networkx as nx
 import pandas as pd
 from datetime import time as dtime
 import pytz
+import math
 
 
 def _graph_center(G: nx.MultiDiGraph) -> Tuple[float, float]:
@@ -55,6 +56,140 @@ def _color_from_value(v: float, vmin: float, vmax: float) -> str:
         g = int((1 - a) * 200 + a * 0)
         b = 0
     return f"#{r:02x}{g:02x}{b:02x}"
+
+
+def _get_category_color(category: str) -> str:
+    """Get color for node category (updated color scheme)."""
+    color_map = {
+        'Residential': 'blue',
+        'Business': 'red', 
+        'School': 'green',
+        'Hospital': 'purple',
+        'Transport': 'orange',
+        'Other': 'gray'
+    }
+    return color_map.get(category, 'gray')
+
+
+def _scale_marker_radius(capacity: float, time_of_day: str = "day", category: str = "Other") -> float:
+    """Scale marker radius based on population capacity and time-of-day demand."""
+    # Base radius from log(capacity)
+    base_radius = max(5, min(30, math.log1p(capacity)))
+    
+    # Apply time-of-day demand factor
+    from .population import TIME_PROFILE
+    demand_factor = TIME_PROFILE.get(category, TIME_PROFILE["Other"]).get(time_of_day, 1.0)
+    
+    # Scale radius by demand factor
+    scaled_radius = base_radius * (0.5 + 0.5 * demand_factor)
+    return max(3, min(35, scaled_radius))
+
+
+def _add_legend_to_map(fmap: folium.Map) -> None:
+    """Add a legend to the map showing category colors (updated color scheme)."""
+    legend_html = '''
+    <div style="position: fixed; 
+                bottom: 50px; left: 50px; width: 200px; height: 140px; 
+                background-color: white; border:2px solid grey; z-index:9999; 
+                font-size:14px; padding: 10px">
+    <p><b>Node Categories</b></p>
+    <p><i class="fa fa-circle" style="color:blue"></i> Residential</p>
+    <p><i class="fa fa-circle" style="color:red"></i> Business</p>
+    <p><i class="fa fa-circle" style="color:green"></i> School</p>
+    <p><i class="fa fa-circle" style="color:purple"></i> Hospital</p>
+    <p><i class="fa fa-circle" style="color:orange"></i> Transport</p>
+    <p><i class="fa fa-circle" style="color:gray"></i> Other</p>
+    </div>
+    '''
+    fmap.get_root().html.add_child(folium.Element(legend_html))
+
+
+def _add_choropleth_layer(fmap: folium.Map, census_data_path: Path) -> bool:
+    """Add a choropleth layer for population density if census data exists."""
+    try:
+        import geopandas as gpd
+        
+        # Check if file exists
+        if not census_data_path.exists():
+            print(f"Census data file not found: {census_data_path}")
+            return False
+        
+        # Try to load census data with geometries
+        if census_data_path.suffix.lower() == '.csv':
+            # Try to load as CSV with geometry column
+            df = pd.read_csv(census_data_path)
+            if 'geometry' in df.columns:
+                # Convert geometry strings to actual geometries
+                from shapely import wkt
+                df['geometry'] = df['geometry'].apply(wkt.loads)
+                gdf = gpd.GeoDataFrame(df, geometry='geometry')
+            else:
+                return False
+        elif census_data_path.suffix.lower() in ['.geojson', '.json']:
+            try:
+                gdf = gpd.read_file(census_data_path)
+            except Exception as e:
+                print(f"Info: Could not read census data file as GeoJSON (expected for demo data): {e}")
+                return False
+        elif census_data_path.suffix.lower() == '.px':
+            # For .px files, use the population loading function
+            try:
+                from .population import load_census_data
+                boundaries_path = census_data_path.parent / "small_area_boundaries_2022.geojson"
+                if boundaries_path.exists():
+                    gdf = load_census_data(census_data_path, boundaries_path)
+                    if gdf is None:
+                        return False
+                else:
+                    print(f"Info: Boundaries file not found: {boundaries_path}")
+                    return False
+            except Exception as e:
+                print(f"Info: Could not load .px census data: {e}")
+                return False
+        else:
+            print(f"Unsupported file format for census data: {census_data_path.suffix}")
+            return False
+        
+        # Check if we have population data
+        pop_columns = [col for col in gdf.columns if 'population' in col.lower() or 'density' in col.lower()]
+        if not pop_columns:
+            return False
+        
+        pop_col = pop_columns[0]  # Use first population column found
+        
+        # Create choropleth layer
+        # Use the first available identifier column or create one
+        id_col = None
+        for col in ['SA_PUB2022', 'SA_PUB2016', 'OBJECTID', 'id']:
+            if col in gdf.columns:
+                id_col = col
+                break
+        
+        if id_col is None:
+            # Create a simple ID column
+            gdf['id'] = range(len(gdf))
+            id_col = 'id'
+        
+        # Add choropleth directly to the map (not to a FeatureGroup)
+        folium.Choropleth(
+            geo_data=gdf.to_json(),
+            data=gdf,
+            columns=[id_col, pop_col],
+            key_on=f'feature.properties.{id_col}',
+            fill_color='YlOrRd',
+            fill_opacity=0.7,
+            line_opacity=0.2,
+            legend_name=f'Population {pop_col}',
+            name='Population Density'
+        ).add_to(fmap)
+        
+        return True
+    except ImportError:
+        print("geopandas not available, skipping choropleth layer")
+        return False
+    except Exception as e:
+        print(f"Error adding choropleth layer: {e}")
+        return False
 
 
 DEFAULT_TIME_BINS: Dict[str, Dict[str, str]] = {
@@ -307,6 +442,8 @@ def _supernode_tooltip_text(n: Any, d: Dict[str, Any]) -> str:
 
 
 def _supernode_popup_html(n: Any, d: Dict[str, Any]) -> str:
+    import html
+    
     name = d.get("name") or str(n)
     stats = d.get("stats") or {}
     member_count = stats.get("member_count", 0)
@@ -324,6 +461,51 @@ def _supernode_popup_html(n: Any, d: Dict[str, Any]) -> str:
     sink_n = d.get("sink_attraction_night")
     pop_str = "N/A" if pop is None else str(int(round(float(pop))))
     dens_str = "N/A" if dens is None else f"{float(dens):.1f} / km²"
+    
+    # Population capacity and demand profile
+    pop_capacity = d.get("population_capacity")
+    pop_capacity_str = "N/A" if pop_capacity is None else str(int(round(float(pop_capacity))))
+    
+    demand_profile = d.get("demand_profile", {})
+    demand_str = "N/A"
+    if demand_profile:
+        demand_parts = []
+        for time_period, factor in demand_profile.items():
+            if isinstance(factor, (int, float)):
+                demand_parts.append(f"{time_period}: {factor:.1f}")
+        if demand_parts:
+            demand_str = ", ".join(demand_parts)
+    
+    # Category
+    category = d.get("category", "Unknown")
+    
+    # Business-specific information
+    business_name = "N/A"
+    business_type = "N/A"
+    person_capacity = "N/A"
+    
+    if category == "Business":
+        # Try to get business name from various OSM tags (prioritize brand and name)
+        business_name = (d.get("name") or 
+                        d.get("brand") or 
+                        d.get("operator") or 
+                        d.get("shop") or 
+                        d.get("amenity") or 
+                        d.get("office") or 
+                        "Unknown Business")
+        
+        # Get business type
+        business_type = (d.get("shop") or 
+                        d.get("amenity") or 
+                        d.get("office") or 
+                        d.get("landuse") or 
+                        d.get("google_place_type") or 
+                        "Business")
+        
+        # Person capacity (employees + visitors)
+        if pop_capacity is not None:
+            person_capacity = str(int(round(float(pop_capacity))))
+    
     # Expected flows (if present)
     exp_out_m = d.get("expected_outflow_Morning") or d.get("expected_outflow_morning")
     exp_in_m = d.get("expected_inflow_Morning") or d.get("expected_inflow_morning")
@@ -335,24 +517,77 @@ def _supernode_popup_html(n: Any, d: Dict[str, Any]) -> str:
     exp_in_n = d.get("expected_inflow_Night") or d.get("expected_inflow_night")
     def fmt_flow(v: Any) -> str:
         return "N/A" if v is None else str(int(round(float(v))))
-    rows = [
-        f"<tr><th align='left'>Name</th><td>{name}</td></tr>",
-        f"<tr><th align='left'>Member count</th><td>{member_count}</td></tr>",
-        f"<tr><th align='left'>Occupation</th><td>{occ_str}</td></tr>",
-        f"<tr><th align='left'>Population</th><td>{pop_str}</td></tr>",
-        f"<tr><th align='left'>Density</th><td>{dens_str}</td></tr>",
-        f"<tr><th align='left'>Flow/hr (AM)</th><td>{fmt('Morning rush')}</td></tr>",
-        f"<tr><th align='left'>Flow/hr (Day)</th><td>{fmt('Day')}</td></tr>",
-        f"<tr><th align='left'>Flow/hr (PM)</th><td>{fmt('Evening rush')}</td></tr>",
-        f"<tr><th align='left'>Flow/hr (Night)</th><td>{fmt('Night')}</td></tr>",
-        f"<tr><th align='left'>Sink (AM/Day/PM/Night)</th><td>{'N/A' if sink_m is None else int(round(float(sink_m)))}/"
-        f"{'N/A' if sink_d is None else int(round(float(sink_d)))}/"
-        f"{'N/A' if sink_e is None else int(round(float(sink_e)))}/"
-        f"{'N/A' if sink_n is None else int(round(float(sink_n)))}</td></tr>",
-        f"<tr><th align='left'>Expected outflow (AM/Day/PM/Night)</th><td>{fmt_flow(exp_out_m)}/{fmt_flow(exp_out_d)}/{fmt_flow(exp_out_e)}/{fmt_flow(exp_out_n)}</td></tr>",
-        f"<tr><th align='left'>Expected inflow (AM/Day/PM/Night)</th><td>{fmt_flow(exp_in_m)}/{fmt_flow(exp_in_d)}/{fmt_flow(exp_in_e)}/{fmt_flow(exp_in_n)}</td></tr>",
-    ]
-    return "<table>" + "".join(rows) + "</table>"
+    # Create clean, formatted popup content
+    popup_content = f"""
+    <div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4;">
+        <h3 style="margin: 0 0 8px 0; color: #2c3e50;">{html.escape(str(n))}</h3>
+        <p style="margin: 4px 0;"><strong>Category:</strong> {category}</p>
+        <p style="margin: 4px 0;"><strong>Population Capacity:</strong> {pop_capacity_str}</p>
+        <p style="margin: 4px 0;"><strong>Demand Profile:</strong> {demand_str}</p>
+    """
+    
+    # Add business-specific information if it's a business node
+    if category == "Business":
+        popup_content += f"""
+        <hr style="margin: 8px 0; border: none; border-top: 1px solid #ddd;">
+        <p style="margin: 4px 0;"><strong>Business Name:</strong> {html.escape(str(business_name))}</p>
+        <p style="margin: 4px 0;"><strong>Business Type:</strong> {html.escape(str(business_type))}</p>
+        <p style="margin: 4px 0;"><strong>Person Capacity:</strong> {html.escape(str(person_capacity))}</p>
+        """
+    
+    # Add flow information
+    popup_content += f"""
+        <hr style="margin: 8px 0; border: none; border-top: 1px solid #ddd;">
+        <p style="margin: 4px 0;"><strong>Flow/hr (AM):</strong> {fmt('Morning rush')}</p>
+        <p style="margin: 4px 0;"><strong>Flow/hr (Day):</strong> {fmt('Day')}</p>
+        <p style="margin: 4px 0;"><strong>Flow/hr (PM):</strong> {fmt('Evening rush')}</p>
+        <p style="margin: 4px 0;"><strong>Flow/hr (Night):</strong> {fmt('Night')}</p>
+    """
+    
+    # Add member count if it's a supernode
+    if member_count > 0:
+        popup_content += f"""
+        <p style="margin: 4px 0;"><strong>Member Count:</strong> {member_count}</p>
+        """
+    
+    popup_content += "</div>"
+    
+    return popup_content
+
+
+def _create_poi_popup(node_id: Any, node_data: Dict[str, Any], category: str) -> str:
+    """Create a clean popup for POI nodes."""
+    import html
+    
+    # Get basic information
+    name = node_data.get('name', f'POI {node_id}')
+    population_capacity = node_data.get('population_capacity', 0)
+    business_name = node_data.get('business_name', '')
+    business_type = node_data.get('business_type', '')
+    
+    # Create popup content
+    popup_content = f"""
+    <div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4;">
+        <h3 style="margin: 0 0 8px 0; color: #2c3e50;">{html.escape(str(name))}</h3>
+        <p style="margin: 4px 0;"><strong>Category:</strong> {category}</p>
+        <p style="margin: 4px 0;"><strong>Population Capacity:</strong> {population_capacity}</p>
+    """
+    
+    # Add business-specific information if available
+    if business_name:
+        popup_content += f"""
+        <hr style="margin: 8px 0; border: none; border-top: 1px solid #ddd;">
+        <p style="margin: 4px 0;"><strong>Business Name:</strong> {html.escape(str(business_name))}</p>
+        """
+    
+    if business_type:
+        popup_content += f"""
+        <p style="margin: 4px 0;"><strong>Business Type:</strong> {html.escape(str(business_type))}</p>
+        """
+    
+    popup_content += "</div>"
+    
+    return popup_content
 
 
 def save_folium_flow_map(
@@ -362,6 +597,7 @@ def save_folium_flow_map(
     time_bins: Dict[str, Dict[str, str]] | None = None,
     show_all_nodes: bool = True,
     width: int = 2,
+    time_of_day: str = "day",
 ) -> None:
     """Plot graph on a Folium map with flows and two node layers.
 
@@ -419,17 +655,40 @@ def save_folium_flow_map(
             x, y = d.get("x"), d.get("y")
             if x is None or y is None:
                 continue
+            
+            # Get category and population capacity
+            category = d.get("category", "Other")
+            pop_capacity = d.get("population_capacity", 100)
+            
+            # Scale radius based on capacity and time-of-day
+            radius = _scale_marker_radius(pop_capacity, time_of_day, category)
+            
+            # Color by category
+            color = _get_category_color(category)
+            
             tip = _supernode_tooltip_text(n, d)
             pop = _supernode_popup_html(n, d)
+            
+            # Create popup with error handling
+            import html
+            try:
+                popup = folium.Popup(pop, max_width=350, parse_html=True)
+            except Exception as e:
+                print(f"Error creating popup for node {n}: {e}")
+                # Fallback to simple popup
+                name = d.get("name") or str(n)
+                category = d.get("category", "Unknown")
+                popup = folium.Popup(f"<b>{html.escape(str(name))}</b><br>Category: {category}", max_width=200)
+            
             folium.CircleMarker(
                 location=(y, x),
-                radius=9,
-                color="red",
+                radius=radius,
+                color=color,
                 fill=True,
-                fill_color="red",
+                fill_color=color,
                 fill_opacity=0.9,
                 tooltip=folium.Tooltip(tip, sticky=True),
-                popup=folium.Popup(pop, max_width=350),
+                popup=popup,
             ).add_to(fg_super)
 
     # Plot all junction nodes
@@ -458,9 +717,14 @@ def save_folium_flow_map(
 
 __all__ = [
     "save_folium_flow_map",
+    "save_enhanced_folium_map",
     "compute_node_stats",
     "annotate_graph_with_scats",
     "DEFAULT_TIME_BINS",
+    "_get_category_color",
+    "_scale_marker_radius",
+    "_add_legend_to_map",
+    "_add_choropleth_layer",
 ]
 
 """Visualisation helpers using Folium and OSMnx (placeholder)."""
@@ -491,5 +755,268 @@ def save_folium_map(m: folium.Map, path: Path) -> None:
 def save_osmnx_plot(G: nx.MultiDiGraph, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     ox.plot_graph(G, show=False, save=True, filepath=str(path))
+
+
+def save_enhanced_folium_map(
+    G: nx.MultiDiGraph,
+    html_path: Path | str,
+    layers: str = "all",
+    scats_df: "pd.DataFrame | None" = None,
+    time_bins: Dict[str, Dict[str, str]] | None = None,
+    width: int = 2,
+    time_of_day: str = "day",
+    census_data_path: Optional[Path] = None,
+) -> None:
+    """
+    Create an enhanced Folium map with multiple layers and controls.
+
+    Args:
+        G: NetworkX graph with capacity, category, and efficiency annotations
+        html_path: Output HTML file path
+        layers: Which layers to include ("roads", "supernodes", "junctions", "categories", "all")
+        scats_df: Optional SCATS data for flow visualization
+        time_bins: Time bins for flow analysis
+        width: Edge width for roads layer
+    """
+    html_path = Path(html_path)
+    html_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Get map center
+    cx, cy = _graph_center(G)
+    fmap = folium.Map(location=(cy, cx), zoom_start=12, control_scale=True)
+
+    # Parse layers
+    show_roads = layers in ["roads", "all"]
+    show_supernodes = layers in ["supernodes", "all"]
+    show_junctions = layers in ["junctions", "all"]
+    show_categories = layers in ["categories", "all"]
+
+    # Roads layer - colored by saturation (load/capacity)
+    if show_roads:
+        fg_roads = folium.FeatureGroup(name="Roads", show=True)
+        
+        # Precompute intensities for scaling
+        intensities = []
+        for u, v, k, d in G.edges(keys=True, data=True):
+            # Calculate saturation as load/capacity
+            capacity = d.get('capacity', 1)
+            load = _edge_intensity(d)
+            saturation = load / capacity if capacity > 0 else 0
+            intensities.append(saturation)
+        
+        if intensities:
+            vmax = float(np.percentile(intensities, 95))
+            vmin = float(np.percentile(intensities, 5))
+        else:
+            vmin, vmax = 0.0, 1.0
+
+        # Draw edges
+        node_xy: Dict[Any, Tuple[float, float]] = {
+            n: (d.get("x"), d.get("y")) for n, d in G.nodes(data=True)
+            if d.get("x") is not None and d.get("y") is not None
+        }
+        
+        for u, v, k, d in G.edges(keys=True, data=True):
+            ux, uy = node_xy.get(u, (None, None))
+            vx, vy = node_xy.get(v, (None, None))
+            if ux is None or uy is None or vx is None or vy is None:
+                continue
+            
+            # Calculate saturation
+            capacity = d.get('capacity', 1)
+            load = _edge_intensity(d)
+            saturation = load / capacity if capacity > 0 else 0
+            color = _color_from_value(saturation, vmin, vmax)
+            
+            # Create popup with edge information
+            name = d.get('name', 'Unnamed Road')
+            lanes = d.get('lanes', 1)
+            length = d.get('length', 0)
+            popup_text = f"""
+            <b>{name}</b><br>
+            Lanes: {lanes}<br>
+            Length: {length:.1f}m<br>
+            Capacity: {capacity}<br>
+            Current Load: {load:.1f}<br>
+            Saturation: {saturation:.2f}
+            """
+            
+            folium.PolyLine(
+                [(uy, ux), (vy, vx)], 
+                color=color, 
+                weight=width, 
+                opacity=0.9,
+                popup=folium.Popup(popup_text, max_width=200)
+            ).add_to(fg_roads)
+        
+        fg_roads.add_to(fmap)
+
+    # Supernodes layer
+    if show_supernodes:
+        fg_super = folium.FeatureGroup(name="Supernodes", show=True)
+        
+        for n, d in G.nodes(data=True):
+            if d.get("is_supernode"):
+                x, y = d.get("x"), d.get("y")
+                if x is None or y is None:
+                    continue
+                
+                # Get category and population capacity
+                category = d.get("category", "Other")
+                pop_capacity = d.get('population_capacity', 100)
+                
+                # Scale radius based on capacity and time-of-day
+                radius = _scale_marker_radius(pop_capacity, time_of_day, category)
+                
+                # Color by category
+                color = _get_category_color(category)
+                
+                # Create enhanced popup
+                popup_text = _supernode_popup_html(n, d)
+                
+                # Create popup with proper escaping and error handling
+                import html
+                try:
+                    popup = folium.Popup(popup_text, max_width=350, parse_html=True)
+                except Exception as e:
+                    print(f"Error creating popup for node {n}: {e}")
+                    # Fallback to simple popup
+                    popup = folium.Popup(f"<b>{html.escape(str(n))}</b><br>Category: {category}", max_width=200)
+                
+                folium.CircleMarker(
+                    location=(y, x),
+                    radius=radius,
+                    color=color,
+                    fill=True,
+                    fill_color=color,
+                    fill_opacity=0.7,
+                    popup=popup
+                ).add_to(fg_super)
+        
+        fg_super.add_to(fmap)
+
+    # Junctions layer
+    if show_junctions:
+        fg_junc = folium.FeatureGroup(name="Junctions", show=True)
+        
+        for n, d in G.nodes(data=True):
+            if G.degree(n) >= 3:  # Junction nodes
+                x, y = d.get("x"), d.get("y")
+                if x is None or y is None:
+                    continue
+                
+                efficiency = d.get('efficiency', 1.0)
+                degree = G.degree(n)
+                
+                # Color based on efficiency (green = good, red = poor)
+                if efficiency >= 0.8:
+                    color = 'green'
+                elif efficiency >= 0.6:
+                    color = 'orange'
+                else:
+                    color = 'red'
+                
+                # Get traffic light information
+                has_traffic_light = d.get('has_traffic_light', False)
+                traffic_light_text = "Yes" if has_traffic_light else "No"
+                
+                # Create popup
+                popup_text = f"""
+                <b>Junction {n}</b><br>
+                Degree: {degree}<br>
+                Efficiency: {efficiency:.2f}<br>
+                Traffic Light: {traffic_light_text}
+                """
+                
+                folium.CircleMarker(
+                    location=(y, x),
+                    radius=6,
+                    color=color,
+                    fill=True,
+                    fill_color=color,
+                    fill_opacity=0.8,
+                    popup=folium.Popup(popup_text, max_width=200)
+                ).add_to(fg_junc)
+        
+        fg_junc.add_to(fmap)
+
+    # Category overlays with POI positioning
+    if show_categories:
+        category_colors = {
+            'Residential': 'blue',
+            'Business': 'green',
+            'Transport': 'orange',
+            'School': 'purple',
+            'Hospital': 'red',
+            'Other': 'gray'
+        }
+        
+        for category, color in category_colors.items():
+            fg_cat = folium.FeatureGroup(name=f"{category}", show=False)
+            
+            for n, d in G.nodes(data=True):
+                if d.get('category') == category and not d.get('is_supernode'):
+                    x, y = d.get("x"), d.get("y")
+                    if x is None or y is None:
+                        continue
+                    
+                    # Check if this is a POI that should be positioned near a junction
+                    is_poi = d.get('is_poi', False) or category in ['Business', 'School', 'Hospital', 'Transport']
+                    
+                    if is_poi and not d.get('is_synthetic_source', False):
+                        # Position POI slightly offset from its current location
+                        # to avoid overlapping with junctions
+                        offset_distance = 0.0001  # Small offset in degrees
+                        offset_x = x + offset_distance
+                        offset_y = y + offset_distance
+                        
+                        # Create POI marker with connection line to nearest junction
+                        folium.CircleMarker(
+                            location=(offset_y, offset_x),
+                            radius=4,
+                            color=color,
+                            fill=True,
+                            fill_color=color,
+                            fill_opacity=0.8,
+                            weight=2
+                        ).add_to(fg_cat)
+                        
+                        # Add connection line to original position (junction)
+                        folium.PolyLine(
+                            locations=[(y, x), (offset_y, offset_x)],
+                            color=color,
+                            weight=1,
+                            opacity=0.5,
+                            dash_array='5, 5'
+                        ).add_to(fg_cat)
+                        
+                        # Add popup for POI
+                        popup_text = _create_poi_popup(n, d, category)
+                        folium.Popup(popup_text, max_width=300).add_to(fg_cat)
+                    else:
+                        # Regular node (not a POI)
+                        folium.CircleMarker(
+                            location=(y, x),
+                            radius=3,
+                            color=color,
+                            fill=True,
+                            fill_color=color,
+                            fill_opacity=0.6
+                        ).add_to(fg_cat)
+            
+            fg_cat.add_to(fmap)
+
+    # Add choropleth layer if census data is available
+    if census_data_path and census_data_path.exists():
+        _add_choropleth_layer(fmap, census_data_path)
+    
+    # Add layer control
+    folium.LayerControl(collapsed=False).add_to(fmap)
+    
+    # Add legend
+    _add_legend_to_map(fmap)
+    
+    # Save map
+    fmap.save(str(html_path))
 
 

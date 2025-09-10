@@ -187,3 +187,170 @@ def load_month(month: str, year: int, dest_dir: str | Path = "data/raw", timeout
     return read_scats_zip(zip_path)
 
 
+def unpack_all_scats_archives(scats_dir: Path = Path("data/raw/scats"), 
+                             output_dir: Path = Path("data/processed")) -> pd.DataFrame:
+    """Unpack and merge all SCATS zip files under data/raw/scats/ (multiple years)."""
+    scats_dir = Path(scats_dir)
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    all_dataframes = []
+    processed_files = []
+    
+    # Find all SCATS zip files
+    zip_files = list(scats_dir.rglob("*.zip"))
+    print(f"Found {len(zip_files)} SCATS zip files")
+    
+    for zip_path in zip_files:
+        try:
+            print(f"Processing {zip_path.name}...")
+            df = read_scats_zip(zip_path)
+            
+            # Add metadata
+            df["source_file"] = zip_path.name
+            df["source_year"] = _extract_year_from_filename(zip_path.name)
+            df["source_month"] = _extract_month_from_filename(zip_path.name)
+            
+            all_dataframes.append(df)
+            processed_files.append(zip_path.name)
+            
+        except Exception as e:
+            print(f"Error processing {zip_path.name}: {e}")
+            continue
+    
+    if not all_dataframes:
+        raise RuntimeError("No SCATS data could be processed")
+    
+    # Concatenate all data
+    print("Concatenating all SCATS data...")
+    combined_df = pd.concat(all_dataframes, ignore_index=True)
+    
+    # Standardize columns
+    combined_df = _standardize_scats_columns(combined_df)
+    
+    # Convert End_Time to datetime
+    combined_df["End_Time"] = pd.to_datetime(combined_df["End_Time"], errors="coerce")
+    
+    # Remove rows with invalid timestamps
+    combined_df = combined_df.dropna(subset=["End_Time"])
+    
+    print(f"Combined dataset: {len(combined_df)} rows from {len(processed_files)} files")
+    print(f"Date range: {combined_df['End_Time'].min()} to {combined_df['End_Time'].max()}")
+    
+    # Save combined data
+    output_file = output_dir / "scats_combined_data.csv"
+    combined_df.to_csv(output_file, index=False)
+    print(f"Saved combined SCATS data to {output_file}")
+    
+    return combined_df
+
+
+def _extract_year_from_filename(filename: str) -> int:
+    """Extract year from SCATS filename."""
+    import re
+    # Look for 4-digit year
+    year_match = re.search(r'20\d{2}', filename)
+    if year_match:
+        return int(year_match.group())
+    return 2020  # Default fallback
+
+
+def _extract_month_from_filename(filename: str) -> str:
+    """Extract month from SCATS filename."""
+    import re
+    month_patterns = {
+        r'jan': 'january', r'feb': 'february', r'mar': 'march', r'apr': 'april',
+        r'may': 'may', r'jun': 'june', r'jul': 'july', r'aug': 'august',
+        r'sep': 'september', r'oct': 'october', r'nov': 'november', r'dec': 'december'
+    }
+    
+    filename_lower = filename.lower()
+    for pattern, month in month_patterns.items():
+        if re.search(pattern, filename_lower):
+            return month
+    return 'unknown'
+
+
+def _standardize_scats_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Standardize SCATS column names."""
+    column_mapping = {
+        'timestamp': 'End_Time',
+        'site_id': 'Site',
+        'sum_volume': 'Sum_Volume',
+        'avg_volume': 'Avg_Volume',
+        'region': 'Region'
+    }
+    
+    # Rename columns if they exist
+    for old_col, new_col in column_mapping.items():
+        if old_col in df.columns:
+            df = df.rename(columns={old_col: new_col})
+    
+    # Ensure required columns exist
+    required_cols = ['End_Time', 'Site', 'Sum_Volume', 'Avg_Volume']
+    for col in required_cols:
+        if col not in df.columns:
+            if col == 'Sum_Volume' and 'Avg_Volume' in df.columns:
+                # Estimate sum from average (assuming 1-hour intervals)
+                df[col] = df['Avg_Volume']
+            elif col == 'Avg_Volume' and 'Sum_Volume' in df.columns:
+                # Use sum as average
+                df[col] = df['Sum_Volume']
+            else:
+                df[col] = 0  # Fill with zeros
+    
+    return df
+
+
+def aggregate_scats_demand_profiles(combined_df: pd.DataFrame, 
+                                  output_dir: Path = Path("data/processed")) -> pd.DataFrame:
+    """Aggregate SCATS data to create average hourly demand profiles per site."""
+    output_dir = Path(output_dir)
+    
+    # Extract hour from timestamp
+    combined_df["hour"] = combined_df["End_Time"].dt.hour
+    
+    # Group by Site and hour, calculate average daily profile
+    demand_profiles = combined_df.groupby(["Site", "hour"]).agg({
+        "Sum_Volume": "mean",
+        "Avg_Volume": "mean",
+        "Region": "first"
+    }).reset_index()
+    
+    # Round to integers
+    demand_profiles["Sum_Volume"] = demand_profiles["Sum_Volume"].round().astype(int)
+    demand_profiles["Avg_Volume"] = demand_profiles["Avg_Volume"].round().astype(int)
+    
+    # Save demand profiles
+    output_file = output_dir / "scats_demand_profiles.csv"
+    demand_profiles.to_csv(output_file, index=False)
+    print(f"Saved demand profiles to {output_file}")
+    
+    return demand_profiles
+
+
+def load_scats_profiles(profiles_file: Path = Path("data/processed/scats_demand_profiles.csv")) -> pd.DataFrame:
+    """Return average hourly demand profiles per SCATS site."""
+    profiles_file = Path(profiles_file)
+    
+    if not profiles_file.exists():
+        raise FileNotFoundError(f"SCATS profiles file not found: {profiles_file}")
+    
+    return pd.read_csv(profiles_file)
+
+
+def process_all_scats_data(scats_dir: Path = Path("data/raw/scats"), 
+                          output_dir: Path = Path("data/processed")) -> pd.DataFrame:
+    """Complete SCATS processing pipeline: unpack, merge, and aggregate."""
+    print("Starting SCATS data processing pipeline...")
+    
+    # Step 1: Unpack and merge all archives
+    combined_df = unpack_all_scats_archives(scats_dir, output_dir)
+    
+    # Step 2: Aggregate to demand profiles
+    demand_profiles = aggregate_scats_demand_profiles(combined_df, output_dir)
+    
+    print("SCATS processing pipeline completed successfully!")
+    return demand_profiles
+
+

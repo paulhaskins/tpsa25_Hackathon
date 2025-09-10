@@ -21,6 +21,11 @@ python -m traffic_model.cli simplify --in data/processed/dublin.graphml --out da
 
 # Attach flow time-series data to graph nodes
 python -m traffic_model.cli attach-flow --graph data/processed/dublin_simplified.graphml --flows examples/sample_flows.csv --out data/processed/dublin_with_flows.graphml
+
+# Generate interactive map with traffic visualization
+python -m traffic_model.cli map --place "Dublin, Ireland" --out data/processed/dublin_map.html --layers all
+# Alternative using the console script:
+traffic-model map --place "Dublin, Ireland" --out data/processed/dublin_layers.html --layers all
 ```
 
 ### Traffic Simulation CLI
@@ -185,3 +190,15 @@ All unit tests are now passing:
 - If SCATS data download fails, ensure network connectivity to SmartDublin portal
 - Graph CSV files (data/node_data.csv, data/edges_data.csv) must exist for integration tests
 - Some integration tests may be slow due to graph processing algorithms
+
+### Recent Fixes (Latest)
+
+#### Capacity Type Error Fix (2025-01-10)
+- **Issue**: `TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'` in `capacity.py`
+- **Root Cause**: OSM data sometimes provides `lanes` as a list (e.g., `['2', '4']`) rather than a single value
+- **Solution**: Enhanced type handling in `attach_capacity_to_graph()` function:
+  - Added list detection and processing (takes maximum value from list)
+  - Improved error handling with fallbacks to default values
+  - Robust type conversion with multiple safety checks
+- **Affected Commands**: `traffic-model map` and any capacity computation operations
+- **Status**: ✅ Fixed and tested

@@ -22,7 +22,8 @@ data/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 cache/**
-
+*.html
+*.json
 # Ignore local data sources and large artifacts
 google-drive/**
 *.csv

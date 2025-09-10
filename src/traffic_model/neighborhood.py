@@ -80,6 +80,69 @@ def detect_single_connection_neighborhoods(G: nx.MultiDiGraph) -> List[Set[Any]]
     return neighborhoods
 
 
+def detect_limited_connection_neighborhoods(G: nx.MultiDiGraph, max_connections: int = 2) -> List[Set[Any]]:
+    """Detect node sets attached via limited connections (1-2 bridges).
+
+    Returns a list of disjoint node sets (neighbourhoods) with at most max_connections
+    to the rest of the network, skipping overlaps.
+    """
+    H = nx.Graph(G)  # undirected simple view
+    neighborhoods: List[Set[Any]] = []
+    assigned: Set[Any] = set()
+    
+    # First, get all bridges
+    bridges = list(nx.bridges(H))
+    
+    # Group bridges by connected components when removed
+    bridge_groups = []
+    processed_bridges = set()
+    
+    for a, b in bridges:
+        if (a, b) in processed_bridges or (b, a) in processed_bridges:
+            continue
+            
+        # Remove this bridge and see what components we get
+        H2 = H.copy()
+        if H2.has_edge(a, b):
+            H2.remove_edge(a, b)
+        
+        # Find components containing a and b
+        comp_a = next((c for c in nx.connected_components(H2) if a in c), set())
+        comp_b = next((c for c in nx.connected_components(H2) if b in c), set())
+        
+        if not comp_a or not comp_b:
+            continue
+            
+        # Check if removing additional bridges from the same group gives us more components
+        # This helps identify neighborhoods with multiple exit points
+        bridge_group = [(a, b)]
+        processed_bridges.add((a, b))
+        processed_bridges.add((b, a))
+        
+        # Look for other bridges that might be part of the same neighborhood boundary
+        for a2, b2 in bridges:
+            if (a2, b2) in processed_bridges or (b2, a2) in processed_bridges:
+                continue
+                
+            # Check if this bridge connects the same components
+            if ((a2 in comp_a and b2 in comp_b) or (a2 in comp_b and b2 in comp_a)):
+                bridge_group.append((a2, b2))
+                processed_bridges.add((a2, b2))
+                processed_bridges.add((b2, a2))
+        
+        # If we have a reasonable number of bridges (1-2), consider this a neighborhood
+        if len(bridge_group) <= max_connections:
+            # Pick the smaller component as the neighborhood
+            cand = comp_a if len(comp_a) <= len(comp_b) else comp_b
+            
+            # Ensure it's substantial enough and not already assigned
+            if len(cand) > 1 and not any(n in assigned for n in cand):
+                neighborhoods.append(set(cand))
+                assigned.update(cand)
+    
+    return neighborhoods
+
+
 def collapse_neighborhoods_to_supernodes(G: nx.MultiDiGraph, neighborhoods: List[Set[Any]]) -> nx.MultiDiGraph:
     """Collapse given neighborhoods into supernodes and rewire edges.
 

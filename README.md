@@ -91,6 +91,8 @@ traffic-model --help
 traffic-model build --place "Dublin, Ireland" --out data/processed/dublin.graphml
 traffic-model simplify --in data/processed/dublin.graphml --out data/processed/dublin_simplified.graphml
 traffic-model attach-flow --graph data/processed/dublin_simplified.graphml --flows data/sample_flows.csv --out data/processed/dublin_with_flows.graphml
+# Generate interactive map with traffic visualization and capacity analysis
+traffic-model map --place "Dublin, Ireland" --out data/processed/dublin_layers.html --layers all
 ```
 
 Alternatively, operate on CSV exports already in the repo:
@@ -260,10 +262,13 @@ Notes and gotchas
 
 Changelog (recent)
 
+- **NEW**: Added `map` command to traffic-model CLI for interactive visualization
+- **FIXED**: Type error in capacity.py when OSM lanes data is a list (2025-01-10)
 - Added datahub CLI (scats-list, scats-get, tii-list, tii-load)
 - Fixed SCATS link discovery and ranking; improved tests
 - Resolved duplicate key issue when adding edges to MultiDiGraph
 - Added console scripts in packaging for all three CLIs
+- Enhanced error handling in capacity computation with robust type checking
 
 License
 

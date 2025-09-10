@@ -3,7 +3,12 @@ from pathlib import Path
 from . import graph_build, simplify as simplify_mod, flow as flow_mod
 from .load_graph import load_graph_from_csv, generate_synthetic_flows
 from .data_fetch import load_sample_flow, read_site_coords_csv, map_sites_to_nodes
-from .viz import save_folium_flow_map
+from .viz import save_folium_flow_map, save_enhanced_folium_map
+from .capacity import attach_capacity_to_graph, save_edges_with_capacity
+from .super_nodes import detect_supernodes, collapse_supernodes, detect_and_cache_supernodes
+from .categories import assign_categories_to_nodes, assign_categories_enhanced
+from .junctions import annotate_junctions
+from .population import assign_population_capacity, assign_population_capacity_enhanced, get_population_summary
 
 app = typer.Typer(help="Traffic modelling CLI")
 
@@ -147,6 +152,88 @@ def generate_synth(
     generate_synthetic_flows(G)
     graph_build.save_graphml(G, out_graph)
     typer.echo(f"Saved with synthetic flows to {out_graph}")
+
+
+@app.command("map")
+def map_command(
+    place: str = typer.Option(..., help="OSM place string (e.g., 'Dublin, Ireland')"),
+    out: Path = typer.Option(..., help="Output HTML path"),
+    layers: str = typer.Option("all", help="Layers to include: roads, supernodes, junctions, categories, all"),
+    edges_csv: Path = typer.Option(None, help="Optional path to save edges with capacity CSV"),
+    with_population: bool = typer.Option(False, help="Include population capacity assignment"),
+    census_path: Path = typer.Option(None, help="Path to census data file (JSON, Excel)"),
+    time_of_day: str = typer.Option("day", help="Time of day for demand scaling: morning, day, evening, night"),
+    force_supernodes: bool = typer.Option(False, help="Force recomputation of supernodes"),
+    use_osm_pois: bool = typer.Option(True, help="Use OSM POI data for enhanced category detection"),
+    use_google_places: bool = typer.Option(True, help="Use Google Places API for business detection"),
+    use_heuristics: bool = typer.Option(True, help="Use fallback heuristics for business detection"),
+):
+    """Create an enhanced traffic flow map with multiple layers and controls."""
+    typer.echo(f"Building graph for {place}...")
+    
+    # Build the graph
+    G = graph_build.build_graph(place)
+    
+    # Add capacity annotations
+    typer.echo("Computing road capacities...")
+    G = attach_capacity_to_graph(G)
+    
+    # Detect traffic lights
+    typer.echo("Detecting traffic lights...")
+    from .traffic_lights import detect_traffic_lights
+    G = detect_traffic_lights(G, place)
+    
+    # Save edges with capacity if requested
+    if edges_csv:
+        typer.echo(f"Saving edges with capacity to {edges_csv}...")
+        save_edges_with_capacity(G, edges_csv)
+    
+    # Detect and collapse supernodes (with caching)
+    typer.echo("Detecting and collapsing supernodes...")
+    supernodes = detect_and_cache_supernodes(G, place, force_recompute=force_supernodes)
+    G = collapse_supernodes(G, supernodes)
+    
+    # Assign categories to nodes (enhanced with POI detection)
+    typer.echo("Classifying nodes by category...")
+    G = assign_categories_enhanced(G, place, use_osm=use_osm_pois, use_google=use_google_places, use_heuristics=use_heuristics)
+    
+    # Annotate junctions with efficiency
+    typer.echo("Computing junction efficiency...")
+    G = annotate_junctions(G)
+    
+    # Assign population capacity if requested
+    if with_population:
+        typer.echo("Assigning population capacity...")
+        # Use enhanced population assignment with census integration
+        if census_path:
+            G = assign_population_capacity_enhanced(G, census_path)
+        else:
+            # Try default census path
+            default_census = Path("data/raw/census/population_small_area_2022.json")
+            if default_census.exists():
+                typer.echo("Using default census data...")
+                G = assign_population_capacity_enhanced(G, default_census)
+            else:
+                typer.echo("No census data found, using POI-based assignment...")
+                G = assign_population_capacity(G)
+        
+        # Print population summary
+        summary = get_population_summary(G)
+        typer.echo(f"Population capacity summary:")
+        typer.echo(f"  Total capacity: {summary['total_capacity']}")
+        typer.echo(f"  Average capacity: {summary['average_capacity']:.1f}")
+        typer.echo(f"  Categories: {list(summary['categories'].keys())}")
+    
+    # Generate synthetic flows for visualization
+    typer.echo("Generating synthetic flows...")
+    generate_synthetic_flows(G)
+    
+    # Create enhanced map
+    typer.echo(f"Creating enhanced map with layers: {layers} and time-of-day: {time_of_day}...")
+    save_enhanced_folium_map(G, out, layers=layers, time_of_day=time_of_day, census_data_path=census_path)
+    
+    typer.echo(f"Enhanced map saved to {out}")
+    typer.echo("Open the HTML file in a web browser to view the interactive map.")
 
 
 if __name__ == "__main__":
