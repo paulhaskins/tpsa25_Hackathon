@@ -59,16 +59,16 @@ def _color_from_value(v: float, vmin: float, vmax: float) -> str:
 
 
 def _get_category_color(category: str) -> str:
-    """Get color for node category (updated color scheme)."""
+    """Get color for node category (OpenStreetMap standard colors)."""
     color_map = {
-        'Residential': 'blue',
-        'Business': 'red', 
-        'School': 'green',
-        'Hospital': 'purple',
-        'Transport': 'orange',
-        'Other': 'gray'
+        'Residential': '#87CEEB',      # Sky blue (residential areas)
+        'Business': '#32CD32',         # Lime green (commercial)
+        'School': '#9370DB',           # Medium purple (education)
+        'Hospital': '#DC143C',         # Crimson (healthcare)
+        'Transport': '#FF8C00',        # Dark orange (transportation)
+        'Other': '#808080'             # Gray (other)
     }
-    return color_map.get(category, 'gray')
+    return color_map.get(category, '#808080')
 
 
 def _scale_marker_radius(capacity: float, time_of_day: str = "day", category: str = "Other") -> float:
@@ -942,13 +942,14 @@ def save_enhanced_folium_map(
 
     # Category overlays with POI positioning
     if show_categories:
+        # OpenStreetMap standard colors for different categories
         category_colors = {
-            'Residential': 'blue',
-            'Business': 'green',
-            'Transport': 'orange',
-            'School': 'purple',
-            'Hospital': 'red',
-            'Other': 'gray'
+            'Residential': '#87CEEB',      # Sky blue (residential areas)
+            'Business': '#32CD32',         # Lime green (commercial)
+            'Transport': '#FF8C00',        # Dark orange (transportation)
+            'School': '#9370DB',           # Medium purple (education)
+            'Hospital': '#DC143C',         # Crimson (healthcare)
+            'Other': '#808080'             # Gray (other)
         }
         
         for category, color in category_colors.items():
@@ -1010,8 +1011,25 @@ def save_enhanced_folium_map(
     if census_data_path and census_data_path.exists():
         _add_choropleth_layer(fmap, census_data_path)
     
-    # Add layer control
-    folium.LayerControl(collapsed=False).add_to(fmap)
+    # Add layer control with proper positioning
+    layer_control = folium.LayerControl(collapsed=False, position='bottomleft')
+    layer_control.add_to(fmap)
+    
+    # Add custom CSS to ensure layer control fits on screen
+    layer_control_html = """
+    <style>
+    .leaflet-control-layers {
+        max-height: 80vh !important;
+        overflow-y: auto !important;
+        font-size: 12px !important;
+    }
+    .leaflet-control-layers-list {
+        max-height: 70vh !important;
+        overflow-y: auto !important;
+    }
+    </style>
+    """
+    fmap.get_root().html.add_child(folium.Element(layer_control_html))
     
     # Add legend
     _add_legend_to_map(fmap)
