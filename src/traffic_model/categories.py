@@ -9,6 +9,7 @@ import numpy as np
 from pathlib import Path
 import os
 import warnings
+import json
 
 
 def classify_poi_category(tags: Dict[str, str]) -> str:
@@ -241,7 +242,7 @@ def map_pois_to_nodes(pois_df: pd.DataFrame, G: nx.Graph, max_distance: float = 
 
 def query_google_places(place: str, api_key: Optional[str] = None) -> pd.DataFrame:
     """
-    Query Google Places API for major business/transport locations.
+    Query Google Places API for comprehensive business/transport locations with caching.
     
     Args:
         place: Place name to search
@@ -264,26 +265,64 @@ def query_google_places(place: str, api_key: Optional[str] = None) -> pd.DataFra
         warnings.warn("googlemaps library not available, skipping Google Places query")
         return pd.DataFrame()
     
+    # Check cache first
+    cache_key = f"google_places_{place.replace(' ', '_').replace(',', '')}"
+    cache_file = Path("cache") / f"{cache_key}.json"
+    
+    if cache_file.exists():
+        print(f"Loading cached Google Places data for {place}")
+        try:
+            with open(cache_file, 'r') as f:
+                cached_data = json.load(f)
+            return pd.DataFrame(cached_data)
+        except Exception as e:
+            print(f"Error loading cache: {e}")
+    
     try:
         gmaps = googlemaps.Client(key=api_key)
         
-        # Search for major business categories
+        # Geocode the place first
+        geocode_result = gmaps.geocode(place)
+        if not geocode_result:
+            return pd.DataFrame()
+        
+        location = geocode_result[0]['geometry']['location']
+        print(f"Searching Google Places around {location} for {place}")
+        
+        # Comprehensive search categories
         place_types = [
-            'shopping_mall', 'airport', 'train_station', 'bus_station',
-            'hospital', 'university', 'school', 'government', 'bank',
-            'restaurant', 'lodging', 'tourist_attraction'
+            # Business categories
+            'restaurant', 'food', 'store', 'shopping_mall', 'supermarket', 'grocery_or_supermarket',
+            'clothing_store', 'electronics_store', 'furniture_store', 'hardware_store',
+            'pharmacy', 'gas_station', 'bank', 'atm', 'post_office',
+            'beauty_salon', 'hair_care', 'spa', 'gym', 'fitness_center',
+            'car_dealer', 'car_repair', 'car_wash', 'parking',
+            
+            # Healthcare
+            'hospital', 'doctor', 'dentist', 'veterinary_care', 'pharmacy',
+            
+            # Education
+            'school', 'university', 'library',
+            
+            # Transport
+            'airport', 'train_station', 'bus_station', 'subway_station', 'taxi_stand',
+            
+            # Entertainment & Tourism
+            'tourist_attraction', 'museum', 'movie_theater', 'night_club', 'bar',
+            'lodging', 'hotel', 'campground',
+            
+            # Government & Services
+            'government', 'police', 'fire_station', 'courthouse', 'embassy',
+            
+            # Religious
+            'church', 'mosque', 'synagogue', 'hindu_temple', 'place_of_worship'
         ]
         
         all_places = []
         
         for place_type in place_types:
             try:
-                # Geocode the place first
-                geocode_result = gmaps.geocode(place)
-                if not geocode_result:
-                    continue
-                
-                location = geocode_result[0]['geometry']['location']
+                print(f"  Searching for {place_type}...")
                 
                 # Search for places of this type
                 places_result = gmaps.places_nearby(
@@ -292,6 +331,7 @@ def query_google_places(place: str, api_key: Optional[str] = None) -> pd.DataFra
                     type=place_type
                 )
                 
+                # Process results
                 for place_data in places_result.get('results', []):
                     place_info = {
                         'name': place_data.get('name', ''),
@@ -299,15 +339,94 @@ def query_google_places(place: str, api_key: Optional[str] = None) -> pd.DataFra
                         'lat': place_data['geometry']['location']['lat'],
                         'lon': place_data['geometry']['location']['lng'],
                         'rating': place_data.get('rating', 0),
-                        'user_ratings_total': place_data.get('user_ratings_total', 0)
+                        'user_ratings_total': place_data.get('user_ratings_total', 0),
+                        'business_status': place_data.get('business_status', 'OPERATIONAL'),
+                        'types': place_data.get('types', [])
                     }
                     all_places.append(place_info)
-                    
+                
+                # Handle pagination for more results
+                next_page_token = places_result.get('next_page_token')
+                while next_page_token:
+                    try:
+                        # Wait a bit for the token to become valid
+                        import time
+                        time.sleep(2)
+                        
+                        next_result = gmaps.places_nearby(
+                            location=location,
+                            radius=50000,
+                            type=place_type,
+                            page_token=next_page_token
+                        )
+                        
+                        for place_data in next_result.get('results', []):
+                            place_info = {
+                                'name': place_data.get('name', ''),
+                                'place_type': place_type,
+                                'lat': place_data['geometry']['location']['lat'],
+                                'lon': place_data['geometry']['location']['lng'],
+                                'rating': place_data.get('rating', 0),
+                                'user_ratings_total': place_data.get('user_ratings_total', 0),
+                                'business_status': place_data.get('business_status', 'OPERATIONAL'),
+                                'types': place_data.get('types', [])
+                            }
+                            all_places.append(place_info)
+                        
+                        next_page_token = next_result.get('next_page_token')
+                        
+                    except Exception as e:
+                        print(f"    Error with pagination for {place_type}: {e}")
+                        break
+                        
             except Exception as e:
-                warnings.warn(f"Error querying Google Places for {place_type}: {e}")
+                print(f"  Error querying Google Places for {place_type}: {e}")
                 continue
         
-        return pd.DataFrame(all_places)
+        # Also do a general text search for more comprehensive results
+        try:
+            print("  Doing general text search...")
+            text_search_result = gmaps.places(
+                query=f"businesses in {place}",
+                location=location,
+                radius=50000
+            )
+            
+            for place_data in text_search_result.get('results', []):
+                place_info = {
+                    'name': place_data.get('name', ''),
+                    'place_type': 'general_business',
+                    'lat': place_data['geometry']['location']['lat'],
+                    'lon': place_data['geometry']['location']['lng'],
+                    'rating': place_data.get('rating', 0),
+                    'user_ratings_total': place_data.get('user_ratings_total', 0),
+                    'business_status': place_data.get('business_status', 'OPERATIONAL'),
+                    'types': place_data.get('types', [])
+                }
+                all_places.append(place_info)
+                
+        except Exception as e:
+            print(f"  Error with text search: {e}")
+        
+        # Remove duplicates based on name and location
+        seen = set()
+        unique_places = []
+        for place in all_places:
+            key = (place['name'], round(place['lat'], 6), round(place['lon'], 6))
+            if key not in seen:
+                seen.add(key)
+                unique_places.append(place)
+        
+        df = pd.DataFrame(unique_places)
+        print(f"Found {len(df)} unique Google Places")
+        
+        # Cache the results
+        cache_file.parent.mkdir(exist_ok=True)
+        with open(cache_file, 'w') as f:
+            json.dump(df.to_dict('records'), f, indent=2)
+        print(f"Cached results to {cache_file}")
+        
+        return df
         
     except Exception as e:
         warnings.warn(f"Error with Google Places API: {e}")
