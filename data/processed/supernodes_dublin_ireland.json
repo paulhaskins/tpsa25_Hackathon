@@ -1,0 +1,8914 @@
+{
+  "248735253": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      248735253,
+      248735254,
+      248735255
+    ],
+    "entry_node": 248735253,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "325710355": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      789290753,
+      789290754,
+      789290756,
+      789290757,
+      789290758,
+      325710573,
+      325710355,
+      325710358,
+      325710360
+    ],
+    "entry_node": 325710355,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "4894692807": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4894692802,
+      4894692796,
+      4894692807
+    ],
+    "entry_node": 4894692807,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "132727779": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      481755176,
+      132727779,
+      481755175
+    ],
+    "entry_node": 132727779,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "481755178": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      481755178,
+      481755179,
+      10117680332
+    ],
+    "entry_node": 481755178,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339328086": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      375826506,
+      1432597005,
+      339328111,
+      339328115,
+      339328086,
+      339328089,
+      339328124,
+      339328125,
+      339328127
+    ],
+    "entry_node": 339328086,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "259594903": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      259594906,
+      259594902,
+      259594903
+    ],
+    "entry_node": 259594903,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "11740865781": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      11740865784,
+      11740865781,
+      2609765927
+    ],
+    "entry_node": 11740865781,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "433939073": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      433939073,
+      433939076,
+      6199648068,
+      433939066,
+      433939069
+    ],
+    "entry_node": 433939073,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "2423624424": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2423624424,
+      2423624429,
+      2423624423
+    ],
+    "entry_node": 2423624424,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4372381070": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4372381067,
+      665035420,
+      4372381070
+    ],
+    "entry_node": 4372381070,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "277265854": {
+    "type": "Residential",
+    "population_capacity": 80,
+    "members": [
+      528733633,
+      528733635,
+      6761013735,
+      528733646,
+      528733620,
+      528733625,
+      528733627,
+      277265854
+    ],
+    "entry_node": 277265854,
+    "exits_count": 1,
+    "member_count": 8
+  },
+  "10400266": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      10400266,
+      10400271
+    ],
+    "entry_node": 10400266,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "305413785": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      305413792,
+      305413785,
+      305413787
+    ],
+    "entry_node": 305413785,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "12867451": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      12867472,
+      12867459,
+      12867451,
+      335440668,
+      12867454
+    ],
+    "entry_node": 12867451,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "6652400048": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      6652400002,
+      6652400003,
+      6652400007,
+      6652400009,
+      6652400048,
+      6652400049,
+      6033290930,
+      6033290932,
+      6652400028
+    ],
+    "entry_node": 6652400048,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "187666388": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      187666388,
+      187666534,
+      5416344536,
+      5416344537,
+      187666398
+    ],
+    "entry_node": 187666388,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "339328153": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      339328153,
+      1432597066,
+      1432597025
+    ],
+    "entry_node": 339328153,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "10297867558": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      11668829218,
+      11668829219,
+      10297867557,
+      10297867558,
+      11668829212
+    ],
+    "entry_node": 10297867558,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "12115856": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      12115856,
+      4692566713,
+      4692566733
+    ],
+    "entry_node": 12115856,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "6219861481": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6219861481,
+      10052486652,
+      1813017053
+    ],
+    "entry_node": 6219861481,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "248737393": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      248737393,
+      701150963,
+      12871585437,
+      248737389,
+      248737391
+    ],
+    "entry_node": 248737393,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "12119093": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      54851080,
+      2424874699,
+      4704541293,
+      2424874701,
+      3893724048,
+      4704541300,
+      12119093,
+      54851094,
+      54851128,
+      2424873918,
+      54851135
+    ],
+    "entry_node": 12119093,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "305247746": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      305247746,
+      305247750,
+      305247847,
+      305247848,
+      305247974,
+      305247796,
+      305247865,
+      305247834,
+      305247836,
+      305247870,
+      305247839
+    ],
+    "entry_node": 305247746,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "53484116": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      49398242,
+      53484116,
+      49397150,
+      19223263
+    ],
+    "entry_node": 53484116,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "267001617": {
+    "type": "Residential",
+    "population_capacity": 340,
+    "members": [
+      12730736128,
+      2759832453,
+      12754229772,
+      5121021325,
+      5121021328,
+      267001617,
+      12284050,
+      4080196115,
+      267001620,
+      6033413269,
+      267001629,
+      267001631,
+      2759832484,
+      2373513381,
+      6047721156,
+      6047721157,
+      2759832390,
+      2759832392,
+      2759832525,
+      2759832398,
+      2373513298,
+      2424873940,
+      4461464151,
+      2759832538,
+      2424873953,
+      2373513315,
+      2424873956,
+      339323751,
+      339323752,
+      2759832439,
+      12233671284,
+      12233671287,
+      12648587896,
+      2759832441
+    ],
+    "entry_node": 267001617,
+    "exits_count": 1,
+    "member_count": 34
+  },
+  "2699878758": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4893901365,
+      2699878854,
+      2699878758,
+      4893901366,
+      2073394967
+    ],
+    "entry_node": 2699878758,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "703039239": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      703039314,
+      703039254,
+      703039239,
+      5339629242,
+      5339629243
+    ],
+    "entry_node": 703039239,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "12428388": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2399601697,
+      12428388,
+      2399601701,
+      281260262,
+      12428390,
+      2399601691,
+      12428397
+    ],
+    "entry_node": 12428388,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "1587607308": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1587607336,
+      1587607308,
+      1587607317
+    ],
+    "entry_node": 1587607308,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2987893595": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2987893595,
+      7485562420,
+      2987893582
+    ],
+    "entry_node": 2987893595,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "335649651": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      335649792,
+      335649651,
+      335649652,
+      335649785,
+      335649789
+    ],
+    "entry_node": 335649651,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "12867351": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      12867354,
+      339246710,
+      12867351
+    ],
+    "entry_node": 12867351,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1447081744": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1447081744,
+      614649482,
+      1447081741
+    ],
+    "entry_node": 1447081744,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "13128594": {
+    "type": "Residential",
+    "population_capacity": 500,
+    "members": [
+      441231490,
+      16054019,
+      2399921156,
+      16054021,
+      16054147,
+      16054024,
+      13128594,
+      377113874,
+      13128597,
+      16054040,
+      13128601,
+      2399921050,
+      16054043,
+      13128602,
+      16054045,
+      454958878,
+      453182883,
+      443295532,
+      1275271470,
+      1275271471,
+      2399920944,
+      1275271473,
+      440851123,
+      453184190,
+      438262207,
+      16054336,
+      16054338,
+      16054084,
+      16054341,
+      16054088,
+      16054347,
+      16054093,
+      16054094,
+      16054349,
+      16054355,
+      438267222,
+      16054109,
+      2399920989,
+      16054111,
+      16054114,
+      16054373,
+      16054119,
+      16054121,
+      438267242,
+      438267248,
+      2399921008,
+      16054128,
+      16054007,
+      438267257,
+      16054014
+    ],
+    "entry_node": 13128594,
+    "exits_count": 1,
+    "member_count": 50
+  },
+  "13228166": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      305254865,
+      13228166,
+      603162327,
+      6133516792,
+      6133516793
+    ],
+    "entry_node": 13228166,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "4209185842": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      91569921,
+      91569898,
+      4209185842
+    ],
+    "entry_node": 4209185842,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "14957919": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      6205660758,
+      14957919
+    ],
+    "entry_node": 14957919,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "367110850": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4895384976,
+      367110849,
+      367110850,
+      367110851,
+      367110852
+    ],
+    "entry_node": 367110850,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "192309866": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      192311857,
+      192309866,
+      192311858,
+      192311854
+    ],
+    "entry_node": 192309866,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "16054027": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      16054049,
+      16054054,
+      433165449,
+      433165450,
+      16054027,
+      16054062,
+      16054065,
+      9128624278,
+      16054047
+    ],
+    "entry_node": 16054027,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "565163243": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2399584211,
+      789290761,
+      2399584217,
+      789290763,
+      789290764,
+      789290766,
+      565163243
+    ],
+    "entry_node": 565163243,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "4743415887": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4743415885,
+      16157102,
+      4743415887
+    ],
+    "entry_node": 4743415887,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "16157164": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      16157169,
+      16157164,
+      16157173
+    ],
+    "entry_node": 16157164,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "16157145": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      377095264,
+      2399601664,
+      16157157,
+      794427270,
+      794427273,
+      16157145,
+      16157150
+    ],
+    "entry_node": 16157145,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2375494658": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375494658,
+      7485858551,
+      16711767
+    ],
+    "entry_node": 2375494658,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "16711953": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      16711953,
+      16711954,
+      16711955
+    ],
+    "entry_node": 16711953,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "59931905": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      59931905,
+      339246707,
+      59931910
+    ],
+    "entry_node": 59931905,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "18378322": {
+    "type": "Residential",
+    "population_capacity": 150,
+    "members": [
+      18378336,
+      3130235749,
+      6202295142,
+      18378346,
+      5565643883,
+      3130235760,
+      18378322,
+      18378324,
+      789290516,
+      2399617590,
+      789290518,
+      3130235733,
+      18378329,
+      789290522,
+      789290524
+    ],
+    "entry_node": 18378322,
+    "exits_count": 1,
+    "member_count": 15
+  },
+  "18896133": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      18896141,
+      18896133,
+      18896135
+    ],
+    "entry_node": 18896133,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "18896282": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      18896289,
+      18896282,
+      18896285
+    ],
+    "entry_node": 18896282,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "18896344": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      505058816,
+      18896353,
+      18896344,
+      18896347,
+      18896351
+    ],
+    "entry_node": 18896344,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "701150763": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      701150763,
+      701150588,
+      18896359
+    ],
+    "entry_node": 701150763,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "428959743": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      428959749,
+      2371845237,
+      428959752,
+      28243644,
+      428959743
+    ],
+    "entry_node": 428959743,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "18896437": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      746903275,
+      18896437,
+      18896438
+    ],
+    "entry_node": 18896437,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "19080408": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1425438931,
+      19080408,
+      19080410,
+      612596076,
+      19080414
+    ],
+    "entry_node": 19080408,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "19083354": {
+    "type": "Residential",
+    "population_capacity": 60,
+    "members": [
+      746901459,
+      746901445,
+      746901446,
+      746901448,
+      3417284120,
+      19083354
+    ],
+    "entry_node": 19083354,
+    "exits_count": 1,
+    "member_count": 6
+  },
+  "301623714": {
+    "type": "Residential",
+    "population_capacity": 130,
+    "members": [
+      301623714,
+      301623715,
+      301623716,
+      301623843,
+      301623814,
+      6077628611,
+      9998377579,
+      301623788,
+      301623863,
+      301623864,
+      6071528317,
+      6071528318,
+      301623839
+    ],
+    "entry_node": 301623714,
+    "exits_count": 1,
+    "member_count": 13
+  },
+  "25477513": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      25477520,
+      25477524,
+      339253048,
+      25477513,
+      25477517
+    ],
+    "entry_node": 25477513,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "25966498": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      25966498,
+      25966500,
+      2423092554
+    ],
+    "entry_node": 25966498,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "131034503": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      131034880,
+      131034503,
+      131035480,
+      131037837,
+      131037823
+    ],
+    "entry_node": 131034503,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "289165406": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5555397004,
+      5555397005,
+      289165406
+    ],
+    "entry_node": 289165406,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26389178": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      26389200,
+      26389203,
+      26389220,
+      26389207,
+      26389176,
+      26389178,
+      301815149
+    ],
+    "entry_node": 26389178,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "26389343": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26389344,
+      26389348,
+      26389343
+    ],
+    "entry_node": 26389343,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26389453": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26389453,
+      26389454,
+      26389455
+    ],
+    "entry_node": 26389453,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26389439": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26389440,
+      26389443,
+      26389439
+    ],
+    "entry_node": 26389439,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26389482": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      26389488,
+      82676978,
+      26389482,
+      26389483,
+      26389484,
+      26389486,
+      26389487
+    ],
+    "entry_node": 26389482,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "26389516": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26389541,
+      26389516,
+      26389517
+    ],
+    "entry_node": 26389516,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1580754585": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1580754584,
+      1580754585,
+      1580754591
+    ],
+    "entry_node": 1580754585,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "202030083": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      375841424,
+      1458215793,
+      202030083,
+      375841427,
+      243915066,
+      202030091,
+      1458215838
+    ],
+    "entry_node": 202030083,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "26389856": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26389856,
+      26389857,
+      26389853
+    ],
+    "entry_node": 26389856,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "3266203031": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3269230112,
+      3266203019,
+      3266203031
+    ],
+    "entry_node": 3266203031,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26413719": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26413721,
+      26413723,
+      26413719
+    ],
+    "entry_node": 26413719,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26414194": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      26414201,
+      26414194
+    ],
+    "entry_node": 26414194,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "26414317": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26414317,
+      26414318,
+      26414319
+    ],
+    "entry_node": 26414317,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1496713452": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1496713451,
+      1496713452,
+      1496713453
+    ],
+    "entry_node": 1496713452,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26496349": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26496349,
+      26496350,
+      26496351
+    ],
+    "entry_node": 26496349,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26496353": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      26496353,
+      26496356,
+      305410538,
+      305410605,
+      305410606
+    ],
+    "entry_node": 26496353,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "26496460": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      26496460,
+      26496461,
+      12711621444
+    ],
+    "entry_node": 26496460,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "26914694": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9995665898,
+      6188736171,
+      26914694
+    ],
+    "entry_node": 26914694,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "510613458": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      510613457,
+      510613458,
+      8971715910
+    ],
+    "entry_node": 510613458,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247736481": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      5396389472,
+      247736481,
+      247736482,
+      247736483,
+      247736484,
+      2375591001,
+      247736491
+    ],
+    "entry_node": 247736481,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "247736467": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      1706682927,
+      1706682930,
+      247736467,
+      247736468,
+      6045125940,
+      1706682932,
+      247736471,
+      247736472,
+      1706682931,
+      247736474,
+      247736475
+    ],
+    "entry_node": 247736467,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "1397142873": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1397142872,
+      1397142873,
+      1397142874
+    ],
+    "entry_node": 1397142873,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "7491277317": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      7833237442,
+      10297437684,
+      7491277317,
+      7491277319,
+      7833237437
+    ],
+    "entry_node": 7491277317,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "580372370": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      580372370,
+      580372421,
+      580372437,
+      580372343,
+      581596585,
+      580372443,
+      580372415
+    ],
+    "entry_node": 580372370,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "90366451": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      90366458,
+      90366451,
+      90366454
+    ],
+    "entry_node": 90366451,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "381452406": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      28247264,
+      28247331,
+      28247332,
+      28247238,
+      28247240,
+      28247275,
+      1419489747,
+      381452406,
+      7449929206
+    ],
+    "entry_node": 381452406,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "248569410": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      248569410,
+      248569411,
+      248569415
+    ],
+    "entry_node": 248569410,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247645358": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      1432597218,
+      247645358,
+      247645359,
+      247645360,
+      247645362,
+      247645363,
+      247645365,
+      1432597240,
+      247645370
+    ],
+    "entry_node": 247645358,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "1432597303": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      1432597283,
+      1432597223,
+      1432597266,
+      9955856051,
+      9955856052,
+      1432597303,
+      9955856056,
+      1432597306,
+      3009458396,
+      1432597213,
+      1432597182
+    ],
+    "entry_node": 1432597303,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "4835873532": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4835873532,
+      301816198,
+      1523905946,
+      301816172,
+      301816173
+    ],
+    "entry_node": 4835873532,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "130249415": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      130249417,
+      2380664141,
+      130249415
+    ],
+    "entry_node": 130249415,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "31054792": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      31054792,
+      31054790,
+      31015718
+    ],
+    "entry_node": 31054792,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "31093640": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      31093640,
+      31094081,
+      280435358
+    ],
+    "entry_node": 31093640,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "9051787220": {
+    "type": "Residential",
+    "population_capacity": 160,
+    "members": [
+      2473565571,
+      167167109,
+      167167112,
+      2406479496,
+      3431274381,
+      2406479502,
+      2406479504,
+      9051787220,
+      9051787227,
+      9051787229,
+      3431274402,
+      2406479462,
+      8498247975,
+      2335391788,
+      7058605292,
+      984315900
+    ],
+    "entry_node": 9051787220,
+    "exits_count": 1,
+    "member_count": 16
+  },
+  "317495704": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      317495704,
+      9356872903,
+      317495895
+    ],
+    "entry_node": 317495704,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2454609666": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2454609633,
+      2454609666,
+      544457878
+    ],
+    "entry_node": 2454609666,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "135109491": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      135109491,
+      135109495
+    ],
+    "entry_node": 135109491,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "11742247023": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      2465416009,
+      11742247023
+    ],
+    "entry_node": 11742247023,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "269224545": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      269224545,
+      269224547,
+      269224550
+    ],
+    "entry_node": 269224545,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "49381106": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      49381112,
+      49381106,
+      49381878
+    ],
+    "entry_node": 49381106,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "255425584": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      255425584,
+      6493506635,
+      255425588,
+      6493506636
+    ],
+    "entry_node": 255425584,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "339328293": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1432597026,
+      339328291,
+      339328292,
+      339328293,
+      1432597060,
+      42503381,
+      339328297
+    ],
+    "entry_node": 339328293,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "3136705482": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3136705482,
+      339241069,
+      3136705479
+    ],
+    "entry_node": 3136705482,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4177256782": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      7501522987,
+      7501522988,
+      4177256782,
+      4177256784,
+      6571049425,
+      5058847601,
+      5058847603,
+      6571049428,
+      5058847602
+    ],
+    "entry_node": 4177256782,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "470222769": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      470222769,
+      470222770,
+      470222771,
+      470222772,
+      470222774
+    ],
+    "entry_node": 470222769,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "110437187": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      110437187,
+      110437253,
+      110437270
+    ],
+    "entry_node": 110437187,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "46561184": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      46561184,
+      247391973
+    ],
+    "entry_node": 46561184,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "181310310": {
+    "type": "Residential",
+    "population_capacity": 60,
+    "members": [
+      181310310,
+      181310311,
+      3930958584,
+      181310315,
+      4340077693,
+      181310318
+    ],
+    "entry_node": 181310310,
+    "exits_count": 1,
+    "member_count": 6
+  },
+  "301799557": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      1964761633,
+      301799907,
+      1964761635,
+      301799557,
+      301799761,
+      301799610,
+      301799836,
+      301799837,
+      1964761630
+    ],
+    "entry_node": 301799557,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "1523894743": {
+    "type": "Residential",
+    "population_capacity": 140,
+    "members": [
+      2423069847,
+      301800385,
+      301800388,
+      301800389,
+      301800391,
+      301800394,
+      301800498,
+      301800371,
+      1523894743,
+      1523894712,
+      301800536,
+      301800381,
+      301800478,
+      301800383
+    ],
+    "entry_node": 1523894743,
+    "exits_count": 1,
+    "member_count": 14
+  },
+  "49394519": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      49394816,
+      49394724,
+      49394725,
+      49394519,
+      49394522
+    ],
+    "entry_node": 49394519,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "49395421": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      49396354,
+      49396355,
+      49395794,
+      49395797,
+      49395965,
+      49395421,
+      49395791
+    ],
+    "entry_node": 49395421,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "187761519": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4436031216,
+      187761519,
+      187762058,
+      187762061,
+      187762063
+    ],
+    "entry_node": 187761519,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "187762051": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      187762019,
+      187762051,
+      301825510,
+      301825671,
+      187762023,
+      301825511,
+      187762026,
+      301825512,
+      301825582,
+      301825432,
+      187762044
+    ],
+    "entry_node": 187762051,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "414606481": {
+    "type": "Residential",
+    "population_capacity": 180,
+    "members": [
+      6166917056,
+      6166917058,
+      414606481,
+      414605912,
+      5721061663,
+      5721061664,
+      414605795,
+      414606309,
+      5721061670,
+      5721061671,
+      799865447,
+      414605806,
+      530221743,
+      414606704,
+      5155983921,
+      530221745,
+      414606709,
+      799865407
+    ],
+    "entry_node": 414606481,
+    "exits_count": 1,
+    "member_count": 18
+  },
+  "465505050": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      465505058,
+      465505061,
+      465505066,
+      465505072,
+      465505073,
+      465505074,
+      465505075,
+      465505076,
+      465505077,
+      465505050,
+      465505055
+    ],
+    "entry_node": 465505050,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "465505043": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      465505041,
+      465505042,
+      465505043
+    ],
+    "entry_node": 465505043,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243483645": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1528692961,
+      5591284291,
+      243483645
+    ],
+    "entry_node": 243483645,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "52199854": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      52199852,
+      52199854,
+      52199855
+    ],
+    "entry_node": 52199854,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "443141956": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8855373309,
+      443141956,
+      443141957
+    ],
+    "entry_node": 443141956,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "54851146": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      54851146,
+      638861851
+    ],
+    "entry_node": 54851146,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "2424875240": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2424875235,
+      2868365604,
+      2424875237,
+      2868365606,
+      3895727064,
+      2424875240,
+      2424875241
+    ],
+    "entry_node": 2424875240,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2373041016": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2373041016,
+      2373040978,
+      54851342
+    ],
+    "entry_node": 2373041016,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "9023859382": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9023859377,
+      9023859382,
+      9023859374
+    ],
+    "entry_node": 9023859382,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2495602491": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2495602489,
+      2495602491,
+      2495602493
+    ],
+    "entry_node": 2495602491,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "638789821": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      638789821,
+      59666590,
+      638789813
+    ],
+    "entry_node": 638789821,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564911626": {
+    "type": "Residential",
+    "population_capacity": 130,
+    "members": [
+      330265250,
+      330265251,
+      564911653,
+      564911654,
+      564911626,
+      330265227,
+      1426048620,
+      564911632,
+      564911633,
+      564911636,
+      665043701,
+      564911642,
+      564911645
+    ],
+    "entry_node": 564911626,
+    "exits_count": 1,
+    "member_count": 13
+  },
+  "258599303": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      564952497,
+      258599303,
+      258599289,
+      258599515,
+      258599294
+    ],
+    "entry_node": 258599303,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "67079544": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      67079552,
+      67079555,
+      67079557,
+      67079559,
+      67079561,
+      67079564,
+      67079544,
+      67079546,
+      67079550
+    ],
+    "entry_node": 67079544,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "67079339": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      67079328,
+      67079339,
+      67079334
+    ],
+    "entry_node": 67079339,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "67079458": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      67079458,
+      67079476,
+      8297402517,
+      67079464,
+      67079482,
+      67079484,
+      67079471
+    ],
+    "entry_node": 67079458,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "67079489": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      67079489,
+      67079443,
+      8297402518,
+      67079448,
+      8297402520
+    ],
+    "entry_node": 67079489,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "67079524": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      67079522,
+      67079524,
+      67079519
+    ],
+    "entry_node": 67079524,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "5164168625": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5164168625,
+      5164168626,
+      243643622
+    ],
+    "entry_node": 5164168625,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "82661808": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      82661808,
+      82661810,
+      2585187700,
+      82661812,
+      5605907498
+    ],
+    "entry_node": 82661808,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "9947407124": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9947407121,
+      9947407124,
+      2387483495
+    ],
+    "entry_node": 9947407124,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "291661132": {
+    "type": "Residential",
+    "population_capacity": 130,
+    "members": [
+      291661126,
+      291661127,
+      291661128,
+      1529954538,
+      291661131,
+      291661132,
+      305243153,
+      291661203,
+      305243158,
+      305243127,
+      305243222,
+      291661149,
+      291661150
+    ],
+    "entry_node": 291661132,
+    "exits_count": 1,
+    "member_count": 13
+  },
+  "2401021677": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4943652641,
+      305250981,
+      2401021670,
+      9939537641,
+      2401021677
+    ],
+    "entry_node": 2401021677,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "305251719": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      305251720,
+      2516821386,
+      305251719
+    ],
+    "entry_node": 305251719,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "305251087": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      305251088,
+      305251127,
+      305251087
+    ],
+    "entry_node": 305251087,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "90369549": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      90369561,
+      90369549,
+      90369550
+    ],
+    "entry_node": 90369549,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "90391529": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      90391664,
+      90391529,
+      90391605
+    ],
+    "entry_node": 90391529,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2782942216": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      2782942214,
+      91548742,
+      2782942216,
+      91548751,
+      2789799536,
+      91548701,
+      91548699,
+      2782942237,
+      2782942238
+    ],
+    "entry_node": 2782942216,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "91538517": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      91538521,
+      91538517,
+      91538519
+    ],
+    "entry_node": 91538517,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "91543088": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      91543088,
+      91543091,
+      91543092,
+      2696353655,
+      91543103
+    ],
+    "entry_node": 91543088,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "6571019384": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      12001557504,
+      7444753072,
+      7444753073,
+      9161004722,
+      6571019384,
+      6571023689,
+      7444753069
+    ],
+    "entry_node": 6571019384,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "91574412": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      91574428,
+      91574434,
+      91574436,
+      122834279,
+      122834281,
+      122834283,
+      91574412
+    ],
+    "entry_node": 91574412,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "585337599": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      585337600,
+      665043692,
+      585337599
+    ],
+    "entry_node": 585337599,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "95203794": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      95203793,
+      95203794,
+      95203795
+    ],
+    "entry_node": 95203794,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "96782603": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      96782584,
+      96782594,
+      96782598,
+      96782600,
+      96782603
+    ],
+    "entry_node": 96782603,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "96869566": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      10753812320,
+      96869567,
+      96869603,
+      4200744207,
+      4200744208,
+      4200744209,
+      4201206555,
+      96869566,
+      10753812319
+    ],
+    "entry_node": 96869566,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "96869498": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      4201149792,
+      96869542,
+      96869514,
+      96869522,
+      96869555,
+      96869558,
+      96869527,
+      96869498,
+      96869595,
+      96869533,
+      4201149790
+    ],
+    "entry_node": 96869498,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "4232896563": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4232896563,
+      4232896564,
+      96878741
+    ],
+    "entry_node": 4232896563,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "269220610": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      269220608,
+      269220610,
+      6169590187
+    ],
+    "entry_node": 269220610,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2781321323": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      428957632,
+      428957634,
+      2781321323,
+      2781321326,
+      428957622,
+      428957623,
+      428957624,
+      428957625,
+      428957626,
+      428957628,
+      428957630
+    ],
+    "entry_node": 2781321323,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "10069486558": {
+    "type": "Residential",
+    "population_capacity": 60,
+    "members": [
+      10069486562,
+      2399640516,
+      2399640517,
+      10069486568,
+      3003697176,
+      10069486558
+    ],
+    "entry_node": 10069486558,
+    "exits_count": 1,
+    "member_count": 6
+  },
+  "107871100": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      107871137,
+      107871106,
+      2373794436,
+      107871141,
+      107871125,
+      11064656794,
+      107871100
+    ],
+    "entry_node": 107871100,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "301795336": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      4893017633,
+      301795397,
+      301795398,
+      301795434,
+      301795336,
+      301795368,
+      301795358
+    ],
+    "entry_node": 301795336,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "108019673": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      108019687,
+      108019673,
+      108019866,
+      4216688428,
+      4216688429,
+      6497824654,
+      12041427901
+    ],
+    "entry_node": 108019673,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "301795543": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      12073475320,
+      12073475328,
+      301795543
+    ],
+    "entry_node": 301795543,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2396624592": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2396624592,
+      8297631138,
+      8297631136
+    ],
+    "entry_node": 2396624592,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "111887316": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      111887316,
+      111887318,
+      111887327
+    ],
+    "entry_node": 111887316,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "205163716": {
+    "type": "Residential",
+    "population_capacity": 430,
+    "members": [
+      122550149,
+      4892641927,
+      4892641928,
+      122550154,
+      122550029,
+      122550157,
+      122550159,
+      122550035,
+      122549908,
+      122550167,
+      122550041,
+      122550172,
+      122550044,
+      122549790,
+      122549795,
+      122550181,
+      122550054,
+      4892641833,
+      122550186,
+      122549805,
+      122550191,
+      122549808,
+      122549935,
+      122550195,
+      122550067,
+      122549813,
+      122550199,
+      122549943,
+      122550204,
+      122550077,
+      5421554881,
+      122550081,
+      205163716,
+      122550085,
+      241491782,
+      241491781,
+      122549832,
+      241491785,
+      241491784,
+      122549835,
+      122549839,
+      205163732,
+      122549847
+    ],
+    "entry_node": 205163716,
+    "exits_count": 1,
+    "member_count": 43
+  },
+  "4208675196": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      122596187,
+      4208675196,
+      4208675197
+    ],
+    "entry_node": 4208675196,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "122614702": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2488198616,
+      4200909194,
+      122614702
+    ],
+    "entry_node": 122614702,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2584829721": {
+    "type": "Residential",
+    "population_capacity": 150,
+    "members": [
+      122614721,
+      122614788,
+      122614727,
+      122614792,
+      122614763,
+      122614801,
+      122614771,
+      122614773,
+      2488198614,
+      122614775,
+      122614744,
+      2584829721,
+      122614746,
+      122614748,
+      122614781
+    ],
+    "entry_node": 2584829721,
+    "exits_count": 1,
+    "member_count": 15
+  },
+  "122827620": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9566764233,
+      122827620,
+      4904519478
+    ],
+    "entry_node": 122827620,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "130249419": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      130249447,
+      130249418,
+      130249419,
+      4009924045,
+      3451017457,
+      2370573169,
+      11780949522,
+      3451017461,
+      2370573176
+    ],
+    "entry_node": 130249419,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "131037420": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      131037472,
+      131037457,
+      131037443,
+      131037428,
+      3698432151,
+      131037435,
+      131037420
+    ],
+    "entry_node": 131037420,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "131037035": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      131037872,
+      131037035,
+      131036772
+    ],
+    "entry_node": 131037035,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "133307321": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      133307321,
+      133307348,
+      2413927007
+    ],
+    "entry_node": 133307321,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "262400010": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      5138798337,
+      5138798338,
+      262400010,
+      262400011,
+      133444877
+    ],
+    "entry_node": 262400010,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "137801159": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      137801159,
+      137801177,
+      5506791770,
+      137801165,
+      5506791767
+    ],
+    "entry_node": 137801159,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "335554851": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      335554858,
+      335554851,
+      5305482741
+    ],
+    "entry_node": 335554851,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2315607560": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2315607560,
+      2315607573,
+      2315607559
+    ],
+    "entry_node": 2315607560,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301824247": {
+    "type": "Residential",
+    "population_capacity": 170,
+    "members": [
+      301825090,
+      9795450572,
+      301824402,
+      301824281,
+      301824247,
+      301824283,
+      301824670,
+      4892973407,
+      4893002529,
+      4893002530,
+      301824551,
+      301824553,
+      301824683,
+      9693930743,
+      4860582777,
+      11093026236,
+      11093026237
+    ],
+    "entry_node": 301824247,
+    "exits_count": 1,
+    "member_count": 17
+  },
+  "171503601": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      171503601,
+      2627563228,
+      147065693,
+      2627563421
+    ],
+    "entry_node": 171503601,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "179030494": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      174745050,
+      174745044,
+      179030494
+    ],
+    "entry_node": 179030494,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "181310320": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      181310320,
+      181310324,
+      181310326,
+      181310346,
+      181310347
+    ],
+    "entry_node": 181310320,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "301623093": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      6077478480,
+      301623170,
+      301623093,
+      301623192,
+      301623097,
+      301623165,
+      6072251501
+    ],
+    "entry_node": 301623093,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "4893005915": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4893005913,
+      4893005915,
+      4893005916
+    ],
+    "entry_node": 4893005915,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4893005917": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4893005917,
+      3141582213,
+      4893005918
+    ],
+    "entry_node": 4893005917,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "187761494": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      187761490,
+      187761516,
+      187761494
+    ],
+    "entry_node": 187761494,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4893008123": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4893008123,
+      4893008124,
+      187761693
+    ],
+    "entry_node": 4893008123,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "187761788": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      301823906,
+      187762085,
+      4893025548,
+      187762093,
+      4893025554,
+      4893025555,
+      4893025556,
+      4893025557,
+      4893025558,
+      4893025559,
+      187761788
+    ],
+    "entry_node": 187761788,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "187761895": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      187762077,
+      187762015,
+      187761895
+    ],
+    "entry_node": 187761895,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "966738692": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      966738690,
+      966738692,
+      4893008149,
+      4893008150,
+      187762167,
+      966738696,
+      187762413
+    ],
+    "entry_node": 966738692,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "4893008142": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      187762217,
+      4893008142,
+      4893008143
+    ],
+    "entry_node": 4893008142,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "187762270": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      187762309,
+      187762346,
+      187762259,
+      187762388,
+      187762358,
+      4860582810,
+      4860582811,
+      187762332,
+      187762270
+    ],
+    "entry_node": 187762270,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "192275015": {
+    "type": "Residential",
+    "population_capacity": 60,
+    "members": [
+      2627563296,
+      2627563523,
+      2627563477,
+      192275015,
+      953181593,
+      953181582
+    ],
+    "entry_node": 192275015,
+    "exits_count": 1,
+    "member_count": 6
+  },
+  "2683242856": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      2683242856,
+      2683242889
+    ],
+    "entry_node": 2683242856,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "192535186": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      192535186,
+      246146819,
+      246146820,
+      246146825,
+      10571852233
+    ],
+    "entry_node": 192535186,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "192842608": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      192842608,
+      2455689169,
+      2455688996,
+      9058279556
+    ],
+    "entry_node": 192842608,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "196360463": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      196360413,
+      196360486,
+      196360463
+    ],
+    "entry_node": 196360463,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "196375329": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      196375329,
+      848859140,
+      848859141,
+      848859143,
+      2952157127,
+      848859145,
+      848859150,
+      2952157135,
+      848859153,
+      2952157138,
+      2952157105
+    ],
+    "entry_node": 196375329,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "205216418": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      205216418,
+      205216420,
+      205216441,
+      205216412,
+      205216429
+    ],
+    "entry_node": 205216418,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "205216554": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      205216576,
+      205216554,
+      205216634
+    ],
+    "entry_node": 205216554,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339624004": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      339624034,
+      339624035,
+      339624004,
+      339624037,
+      339624006,
+      2375574791,
+      339624010,
+      339624049,
+      339624050,
+      339624020,
+      339624029
+    ],
+    "entry_node": 339624004,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "259594862": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      228644174,
+      9631320518,
+      228644170,
+      228644172,
+      259594862
+    ],
+    "entry_node": 259594862,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "241787801": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      241787801,
+      241787803,
+      408805861
+    ],
+    "entry_node": 241787801,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "241130464": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      241130464,
+      3483832496,
+      241064966
+    ],
+    "entry_node": 241130464,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "241775035": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      241775041,
+      3012552338,
+      241775044,
+      241775047,
+      241775035
+    ],
+    "entry_node": 241775035,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "241786531": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      241786529,
+      241786530,
+      241786531
+    ],
+    "entry_node": 241786531,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "241776915": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      9416369091,
+      9416369092,
+      241776915,
+      3012552029,
+      2416594669
+    ],
+    "entry_node": 241776915,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "241786347": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4927503280,
+      241786347,
+      241786350
+    ],
+    "entry_node": 241786347,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "241786389": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      944010784,
+      241786389,
+      241786390,
+      944010791,
+      241786399
+    ],
+    "entry_node": 241786389,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "241786715": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      241786715,
+      241786717,
+      241787807
+    ],
+    "entry_node": 241786715,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "241787806": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2416518753,
+      241787804,
+      241787806
+    ],
+    "entry_node": 241787806,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "242733577": {
+    "type": "Residential",
+    "population_capacity": 450,
+    "members": [
+      242733698,
+      242733700,
+      242733702,
+      242733704,
+      242733577,
+      242733579,
+      242733581,
+      2526630434,
+      242733603,
+      242733605,
+      242733615,
+      242733620,
+      242733622,
+      9950821177,
+      9950821178,
+      9950821179,
+      9950821180,
+      242733629,
+      242733626,
+      9950821182,
+      9950821183,
+      9950821185,
+      9950821186,
+      9950821187,
+      242733636,
+      9950821189,
+      9950821190,
+      9950821191,
+      9950821192,
+      9950821193,
+      9950821188,
+      5326432975,
+      242733660,
+      242733665,
+      5421220196,
+      242739562,
+      242733676,
+      242733679,
+      242733681,
+      242733683,
+      242739573,
+      242733690,
+      242739579,
+      242733693,
+      242733695
+    ],
+    "entry_node": 242733577,
+    "exits_count": 1,
+    "member_count": 45
+  },
+  "9949400454": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      242757379,
+      9949400453,
+      9949400454
+    ],
+    "entry_node": 9949400454,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1505666538": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1505666538,
+      1427047500,
+      243480942
+    ],
+    "entry_node": 1505666538,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243480957": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4893077237,
+      1427047483,
+      243480957
+    ],
+    "entry_node": 243480957,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243483069": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1521632402,
+      243483075,
+      2416493272,
+      243483082,
+      243483069
+    ],
+    "entry_node": 243483069,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "243484827": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4893062491,
+      243484827,
+      243485109
+    ],
+    "entry_node": 243484827,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243485073": {
+    "type": "Residential",
+    "population_capacity": 130,
+    "members": [
+      243485088,
+      243485092,
+      243485093,
+      243485099,
+      4893062477,
+      4893062478,
+      243485073,
+      243485074,
+      4893062485,
+      243485078,
+      243485079,
+      243485080,
+      243485084
+    ],
+    "entry_node": 243485073,
+    "exits_count": 1,
+    "member_count": 13
+  },
+  "243485681": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      243485688,
+      243485681,
+      243485689
+    ],
+    "entry_node": 243485681,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243485691": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      243485704,
+      243485691,
+      243485692
+    ],
+    "entry_node": 243485691,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243643649": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      243643640,
+      243643649,
+      243643650
+    ],
+    "entry_node": 243643649,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "243915068": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      12192618648,
+      243915105,
+      243915068
+    ],
+    "entry_node": 243915068,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "244443901": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1707011886,
+      244443924,
+      3427451526,
+      244443928,
+      3427451518,
+      244443901,
+      244443918
+    ],
+    "entry_node": 244443901,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2401038588": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      244448577,
+      5303039921,
+      10294050010,
+      244448523,
+      2401038588
+    ],
+    "entry_node": 2401038588,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "245958552": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      245958552,
+      245958576,
+      245958551
+    ],
+    "entry_node": 245958552,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "246087074": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      246074241,
+      246087074,
+      246074242,
+      246074244,
+      246087077
+    ],
+    "entry_node": 246087074,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "247176923": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      247176923,
+      247176924,
+      247176925
+    ],
+    "entry_node": 247176923,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247391350": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4067631961,
+      4067631962,
+      247391350
+    ],
+    "entry_node": 247391350,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247391345": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      247391345,
+      247391346,
+      247391348,
+      247391349,
+      4067631963
+    ],
+    "entry_node": 247391345,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "247648099": {
+    "type": "Residential",
+    "population_capacity": 370,
+    "members": [
+      9546891448,
+      247648064,
+      247648065,
+      247648066,
+      247648067,
+      247648068,
+      247648071,
+      247648072,
+      247648073,
+      247648075,
+      247648078,
+      247648080,
+      247648081,
+      247648082,
+      247648085,
+      247648086,
+      247648087,
+      247648088,
+      247648089,
+      247648090,
+      247648091,
+      9951608284,
+      247648092,
+      247648093,
+      247648094,
+      247648096,
+      247648095,
+      247648097,
+      9951608287,
+      9951608286,
+      247648099,
+      247648098,
+      247648100,
+      247648101,
+      247648113,
+      247648114,
+      247648122
+    ],
+    "entry_node": 247648099,
+    "exits_count": 1,
+    "member_count": 37
+  },
+  "247648104": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      247648112,
+      247648104,
+      247648105,
+      247648106,
+      12189716927
+    ],
+    "entry_node": 247648104,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "9951608289": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9951608288,
+      9951608289,
+      247648110
+    ],
+    "entry_node": 9951608289,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247648117": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9951496283,
+      247648117,
+      247648119
+    ],
+    "entry_node": 247648117,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247649071": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3660678156,
+      3660678133,
+      247649071
+    ],
+    "entry_node": 247649071,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "247691625": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      247691625,
+      3057781558,
+      3057781559
+    ],
+    "entry_node": 247691625,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875181": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875173,
+      364875174,
+      364875181
+    ],
+    "entry_node": 364875181,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2780692479": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      269229986,
+      269230003,
+      269230004,
+      269229989,
+      269229991,
+      269229997,
+      2780692479
+    ],
+    "entry_node": 2780692479,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "1401680633": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1401680633,
+      1401680634,
+      1401680621
+    ],
+    "entry_node": 1401680633,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2026211108": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1998918977,
+      2038051361,
+      1998918979,
+      2026211108,
+      2013618051,
+      1998918982,
+      1998918983
+    ],
+    "entry_node": 2026211108,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "248569360": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      248569360,
+      248569366,
+      248569369,
+      248569370,
+      9949275979
+    ],
+    "entry_node": 248569360,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "248569372": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9949275977,
+      1432597204,
+      248569372
+    ],
+    "entry_node": 248569372,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "248569407": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      248569408,
+      6166931573,
+      248569407
+    ],
+    "entry_node": 248569407,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "248662264": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      248662264,
+      12251375034,
+      9964901731
+    ],
+    "entry_node": 248662264,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "248737678": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      485521688,
+      248737678,
+      248737679
+    ],
+    "entry_node": 248737678,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "248896616": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      2366161732,
+      248896616,
+      248896617,
+      248896618,
+      4894692938,
+      248896620,
+      248896623,
+      692434320,
+      248896628,
+      248896629,
+      248896632
+    ],
+    "entry_node": 248896616,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "248912645": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2908693590,
+      248912645,
+      692434342
+    ],
+    "entry_node": 248912645,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "248912659": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      9348506994,
+      248912659,
+      248912652,
+      249183550
+    ],
+    "entry_node": 248912659,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "472767325": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      4075658884,
+      3119447207,
+      3119447208,
+      3575198744,
+      3119447211,
+      3119447212,
+      472767325
+    ],
+    "entry_node": 472767325,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2761886973": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      690284072,
+      3744107819,
+      2761886973,
+      3744107822,
+      249183567
+    ],
+    "entry_node": 2761886973,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "249200631": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      249200632,
+      249200622,
+      249200631
+    ],
+    "entry_node": 249200631,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "8666038269": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      8666038273,
+      8666038274,
+      8666038265,
+      8666038267,
+      8666038268,
+      8666038269,
+      8666038270
+    ],
+    "entry_node": 8666038269,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "251007674": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      251007674,
+      251007586,
+      2759270997
+    ],
+    "entry_node": 251007674,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "252650720": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      252650720,
+      252650721,
+      2401789950
+    ],
+    "entry_node": 252650720,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2375574767": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375574768,
+      2375574763,
+      2375574767
+    ],
+    "entry_node": 2375574767,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "255179371": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301828115,
+      255179371,
+      301828204
+    ],
+    "entry_node": 255179371,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301828085": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301828105,
+      301828085,
+      301828086
+    ],
+    "entry_node": 301828085,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "255237705": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      255237705,
+      692434337,
+      2908693556
+    ],
+    "entry_node": 255237705,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "255315734": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      255315736,
+      255315737,
+      255315734
+    ],
+    "entry_node": 255315734,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "255425727": {
+    "type": "Residential",
+    "population_capacity": 100,
+    "members": [
+      255425731,
+      8297765158,
+      5288561927,
+      8297765159,
+      8297765160,
+      255425744,
+      255425746,
+      12118969106,
+      255425752,
+      255425727
+    ],
+    "entry_node": 255425727,
+    "exits_count": 1,
+    "member_count": 10
+  },
+  "255425814": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      255425803,
+      255425814,
+      255425823
+    ],
+    "entry_node": 255425814,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "255425832": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      255425830,
+      255425831,
+      255425832,
+      255425834,
+      255425835
+    ],
+    "entry_node": 255425832,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "256891832": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      256891832,
+      256891834,
+      5016391620
+    ],
+    "entry_node": 256891832,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "256891843": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      256891841,
+      256891843,
+      4894627144,
+      256891836,
+      256891839
+    ],
+    "entry_node": 256891843,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "258075662": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      258075664,
+      258075662,
+      258075663
+    ],
+    "entry_node": 258075662,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "259151612": {
+    "type": "Residential",
+    "population_capacity": 80,
+    "members": [
+      259151617,
+      259151618,
+      259151619,
+      8762813380,
+      259151620,
+      259151612,
+      259151613,
+      259151615
+    ],
+    "entry_node": 259151612,
+    "exits_count": 1,
+    "member_count": 8
+  },
+  "259151632": {
+    "type": "Residential",
+    "population_capacity": 140,
+    "members": [
+      2496300580,
+      259151630,
+      259151631,
+      259151632,
+      259151633,
+      259151634,
+      259151635,
+      259151636,
+      259151637,
+      259151638,
+      259151639,
+      259151640,
+      259151641,
+      259151642
+    ],
+    "entry_node": 259151632,
+    "exits_count": 1,
+    "member_count": 14
+  },
+  "335752343": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      335554847,
+      259573573,
+      335752343
+    ],
+    "entry_node": 335752343,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "565672574": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      654187744,
+      565672577,
+      654187746,
+      43314855,
+      565672574
+    ],
+    "entry_node": 565672574,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "259594818": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      259594818,
+      259594813,
+      259594814
+    ],
+    "entry_node": 259594818,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "259594834": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      259594834,
+      259594835,
+      259594836
+    ],
+    "entry_node": 259594834,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "259594900": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2479778632,
+      259594900,
+      259594904
+    ],
+    "entry_node": 259594900,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "265173075": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2864127434,
+      265173075,
+      2864127435
+    ],
+    "entry_node": 265173075,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "303026497": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      303026497,
+      2375574657,
+      303026500
+    ],
+    "entry_node": 303026497,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2375574728": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2375574736,
+      266381586,
+      2375574740,
+      2375574728,
+      2375574750
+    ],
+    "entry_node": 2375574728,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "266996663": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      6383209905,
+      2494582395,
+      266996663,
+      2494582424,
+      2494582425,
+      2494582411,
+      2494582429
+    ],
+    "entry_node": 266996663,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2406494698": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2494582416,
+      2406494677,
+      3135862445,
+      3135862457,
+      2406494698,
+      2494582413,
+      2406494745
+    ],
+    "entry_node": 2406494698,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2494582433": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2494582433,
+      3135944225,
+      2494582431
+    ],
+    "entry_node": 2494582433,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2494582388": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1496727952,
+      2494582388,
+      2494582373,
+      2494582377,
+      2494582379
+    ],
+    "entry_node": 2494582388,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "303027201": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      303027201,
+      2375574701,
+      2375574702
+    ],
+    "entry_node": 303027201,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "266996803": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      10735044322,
+      266996803,
+      266996789
+    ],
+    "entry_node": 266996803,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "266997662": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      266997664,
+      2380299186,
+      266997662
+    ],
+    "entry_node": 266997662,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "266998022": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      266998024,
+      266998022,
+      266998023
+    ],
+    "entry_node": 266998022,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "266998233": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2372323744,
+      266998530,
+      12966301395,
+      266998244,
+      266998233,
+      266998235,
+      2372323741
+    ],
+    "entry_node": 266998233,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "298470325": {
+    "type": "Residential",
+    "population_capacity": 100,
+    "members": [
+      298492992,
+      298491271,
+      298480524,
+      2373042522,
+      8689016399,
+      298491252,
+      298491828,
+      298470325,
+      298491255,
+      3882445498
+    ],
+    "entry_node": 298470325,
+    "exits_count": 1,
+    "member_count": 10
+  },
+  "339323754": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      339323744,
+      339323746,
+      339323747,
+      339323748,
+      339323750,
+      4461464152,
+      339323754
+    ],
+    "entry_node": 339323754,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "330940485": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      330940489,
+      330940492,
+      330940485
+    ],
+    "entry_node": 330940485,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "269233887": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4898433771,
+      4898433773,
+      269233887
+    ],
+    "entry_node": 269233887,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "272405932": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      4100622627,
+      6652386347,
+      272405932,
+      6652386348,
+      272405934,
+      6652386349,
+      272405936,
+      272405937,
+      272405939,
+      272405942,
+      272405946
+    ],
+    "entry_node": 272405932,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "273128876": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      7447058257,
+      3895050826,
+      273128876
+    ],
+    "entry_node": 273128876,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "280123262": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      280123244,
+      280123261,
+      280123262
+    ],
+    "entry_node": 280123262,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "290684523": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      290684523,
+      755702366,
+      755702391
+    ],
+    "entry_node": 290684523,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "291661210": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9947404400,
+      291661210,
+      291661251
+    ],
+    "entry_node": 291661210,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "291661486": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      305229000,
+      291661508,
+      291661486
+    ],
+    "entry_node": 291661486,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "8734763897": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9939232259,
+      8734763897,
+      305252075
+    ],
+    "entry_node": 8734763897,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "295514383": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      295514384,
+      295514385,
+      295514382,
+      295514383
+    ],
+    "entry_node": 295514383,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "295514386": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      295514416,
+      295514386,
+      295514387
+    ],
+    "entry_node": 295514386,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "295514380": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2422099432,
+      295514379,
+      295514380
+    ],
+    "entry_node": 295514380,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "295517426": {
+    "type": "Residential",
+    "population_capacity": 170,
+    "members": [
+      822792194,
+      822791560,
+      305253449,
+      609373257,
+      305254538,
+      305253458,
+      609373273,
+      305253469,
+      6436362274,
+      305253922,
+      822791016,
+      822791981,
+      305254129,
+      295517426,
+      295517429,
+      5121661112,
+      305254011
+    ],
+    "entry_node": 295517426,
+    "exits_count": 1,
+    "member_count": 17
+  },
+  "301833881": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301833881,
+      301833883,
+      301833903
+    ],
+    "entry_node": 301833881,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "297557865": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      297557865,
+      297557860,
+      2577937215
+    ],
+    "entry_node": 297557865,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "298495224": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      298495224,
+      7447434417,
+      298495600
+    ],
+    "entry_node": 298495224,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4893017173": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3650706753,
+      4893017172,
+      4893017173
+    ],
+    "entry_node": 4893017173,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301803629": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301803633,
+      301803674,
+      301803629
+    ],
+    "entry_node": 301803629,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "6177054267": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6177054266,
+      6177054267,
+      374508215
+    ],
+    "entry_node": 6177054267,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301810186": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      5564939270,
+      6646380183,
+      301810377,
+      301810186,
+      301810187
+    ],
+    "entry_node": 301810186,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "301815499": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301815568,
+      301815499,
+      301815503
+    ],
+    "entry_node": 301815499,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301816526": {
+    "type": "Residential",
+    "population_capacity": 190,
+    "members": [
+      1529975428,
+      301816971,
+      374509132,
+      301816718,
+      301816975,
+      301816526,
+      301816527,
+      301816531,
+      2438127958,
+      301816535,
+      301817112,
+      301816536,
+      301816538,
+      1528686176,
+      1523894755,
+      1523894759,
+      1528687722,
+      1523894707,
+      1523894717
+    ],
+    "entry_node": 301816526,
+    "exits_count": 1,
+    "member_count": 19
+  },
+  "301818766": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301818808,
+      301818766,
+      301818767
+    ],
+    "entry_node": 301818766,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301817299": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      301817299,
+      301818500,
+      301817300,
+      301817302,
+      301817303,
+      301817307,
+      301817836
+    ],
+    "entry_node": 301817299,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "301818029": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301818034,
+      301818204,
+      301818029
+    ],
+    "entry_node": 301818029,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "301828406": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      4935174080,
+      301828865,
+      301828674,
+      301828601,
+      301828624,
+      301828690,
+      301828406,
+      301828408,
+      301828537
+    ],
+    "entry_node": 301828406,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "2026213463": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      9965473586,
+      9965473587,
+      9965473588,
+      9965473589,
+      2026213462,
+      2026213463,
+      2026213464
+    ],
+    "entry_node": 2026213463,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "301832866": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      301832866,
+      301832733,
+      301832734
+    ],
+    "entry_node": 301832866,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339617040": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      339617057,
+      339617026,
+      339617027,
+      339617031,
+      339617037,
+      339617038,
+      339617040,
+      339617048,
+      339617049
+    ],
+    "entry_node": 339617040,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "303027253": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      9962732928,
+      303027253,
+      303027255,
+      303027278,
+      9962732927
+    ],
+    "entry_node": 303027253,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "305239957": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4939797809,
+      4939797810,
+      305239957
+    ],
+    "entry_node": 305239957,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "305241877": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      9947651376,
+      305241877,
+      9947651370,
+      2401021660,
+      2401021663
+    ],
+    "entry_node": 305241877,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1513154890": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      703494579,
+      703495336,
+      5564561129,
+      703495338,
+      1513154890
+    ],
+    "entry_node": 1513154890,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "305242514": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      305242584,
+      6670384106,
+      305242514
+    ],
+    "entry_node": 305242514,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "305245965": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      305246370,
+      9947733170,
+      12069694035,
+      9947733172,
+      12767901770,
+      305246300,
+      305245965
+    ],
+    "entry_node": 305245965,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "305247472": {
+    "type": "Residential",
+    "population_capacity": 430,
+    "members": [
+      4523228304,
+      9458071441,
+      9458071442,
+      305247484,
+      4523228309,
+      305249436,
+      9939286433,
+      305250214,
+      9939421606,
+      305250472,
+      305250729,
+      305250092,
+      305250096,
+      305250097,
+      305250613,
+      305250621,
+      2752694852,
+      305248326,
+      305250376,
+      305250377,
+      4690608080,
+      305248337,
+      305250385,
+      305250392,
+      305250529,
+      2752694883,
+      9939323107,
+      2752694885,
+      305250668,
+      305250157,
+      305250158,
+      2752694894,
+      305247472,
+      305248242,
+      4674248435,
+      4674248436,
+      305247477,
+      305248245,
+      4674248437,
+      305248244,
+      2752694906,
+      2752694908,
+      305250175
+    ],
+    "entry_node": 305247472,
+    "exits_count": 1,
+    "member_count": 43
+  },
+  "374587250": {
+    "type": "Residential",
+    "population_capacity": 170,
+    "members": [
+      374587456,
+      7503785097,
+      7503785100,
+      7503785101,
+      7503785105,
+      374587474,
+      7503785107,
+      4523236244,
+      4523236242,
+      374587286,
+      4523236241,
+      305252586,
+      305252589,
+      374587439,
+      374587250,
+      9939232184,
+      9939387135
+    ],
+    "entry_node": 374587250,
+    "exits_count": 1,
+    "member_count": 17
+  },
+  "305248387": {
+    "type": "Residential",
+    "population_capacity": 390,
+    "members": [
+      305248387,
+      7503785092,
+      7503785093,
+      7503785094,
+      7503785095,
+      305248392,
+      4926602505,
+      9135985674,
+      7503785096,
+      968750476,
+      374587530,
+      968750478,
+      968749201,
+      968750482,
+      968749203,
+      968750484,
+      968749205,
+      968749207,
+      968749209,
+      968749211,
+      968749215,
+      968749221,
+      9939232299,
+      9939330611,
+      8079153716,
+      9135985719,
+      305247681,
+      968749250,
+      305248579,
+      305248577,
+      305248582,
+      305248587,
+      374587486,
+      305249118,
+      305249128,
+      6914059763,
+      6914059765,
+      8079172217,
+      374587515
+    ],
+    "entry_node": 305248387,
+    "exits_count": 1,
+    "member_count": 39
+  },
+  "2752694869": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4523236236,
+      2752694869,
+      9939323110
+    ],
+    "entry_node": 2752694869,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "374586199": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      305249570,
+      305249634,
+      305249572,
+      374586261,
+      374586199
+    ],
+    "entry_node": 374586199,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "305252198": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      305252219,
+      305252198,
+      305252199
+    ],
+    "entry_node": 305252198,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "305255653": {
+    "type": "Residential",
+    "population_capacity": 250,
+    "members": [
+      2815898050,
+      305256012,
+      305255676,
+      2815898069,
+      6646353558,
+      6646353559,
+      305255704,
+      6868220312,
+      12848882136,
+      305255653,
+      2815898088,
+      305255657,
+      305255661,
+      305255857,
+      305255858,
+      9946260722,
+      9946260723,
+      305255668,
+      9946260724,
+      9946260726,
+      305255992,
+      6133516794,
+      9946260727,
+      6133516796,
+      305255742
+    ],
+    "entry_node": 305255653,
+    "exits_count": 1,
+    "member_count": 25
+  },
+  "305411679": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375515824,
+      305411686,
+      305411679
+    ],
+    "entry_node": 305411679,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1371288407": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4596871777,
+      1371288418,
+      1371288467,
+      1371288407,
+      4596871927
+    ],
+    "entry_node": 1371288407,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "4942077166": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      320025538,
+      320023068,
+      4942077166
+    ],
+    "entry_node": 4942077166,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "320027798": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      320027814,
+      320027798,
+      320027799
+    ],
+    "entry_node": 320027798,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "320027324": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      320027333,
+      320027367,
+      320027324,
+      320027325,
+      320027326
+    ],
+    "entry_node": 320027324,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "320027818": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      320027857,
+      320027830,
+      320027818,
+      320027820,
+      320027855
+    ],
+    "entry_node": 320027818,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "320027254": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      320027255,
+      320027269,
+      320027270,
+      320027271,
+      320027254,
+      320027786,
+      320027791
+    ],
+    "entry_node": 320027254,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "320027336": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      320027336,
+      320027346,
+      320027334
+    ],
+    "entry_node": 320027336,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "320029228": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      320029248,
+      320029237,
+      320029239,
+      320029228,
+      320029245,
+      320029246,
+      320029247
+    ],
+    "entry_node": 320029228,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "320030632": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      320030622,
+      4825289478,
+      320030632,
+      320030623,
+      320030620,
+      3421375374,
+      3421375375
+    ],
+    "entry_node": 320030632,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "320029321": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      320029321,
+      320029322,
+      320029330
+    ],
+    "entry_node": 320029321,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "320030532": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      6988362466,
+      320030562,
+      320030532,
+      9993175111,
+      9993175112,
+      6988362473,
+      6988362474,
+      6988362478,
+      6988362479,
+      3421375379,
+      320030551
+    ],
+    "entry_node": 320030532,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "6988403047": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      320030528,
+      6992205252,
+      6992205253,
+      6988403047,
+      6988403050
+    ],
+    "entry_node": 6988403047,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "321876223": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      31931811,
+      321876222,
+      321876223
+    ],
+    "entry_node": 321876223,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "631975639": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      325713091,
+      631975655,
+      631975639
+    ],
+    "entry_node": 631975639,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "325720083": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      325720146,
+      325720083,
+      5295270059
+    ],
+    "entry_node": 325720083,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "330940513": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      330940513,
+      336167569,
+      330940515
+    ],
+    "entry_node": 330940513,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "330940545": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      330940545,
+      330940548,
+      330940551
+    ],
+    "entry_node": 330940545,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "528721711": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      528721712,
+      5546953992,
+      528721709,
+      528721710,
+      528721711
+    ],
+    "entry_node": 528721711,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "335601606": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      335601600,
+      335601602,
+      335531509,
+      335601606,
+      358189527,
+      2609826729,
+      2814674783
+    ],
+    "entry_node": 335601606,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "335596128": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      335596128,
+      8651252668,
+      2769935784
+    ],
+    "entry_node": 335596128,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "335717350": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2373223681,
+      2373223781,
+      335717350,
+      2373223847,
+      2373223771,
+      6188736173,
+      6188736174
+    ],
+    "entry_node": 335717350,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "335752310": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      335717393,
+      335717395,
+      335752310
+    ],
+    "entry_node": 335752310,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "335718874": {
+    "type": "Residential",
+    "population_capacity": 170,
+    "members": [
+      335718913,
+      335719928,
+      598144343,
+      2894522968,
+      335718874,
+      2894522727,
+      7152353513,
+      335719915,
+      335719916,
+      335719921,
+      335718898,
+      2894522747,
+      335719925,
+      335718902,
+      1414486392,
+      2894523002,
+      1414486395
+    ],
+    "entry_node": 335718874,
+    "exits_count": 1,
+    "member_count": 17
+  },
+  "337982083": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      337982096,
+      337982083,
+      337982091
+    ],
+    "entry_node": 337982083,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2609877237": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      11610864929,
+      2609877363,
+      2609877237
+    ],
+    "entry_node": 2609877237,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339016303": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      339016304,
+      339016307,
+      2373223718,
+      2373223751,
+      339016303
+    ],
+    "entry_node": 339016303,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "339241223": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      339241225,
+      2407395092,
+      339241223
+    ],
+    "entry_node": 339241223,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339241210": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      339241217,
+      339241210,
+      8940020941
+    ],
+    "entry_node": 339241210,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "6219842656": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6219842656,
+      339241260,
+      6219842655
+    ],
+    "entry_node": 6219842656,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339241273": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      339241273,
+      339241277,
+      339241278
+    ],
+    "entry_node": 339241273,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "339328175": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      339328192,
+      339328179,
+      339328180,
+      339328181,
+      339328183,
+      339328184,
+      339328175
+    ],
+    "entry_node": 339328175,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "339328264": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      339328264,
+      339328266,
+      10119826927
+    ],
+    "entry_node": 339328264,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4268859765": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2940458437,
+      4268859765,
+      633137465,
+      344558587,
+      344558585
+    ],
+    "entry_node": 4268859765,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "344558588": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      11939860156,
+      344558588
+    ],
+    "entry_node": 344558588,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "583254506": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      358542562,
+      583254506,
+      583254507
+    ],
+    "entry_node": 583254506,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "615600324": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      615600337,
+      615600322,
+      615600324
+    ],
+    "entry_node": 615600324,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "736979918": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      736979907,
+      736979908,
+      736979918
+    ],
+    "entry_node": 736979918,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "665035430": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      358573049,
+      665035430,
+      665035431
+    ],
+    "entry_node": 665035430,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "3484289111": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6188753672,
+      3484289111,
+      2373223791
+    ],
+    "entry_node": 3484289111,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1616772026": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1616772026,
+      11559969956,
+      360406230,
+      360406215,
+      360406231,
+      360406218,
+      1616772046
+    ],
+    "entry_node": 1616772026,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "1410014118": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      1410014151,
+      1410014066,
+      1410014118,
+      1410014090
+    ],
+    "entry_node": 1410014118,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "1445223007": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1445223004,
+      2763710453,
+      1445223007
+    ],
+    "entry_node": 1445223007,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "9160789663": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9160789662,
+      8482277806,
+      9160789663
+    ],
+    "entry_node": 9160789663,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364874979": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      364874979,
+      364874981,
+      364874982,
+      364874984,
+      8671840137,
+      4895536602,
+      1410013494,
+      4895536601,
+      1410013626
+    ],
+    "entry_node": 364874979,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "364875039": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2561766608,
+      2561766590,
+      364875039
+    ],
+    "entry_node": 364875039,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875059": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875059,
+      364875060,
+      364875061
+    ],
+    "entry_node": 364875059,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875065": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1410014208,
+      364875065,
+      364875066,
+      364875067,
+      1410014233
+    ],
+    "entry_node": 364875065,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "364875098": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      8078046608,
+      364875095,
+      364875098,
+      2645757035,
+      8078046606
+    ],
+    "entry_node": 364875098,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "364875114": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875112,
+      364875113,
+      364875114
+    ],
+    "entry_node": 364875114,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875116": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875130,
+      364875131,
+      364875116
+    ],
+    "entry_node": 364875116,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875133": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875133,
+      364875134,
+      364875135
+    ],
+    "entry_node": 364875133,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875170": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875170,
+      364875171,
+      364875172
+    ],
+    "entry_node": 364875170,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875185": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      364875185,
+      364875182,
+      364875183
+    ],
+    "entry_node": 364875185,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "364875188": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2373662592,
+      364875188,
+      2373662607
+    ],
+    "entry_node": 364875188,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "365307092": {
+    "type": "Residential",
+    "population_capacity": 140,
+    "members": [
+      2374013952,
+      365307208,
+      365307209,
+      2374013943,
+      365307092,
+      365307093,
+      365307124,
+      2374013879,
+      365307094,
+      3131101529,
+      365307095,
+      2374013916,
+      2374014013,
+      3131101535
+    ],
+    "entry_node": 365307092,
+    "exits_count": 1,
+    "member_count": 14
+  },
+  "366910848": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      366910848,
+      564323305,
+      11555613765
+    ],
+    "entry_node": 366910848,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "12169084872": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      12169084872,
+      12169084873,
+      366986570
+    ],
+    "entry_node": 12169084872,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "368409490": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      368409490,
+      368409492,
+      368409494
+    ],
+    "entry_node": 368409490,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "560602860": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      560602860,
+      560602861,
+      373358302
+    ],
+    "entry_node": 560602860,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "374587346": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      374587346,
+      4523236237,
+      4523236239
+    ],
+    "entry_node": 374587346,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2401303917": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      2418028128,
+      2401303940,
+      375809832,
+      2418028106,
+      375809835,
+      2401303917,
+      375809844,
+      2418028086,
+      375809818
+    ],
+    "entry_node": 2401303917,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "375841422": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      375841413,
+      375841422,
+      375841415
+    ],
+    "entry_node": 375841422,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "377095319": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      377095312,
+      377095330,
+      377095319
+    ],
+    "entry_node": 377095319,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1521632406": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      12962192546,
+      12962192547,
+      12962192548,
+      12962192549,
+      1521632406,
+      9670995352,
+      9670995353
+    ],
+    "entry_node": 1521632406,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "414688669": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      470222768,
+      414688669,
+      414688663
+    ],
+    "entry_node": 414688669,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "428918443": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      428918440,
+      428918443,
+      428918444
+    ],
+    "entry_node": 428918443,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "428957648": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      428957648,
+      428957650,
+      428957638
+    ],
+    "entry_node": 428957648,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "428957645": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4894677184,
+      428957639,
+      428957645,
+      428957646,
+      4894677183
+    ],
+    "entry_node": 428957645,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "428957672": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      428957672,
+      428957674,
+      2761938312
+    ],
+    "entry_node": 428957672,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "12169044699": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2609877106,
+      12169044699,
+      11610864930
+    ],
+    "entry_node": 12169044699,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "443061940": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      443061938,
+      443061940,
+      443058325,
+      443061941,
+      443058331
+    ],
+    "entry_node": 443061940,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "443061980": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      443061976,
+      443061978,
+      2366161690,
+      443061980,
+      443061981,
+      443061982,
+      443061979
+    ],
+    "entry_node": 443061980,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "443062012": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      443062011,
+      443062012,
+      443062015
+    ],
+    "entry_node": 443062012,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "443141910": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      443141910,
+      443141912,
+      11087069929,
+      2815904106,
+      443141916,
+      443141917,
+      443141918
+    ],
+    "entry_node": 443141910,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "443496227": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      443496218,
+      443496227,
+      443496228
+    ],
+    "entry_node": 443496227,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "443624792": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      443624792,
+      2399601732,
+      443624790
+    ],
+    "entry_node": 443624792,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "447600220": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      447600219,
+      447600220,
+      8423571013
+    ],
+    "entry_node": 447600220,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "632725005": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3992573002,
+      632725004,
+      632725005
+    ],
+    "entry_node": 632725005,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "11813645206": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      3124554017,
+      366986577,
+      3124554069,
+      11813645206,
+      3124553495,
+      3124554133,
+      3124554074
+    ],
+    "entry_node": 11813645206,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2369352268": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2369352153,
+      2369352249,
+      10737357114,
+      10737357115,
+      2369352268
+    ],
+    "entry_node": 2369352268,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "462680994": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      462680994,
+      2760685012,
+      462680980
+    ],
+    "entry_node": 462680994,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "462683262": {
+    "type": "Residential",
+    "population_capacity": 150,
+    "members": [
+      462683745,
+      2760684993,
+      462685186,
+      2760685032,
+      462685211,
+      462685162,
+      2760685035,
+      462685195,
+      462685932,
+      2760684985,
+      462685204,
+      462685177,
+      462682747,
+      462683262,
+      462685183
+    ],
+    "entry_node": 462683262,
+    "exits_count": 1,
+    "member_count": 15
+  },
+  "464703349": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1276546272,
+      1276546273,
+      1276546276,
+      464703349,
+      12736286903,
+      464703359,
+      1276546271
+    ],
+    "entry_node": 464703349,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "464706518": {
+    "type": "Residential",
+    "population_capacity": 80,
+    "members": [
+      471185761,
+      464723137,
+      464722502,
+      464723144,
+      464722513,
+      471185748,
+      464706518,
+      471185756
+    ],
+    "entry_node": 464706518,
+    "exits_count": 1,
+    "member_count": 8
+  },
+  "1419125675": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1419125674,
+      1419125675,
+      1419125677
+    ],
+    "entry_node": 1419125675,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2760514506": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4592206956,
+      2760514506,
+      2760514500
+    ],
+    "entry_node": 2760514506,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1520506422": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1520506400,
+      1520506422,
+      1520506407
+    ],
+    "entry_node": 1520506422,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "496282465": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      496282465,
+      496282461,
+      496282462
+    ],
+    "entry_node": 496282465,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "499551723": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      499551723,
+      499551725,
+      11702489487
+    ],
+    "entry_node": 499551723,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "499551747": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8828260409,
+      499551747,
+      499551749
+    ],
+    "entry_node": 499551747,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "510613426": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      465236081,
+      510613426,
+      510613421
+    ],
+    "entry_node": 510613426,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "527824811": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      527824784,
+      527824811,
+      527824807
+    ],
+    "entry_node": 527824811,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "527824824": {
+    "type": "Residential",
+    "population_capacity": 150,
+    "members": [
+      527824832,
+      3816365924,
+      3816365927,
+      3816365948,
+      3816365934,
+      527824819,
+      2369219836,
+      3816365944,
+      3816365942,
+      3816365943,
+      527824824,
+      4691945108,
+      3816365946,
+      4691945107,
+      527824828
+    ],
+    "entry_node": 527824824,
+    "exits_count": 1,
+    "member_count": 15
+  },
+  "527838191": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      9074626948,
+      7998096132,
+      7998096136,
+      9074626953,
+      527838191,
+      7998096110,
+      7998096111
+    ],
+    "entry_node": 527838191,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "527838315": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      527838307,
+      527838312,
+      527838313,
+      527838315,
+      527838317,
+      2375495182,
+      2375495159,
+      2375495161,
+      527838333
+    ],
+    "entry_node": 527838315,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "528721686": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      528721690,
+      3791329309,
+      528721686
+    ],
+    "entry_node": 528721686,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "528721693": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      5555502400,
+      2375494805,
+      2375494809,
+      2375494858,
+      528721693
+    ],
+    "entry_node": 528721693,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "3730758551": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3730758553,
+      3730758549,
+      3730758551
+    ],
+    "entry_node": 3730758551,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "528733725": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      528733727,
+      528733725,
+      528733719
+    ],
+    "entry_node": 528733725,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "530807847": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      530807840,
+      4693810052,
+      530807845,
+      530807847,
+      530807832
+    ],
+    "entry_node": 530807847,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "9923629655": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      12990388017,
+      9923629658,
+      9923629655
+    ],
+    "entry_node": 9923629655,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "540962360": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      540962360,
+      1458484979,
+      1458484982,
+      540962358
+    ],
+    "entry_node": 540962360,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "1456228207": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      541012260,
+      541012268,
+      541012269,
+      1456228206,
+      1456228207
+    ],
+    "entry_node": 1456228207,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "552390260": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      552390260,
+      4810715677,
+      4810715676
+    ],
+    "entry_node": 552390260,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2375574659": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375574656,
+      2375574659,
+      2375574661
+    ],
+    "entry_node": 2375574659,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564908535": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      564908536,
+      3597709698,
+      564908535
+    ],
+    "entry_node": 564908535,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564453088": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      564453088,
+      564453072,
+      4907016421,
+      564453079,
+      564453096
+    ],
+    "entry_node": 564453088,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "564122805": {
+    "type": "Residential",
+    "population_capacity": 80,
+    "members": [
+      564122816,
+      564122818,
+      564122805,
+      564122808,
+      564122812,
+      564122813,
+      564122814,
+      564122815
+    ],
+    "entry_node": 564122805,
+    "exits_count": 1,
+    "member_count": 8
+  },
+  "560595399": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      810882180,
+      560595396,
+      560595398,
+      560595399,
+      560595402
+    ],
+    "entry_node": 560595399,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "560602879": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      560602896,
+      560602878,
+      560602879
+    ],
+    "entry_node": 560602879,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "560602883": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      560602883,
+      560602877,
+      560602902
+    ],
+    "entry_node": 560602883,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "563885197": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      563885200,
+      563885197,
+      563885198
+    ],
+    "entry_node": 563885197,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "563895167": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      563895169,
+      563895171,
+      563895167
+    ],
+    "entry_node": 563895167,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564159727": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4366817983,
+      4368868583,
+      564159727
+    ],
+    "entry_node": 564159727,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564502809": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      564502809,
+      6167117796,
+      8711012318
+    ],
+    "entry_node": 564502809,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "684995615": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3648064316,
+      564502982,
+      684995615
+    ],
+    "entry_node": 684995615,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564502996": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      564503109,
+      564502996,
+      564503005
+    ],
+    "entry_node": 564502996,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "564574188": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      564574256,
+      564574242,
+      564574244,
+      564574246,
+      564574188,
+      564574237,
+      564574239
+    ],
+    "entry_node": 564574188,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "581596574": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      581596514,
+      581596612,
+      8852620436,
+      581596521,
+      581596574
+    ],
+    "entry_node": 581596574,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "585345784": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      585345784,
+      3083200621,
+      665043693
+    ],
+    "entry_node": 585345784,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "600560539": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      600560537,
+      600560539,
+      9569904113
+    ],
+    "entry_node": 600560539,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "713064228": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4890712484,
+      4890712483,
+      713064228
+    ],
+    "entry_node": 713064228,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "606377549": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      606377547,
+      606377548,
+      606377549
+    ],
+    "entry_node": 606377549,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4896229793": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2373662617,
+      4896229793,
+      2991620156
+    ],
+    "entry_node": 4896229793,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2372266744": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      2372266744,
+      2372266905,
+      2372266618,
+      2372266599
+    ],
+    "entry_node": 2372266744,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "614649859": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      614649859,
+      614649845,
+      614649903
+    ],
+    "entry_node": 614649859,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "615600345": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      615600308,
+      615600343,
+      615600345,
+      615718717,
+      615600349
+    ],
+    "entry_node": 615600345,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "2377744011": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      631975642,
+      2377744011,
+      2377744007
+    ],
+    "entry_node": 2377744011,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "631975643": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      631975641,
+      631975643
+    ],
+    "entry_node": 631975643,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "631975651": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2377744017,
+      631975651,
+      631975658,
+      631975659,
+      631975660,
+      631975661,
+      631975662
+    ],
+    "entry_node": 631975651,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "4810715675": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4810715674,
+      4810715675,
+      552390271
+    ],
+    "entry_node": 4810715675,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2374907952": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2374907952,
+      2374907953,
+      2374907950
+    ],
+    "entry_node": 2374907952,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "654085514": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      654085514,
+      654085517,
+      654085519
+    ],
+    "entry_node": 654085514,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "665035439": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      665035437,
+      665035438,
+      665035439
+    ],
+    "entry_node": 665035439,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "665043702": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      665043702,
+      665043703
+    ],
+    "entry_node": 665043702,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "665537690": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5152933609,
+      665537690,
+      665537691
+    ],
+    "entry_node": 665537690,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "679413664": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      679413664,
+      4429994305,
+      386921362
+    ],
+    "entry_node": 679413664,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "684995602": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      684995602,
+      684995610,
+      684995628
+    ],
+    "entry_node": 684995602,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "688693295": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      688693298,
+      688693309,
+      688693295
+    ],
+    "entry_node": 688693295,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "984378597": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      984378594,
+      984378597,
+      984378583
+    ],
+    "entry_node": 984378597,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4523228294": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      4523228291,
+      4523228292,
+      4523228293,
+      4523228294
+    ],
+    "entry_node": 4523228294,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "689404353": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      689404353,
+      4523228301
+    ],
+    "entry_node": 689404353,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "690284066": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3743943129,
+      690284066,
+      690284077
+    ],
+    "entry_node": 690284066,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "696250101": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      696250337,
+      696250260,
+      696250101,
+      696250350,
+      696250191
+    ],
+    "entry_node": 696250101,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "696250107": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      696250306,
+      696250370,
+      696250107
+    ],
+    "entry_node": 696250107,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "696250172": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      696250330,
+      696250172,
+      696250181
+    ],
+    "entry_node": 696250172,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "696250235": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      696250378,
+      696250235,
+      696250327
+    ],
+    "entry_node": 696250235,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "701150709": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      701150547,
+      701150709,
+      9966337639
+    ],
+    "entry_node": 701150709,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "712555755": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      712555755,
+      712555684,
+      712555732
+    ],
+    "entry_node": 712555755,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "736979903": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      3546591138,
+      3546591139,
+      736979909,
+      736979915,
+      736979903
+    ],
+    "entry_node": 736979903,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "746555598": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      746555499,
+      746555598,
+      746555647
+    ],
+    "entry_node": 746555598,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "791435859": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      791435880,
+      792051074,
+      791435859
+    ],
+    "entry_node": 791435859,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "791456124": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      791456124,
+      791456116,
+      791456120
+    ],
+    "entry_node": 791456124,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "798843312": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      798843312,
+      843308020,
+      798843303
+    ],
+    "entry_node": 798843312,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "804647227": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      804647236,
+      8526371046,
+      666292982,
+      8526371050,
+      804647227,
+      1261265563,
+      1261265326
+    ],
+    "entry_node": 804647227,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "4889078015": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      810892697,
+      4889078014,
+      4889078015
+    ],
+    "entry_node": 4889078015,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "844862110": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9371350810,
+      9900999980,
+      844862110
+    ],
+    "entry_node": 844862110,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "844862165": {
+    "type": "Residential",
+    "population_capacity": 80,
+    "members": [
+      844862151,
+      844862119,
+      844862187,
+      844862188,
+      844862123,
+      844862191,
+      844862164,
+      844862165
+    ],
+    "entry_node": 844862165,
+    "exits_count": 1,
+    "member_count": 8
+  },
+  "844890061": {
+    "type": "Residential",
+    "population_capacity": 280,
+    "members": [
+      12724888323,
+      844890244,
+      696250121,
+      844889993,
+      844890061,
+      696250063,
+      1522514897,
+      844890196,
+      844890135,
+      696250137,
+      1522514906,
+      1522514907,
+      1522514908,
+      844890269,
+      1522514909,
+      844890078,
+      844890144,
+      1522514911,
+      1522514912,
+      844890080,
+      1522514917,
+      4690595370,
+      2611393834,
+      7501356847,
+      696250223,
+      4690595383,
+      844890106,
+      844890300
+    ],
+    "entry_node": 844890061,
+    "exits_count": 1,
+    "member_count": 28
+  },
+  "877556712": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      877556712,
+      877556857,
+      877556619
+    ],
+    "entry_node": 877556712,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4877134825": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2374684888,
+      4877134825,
+      4877134824
+    ],
+    "entry_node": 4877134825,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "912115749": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      912115752,
+      912115753,
+      912115749
+    ],
+    "entry_node": 912115749,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "938924427": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      938924432,
+      527734943,
+      938924423,
+      938924425,
+      938924427,
+      938924428,
+      938924431
+    ],
+    "entry_node": 938924427,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "944018302": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      944018297,
+      2418853486,
+      944018302
+    ],
+    "entry_node": 944018302,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "975699531": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      975699528,
+      975699531,
+      975699527
+    ],
+    "entry_node": 975699531,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "984378575": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      984378591,
+      984378564,
+      984378575
+    ],
+    "entry_node": 984378575,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "990221700": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      990221699,
+      990221700,
+      990221701
+    ],
+    "entry_node": 990221700,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407371201": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      2407371201,
+      3873042562,
+      1813017062,
+      4462619014,
+      4462619016,
+      2407371243,
+      7489114892,
+      3873039343,
+      3873039350
+    ],
+    "entry_node": 2407371201,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "1230016398": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1230016469,
+      1230016398,
+      450148207
+    ],
+    "entry_node": 1230016398,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1230016490": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1230016418,
+      1230016490,
+      1230016403
+    ],
+    "entry_node": 1230016490,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1230024639": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1230024639,
+      1230024626,
+      1230024566,
+      1230024569,
+      11308784317,
+      11308784318,
+      1230024591
+    ],
+    "entry_node": 1230024639,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "1230024586": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1230024577,
+      2375494998,
+      6795955993,
+      1230024586,
+      6795955998
+    ],
+    "entry_node": 1230024586,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1230024641": {
+    "type": "Residential",
+    "population_capacity": 100,
+    "members": [
+      1230024641,
+      1230024585,
+      1230024619,
+      7485858552,
+      6794990994,
+      3733711506,
+      2375494743,
+      1230024568,
+      1230024635,
+      1230024607
+    ],
+    "entry_node": 1230024641,
+    "exits_count": 1,
+    "member_count": 10
+  },
+  "2375494752": {
+    "type": "Residential",
+    "population_capacity": 60,
+    "members": [
+      2375494688,
+      2375494752,
+      2375494759,
+      2375494696,
+      2375494702,
+      1230024575
+    ],
+    "entry_node": 2375494752,
+    "exits_count": 1,
+    "member_count": 6
+  },
+  "1230024611": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1230024578,
+      1230024611,
+      1230024579
+    ],
+    "entry_node": 1230024611,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1260858669": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1260858713,
+      1260858669,
+      1260858631
+    ],
+    "entry_node": 1260858669,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "3022827752": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      3022827752,
+      242377496,
+      6303812,
+      242377512,
+      2771294716
+    ],
+    "entry_node": 3022827752,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1426962126": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2402696923,
+      1426962126,
+      150942190
+    ],
+    "entry_node": 1426962126,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1540692810": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1540692810,
+      3362510954,
+      1540692822
+    ],
+    "entry_node": 1540692810,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1276534172": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1276534291,
+      1276534172,
+      1276534141
+    ],
+    "entry_node": 1276534172,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1276542196": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1276542196,
+      1276542204,
+      1276542262,
+      1276542248,
+      1276542217,
+      1276542202,
+      5050788428
+    ],
+    "entry_node": 1276542196,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2375494741": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375494793,
+      2375494731,
+      2375494741
+    ],
+    "entry_node": 2375494741,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1276542240": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1276542240,
+      1276542209,
+      1276542260,
+      1276542261,
+      6837226555
+    ],
+    "entry_node": 1276542240,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "2375494807": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2375494786,
+      2375494807,
+      2375494822,
+      6837226551,
+      6837226550
+    ],
+    "entry_node": 2375494807,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1276545398": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1276545465,
+      1276545398,
+      1276545390
+    ],
+    "entry_node": 1276545398,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1276545476": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1276545443,
+      1276545411,
+      1276545476,
+      1276545413,
+      1276545430,
+      1276545467,
+      1276545454
+    ],
+    "entry_node": 1276545476,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "1287551315": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1287551315,
+      1287551308,
+      1287551365
+    ],
+    "entry_node": 1287551315,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1294005411": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2420620072,
+      2420620074,
+      1294005411
+    ],
+    "entry_node": 1294005411,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1420459578": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4877131808,
+      3566219926,
+      1426048935,
+      1306049161,
+      1420459578
+    ],
+    "entry_node": 1420459578,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1396428773": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4791118448,
+      10792385601,
+      1396428773
+    ],
+    "entry_node": 1396428773,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1400142683": {
+    "type": "Residential",
+    "population_capacity": 130,
+    "members": [
+      1400142754,
+      1400142755,
+      3527188100,
+      1400142693,
+      3527188101,
+      10980994658,
+      4658504395,
+      4658504398,
+      1400154649,
+      1401726228,
+      1401726232,
+      1400142745,
+      1400142683
+    ],
+    "entry_node": 1400142683,
+    "exits_count": 1,
+    "member_count": 13
+  },
+  "1400478607": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1400478608,
+      1400478609,
+      1400478607
+    ],
+    "entry_node": 1400478607,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2402865504": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2402865504,
+      2402865506,
+      2402865495,
+      2402865497,
+      2402865498,
+      2402865500,
+      2402865501
+    ],
+    "entry_node": 2402865504,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "6770186279": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6770201085,
+      6770186278,
+      6770186279
+    ],
+    "entry_node": 6770186279,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1426048770": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2421668785,
+      1426048770,
+      1426048771,
+      2374841832,
+      4790258809
+    ],
+    "entry_node": 1426048770,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1426960878": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1426960866,
+      1426960878,
+      1426960879
+    ],
+    "entry_node": 1426960878,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1426961626": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1426961670,
+      1426961641,
+      1426961626,
+      1426961694,
+      1426961711
+    ],
+    "entry_node": 1426961626,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1426961674": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      1426961731,
+      1426961668,
+      1426961684,
+      1426961608,
+      1426961674
+    ],
+    "entry_node": 1426961674,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1426962144": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1426962144,
+      1426962148,
+      1426962142
+    ],
+    "entry_node": 1426962144,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1427047586": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1427047586,
+      301806730,
+      1427047575
+    ],
+    "entry_node": 1427047586,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1427047643": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1427047643,
+      1427047646,
+      1427047647
+    ],
+    "entry_node": 1427047643,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1972193798": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      26413729,
+      1972193795,
+      26413731,
+      1972193798,
+      1432596751
+    ],
+    "entry_node": 1972193798,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "1432780746": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      241788480,
+      1432780746,
+      241788475
+    ],
+    "entry_node": 1432780746,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1505675853": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      599531427,
+      1505675852,
+      1505675853
+    ],
+    "entry_node": 1505675853,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1681734498": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1681734524,
+      1681734498,
+      245544332
+    ],
+    "entry_node": 1681734498,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2413705164": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      1509380176,
+      1509380193,
+      1509380179,
+      3675638692,
+      12074783477,
+      1509380199,
+      2413705164
+    ],
+    "entry_node": 2413705164,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "1517664472": {
+    "type": "Residential",
+    "population_capacity": 150,
+    "members": [
+      26413600,
+      2601598818,
+      1517664486,
+      2414006920,
+      2414006923,
+      1517664461,
+      241022094,
+      1509389071,
+      1517664496,
+      1517664493,
+      1509389074,
+      1517664467,
+      1517664501,
+      1517664472,
+      1517664505
+    ],
+    "entry_node": 1517664472,
+    "exits_count": 1,
+    "member_count": 15
+  },
+  "1521661157": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8663552530,
+      8663552531,
+      1521661157
+    ],
+    "entry_node": 1521661157,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1529906850": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1529906849,
+      1529906850,
+      1529891630
+    ],
+    "entry_node": 1529906850,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "7447484479": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      7447484480,
+      7447484472,
+      7447484475,
+      7447484476,
+      7447484477,
+      1529891758,
+      7447484479
+    ],
+    "entry_node": 7447484479,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "3893724869": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1529906865,
+      3893724868,
+      3893724869
+    ],
+    "entry_node": 3893724869,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1532675881": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1532675881,
+      1532675883,
+      1532675879
+    ],
+    "entry_node": 1532675881,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1707034218": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1707034210,
+      9955211362,
+      1707034218
+    ],
+    "entry_node": 1707034218,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407384740": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      530802968,
+      2407384746,
+      2407384740,
+      1727146624
+    ],
+    "entry_node": 2407384740,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "4403616247": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      2407379264,
+      4462619012,
+      2407375225,
+      4403616247,
+      2407375176,
+      2407379273,
+      2407375223
+    ],
+    "entry_node": 4403616247,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "4359234303": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4359234304,
+      4359234302,
+      4359234303
+    ],
+    "entry_node": 4359234303,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407371374": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1813017115,
+      2407371374,
+      1813017039
+    ],
+    "entry_node": 2407371374,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1813017098": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      1813017064,
+      1813017065,
+      1813017098,
+      7489054156,
+      2433060333,
+      1813017037,
+      1813017100,
+      2407397070,
+      1813017045,
+      1813017049,
+      2433060349
+    ],
+    "entry_node": 1813017098,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "1813017106": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2407379241,
+      1813017106,
+      2407379260
+    ],
+    "entry_node": 1813017106,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "1813017082": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      1813017024,
+      1813017082,
+      10052486640
+    ],
+    "entry_node": 1813017082,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407371207": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2407371188,
+      2407371207,
+      2407371273,
+      11913900365,
+      2407371310
+    ],
+    "entry_node": 2407371207,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "2407397071": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2407397034,
+      2407397046,
+      2407397071
+    ],
+    "entry_node": 2407397071,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2035250506": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      2035250531,
+      2035250532,
+      2035250536,
+      2035250506,
+      2035250511,
+      2035250544,
+      2035250549,
+      2035250551,
+      2035250554
+    ],
+    "entry_node": 2035250506,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "2035264077": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2628719080,
+      2035264077,
+      2035264071
+    ],
+    "entry_node": 2035264077,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2370348802": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2121586376,
+      2370348802,
+      2370349155
+    ],
+    "entry_node": 2370348802,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2136737707": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2136737706,
+      2136737707,
+      2136737709
+    ],
+    "entry_node": 2136737707,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2363181020": {
+    "type": "Residential",
+    "population_capacity": 150,
+    "members": [
+      2583580768,
+      2583580771,
+      2583580773,
+      2583580774,
+      2363180976,
+      2583580817,
+      2363180978,
+      2583580786,
+      2363181012,
+      2363180980,
+      2583580816,
+      2583580819,
+      2583580792,
+      2363181020,
+      2363181022
+    ],
+    "entry_node": 2363181020,
+    "exits_count": 1,
+    "member_count": 15
+  },
+  "10738079262": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      10738079282,
+      10738079261,
+      10738079262
+    ],
+    "entry_node": 10738079262,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2373662590": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2373662630,
+      2373662701,
+      2373662590
+    ],
+    "entry_node": 2373662590,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "11181068360": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      11181068360,
+      2373662665,
+      11181068354
+    ],
+    "entry_node": 11181068360,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2373707764": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2373707764,
+      2373707589,
+      2373707414
+    ],
+    "entry_node": 2373707764,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2373794075": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2373794184,
+      2373794075,
+      2373794109
+    ],
+    "entry_node": 2373794075,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2374842020": {
+    "type": "Residential",
+    "population_capacity": 60,
+    "members": [
+      2374842032,
+      2374841890,
+      2374841938,
+      2374842020,
+      2374842003,
+      2374841958
+    ],
+    "entry_node": 2374842020,
+    "exits_count": 1,
+    "member_count": 6
+  },
+  "2375345624": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375345624,
+      2375345633,
+      2375345642
+    ],
+    "entry_node": 2375345624,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2375494710": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375494705,
+      5686954804,
+      2375494710
+    ],
+    "entry_node": 2375494710,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2375515846": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375515843,
+      2375515853,
+      2375515846
+    ],
+    "entry_node": 2375515846,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2375574704": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2375574704,
+      2375574705,
+      2375574703
+    ],
+    "entry_node": 2375574704,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2377422599": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      10827431900,
+      13002962542,
+      2377422599
+    ],
+    "entry_node": 2377422599,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2381271696": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2381271696,
+      2381271737,
+      2381271748
+    ],
+    "entry_node": 2381271696,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2399584165": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2399584192,
+      2399584162,
+      2399584165
+    ],
+    "entry_node": 2399584165,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2399601667": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2399601665,
+      2399601667,
+      2399601668
+    ],
+    "entry_node": 2399601667,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2401021704": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2401021704,
+      2401021698,
+      2401021714
+    ],
+    "entry_node": 2401021704,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2401021707": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2401021707,
+      2401021725,
+      2401021703
+    ],
+    "entry_node": 2401021707,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2494582371": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2494582360,
+      2494582371,
+      2406494655
+    ],
+    "entry_node": 2494582371,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2494582378": {
+    "type": "Residential",
+    "population_capacity": 80,
+    "members": [
+      2406494725,
+      2494582378,
+      2494582348,
+      2494582355,
+      2494582356,
+      2494582358,
+      6834528473,
+      6834528474
+    ],
+    "entry_node": 2494582378,
+    "exits_count": 1,
+    "member_count": 8
+  },
+  "2494582350": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      3135862496,
+      2494582369,
+      3135862495,
+      2406494679,
+      2494582350,
+      2494582382,
+      2494582383
+    ],
+    "entry_node": 2494582350,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "2494582412": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      266996649,
+      2494582418,
+      2494582412
+    ],
+    "entry_node": 2494582412,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407384731": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6219917377,
+      6219917378,
+      2407384731
+    ],
+    "entry_node": 2407384731,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407397039": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2407397056,
+      2407397073,
+      2407397039
+    ],
+    "entry_node": 2407397039,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2407408309": {
+    "type": "Residential",
+    "population_capacity": 20,
+    "members": [
+      2407410658,
+      2407408309
+    ],
+    "entry_node": 2407408309,
+    "exits_count": 1,
+    "member_count": 2
+  },
+  "2407410636": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2407410659,
+      2407410636,
+      2407410671
+    ],
+    "entry_node": 2407410636,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2425181675": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2425181707,
+      2425181675,
+      2425181821
+    ],
+    "entry_node": 2425181675,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2438127973": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2438127987,
+      2438127973,
+      2438127974
+    ],
+    "entry_node": 2438127973,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2438127986": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2438127993,
+      2438127986,
+      2438127988
+    ],
+    "entry_node": 2438127986,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2494907011": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2494907011,
+      2494907005,
+      2494907014
+    ],
+    "entry_node": 2494907011,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2685293229": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      2494907040,
+      2685293248,
+      2494907034,
+      2494907036,
+      2685293229
+    ],
+    "entry_node": 2685293229,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "2650635544": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2650635544,
+      2650635459,
+      2650635556
+    ],
+    "entry_node": 2650635544,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4658435468": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4658435468,
+      4658435469,
+      2661337439
+    ],
+    "entry_node": 4658435468,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "5414223032": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5414223032,
+      8930790153,
+      8930790154
+    ],
+    "entry_node": 5414223032,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2685293218": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2685293218,
+      2685293235,
+      2685293238
+    ],
+    "entry_node": 2685293218,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2685561281": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2685561281,
+      111887499,
+      60160916
+    ],
+    "entry_node": 2685561281,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2686926165": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2686926146,
+      2686926165,
+      2686926186
+    ],
+    "entry_node": 2686926165,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2687087362": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2687087354,
+      2687087362,
+      2687087370
+    ],
+    "entry_node": 2687087362,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2696353636": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2696353648,
+      2696353641,
+      2696353636
+    ],
+    "entry_node": 2696353636,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2761848581": {
+    "type": "Residential",
+    "population_capacity": 110,
+    "members": [
+      11473291488,
+      2761848610,
+      2761848581,
+      2761848645,
+      2761848619,
+      2761848623,
+      4704541008,
+      4704541009,
+      4759092688,
+      4759092689,
+      2761848671
+    ],
+    "entry_node": 2761848581,
+    "exits_count": 1,
+    "member_count": 11
+  },
+  "2761848690": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2761848681,
+      2761848690,
+      2761848692
+    ],
+    "entry_node": 2761848690,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2773991782": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2773991784,
+      2773991777,
+      2773991782
+    ],
+    "entry_node": 2773991782,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2815898070": {
+    "type": "Residential",
+    "population_capacity": 100,
+    "members": [
+      2815898049,
+      2815898055,
+      2815898032,
+      2815898065,
+      2815898037,
+      2815898070,
+      2815898041,
+      2815898044,
+      2815898076,
+      10958463743
+    ],
+    "entry_node": 2815898070,
+    "exits_count": 1,
+    "member_count": 10
+  },
+  "2893532907": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2893532051,
+      2893532069,
+      2893532907
+    ],
+    "entry_node": 2893532907,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2968909886": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2968909880,
+      2968909888,
+      2968909886
+    ],
+    "entry_node": 2968909886,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "2992704544": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      2992704544,
+      2992704546,
+      2992704543
+    ],
+    "entry_node": 2992704544,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "12017537936": {
+    "type": "Residential",
+    "population_capacity": 90,
+    "members": [
+      12017537920,
+      12017537921,
+      12017537930,
+      12017537936,
+      12017537942,
+      12017537943,
+      12017537913,
+      12017537915,
+      12017537919
+    ],
+    "entry_node": 12017537936,
+    "exits_count": 1,
+    "member_count": 9
+  },
+  "3380016793": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3380016793,
+      4893981818,
+      4893981819
+    ],
+    "entry_node": 3380016793,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4385352722": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      4385352720,
+      4385352721,
+      4385352722,
+      4385352723,
+      4385352724,
+      4385352725,
+      4385352718
+    ],
+    "entry_node": 4385352722,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "3479251624": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3479251624,
+      3479251625,
+      3479251623
+    ],
+    "entry_node": 3479251624,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "3772620521": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3772620521,
+      4845978394,
+      4845978393
+    ],
+    "entry_node": 3772620521,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4892983452": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4892983452,
+      3650706797,
+      4892983453
+    ],
+    "entry_node": 4892983452,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "3780699305": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      3780699305,
+      9042610506,
+      6985951805
+    ],
+    "entry_node": 3780699305,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "8914804859": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8914804857,
+      8914804858,
+      8914804859
+    ],
+    "entry_node": 8914804859,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "6072020736": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6072020736,
+      6072020737,
+      12195006638
+    ],
+    "entry_node": 6072020736,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4345536925": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5161022181,
+      6072020747,
+      4345536925
+    ],
+    "entry_node": 4345536925,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4523228151": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4523228149,
+      4523228150,
+      4523228151
+    ],
+    "entry_node": 4523228151,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4523236212": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      4523236208,
+      4523236209,
+      4523236212,
+      4523236199,
+      4523236204
+    ],
+    "entry_node": 4523236212,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "4833188899": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      4833188898,
+      4833188899,
+      4833188900
+    ],
+    "entry_node": 4833188899,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "4935194551": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      7503974617,
+      9810435319,
+      4935194551
+    ],
+    "entry_node": 4935194551,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "8477261062": {
+    "type": "Residential",
+    "population_capacity": 70,
+    "members": [
+      6823943412,
+      8477261061,
+      8477261062,
+      6823943401,
+      6823943402,
+      8477261066,
+      7694125519
+    ],
+    "entry_node": 8477261062,
+    "exits_count": 1,
+    "member_count": 7
+  },
+  "7866674301": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      7866674301,
+      5371575821,
+      7866674302
+    ],
+    "entry_node": 7866674301,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "5419193406": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5419193403,
+      5419193405,
+      5419193406
+    ],
+    "entry_node": 5419193406,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "5419464446": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5419464444,
+      5419464445,
+      5419464446
+    ],
+    "entry_node": 5419464446,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "5543790674": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      5543790674,
+      5543790677,
+      5543790678
+    ],
+    "entry_node": 5543790674,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "5659457202": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      5659457202,
+      259594852,
+      259594853,
+      259594843,
+      259594845
+    ],
+    "entry_node": 5659457202,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "6571063116": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      6571063122,
+      6571063127,
+      6571063128,
+      6571063129,
+      6571063116
+    ],
+    "entry_node": 6571063116,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "6988403055": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      6988403056,
+      6988403051,
+      6988403055
+    ],
+    "entry_node": 6988403055,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "7071749512": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      7071749512,
+      10815354140,
+      7071749534
+    ],
+    "entry_node": 7071749512,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "7500962800": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      7500962800,
+      7500962801,
+      7500962798
+    ],
+    "entry_node": 7500962800,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "7678814744": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      7678814744,
+      7678814741,
+      7678814743
+    ],
+    "entry_node": 7678814744,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "7941635755": {
+    "type": "Residential",
+    "population_capacity": 40,
+    "members": [
+      12312492568,
+      7941635761,
+      7941635755,
+      7941635757
+    ],
+    "entry_node": 7941635755,
+    "exits_count": 1,
+    "member_count": 4
+  },
+  "12905886497": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      12905886497,
+      12905904514,
+      12905886500,
+      12905904506,
+      9861279002
+    ],
+    "entry_node": 12905886497,
+    "exits_count": 1,
+    "member_count": 5
+  },
+  "8066331615": {
+    "type": "Residential",
+    "population_capacity": 130,
+    "members": [
+      8066331616,
+      8066331619,
+      8066331620,
+      8066331621,
+      8066331623,
+      11548015858,
+      11548015859,
+      9161587731,
+      9161587734,
+      9161587736,
+      8066331615,
+      8066331613,
+      11548015839
+    ],
+    "entry_node": 8066331615,
+    "exits_count": 1,
+    "member_count": 13
+  },
+  "8078046601": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8078046601,
+      8078046602,
+      8078046603
+    ],
+    "entry_node": 8078046601,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "8439700856": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8439700856,
+      8439708059,
+      8439708060
+    ],
+    "entry_node": 8439700856,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "11845573450": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      11845573456,
+      8668935602,
+      11845573450
+    ],
+    "entry_node": 11845573450,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "8733023794": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      8733023794,
+      8733023782,
+      8733023791
+    ],
+    "entry_node": 8733023794,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "9947780092": {
+    "type": "Residential",
+    "population_capacity": 30,
+    "members": [
+      9947780089,
+      9947780090,
+      9947780092
+    ],
+    "entry_node": 9947780092,
+    "exits_count": 1,
+    "member_count": 3
+  },
+  "10297422385": {
+    "type": "Residential",
+    "population_capacity": 50,
+    "members": [
+      10297422384,
+      10297422385,
+      11836683916,
+      10297422382,
+      10297422383
+    ],
+    "entry_node": 10297422385,
+    "exits_count": 1,
+    "member_count": 5
+  }
+}
