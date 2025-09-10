@@ -76,7 +76,7 @@ def main():
     
     # Step 6: Assign population capacity with enhanced business support
     print("👥 Assigning population capacity...")
-    census_path = Path("data/raw/census/population_small_area_2022.json")
+    census_path = Path("data/raw/census/population_small_area_2022.px")
     if census_path.exists():
         print("   Using census data for population assignment...")
         G = assign_population_capacity_enhanced(G, census_path)

@@ -9,6 +9,7 @@ from .super_nodes import detect_supernodes, collapse_supernodes, detect_and_cach
 from .categories import assign_categories_to_nodes, assign_categories_enhanced
 from .junctions import annotate_junctions
 from .population import assign_population_capacity, assign_population_capacity_enhanced, get_population_summary
+from .places import detect_office_sinks
 
 app = typer.Typer(help="Traffic modelling CLI")
 
@@ -164,6 +165,7 @@ def map_command(
     census_path: Path = typer.Option(None, help="Path to census data file (JSON, Excel)"),
     time_of_day: str = typer.Option("day", help="Time of day for demand scaling: morning, day, evening, night"),
     force_supernodes: bool = typer.Option(False, help="Force recomputation of supernodes"),
+    force_traffic_lights: bool = typer.Option(False, help="Force recomputation of traffic lights"),
     use_osm_pois: bool = typer.Option(True, help="Use OSM POI data for enhanced category detection"),
     use_google_places: bool = typer.Option(True, help="Use Google Places API for business detection"),
     use_heuristics: bool = typer.Option(True, help="Use fallback heuristics for business detection"),
@@ -180,8 +182,8 @@ def map_command(
     
     # Detect traffic lights
     typer.echo("Detecting traffic lights...")
-    from .traffic_lights import detect_traffic_lights
-    G = detect_traffic_lights(G, place)
+    from .traffic_lights import detect_and_cache_traffic_lights
+    G = detect_and_cache_traffic_lights(G, place, force_recompute=force_traffic_lights)
     
     # Save edges with capacity if requested
     if edges_csv:
@@ -197,6 +199,11 @@ def map_command(
     typer.echo("Classifying nodes by category...")
     G = assign_categories_enhanced(G, place, use_osm=use_osm_pois, use_google=use_google_places, use_heuristics=use_heuristics)
     
+    # Detect office sinks if Google Places is enabled
+    if use_google_places:
+        typer.echo("Detecting office sinks...")
+        G = detect_office_sinks(G, place)
+    
     # Annotate junctions with efficiency
     typer.echo("Computing junction efficiency...")
     G = annotate_junctions(G)
@@ -208,8 +215,11 @@ def map_command(
         if census_path:
             G = assign_population_capacity_enhanced(G, census_path)
         else:
-            # Try default census path
-            default_census = Path("data/raw/census/population_small_area_2022.json")
+            # Try default census path (prefer .px file over .json)
+            default_census = Path("data/raw/census/population_small_area_2022.px")
+            if not default_census.exists():
+                # Fallback to JSON file if .px doesn't exist
+                default_census = Path("data/raw/census/population_small_area_2022.json")
             if default_census.exists():
                 typer.echo("Using default census data...")
                 G = assign_population_capacity_enhanced(G, default_census)

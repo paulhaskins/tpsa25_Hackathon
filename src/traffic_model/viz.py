@@ -58,17 +58,24 @@ def _color_from_value(v: float, vmin: float, vmax: float) -> str:
     return f"#{r:02x}{g:02x}{b:02x}"
 
 
+# Unified color mapping for all object types
+COLORS = {
+    'supernode': '#3B82F6',    # blue
+    'junction': '#F59E0B',     # amber
+    'source': '#10B981',       # emerald/green
+    'sink': '#EF4444',         # red
+    # Legacy category colors for backward compatibility
+    'Residential': '#10B981',  # emerald/green (sources)
+    'Business': '#EF4444',     # red (sinks)
+    'School': '#9370DB',       # Medium purple (education)
+    'Hospital': '#DC143C',     # Crimson (healthcare)
+    'Transport': '#F59E0B',    # amber (junctions)
+    'Other': '#808080'         # Gray (other)
+}
+
 def _get_category_color(category: str) -> str:
-    """Get color for node category (OpenStreetMap standard colors)."""
-    color_map = {
-        'Residential': '#87CEEB',      # Sky blue (residential areas)
-        'Business': '#32CD32',         # Lime green (commercial)
-        'School': '#9370DB',           # Medium purple (education)
-        'Hospital': '#DC143C',         # Crimson (healthcare)
-        'Transport': '#FF8C00',        # Dark orange (transportation)
-        'Other': '#808080'             # Gray (other)
-    }
-    return color_map.get(category, '#808080')
+    """Get color for node category using unified color mapping."""
+    return COLORS.get(category, COLORS['Other'])
 
 
 def _scale_marker_radius(capacity: float, time_of_day: str = "day", category: str = "Other") -> float:
@@ -86,19 +93,17 @@ def _scale_marker_radius(capacity: float, time_of_day: str = "day", category: st
 
 
 def _add_legend_to_map(fmap: folium.Map) -> None:
-    """Add a legend to the map showing category colors (updated color scheme)."""
+    """Add a legend to the map showing object type colors (bottom-right positioned)."""
     legend_html = '''
     <div style="position: fixed; 
-                bottom: 50px; left: 50px; width: 200px; height: 140px; 
+                bottom: 50px; right: 50px; width: 180px; height: 120px; 
                 background-color: white; border:2px solid grey; z-index:9999; 
-                font-size:14px; padding: 10px">
-    <p><b>Node Categories</b></p>
-    <p><i class="fa fa-circle" style="color:blue"></i> Residential</p>
-    <p><i class="fa fa-circle" style="color:red"></i> Business</p>
-    <p><i class="fa fa-circle" style="color:green"></i> School</p>
-    <p><i class="fa fa-circle" style="color:purple"></i> Hospital</p>
-    <p><i class="fa fa-circle" style="color:orange"></i> Transport</p>
-    <p><i class="fa fa-circle" style="color:gray"></i> Other</p>
+                font-size:12px; padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.2)">
+    <p style="margin: 0 0 8px 0; font-weight: bold; text-align: center;">Object Types</p>
+    <p style="margin: 2px 0;"><i class="fa fa-circle" style="color:#3B82F6"></i> Supernode</p>
+    <p style="margin: 2px 0;"><i class="fa fa-circle" style="color:#F59E0B"></i> Junction</p>
+    <p style="margin: 2px 0;"><i class="fa fa-circle" style="color:#10B981"></i> Source</p>
+    <p style="margin: 2px 0;"><i class="fa fa-circle" style="color:#EF4444"></i> Sink</p>
     </div>
     '''
     fmap.get_root().html.add_child(folium.Element(legend_html))
@@ -126,10 +131,27 @@ def _add_choropleth_layer(fmap: folium.Map, census_data_path: Path) -> bool:
             else:
                 return False
         elif census_data_path.suffix.lower() in ['.geojson', '.json']:
+            # Check if it's a JSON-stat file by looking for the "class" field
             try:
-                gdf = gpd.read_file(census_data_path)
+                import json
+                with open(census_data_path, 'r') as f:
+                    first_chars = f.read(100)
+                    if '"class":"dataset"' in first_chars:
+                        # This is a JSON-stat file, use the population loading function
+                        from .population import load_census_data
+                        boundaries_path = census_data_path.parent / "small_area_boundaries_2022.geojson"
+                        if boundaries_path.exists():
+                            gdf = load_census_data(census_data_path, boundaries_path)
+                            if gdf is None:
+                                return False
+                        else:
+                            print(f"Info: Boundaries file not found: {boundaries_path}")
+                            return False
+                    else:
+                        # This is a regular GeoJSON file
+                        gdf = gpd.read_file(census_data_path)
             except Exception as e:
-                print(f"Info: Could not read census data file as GeoJSON (expected for demo data): {e}")
+                print(f"Info: Could not read census data file: {e}")
                 return False
         elif census_data_path.suffix.lower() == '.px':
             # For .px files, use the population loading function
@@ -171,7 +193,8 @@ def _add_choropleth_layer(fmap: folium.Map, census_data_path: Path) -> bool:
             id_col = 'id'
         
         # Add choropleth directly to the map (not to a FeatureGroup)
-        folium.Choropleth(
+        # Make it non-interactive to avoid blocking clicks on other layers
+        choropleth = folium.Choropleth(
             geo_data=gdf.to_json(),
             data=gdf,
             columns=[id_col, pop_col],
@@ -181,7 +204,19 @@ def _add_choropleth_layer(fmap: folium.Map, census_data_path: Path) -> bool:
             line_opacity=0.2,
             legend_name=f'Population {pop_col}',
             name='Population Density'
-        ).add_to(fmap)
+        )
+        
+        # Add custom CSS to make choropleth non-interactive
+        choropleth_html = """
+        <style>
+        .leaflet-interactive {
+            pointer-events: none !important;
+        }
+        </style>
+        """
+        fmap.get_root().html.add_child(folium.Element(choropleth_html))
+        
+        choropleth.add_to(fmap)
         
         return True
     except ImportError:
@@ -442,25 +477,15 @@ def _supernode_tooltip_text(n: Any, d: Dict[str, Any]) -> str:
 
 
 def _supernode_popup_html(n: Any, d: Dict[str, Any]) -> str:
+    """Create clean popup for supernode objects."""
     import html
     
     name = d.get("name") or str(n)
     stats = d.get("stats") or {}
     member_count = stats.get("member_count", 0)
-    occ = stats.get("occupation")
-    occ_str = "N/A" if occ is None else f"{int(occ)} (approx.)"
-    flows = stats.get("flows", {})
-    def fmt(bin_name: str) -> str:
-        v = flows.get(bin_name)
-        return "N/A" if v is None else str(int(round(float(v))))
-    pop = d.get("source_population")
-    dens = d.get("source_density")
-    sink_m = d.get("sink_attraction_morning")
-    sink_d = d.get("sink_attraction_day")
-    sink_e = d.get("sink_attraction_evening")
-    sink_n = d.get("sink_attraction_night")
-    pop_str = "N/A" if pop is None else str(int(round(float(pop))))
-    dens_str = "N/A" if dens is None else f"{float(dens):.1f} / km²"
+    
+    # Get exits count (1 or 2)
+    exits_count = d.get("exits_count", 1)
     
     # Population capacity and demand profile
     pop_capacity = d.get("population_capacity")
@@ -479,84 +504,149 @@ def _supernode_popup_html(n: Any, d: Dict[str, Any]) -> str:
     # Category
     category = d.get("category", "Unknown")
     
-    # Business-specific information
-    business_name = "N/A"
-    business_type = "N/A"
-    person_capacity = "N/A"
+    # Tags summary
+    tags_summary = []
+    for key, value in d.items():
+        if key not in ['x', 'y', 'lat', 'lon', 'is_supernode', 'members', 'population_capacity', 'demand_profile', 'category', 'stats']:
+            if isinstance(value, (str, int, float)) and len(str(value)) < 50:
+                tags_summary.append(f"{key}: {value}")
     
-    if category == "Business":
-        # Try to get business name from various OSM tags (prioritize brand and name)
-        business_name = (d.get("name") or 
-                        d.get("brand") or 
-                        d.get("operator") or 
-                        d.get("shop") or 
-                        d.get("amenity") or 
-                        d.get("office") or 
-                        "Unknown Business")
-        
-        # Get business type
-        business_type = (d.get("shop") or 
-                        d.get("amenity") or 
-                        d.get("office") or 
-                        d.get("landuse") or 
-                        d.get("google_place_type") or 
-                        "Business")
-        
-        # Person capacity (employees + visitors)
-        if pop_capacity is not None:
-            person_capacity = str(int(round(float(pop_capacity))))
+    tags_str = ", ".join(tags_summary[:3]) if tags_summary else "None"
+    if len(tags_summary) > 3:
+        tags_str += "..."
     
-    # Expected flows (if present)
-    exp_out_m = d.get("expected_outflow_Morning") or d.get("expected_outflow_morning")
-    exp_in_m = d.get("expected_inflow_Morning") or d.get("expected_inflow_morning")
-    exp_out_d = d.get("expected_outflow_Day") or d.get("expected_outflow_day")
-    exp_in_d = d.get("expected_inflow_Day") or d.get("expected_inflow_day")
-    exp_out_e = d.get("expected_outflow_Evening") or d.get("expected_outflow_evening")
-    exp_in_e = d.get("expected_inflow_Evening") or d.get("expected_inflow_evening")
-    exp_out_n = d.get("expected_outflow_Night") or d.get("expected_outflow_night")
-    exp_in_n = d.get("expected_inflow_Night") or d.get("expected_inflow_night")
-    def fmt_flow(v: Any) -> str:
-        return "N/A" if v is None else str(int(round(float(v))))
     # Create clean, formatted popup content
-    popup_content = f"""
-    <div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4;">
-        <h3 style="margin: 0 0 8px 0; color: #2c3e50;">{html.escape(str(n))}</h3>
-        <p style="margin: 4px 0;"><strong>Category:</strong> {category}</p>
-        <p style="margin: 4px 0;"><strong>Population Capacity:</strong> {pop_capacity_str}</p>
-        <p style="margin: 4px 0;"><strong>Demand Profile:</strong> {demand_str}</p>
-    """
-    
-    # Add business-specific information if it's a business node
-    if category == "Business":
-        popup_content += f"""
-        <hr style="margin: 8px 0; border: none; border-top: 1px solid #ddd;">
-        <p style="margin: 4px 0;"><strong>Business Name:</strong> {html.escape(str(business_name))}</p>
-        <p style="margin: 4px 0;"><strong>Business Type:</strong> {html.escape(str(business_type))}</p>
-        <p style="margin: 4px 0;"><strong>Person Capacity:</strong> {html.escape(str(person_capacity))}</p>
-        """
-    
-    # Add flow information
-    popup_content += f"""
-        <hr style="margin: 8px 0; border: none; border-top: 1px solid #ddd;">
-        <p style="margin: 4px 0;"><strong>Flow/hr (AM):</strong> {fmt('Morning rush')}</p>
-        <p style="margin: 4px 0;"><strong>Flow/hr (Day):</strong> {fmt('Day')}</p>
-        <p style="margin: 4px 0;"><strong>Flow/hr (PM):</strong> {fmt('Evening rush')}</p>
-        <p style="margin: 4px 0;"><strong>Flow/hr (Night):</strong> {fmt('Night')}</p>
-    """
-    
-    # Add member count if it's a supernode
-    if member_count > 0:
-        popup_content += f"""
-        <p style="margin: 4px 0;"><strong>Member Count:</strong> {member_count}</p>
-        """
-    
-    popup_content += "</div>"
+    popup_content = f"""<div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; max-width: 280px;">
+<h3 style="margin: 0 0 8px 0; color: #2c3e50; font-size: 14px;">{html.escape(str(name))}</h3>
+<div style="background-color: #f8f9fa; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+<p style="margin: 2px 0;"><strong>Type:</strong> Supernode</p>
+<p style="margin: 2px 0;"><strong>Exits:</strong> {exits_count}</p>
+<p style="margin: 2px 0;"><strong>Members:</strong> {member_count}</p>
+</div>
+<p style="margin: 4px 0;"><strong>Category:</strong> {category}</p>
+<p style="margin: 4px 0;"><strong>Population Capacity:</strong> {pop_capacity_str}</p>
+<p style="margin: 4px 0;"><strong>Demand Profile:</strong> {demand_str}</p>
+<p style="margin: 4px 0;"><strong>Tags:</strong> {html.escape(tags_str)}</p>
+</div>"""
     
     return popup_content
 
 
+def _create_supernode_popup(n: Any, d: Dict[str, Any]) -> folium.Popup:
+    """Create a folium popup for supernode objects."""
+    html_content = _supernode_popup_html(n, d)
+    return folium.Popup(folium.Html(html_content, script=True), max_width=350)
+
+
+def _junction_popup_html(node_id: Any, node_data: Dict[str, Any]) -> str:
+    """Create clean popup for junction objects."""
+    import html
+    
+    degree = node_data.get('degree', 0)
+    has_traffic_light = node_data.get('has_traffic_light', False)
+    efficiency = node_data.get('efficiency', 1.0)
+    
+    traffic_light_text = "Yes" if has_traffic_light else "No"
+    efficiency_text = f"{efficiency:.2f}" if efficiency is not None else "N/A"
+    
+    popup_content = f"""<div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; max-width: 280px;">
+<h3 style="margin: 0 0 8px 0; color: #2c3e50; font-size: 14px;">Junction {html.escape(str(node_id))}</h3>
+<div style="background-color: #f8f9fa; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+<p style="margin: 2px 0;"><strong>Type:</strong> Junction</p>
+<p style="margin: 2px 0;"><strong>Degree:</strong> {degree}</p>
+<p style="margin: 2px 0;"><strong>Traffic Light:</strong> {traffic_light_text}</p>
+<p style="margin: 2px 0;"><strong>Efficiency:</strong> {efficiency_text}</p>
+</div>
+</div>"""
+    
+    return popup_content
+
+
+def _create_junction_popup(node_id: Any, node_data: Dict[str, Any]) -> folium.Popup:
+    """Create a folium popup for junction objects."""
+    html_content = _junction_popup_html(node_id, node_data)
+    return folium.Popup(folium.Html(html_content, script=True), max_width=300)
+
+
+def _source_popup_html(node_id: Any, node_data: Dict[str, Any]) -> str:
+    """Create clean popup for source objects."""
+    import html
+    
+    pop_capacity = node_data.get('population_capacity', 0)
+    demand_profile = node_data.get('demand_profile', {})
+    
+    demand_str = "N/A"
+    if demand_profile:
+        demand_parts = []
+        for time_period, factor in demand_profile.items():
+            if isinstance(factor, (int, float)):
+                demand_parts.append(f"{time_period}: {factor:.1f}")
+        if demand_parts:
+            demand_str = ", ".join(demand_parts)
+    
+    popup_content = f"""<div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; max-width: 280px;">
+<h3 style="margin: 0 0 8px 0; color: #2c3e50; font-size: 14px;">Source {html.escape(str(node_id))}</h3>
+<div style="background-color: #f8f9fa; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+<p style="margin: 2px 0;"><strong>Type:</strong> Source (Residential)</p>
+<p style="margin: 2px 0;"><strong>Population Capacity:</strong> {pop_capacity}</p>
+<p style="margin: 2px 0;"><strong>Demand Profile:</strong> {demand_str}</p>
+</div>
+</div>"""
+    
+    return popup_content
+
+
+def _create_source_popup(node_id: Any, node_data: Dict[str, Any]) -> folium.Popup:
+    """Create a folium popup for source objects."""
+    html_content = _source_popup_html(node_id, node_data)
+    return folium.Popup(folium.Html(html_content, script=True), max_width=300)
+
+
+def _sink_popup_html(node_id: Any, node_data: Dict[str, Any]) -> str:
+    """Create clean popup for sink objects."""
+    import html
+    
+    office_name = node_data.get('name') or node_data.get('business_name', 'Unknown Office')
+    office_type = node_data.get('place_type') or node_data.get('google_place_type') or node_data.get('business_type', 'Office')
+    person_capacity = node_data.get('population_capacity', 0)
+    
+    # Demand weights for sink attraction
+    demand_weights = {}
+    for key, value in node_data.items():
+        if 'sink_attraction' in key.lower():
+            time_period = key.replace('sink_attraction_', '').replace('_', ' ').title()
+            demand_weights[time_period] = value
+    
+    demand_str = "N/A"
+    if demand_weights:
+        demand_parts = []
+        for time_period, weight in demand_weights.items():
+            if isinstance(weight, (int, float)):
+                demand_parts.append(f"{time_period}: {weight:.1f}")
+        if demand_parts:
+            demand_str = ", ".join(demand_parts)
+    
+    popup_content = f"""<div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; max-width: 280px;">
+<h3 style="margin: 0 0 8px 0; color: #2c3e50; font-size: 14px;">{html.escape(str(office_name))}</h3>
+<div style="background-color: #f8f9fa; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+<p style="margin: 2px 0;"><strong>Type:</strong> Sink (Office)</p>
+<p style="margin: 2px 0;"><strong>Office Type:</strong> {html.escape(str(office_type))}</p>
+<p style="margin: 2px 0;"><strong>Person Capacity:</strong> {person_capacity}</p>
+<p style="margin: 2px 0;"><strong>Demand Weights:</strong> {demand_str}</p>
+</div>
+</div>"""
+    
+    return popup_content
+
+
+def _create_sink_popup(node_id: Any, node_data: Dict[str, Any]) -> folium.Popup:
+    """Create a folium popup for sink objects."""
+    html_content = _sink_popup_html(node_id, node_data)
+    return folium.Popup(folium.Html(html_content, script=True), max_width=300)
+
+
 def _create_poi_popup(node_id: Any, node_data: Dict[str, Any], category: str) -> str:
-    """Create a clean popup for POI nodes."""
+    """Create a clean popup for POI nodes (legacy function)."""
     import html
     
     # Get basic information
@@ -566,28 +656,29 @@ def _create_poi_popup(node_id: Any, node_data: Dict[str, Any], category: str) ->
     business_type = node_data.get('business_type', '')
     
     # Create popup content
-    popup_content = f"""
-    <div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4;">
-        <h3 style="margin: 0 0 8px 0; color: #2c3e50;">{html.escape(str(name))}</h3>
-        <p style="margin: 4px 0;"><strong>Category:</strong> {category}</p>
-        <p style="margin: 4px 0;"><strong>Population Capacity:</strong> {population_capacity}</p>
-    """
+    popup_content = f"""<div style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; max-width: 280px;">
+<h3 style="margin: 0 0 8px 0; color: #2c3e50; font-size: 14px;">{html.escape(str(name))}</h3>
+<div style="background-color: #f8f9fa; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+<p style="margin: 2px 0;"><strong>Category:</strong> {category}</p>
+<p style="margin: 2px 0;"><strong>Population Capacity:</strong> {population_capacity}</p>"""
     
     # Add business-specific information if available
     if business_name:
-        popup_content += f"""
-        <hr style="margin: 8px 0; border: none; border-top: 1px solid #ddd;">
-        <p style="margin: 4px 0;"><strong>Business Name:</strong> {html.escape(str(business_name))}</p>
-        """
+        popup_content += f"""<p style="margin: 2px 0;"><strong>Business Name:</strong> {html.escape(str(business_name))}</p>"""
     
     if business_type:
-        popup_content += f"""
-        <p style="margin: 4px 0;"><strong>Business Type:</strong> {html.escape(str(business_type))}</p>
-        """
+        popup_content += f"""<p style="margin: 2px 0;"><strong>Business Type:</strong> {html.escape(str(business_type))}</p>"""
     
-    popup_content += "</div>"
+    popup_content += """</div>
+</div>"""
     
     return popup_content
+
+
+def _create_poi_popup_iframe(node_id: Any, node_data: Dict[str, Any], category: str) -> folium.Popup:
+    """Create a folium popup for POI nodes."""
+    html_content = _create_poi_popup(node_id, node_data, category)
+    return folium.Popup(folium.Html(html_content, script=True), max_width=300)
 
 
 def save_folium_flow_map(
@@ -672,13 +763,13 @@ def save_folium_flow_map(
             # Create popup with error handling
             import html
             try:
-                popup = folium.Popup(pop, max_width=350, parse_html=True)
+                popup = folium.Popup(folium.Html(pop, script=True), max_width=350)
             except Exception as e:
                 print(f"Error creating popup for node {n}: {e}")
                 # Fallback to simple popup
                 name = d.get("name") or str(n)
                 category = d.get("category", "Unknown")
-                popup = folium.Popup(f"<b>{html.escape(str(name))}</b><br>Category: {category}", max_width=200)
+                popup = folium.Popup(folium.Html(f"<b>{html.escape(str(name))}</b><br>Category: {category}", script=True), max_width=200)
             
             folium.CircleMarker(
                 location=(y, x),
@@ -721,10 +812,20 @@ __all__ = [
     "compute_node_stats",
     "annotate_graph_with_scats",
     "DEFAULT_TIME_BINS",
+    "COLORS",
     "_get_category_color",
     "_scale_marker_radius",
     "_add_legend_to_map",
     "_add_choropleth_layer",
+    "_supernode_popup_html",
+    "_junction_popup_html",
+    "_source_popup_html",
+    "_sink_popup_html",
+    "_create_supernode_popup",
+    "_create_junction_popup",
+    "_create_source_popup",
+    "_create_sink_popup",
+    "_create_poi_popup_iframe",
 ]
 
 """Visualisation helpers using Folium and OSMnx (placeholder)."""
@@ -868,20 +969,17 @@ def save_enhanced_folium_map(
                 # Scale radius based on capacity and time-of-day
                 radius = _scale_marker_radius(pop_capacity, time_of_day, category)
                 
-                # Color by category
-                color = _get_category_color(category)
+                # Use supernode color from unified color scheme
+                color = COLORS['supernode']
                 
-                # Create enhanced popup
-                popup_text = _supernode_popup_html(n, d)
-                
-                # Create popup with proper escaping and error handling
-                import html
+                # Create enhanced popup with IFrame
                 try:
-                    popup = folium.Popup(popup_text, max_width=350, parse_html=True)
+                    popup = _create_supernode_popup(n, d)
                 except Exception as e:
                     print(f"Error creating popup for node {n}: {e}")
                     # Fallback to simple popup
-                    popup = folium.Popup(f"<b>{html.escape(str(n))}</b><br>Category: {category}", max_width=200)
+                    import html
+                    popup = folium.Popup(folium.Html(f"<b>{html.escape(str(n))}</b><br>Type: Supernode", script=True), max_width=200)
                 
                 folium.CircleMarker(
                     location=(y, x),
@@ -905,28 +1003,20 @@ def save_enhanced_folium_map(
                 if x is None or y is None:
                     continue
                 
-                efficiency = d.get('efficiency', 1.0)
-                degree = G.degree(n)
+                # Add degree to node data for popup
+                d['degree'] = G.degree(n)
                 
-                # Color based on efficiency (green = good, red = poor)
-                if efficiency >= 0.8:
-                    color = 'green'
-                elif efficiency >= 0.6:
-                    color = 'orange'
-                else:
-                    color = 'red'
+                # Use junction color from unified color scheme
+                color = COLORS['junction']
                 
-                # Get traffic light information
-                has_traffic_light = d.get('has_traffic_light', False)
-                traffic_light_text = "Yes" if has_traffic_light else "No"
-                
-                # Create popup
-                popup_text = f"""
-                <b>Junction {n}</b><br>
-                Degree: {degree}<br>
-                Efficiency: {efficiency:.2f}<br>
-                Traffic Light: {traffic_light_text}
-                """
+                # Create clean popup with IFrame
+                try:
+                    popup = _create_junction_popup(n, d)
+                except Exception as e:
+                    print(f"Error creating popup for node {n}: {e}")
+                    # Fallback to simple popup
+                    import html
+                    popup = folium.Popup(folium.Html(f"<b>Junction {html.escape(str(n))}</b><br>Degree: {d['degree']}", script=True), max_width=200)
                 
                 folium.CircleMarker(
                     location=(y, x),
@@ -935,24 +1025,81 @@ def save_enhanced_folium_map(
                     fill=True,
                     fill_color=color,
                     fill_opacity=0.8,
-                    popup=folium.Popup(popup_text, max_width=200)
+                    popup=popup
                 ).add_to(fg_junc)
         
         fg_junc.add_to(fmap)
 
-    # Category overlays with POI positioning
+    # Sources and Sinks layers
     if show_categories:
-        # OpenStreetMap standard colors for different categories
-        category_colors = {
-            'Residential': '#87CEEB',      # Sky blue (residential areas)
-            'Business': '#32CD32',         # Lime green (commercial)
-            'Transport': '#FF8C00',        # Dark orange (transportation)
-            'School': '#9370DB',           # Medium purple (education)
-            'Hospital': '#DC143C',         # Crimson (healthcare)
-            'Other': '#808080'             # Gray (other)
-        }
+        # Sources layer (Residential)
+        fg_sources = folium.FeatureGroup(name="Sources", show=False)
+        for n, d in G.nodes(data=True):
+            if d.get('category') == 'Residential' and not d.get('is_supernode'):
+                x, y = d.get("x"), d.get("y")
+                if x is None or y is None:
+                    continue
+                
+                # Use source color
+                color = COLORS['source']
+                
+                # Create source popup with IFrame
+                try:
+                    popup = _create_source_popup(n, d)
+                except Exception as e:
+                    print(f"Error creating popup for node {n}: {e}")
+                    # Fallback to simple popup
+                    import html
+                    popup = folium.Popup(folium.Html(f"<b>Source {html.escape(str(n))}</b><br>Capacity: {d.get('population_capacity', 0)}", script=True), max_width=200)
+                
+                folium.CircleMarker(
+                    location=(y, x),
+                    radius=5,
+                    color=color,
+                    fill=True,
+                    fill_color=color,
+                    fill_opacity=0.8,
+                    popup=popup
+                ).add_to(fg_sources)
         
-        for category, color in category_colors.items():
+        fg_sources.add_to(fmap)
+        
+        # Sinks layer (Business/Office)
+        fg_sinks = folium.FeatureGroup(name="Sinks", show=False)
+        for n, d in G.nodes(data=True):
+            if d.get('category') == 'Business' and not d.get('is_supernode'):
+                x, y = d.get("x"), d.get("y")
+                if x is None or y is None:
+                    continue
+                
+                # Use sink color
+                color = COLORS['sink']
+                
+                # Create sink popup with IFrame
+                try:
+                    popup = _create_sink_popup(n, d)
+                except Exception as e:
+                    print(f"Error creating popup for node {n}: {e}")
+                    # Fallback to simple popup
+                    import html
+                    office_name = d.get('name', 'Unknown Office')
+                    popup = folium.Popup(folium.Html(f"<b>{html.escape(str(office_name))}</b><br>Type: Sink", script=True), max_width=200)
+                
+                folium.CircleMarker(
+                    location=(y, x),
+                    radius=5,
+                    color=color,
+                    fill=True,
+                    fill_color=color,
+                    fill_opacity=0.8,
+                    popup=popup
+                ).add_to(fg_sinks)
+        
+        fg_sinks.add_to(fmap)
+        
+        # Other categories (School, Hospital, Transport, Other)
+        other_categories = ['School', 'Hospital', 'Transport', 'Other']
+        for category in other_categories:
             fg_cat = folium.FeatureGroup(name=f"{category}", show=False)
             
             for n, d in G.nodes(data=True):
@@ -961,49 +1108,28 @@ def save_enhanced_folium_map(
                     if x is None or y is None:
                         continue
                     
-                    # Check if this is a POI that should be positioned near a junction
-                    is_poi = d.get('is_poi', False) or category in ['Business', 'School', 'Hospital', 'Transport']
+                    # Use legacy category colors for other types
+                    color = _get_category_color(category)
                     
-                    if is_poi and not d.get('is_synthetic_source', False):
-                        # Position POI slightly offset from its current location
-                        # to avoid overlapping with junctions
-                        offset_distance = 0.0001  # Small offset in degrees
-                        offset_x = x + offset_distance
-                        offset_y = y + offset_distance
-                        
-                        # Create POI marker with connection line to nearest junction
-                        folium.CircleMarker(
-                            location=(offset_y, offset_x),
-                            radius=4,
-                            color=color,
-                            fill=True,
-                            fill_color=color,
-                            fill_opacity=0.8,
-                            weight=2
-                        ).add_to(fg_cat)
-                        
-                        # Add connection line to original position (junction)
-                        folium.PolyLine(
-                            locations=[(y, x), (offset_y, offset_x)],
-                            color=color,
-                            weight=1,
-                            opacity=0.5,
-                            dash_array='5, 5'
-                        ).add_to(fg_cat)
-                        
-                        # Add popup for POI
-                        popup_text = _create_poi_popup(n, d, category)
-                        folium.Popup(popup_text, max_width=300).add_to(fg_cat)
-                    else:
-                        # Regular node (not a POI)
-                        folium.CircleMarker(
-                            location=(y, x),
-                            radius=3,
-                            color=color,
-                            fill=True,
-                            fill_color=color,
-                            fill_opacity=0.6
-                        ).add_to(fg_cat)
+                    # Create POI popup with IFrame
+                    try:
+                        popup = _create_poi_popup_iframe(n, d, category)
+                    except Exception as e:
+                        print(f"Error creating popup for node {n}: {e}")
+                        # Fallback to simple popup
+                        import html
+                        name = d.get('name', f'POI {n}')
+                        popup = folium.Popup(folium.Html(f"<b>{html.escape(str(name))}</b><br>Category: {category}", script=True), max_width=200)
+                    
+                    folium.CircleMarker(
+                        location=(y, x),
+                        radius=4,
+                        color=color,
+                        fill=True,
+                        fill_color=color,
+                        fill_opacity=0.7,
+                        popup=popup
+                    ).add_to(fg_cat)
             
             fg_cat.add_to(fmap)
 
@@ -1011,8 +1137,8 @@ def save_enhanced_folium_map(
     if census_data_path and census_data_path.exists():
         _add_choropleth_layer(fmap, census_data_path)
     
-    # Add layer control with proper positioning
-    layer_control = folium.LayerControl(collapsed=False, position='bottomleft')
+    # Add layer control with proper positioning (top-right)
+    layer_control = folium.LayerControl(collapsed=False, position='topright')
     layer_control.add_to(fmap)
     
     # Add custom CSS to ensure layer control fits on screen

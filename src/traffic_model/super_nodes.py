@@ -11,11 +11,11 @@ from pathlib import Path
 
 def detect_supernodes(G: nx.Graph, threshold: int = 2) -> Dict[int, Any]:
     """
-    Identify neighborhoods with limited exits and treat them as supernodes.
+    Identify neighborhoods with limited exits (1-2) and treat them as supernodes.
 
     Args:
         G (nx.Graph): Road graph.
-        threshold (int): Maximum number of exits allowed to qualify as a supernode.
+        threshold (int): Maximum number of exits allowed to qualify as a supernode (default: 2).
 
     Returns:
         Dict[int, Any]: Mapping of node_id -> supernode info.
@@ -30,6 +30,7 @@ def detect_supernodes(G: nx.Graph, threshold: int = 2) -> Dict[int, Any]:
         # Find the node with the most connections to outside (entry/exit point)
         entry_node = None
         max_external_connections = 0
+        exits_count = 0
         
         for node in neighborhood:
             external_connections = 0
@@ -42,6 +43,9 @@ def detect_supernodes(G: nx.Graph, threshold: int = 2) -> Dict[int, Any]:
                 entry_node = node
         
         if entry_node is not None:
+            # Count the actual number of exits (connections to outside the neighborhood)
+            exits_count = max_external_connections
+            
             # Calculate population capacity based on neighborhood size
             population_capacity = len(neighborhood) * 10  # Rough estimate
             
@@ -63,7 +67,9 @@ def detect_supernodes(G: nx.Graph, threshold: int = 2) -> Dict[int, Any]:
                 'type': node_type,
                 'population_capacity': population_capacity,
                 'members': list(neighborhood),
-                'entry_node': entry_node
+                'entry_node': entry_node,
+                'exits_count': exits_count,
+                'member_count': len(neighborhood)
             }
     
     return supernodes
@@ -99,6 +105,8 @@ def collapse_supernodes(G: nx.Graph, supernodes: Dict[int, Any]) -> nx.Graph:
                 if entry_node in data.get('members', []):
                     data['type'] = info['type']
                     data['population_capacity'] = info['population_capacity']
+                    data['exits_count'] = info['exits_count']
+                    data['member_count'] = info['member_count']
                     break
     
     return G_collapsed

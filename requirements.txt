@@ -10,3 +10,5 @@ requests>=2.32
 pyyaml>=6.0
 beautifulsoup4>=4.12
 pytest>=7.0
+googlemaps>=4.10.0
+pyjstat>=2.0.0

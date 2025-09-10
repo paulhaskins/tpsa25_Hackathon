@@ -25,14 +25,14 @@ The enhanced toolkit provides a complete pipeline for traffic modeling with:
 from traffic_model.population import assign_population_capacity_enhanced
 
 # With census data
-G = assign_population_capacity_enhanced(G, "data/raw/census/population_small_area_2022.json")
+G = assign_population_capacity_enhanced(G, "data/raw/census/population_small_area_2022.px")
 
 # Automatic fallback to POI/heuristic
 G = assign_population_capacity_enhanced(G)
 ```
 
 ### Data Requirements
-- `data/raw/census/population_small_area_2022.json` - CSO census data
+- `data/raw/census/population_small_area_2022.px` - CSO census data (PC-Axis format)
 - `data/raw/census/small_area_boundaries_2022.geojson` - Area boundaries
 
 ## 📊 SCATS Data Integration
@@ -134,7 +134,7 @@ traffic-model map --place "Dublin, Ireland" --with-population --time-of-day even
 traffic-model map --place "Dublin, Ireland" --with-population --force-supernodes --out dublin_fresh.html
 
 # With census data for choropleth
-traffic-model map --place "Dublin, Ireland" --with-population --census-path data/raw/census/population_small_area_2022.json --out dublin_with_choropleth.html
+traffic-model map --place "Dublin, Ireland" --with-population --census-path data/raw/census/population_small_area_2022.px --out dublin_with_choropleth.html
 ```
 
 ### SCATS Processing Commands
@@ -175,7 +175,7 @@ python -m pytest tests/test_supernodes.py -v
 data/
 ├── raw/
 │   ├── census/
-│   │   ├── population_small_area_2022.json
+│   │   ├── population_small_area_2022.px
 │   │   └── small_area_boundaries_2022.geojson
 │   └── scats/
 │       ├── 2020/

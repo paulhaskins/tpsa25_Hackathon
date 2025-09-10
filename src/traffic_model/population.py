@@ -131,6 +131,75 @@ def assign_population_capacity(G: nx.Graph, census_path: Optional[Union[str, Pat
     return G
 
 
+def _parse_json_stat_to_dataframe(dimensions: dict, values: list) -> pd.DataFrame:
+    """
+    Parse JSON-stat dimensions and values into a pandas DataFrame.
+    
+    Args:
+        dimensions: JSON-stat dimensions dictionary
+        values: JSON-stat values list
+        
+    Returns:
+        DataFrame with parsed census data
+    """
+    import itertools
+    
+    # Extract dimension information
+    dim_names = []
+    dim_labels = []
+    dim_categories = []
+    
+    for dim_name, dim_info in dimensions.items():
+        dim_names.append(dim_name)
+        dim_labels.append(dim_info.get('label', dim_name))
+        
+        # Extract category indices and labels
+        category_info = dim_info.get('category', {})
+        indices = category_info.get('index', [])
+        labels = category_info.get('label', {})
+        
+        # Create category mapping
+        categories = []
+        for idx in indices:
+            if idx in labels:
+                categories.append(labels[idx])
+            else:
+                categories.append(idx)
+        
+        dim_categories.append(categories)
+    
+    # Create all combinations of dimension values
+    combinations = list(itertools.product(*dim_categories))
+    
+    # Create DataFrame
+    data = []
+    for i, combo in enumerate(combinations):
+        if i < len(values):
+            row = {}
+            for j, (dim_name, dim_label, value) in enumerate(zip(dim_names, dim_labels, combo)):
+                row[dim_label] = value
+            row['value'] = values[i] if values[i] is not None else 0
+            data.append(row)
+    
+    df = pd.DataFrame(data)
+    
+    # Standardize column names for common census dimensions
+    column_mapping = {
+        'Census Year': 'CensusYear',
+        'CSO Small Areas 2022': 'Small Area',  # Map the actual column name
+        'Small Area': 'Small Area',
+        'Sex': 'Sex',
+        'Statistic': 'Statistic',
+        'Population': 'Population'
+    }
+    
+    for old_name, new_name in column_mapping.items():
+        if old_name in df.columns:
+            df = df.rename(columns={old_name: new_name})
+    
+    return df
+
+
 def parse_px_file(px_path: Path) -> Optional[pd.DataFrame]:
     """Parse PC-Axis (.px) file format to extract population data."""
     try:
@@ -210,24 +279,23 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
             if df_census is None:
                 return None
         else:
-            # Try to import pyjstat for JSON-stat parsing
+            # Parse JSON-stat format manually
             try:
-                from pyjstat import pyjstat
+                import json
                 
                 # Load census JSON-stat data
                 print(f"Loading JSON-stat data from: {census_path}")
-                dataset = pyjstat.Dataset.read(str(census_path))
-                df_census = dataset.write('dataframe')
+                with open(census_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Extract dimensions and values
+                dimensions = data.get('dimension', {})
+                values = data.get('value', [])
+                
+                # Create a simple parser for this specific JSON-stat structure
+                df_census = _parse_json_stat_to_dataframe(dimensions, values)
                 print(f"Successfully loaded census data with {len(df_census)} rows and columns: {list(df_census.columns)}")
                     
-            except ImportError:
-                print("Info: pyjstat not available, using dummy census data for demonstration")
-                df_census = pd.DataFrame({
-                    'Small Area': ['Dummy_Area_1', 'Dummy_Area_2'],
-                    'value': [1000, 1500],
-                    'Sex': ['Both sexes', 'Both sexes'],
-                    'Statistic': ['Population', 'Population']
-                })
             except Exception as e:
                 print(f"Error parsing JSON-stat file: {e}")
                 print("Info: Using dummy census data for demonstration")
@@ -259,16 +327,38 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
             gdf_boundaries = gpd.read_file(str(boundaries_geojson_path))
             
             # Filter to County Dublin only
+            original_count = len(gdf_boundaries)
+            dublin_areas = None
+            
             if 'COUNTY_ENGLISH' in gdf_boundaries.columns:
                 dublin_areas = gdf_boundaries[gdf_boundaries['COUNTY_ENGLISH'].str.contains('Dublin', case=False, na=False)]
-                print(f"Filtered to {len(dublin_areas)} Dublin areas from {len(gdf_boundaries)} total areas")
-                gdf_boundaries = dublin_areas
             elif 'COUNTY_GAEILGE' in gdf_boundaries.columns:
                 dublin_areas = gdf_boundaries[gdf_boundaries['COUNTY_GAEILGE'].str.contains('Baile Átha Cliath', case=False, na=False)]
-                print(f"Filtered to {len(dublin_areas)} Dublin areas from {len(gdf_boundaries)} total areas")
+            elif 'COUNTY' in gdf_boundaries.columns:
+                dublin_areas = gdf_boundaries[gdf_boundaries['COUNTY'].str.contains('Dublin', case=False, na=False)]
+            else:
+                # Fallback: use bounding box for Dublin
+                print("Warning: No county column found, using Dublin bounding box")
+                dublin_bbox = {
+                    'min_lon': -6.5, 'max_lon': -6.0,
+                    'min_lat': 53.2, 'max_lat': 53.5
+                }
+                
+                # Get centroids and filter by bounding box
+                centroids = gdf_boundaries.geometry.centroid
+                dublin_mask = (
+                    (centroids.x >= dublin_bbox['min_lon']) & 
+                    (centroids.x <= dublin_bbox['max_lon']) &
+                    (centroids.y >= dublin_bbox['min_lat']) & 
+                    (centroids.y <= dublin_bbox['max_lat'])
+                )
+                dublin_areas = gdf_boundaries[dublin_mask]
+            
+            if dublin_areas is not None and len(dublin_areas) > 0:
+                print(f"Filtered to {len(dublin_areas)} Dublin areas from {original_count} total areas")
                 gdf_boundaries = dublin_areas
             else:
-                print("Warning: No county column found, using all areas")
+                print(f"Warning: No Dublin areas found, using all {original_count} areas")
             
             # Merge population with boundaries
             # Try different possible column names for the area identifier
@@ -277,8 +367,8 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
                 area_id_cols = ["SA_PUB2022", "SA_PUB2016", "SA_PUB2011", "Small Area", "small_area", "SA", "sa", "GUID", "guid"]
                 pop_area_col = "SA_PUB2022"
             else:
-                # For JSON-stat files, use Small Area column
-                area_id_cols = ["Small Area", "small_area", "SA", "sa", "GUID", "guid"]
+                # For JSON-stat files, use GUID column for matching
+                area_id_cols = ["SA_GUID_2022", "SA_GUID_2016", "Small Area", "small_area", "SA", "sa", "GUID", "guid"]
                 pop_area_col = "Small Area"
             
             area_id_col = None
@@ -347,6 +437,20 @@ def assign_population_from_census(G: nx.Graph, census_data: pd.DataFrame) -> nx.
         # Perform spatial join
         joined = gdf_nodes.sjoin(census_data, how="left", predicate="within")
         
+        # Assign population to nodes and track statistics
+        nodes_with_population = 0
+        nodes_without_population = 0
+        polygons_without_values = 0
+        
+        # Check for polygons without population values
+        for _, row in census_data.iterrows():
+            population = row.get("population", 0)
+            if pd.isna(population) or population == 0:
+                polygons_without_values += 1
+        
+        if polygons_without_values > 0:
+            print(f"Warning: {polygons_without_values} polygons have no population values")
+        
         # Assign population to nodes
         for _, row in joined.iterrows():
             node_id = row["node_id"]
@@ -357,6 +461,11 @@ def assign_population_from_census(G: nx.Graph, census_data: pd.DataFrame) -> nx.
                 # Assign demand profile based on category
                 category = row.get("category", "Other")
                 G.nodes[node_id]["demand_profile"] = assign_demand_profile(category)
+                nodes_with_population += 1
+            else:
+                nodes_without_population += 1
+        
+        print(f"Population assignment: {nodes_with_population} nodes with population, {nodes_without_population} nodes without")
         
         # Create synthetic source nodes for districts with population but no sources
         G = create_synthetic_sources_for_districts(G, census_data)
@@ -392,20 +501,63 @@ def create_synthetic_sources_for_districts(G: nx.MultiDiGraph, census_data) -> n
         
         # Find districts with population but no sources
         districts_with_sources = existing_gdf.sjoin(census_data, how='inner', predicate='within')
-        districts_with_sources = districts_with_sources.groupby('SA_PUB2022').size()
+        
+        # Get the area identifier column name
+        area_id_col = None
+        for col in ['SA_PUB2022', 'SA_PUB2016', 'SA_PUB2011', 'Small Area', 'small_area', 'SA', 'sa', 'GUID', 'guid']:
+            if col in census_data.columns:
+                area_id_col = col
+                break
+        
+        if area_id_col is None:
+            print("Warning: Could not find area identifier column for synthetic source creation")
+            return G
+        
+        districts_with_sources = districts_with_sources.groupby(area_id_col).size()
         
         # Find districts with population but no sources
         districts_needing_sources = []
-        for idx, row in census_data.iterrows():
-            district_id = row.get('SA_PUB2022', f'district_{idx}')
-            population = row.get('population', 0)
+        
+        # Filter districts that need sources
+        districts_to_process = census_data[
+            (census_data['population'] > 0) & 
+            (~census_data[area_id_col].isin(districts_with_sources.index))
+        ].copy()
+        
+        if len(districts_to_process) > 0:
+            print(f"Processing {len(districts_to_process)} districts for synthetic source creation")
             
-            if population > 0 and district_id not in districts_with_sources:
-                districts_needing_sources.append({
-                    'district_id': district_id,
-                    'population': population,
-                    'geometry': row.geometry.centroid  # Use centroid as source location
-                })
+            # Use robust centroid calculation for all districts at once
+            try:
+                # Project to Irish Grid (EPSG:2157) for better centroid calculation
+                districts_projected = districts_to_process.to_crs('EPSG:2157')
+                centroids_projected = districts_projected.geometry.centroid
+                # Project back to WGS84
+                centroids_wgs84 = centroids_projected.to_crs('EPSG:4326')
+                
+                # Create the districts_needing_sources list
+                for idx, row in districts_to_process.iterrows():
+                    district_id = row.get(area_id_col, f'district_{idx}')
+                    population = row.get('population', 0)
+                    
+                    districts_needing_sources.append({
+                        'district_id': district_id,
+                        'population': population,
+                        'geometry': centroids_wgs84.loc[idx]
+                    })
+                    
+            except Exception as e:
+                print(f"Warning: Could not calculate projected centroids, using simple centroids: {e}")
+                # Fallback to original geometry centroids
+                for idx, row in districts_to_process.iterrows():
+                    district_id = row.get(area_id_col, f'district_{idx}')
+                    population = row.get('population', 0)
+                    
+                    districts_needing_sources.append({
+                        'district_id': district_id,
+                        'population': population,
+                        'geometry': row.geometry.centroid
+                    })
         
         print(f"Creating {len(districts_needing_sources)} synthetic source nodes for districts without sources")
         
@@ -453,19 +605,24 @@ def create_synthetic_sources_for_districts(G: nx.MultiDiGraph, census_data) -> n
             
             # Connect synthetic source to nearest junction
             if nearest_junction is not None:
+                # Convert distance to meters (rough approximation)
+                length_meters = min_distance * 111000
+                
                 G.add_edge(
                     synthetic_node_id, 
                     nearest_junction,
-                    length=min_distance * 111000,  # Rough conversion to meters
+                    length=length_meters,
                     highway='residential',
-                    synthetic_connection=True
+                    synthetic_edge=True,  # Use the specified tag name
+                    synthetic_connection=True  # Keep for backward compatibility
                 )
                 G.add_edge(
                     nearest_junction, 
                     synthetic_node_id,
-                    length=min_distance * 111000,
+                    length=length_meters,
                     highway='residential',
-                    synthetic_connection=True
+                    synthetic_edge=True,  # Use the specified tag name
+                    synthetic_connection=True  # Keep for backward compatibility
                 )
         
         return G

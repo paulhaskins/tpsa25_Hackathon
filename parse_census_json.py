@@ -18,7 +18,7 @@ def load_census_json(path: str) -> pd.DataFrame:
 
 if __name__ == "__main__":
     # Example: Ireland population by Small Area
-    df = load_census_json("data/raw/census/population_small_area_2022.json")
+    df = load_census_json("data/raw/census/population_small_area_2022.px")
     
     print(df.head(10))
     print("Columns:", df.columns.tolist())
