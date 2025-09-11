@@ -179,6 +179,9 @@ def _add_choropleth_layer(fmap: folium.Map, census_data_path: Path) -> bool:
         
         pop_col = pop_columns[0]  # Use first population column found
         
+        # Check if we have census data availability information
+        has_census_col = 'has_census_data' if 'has_census_data' in gdf.columns else None
+        
         # Create choropleth layer
         # Use the first available identifier column or create one
         id_col = None
@@ -194,22 +197,59 @@ def _add_choropleth_layer(fmap: folium.Map, census_data_path: Path) -> bool:
         
         # Add choropleth directly to the map (not to a FeatureGroup)
         # Make it non-interactive to avoid blocking clicks on other layers
-        choropleth = folium.Choropleth(
-            geo_data=gdf.to_json(),
-            data=gdf,
-            columns=[id_col, pop_col],
-            key_on=f'feature.properties.{id_col}',
-            fill_color='YlOrRd',
-            fill_opacity=0.7,
-            line_opacity=0.2,
-            legend_name=f'Population {pop_col}',
-            name='Population Density'
-        )
+        if has_census_col:
+            # Create custom styling for areas with and without census data
+            def style_function(feature):
+                has_data = feature['properties'].get('has_census_data', True)
+                if has_data:
+                    # Use population-based coloring for areas with census data
+                    pop_value = feature['properties'].get(pop_col, 0)
+                    if pop_value == 0:
+                        return {'fillColor': '#90EE90', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+                    else:
+                        # Use a color scale for population values
+                        if pop_value < 100:
+                            return {'fillColor': '#FFEDA0', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+                        elif pop_value < 500:
+                            return {'fillColor': '#FED976', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+                        elif pop_value < 1000:
+                            return {'fillColor': '#FEB24C', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+                        elif pop_value < 2000:
+                            return {'fillColor': '#FD8D3C', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+                        else:
+                            return {'fillColor': '#E31A1C', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+                else:
+                    # Green for areas without census data
+                    return {'fillColor': '#228B22', 'fillOpacity': 0.7, 'color': 'black', 'weight': 0.2}
+            
+            # Create GeoJson layer with custom styling
+            import folium
+            choropleth = folium.GeoJson(
+                gdf.to_json(),
+                style_function=style_function,
+                name='Population Density'
+            )
+        else:
+            # Standard choropleth for areas without census data availability info
+            choropleth = folium.Choropleth(
+                geo_data=gdf.to_json(),
+                data=gdf,
+                columns=[id_col, pop_col],
+                key_on=f'feature.properties.{id_col}',
+                fill_color='YlOrRd',
+                fill_opacity=0.7,
+                line_opacity=0.2,
+                legend_name=f'Population {pop_col}',
+                name='Population Density'
+            )
         
-        # Add custom CSS to make choropleth non-interactive
+        # Add custom CSS to make choropleth non-interactive (more specific targeting)
         choropleth_html = """
         <style>
-        .leaflet-interactive {
+        .leaflet-choropleth {
+            pointer-events: none !important;
+        }
+        .leaflet-choropleth path {
             pointer-events: none !important;
         }
         </style>
@@ -858,6 +898,67 @@ def save_osmnx_plot(G: nx.MultiDiGraph, path: Path) -> None:
     ox.plot_graph(G, show=False, save=True, filepath=str(path))
 
 
+def _add_scat_sensors_layer(fmap: folium.Map, scats_df: Optional[pd.DataFrame]) -> None:
+    """Add SCAT sensors as markers to the map."""
+    if scats_df is None or scats_df.empty:
+        return
+    
+    # Create SCAT sensors layer
+    scat_layer = folium.FeatureGroup(name="SCAT Sensors")
+    
+    for _, sensor in scats_df.iterrows():
+        if pd.isna(sensor['Lat']) or pd.isna(sensor['Long']):
+            continue
+        
+        # Create hourly flow table for popup
+        hourly_data = []
+        for hour in range(24):
+            flow = sensor.get(f'Hour_{hour:02d}', 0)
+            hourly_data.append(f"Hour {hour:02d}: {flow:.1f}")
+        
+        hourly_table = "<br>".join(hourly_data)
+        
+        # Create popup content
+        popup_content = f"""
+        <div style="font-family: Arial; font-size: 12px;">
+            <b>SCAT Sensor: {sensor['Site']}</b><br>
+            <b>Location: {sensor['Site_Descr']}</b><br><br>
+            <b>Daily Average: {sensor['Daily_Avg']:.1f}</b><br>
+            <b>Peak Hour: {sensor['Peak_Hour']:.1f}</b><br>
+            <b>Daily Total: {sensor['Daily_Total']:.1f}</b><br><br>
+            <b>Hourly Breakdown:</b><br>
+            {hourly_table}
+        </div>
+        """
+        
+        # Color based on daily average flow
+        max_flow = scats_df['Daily_Avg'].max()
+        flow_ratio = sensor['Daily_Avg'] / max_flow if max_flow > 0 else 0
+        
+        if flow_ratio < 0.25:
+            color = 'green'
+        elif flow_ratio < 0.5:
+            color = 'yellow'
+        elif flow_ratio < 0.75:
+            color = 'orange'
+        else:
+            color = 'red'
+        
+        # Add marker
+        folium.CircleMarker(
+            location=[sensor['Lat'], sensor['Long']],
+            radius=8,
+            popup=folium.Popup(popup_content, max_width=300),
+            color='black',
+            weight=2,
+            fillColor=color,
+            fillOpacity=0.7,
+            tooltip=f"SCAT {sensor['Site']}: {sensor['Daily_Avg']:.1f} avg flow"
+        ).add_to(scat_layer)
+    
+    scat_layer.add_to(fmap)
+
+
 def save_enhanced_folium_map(
     G: nx.MultiDiGraph,
     html_path: Path | str,
@@ -891,6 +992,14 @@ def save_enhanced_folium_map(
     show_supernodes = layers in ["supernodes", "all"]
     show_junctions = layers in ["junctions", "all"]
     show_categories = layers in ["categories", "all"]
+
+    # Add choropleth layer first (as the bottom layer) if census data is available
+    if census_data_path and census_data_path.exists():
+        _add_choropleth_layer(fmap, census_data_path)
+    
+    # Add SCAT sensors layer
+    if scats_df is not None and not scats_df.empty:
+        _add_scat_sensors_layer(fmap, scats_df)
 
     # Roads layer - colored by saturation (load/capacity)
     if show_roads:
@@ -1133,10 +1242,6 @@ def save_enhanced_folium_map(
             
             fg_cat.add_to(fmap)
 
-    # Add choropleth layer if census data is available
-    if census_data_path and census_data_path.exists():
-        _add_choropleth_layer(fmap, census_data_path)
-    
     # Add layer control with proper positioning (top-right)
     layer_control = folium.LayerControl(collapsed=False, position='topright')
     layer_control.add_to(fmap)

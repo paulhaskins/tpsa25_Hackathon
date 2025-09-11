@@ -530,77 +530,144 @@ def _estimate_office_capacity(office: Dict[str, Any]) -> int:
     place_type = office.get('place_type', 'office')
     name = office.get('name', '').lower()
     
-    # Base capacity by type
-    type_capacities = {
-        'hospital': 500,
-        'university': 2000,
-        'bank': 100,
-        'government': 300,
-        'professional': 50,
-        'industrial': 200,
-        'office': 50
+    # Get capacity estimate using tier-based classification
+    capacity_estimate = _classify_business_capacity_tier(office)
+    
+    return capacity_estimate
+
+
+def _classify_business_capacity_tier(office: Dict[str, Any]) -> int:
+    """
+    Classify business capacity into tiers based on type, reviews, and other indicators.
+    
+    Tiers:
+    - Low: 1-10 people
+    - Medium: 11-50 people  
+    - High: 51-250 people
+    - Massive: 250+ people
+    """
+    place_type = office.get('place_type', 'office')
+    name = office.get('name', '').lower()
+    rating = office.get('rating', 0)
+    review_count = office.get('user_ratings_total', 0)
+    business_status = office.get('business_status', 'OPERATIONAL')
+    
+    # Base capacity by business type
+    type_base_capacities = {
+        # Healthcare
+        'hospital': {'base': 500, 'tier': 'high'},
+        'clinic': {'base': 20, 'tier': 'low'},
+        'medical': {'base': 15, 'tier': 'low'},
+        
+        # Education
+        'university': {'base': 2000, 'tier': 'massive'},
+        'college': {'base': 800, 'tier': 'high'},
+        'school': {'base': 200, 'tier': 'high'},
+        
+        # Financial
+        'bank': {'base': 100, 'tier': 'medium'},
+        'financial': {'base': 80, 'tier': 'medium'},
+        
+        # Government
+        'government': {'base': 300, 'tier': 'high'},
+        'embassy': {'base': 50, 'tier': 'medium'},
+        'consulate': {'base': 30, 'tier': 'low'},
+        
+        # Professional services
+        'professional': {'base': 25, 'tier': 'low'},
+        'law': {'base': 30, 'tier': 'low'},
+        'accounting': {'base': 20, 'tier': 'low'},
+        'consulting': {'base': 40, 'tier': 'low'},
+        
+        # Industrial
+        'industrial': {'base': 200, 'tier': 'high'},
+        'factory': {'base': 300, 'tier': 'high'},
+        'warehouse': {'base': 150, 'tier': 'high'},
+        'manufacturing': {'base': 250, 'tier': 'high'},
+        
+        # Default office
+        'office': {'base': 50, 'tier': 'medium'}
     }
     
-    base_capacity = type_capacities.get(place_type, 50)
+    # Get base capacity and tier
+    type_info = type_base_capacities.get(place_type, {'base': 50, 'tier': 'medium'})
+    base_capacity = type_info['base']
+    base_tier = type_info['tier']
     
-    # Adjust based on rating (higher rating might indicate larger/more established places)
-    rating = office.get('rating', 0)
-    if rating >= 4.5:
-        capacity_multiplier = 2.0
-    elif rating >= 4.0:
-        capacity_multiplier = 1.5
-    elif rating >= 3.5:
-        capacity_multiplier = 1.2
-    else:
-        capacity_multiplier = 1.0
-    
-    # Adjust based on number of reviews (more reviews might indicate larger places)
-    review_count = office.get('user_ratings_total', 0)
-    if review_count >= 100:
-        capacity_multiplier *= 1.5
+    # Tier multipliers based on review count (proxy for size/visibility)
+    review_multiplier = 1.0
+    if review_count >= 1000:
+        review_multiplier = 2.5  # Very large/well-known
+    elif review_count >= 500:
+        review_multiplier = 2.0  # Large
+    elif review_count >= 200:
+        review_multiplier = 1.5  # Medium-large
+    elif review_count >= 100:
+        review_multiplier = 1.2  # Medium
     elif review_count >= 50:
-        capacity_multiplier *= 1.2
+        review_multiplier = 1.1  # Small-medium
     elif review_count >= 20:
-        capacity_multiplier *= 1.1
-    
-    # Adjust based on name indicators
-    if any(indicator in name for indicator in ['headquarters', 'hq', 'corporate', 'tower', 'building', 'main']):
-        capacity_multiplier *= 2.0
-    elif any(indicator in name for indicator in ['center', 'centre', 'plaza', 'group', 'complex']):
-        capacity_multiplier *= 1.5
-    elif any(indicator in name for indicator in ['branch', 'satellite', 'small']):
-        capacity_multiplier *= 0.7
-    
-    # Special adjustments for specific types
-    if place_type == 'hospital':
-        if any(indicator in name for indicator in ['general', 'regional', 'medical center']):
-            capacity_multiplier *= 2.0
-        elif any(indicator in name for indicator in ['clinic', 'health center']):
-            capacity_multiplier *= 0.5
-    
-    elif place_type == 'university':
-        if any(indicator in name for indicator in ['university', 'college', 'institute']):
-            capacity_multiplier *= 1.5
-        elif any(indicator in name for indicator in ['school', 'academy']):
-            capacity_multiplier *= 0.3
-    
-    elif place_type == 'government':
-        if any(indicator in name for indicator in ['ministry', 'department', 'headquarters']):
-            capacity_multiplier *= 2.0
-        elif any(indicator in name for indicator in ['office', 'branch']):
-            capacity_multiplier *= 0.7
-    
-    estimated_capacity = int(base_capacity * capacity_multiplier)
-    
-    # Clamp based on type
-    if place_type == 'hospital':
-        return max(50, min(2000, estimated_capacity))
-    elif place_type == 'university':
-        return max(100, min(5000, estimated_capacity))
-    elif place_type == 'government':
-        return max(20, min(1000, estimated_capacity))
+        review_multiplier = 1.0  # Small
     else:
-        return max(10, min(1000, estimated_capacity))
+        review_multiplier = 0.8  # Very small/unknown
+    
+    # Name-based adjustments
+    name_multiplier = 1.0
+    if any(indicator in name for indicator in ['headquarters', 'hq', 'corporate', 'tower', 'building', 'main', 'central']):
+        name_multiplier = 2.0  # Major facility
+    elif any(indicator in name for indicator in ['center', 'centre', 'plaza', 'group', 'complex', 'campus']):
+        name_multiplier = 1.5  # Large facility
+    elif any(indicator in name for indicator in ['branch', 'satellite', 'small', 'mini', 'local']):
+        name_multiplier = 0.7  # Small facility
+    
+    # Rating-based adjustments (higher rating might indicate better/more established)
+    rating_multiplier = 1.0
+    if rating >= 4.5:
+        rating_multiplier = 1.3
+    elif rating >= 4.0:
+        rating_multiplier = 1.1
+    elif rating >= 3.5:
+        rating_multiplier = 1.0
+    else:
+        rating_multiplier = 0.9
+    
+    # Calculate final capacity
+    final_capacity = int(base_capacity * review_multiplier * name_multiplier * rating_multiplier)
+    
+    # Apply tier-based constraints
+    tier_constraints = {
+        'low': (1, 10),
+        'medium': (11, 50),
+        'high': (51, 250),
+        'massive': (251, 5000)
+    }
+    
+    min_cap, max_cap = tier_constraints.get(base_tier, (1, 1000))
+    
+    # Special overrides for specific types
+    if place_type == 'hospital':
+        min_cap, max_cap = (50, 2000)
+    elif place_type == 'university':
+        min_cap, max_cap = (100, 5000)
+    elif place_type == 'government':
+        min_cap, max_cap = (20, 1000)
+    
+    # Clamp to tier constraints
+    final_capacity = max(min_cap, min(max_cap, final_capacity))
+    
+    # Add capacity estimate to office data
+    office['capacity_estimate'] = final_capacity
+    office['capacity_tier'] = base_tier
+    office['capacity_factors'] = {
+        'base_capacity': base_capacity,
+        'review_multiplier': review_multiplier,
+        'name_multiplier': name_multiplier,
+        'rating_multiplier': rating_multiplier,
+        'review_count': review_count,
+        'rating': rating
+    }
+    
+    return final_capacity
 
 
 def create_sink_nodes_from_offices(G: nx.Graph, offices_df: pd.DataFrame) -> nx.Graph:
@@ -644,7 +711,7 @@ def create_sink_nodes_from_offices(G: nx.Graph, offices_df: pd.DataFrame) -> nx.
         # Create a unique node ID for this business sink
         business_node_id = f"business_sink_{idx}_{office.get('place_id', '')}"
         
-        # Estimate person capacity based on office characteristics
+        # Estimate person capacity based on office characteristics using tier-based classification
         person_capacity = _estimate_office_capacity(office)
         
         # Create the business sink node at its exact GPS coordinates
@@ -656,7 +723,7 @@ def create_sink_nodes_from_offices(G: nx.Graph, offices_df: pd.DataFrame) -> nx.
                   office_name=office.get('name', 'Unknown Office'),
                   office_type=office.get('place_type', 'office'),
                   person_capacity=person_capacity,
-                  population_capacity=person_capacity,  # Alias for compatibility
+                  population_capacity=office.get('capacity_estimate', person_capacity),  # Use tier-based estimate
                   google_place_type=office.get('place_type', 'office'),
                   rating=office.get('rating', 0),
                   business_status=office.get('business_status', 'OPERATIONAL'),
@@ -664,7 +731,10 @@ def create_sink_nodes_from_offices(G: nx.Graph, offices_df: pd.DataFrame) -> nx.
                   office_lon=office['lon'],
                   category='Business',
                   is_sink=True,
-                  is_business_sink=True)
+                  is_business_sink=True,
+                  capacity_estimate=office.get('capacity_estimate', person_capacity),
+                  capacity_tier=office.get('capacity_tier', 'medium'),
+                  capacity_factors=office.get('capacity_factors', {}))
         
         created_sinks += 1
         
@@ -825,10 +895,58 @@ def detect_office_sinks(G: nx.Graph, place: str, api_key: Optional[str] = None) 
         print("No office data found, skipping sink detection")
         return G
     
+    # Filter offices to 18km radius from Dublin center if place is Dublin
+    if "Dublin" in place:
+        offices_df = filter_offices_to_18km_radius(offices_df)
+        print(f"Filtered to {len(offices_df)} offices within 18km of Dublin center")
+    
     # Create sink nodes from office data
     G_with_sinks = create_sink_nodes_from_offices(G, offices_df)
     
     return G_with_sinks
+
+
+def filter_offices_to_18km_radius(offices_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Filter offices DataFrame to only include those within 18km of Dublin center.
+    
+    Args:
+        offices_df: DataFrame with office data including lat/lon columns
+    
+    Returns:
+        Filtered DataFrame with only offices within 18km radius
+    """
+    if offices_df.empty:
+        return offices_df
+    
+    # Dublin city center coordinates (Spire of Dublin)
+    dublin_center_lat = 53.3498
+    dublin_center_lon = -6.2603
+    radius_km = 18
+    
+    # Calculate distances from Dublin center
+    distances = []
+    for _, row in offices_df.iterrows():
+        lat = row.get('lat')
+        lon = row.get('lng')  # Google Places uses 'lng' for longitude
+        
+        if pd.isna(lat) or pd.isna(lon):
+            distances.append(float('inf'))
+            continue
+            
+        # Calculate distance in km
+        distance = np.sqrt(
+            (lat - dublin_center_lat)**2 + 
+            (lon - dublin_center_lon)**2
+        ) * 111.0  # Convert to km
+        
+        distances.append(distance)
+    
+    # Filter to offices within 18km radius
+    mask = np.array(distances) <= radius_km
+    filtered_df = offices_df.loc[mask].copy()
+    
+    return filtered_df
 
 
 __all__ = [
@@ -838,6 +956,7 @@ __all__ = [
     "create_sink_nodes_from_offices",
     "create_business_access_road",
     "detect_office_sinks",
+    "filter_offices_to_18km_radius",
     "_is_business_sink",
     "_convert_to_office_format",
     "_determine_place_type",

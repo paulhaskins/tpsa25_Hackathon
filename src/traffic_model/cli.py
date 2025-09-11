@@ -166,6 +166,7 @@ def map_command(
     time_of_day: str = typer.Option("day", help="Time of day for demand scaling: morning, day, evening, night"),
     force_supernodes: bool = typer.Option(False, help="Force recomputation of supernodes"),
     force_traffic_lights: bool = typer.Option(False, help="Force recomputation of traffic lights"),
+    force_reprocess: bool = typer.Option(False, help="Force reprocess all cached files (census, boundaries, supernodes, etc.)"),
     use_osm_pois: bool = typer.Option(True, help="Use OSM POI data for enhanced category detection"),
     use_google_places: bool = typer.Option(True, help="Use Google Places API for business detection"),
     use_heuristics: bool = typer.Option(True, help="Use fallback heuristics for business detection"),
@@ -173,8 +174,9 @@ def map_command(
     """Create an enhanced traffic flow map with multiple layers and controls."""
     typer.echo(f"Building graph for {place}...")
     
-    # Build the graph
-    G = graph_build.build_graph(place)
+    # Build the graph (use 18km radius for Dublin)
+    use_18km_radius = "Dublin" in place
+    G = graph_build.build_graph(place, use_18km_radius=use_18km_radius)
     
     # Add capacity annotations
     typer.echo("Computing road capacities...")
@@ -183,7 +185,7 @@ def map_command(
     # Detect traffic lights
     typer.echo("Detecting traffic lights...")
     from .traffic_lights import detect_and_cache_traffic_lights
-    G = detect_and_cache_traffic_lights(G, place, force_recompute=force_traffic_lights)
+    G = detect_and_cache_traffic_lights(G, place, force_recompute=force_traffic_lights or force_reprocess)
     
     # Save edges with capacity if requested
     if edges_csv:
@@ -192,7 +194,7 @@ def map_command(
     
     # Detect and collapse supernodes (with caching)
     typer.echo("Detecting and collapsing supernodes...")
-    supernodes = detect_and_cache_supernodes(G, place, force_recompute=force_supernodes)
+    supernodes = detect_and_cache_supernodes(G, place, force_recompute=force_supernodes or force_reprocess)
     G = collapse_supernodes(G, supernodes)
     
     # Assign categories to nodes (enhanced with POI detection)
@@ -213,7 +215,7 @@ def map_command(
         typer.echo("Assigning population capacity...")
         # Use enhanced population assignment with census integration
         if census_path:
-            G = assign_population_capacity_enhanced(G, census_path)
+            G = assign_population_capacity_enhanced(G, census_path, force_reprocess=force_reprocess)
         else:
             # Try default census path (prefer .px file over .json)
             default_census = Path("data/raw/census/population_small_area_2022.px")
@@ -240,7 +242,20 @@ def map_command(
     
     # Create enhanced map
     typer.echo(f"Creating enhanced map with layers: {layers} and time-of-day: {time_of_day}...")
-    save_enhanced_folium_map(G, out, layers=layers, time_of_day=time_of_day, census_data_path=census_path)
+    
+    # Load SCAT sensor data if available
+    scat_df = None
+    try:
+        from .scat_flow import load_scat_sensor_data
+        scat_df = load_scat_sensor_data()
+        if scat_df is not None and not scat_df.empty:
+            typer.echo(f"Loaded {len(scat_df)} SCAT sensors")
+        else:
+            typer.echo("No SCAT sensor data available")
+    except Exception as e:
+        typer.echo(f"Could not load SCAT sensor data: {e}")
+    
+    save_enhanced_folium_map(G, out, layers=layers, time_of_day=time_of_day, census_data_path=census_path, scats_df=scat_df)
     
     typer.echo(f"Enhanced map saved to {out}")
     typer.echo("Open the HTML file in a web browser to view the interactive map.")

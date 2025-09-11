@@ -263,6 +263,121 @@ def parse_px_file(px_path: Path) -> Optional[pd.DataFrame]:
         return None
 
 
+def _get_dublin_filtered_paths(census_path: Path, boundaries_geojson_path: Path) -> tuple[Path, Path]:
+    """Get paths for Dublin-only filtered files, creating them if they don't exist."""
+    # Create Dublin-only file paths
+    census_dir = census_path.parent
+    boundaries_dir = boundaries_geojson_path.parent
+    
+    dublin_census_path = census_dir / f"dublin_18km_{census_path.name}"
+    dublin_boundaries_path = boundaries_dir / f"dublin_18km_{boundaries_geojson_path.name}"
+    
+    return dublin_census_path, dublin_boundaries_path
+
+
+def _create_dublin_filtered_files(census_path: Path, boundaries_geojson_path: Path) -> tuple[Path, Path]:
+    """Create Dublin-only filtered versions of census and boundary files."""
+    print("Creating Dublin filtered files (18km radius)...")
+    
+    dublin_census_path, dublin_boundaries_path = _get_dublin_filtered_paths(census_path, boundaries_geojson_path)
+    
+    try:
+        import geopandas as gpd
+        
+        # Load full boundaries and filter to Dublin
+        print(f"Loading full boundaries from: {boundaries_geojson_path}")
+        gdf_boundaries = gpd.read_file(str(boundaries_geojson_path))
+        
+        # Filter to Dublin area within 18km radius from city center
+        original_count = len(gdf_boundaries)
+        dublin_areas = None
+        
+        # Dublin city center coordinates (Spire of Dublin)
+        dublin_center_lat = 53.3498
+        dublin_center_lon = -6.2603
+        
+        # 18km radius in degrees (approximate conversion)
+        # 1 degree latitude ≈ 111km, 1 degree longitude ≈ 111km * cos(latitude)
+        radius_km = 18
+        lat_radius = radius_km / 111.0
+        lon_radius = radius_km / (111.0 * np.cos(np.radians(dublin_center_lat)))
+        
+        print(f"Filtering to areas within {radius_km}km of Dublin city center")
+        print(f"Dublin center: ({dublin_center_lat}, {dublin_center_lon})")
+        
+        # Get centroids and filter by 18km radius
+        centroids = gdf_boundaries.geometry.centroid
+        
+        # Calculate distance from Dublin center
+        distances = np.sqrt(
+            (centroids.y - dublin_center_lat)**2 + 
+            (centroids.x - dublin_center_lon)**2
+        ) * 111.0  # Convert to km
+        
+        # Filter areas within 18km radius
+        dublin_mask = distances <= radius_km
+        dublin_areas = gdf_boundaries[dublin_mask]
+        
+        if dublin_areas is not None and len(dublin_areas) > 0:
+            print(f"Filtered to {len(dublin_areas)} Dublin areas (18km radius) from {original_count} total areas")
+            
+            # Save Dublin-only boundaries
+            dublin_areas.to_file(str(dublin_boundaries_path), driver='GeoJSON')
+            print(f"Saved Dublin boundaries (18km radius) to: {dublin_boundaries_path}")
+            
+            # Get Dublin area identifiers for census filtering
+            area_id_cols = ["SA_PUB2022", "SA_PUB2016", "SA_PUB2011", "Small Area", "small_area", "SA", "sa", "GUID", "guid"]
+            area_id_col = None
+            for col in area_id_cols:
+                if col in dublin_areas.columns:
+                    area_id_col = col
+                    break
+            
+            if area_id_col is not None:
+                dublin_area_ids = set(dublin_areas[area_id_col].dropna().unique())
+                print(f"Found {len(dublin_area_ids)} unique Dublin area identifiers")
+                
+                # Filter census data to Dublin areas only
+                if census_path.suffix.lower() == '.px':
+                    # For .px files, we need to filter the parsed data
+                    df_census = parse_px_file(census_path)
+                    if df_census is not None:
+                        # Filter to Dublin areas
+                        if "SA_PUB2022" in df_census.columns:
+                            dublin_census = df_census[df_census["SA_PUB2022"].isin(dublin_area_ids)]
+                            print(f"Filtered census data to {len(dublin_census)} Dublin areas")
+                            
+                            # Save as .px format (we'll save as CSV for simplicity)
+                            dublin_census.to_csv(dublin_census_path.with_suffix('.csv'), index=False)
+                            print(f"Saved Dublin census data to: {dublin_census_path.with_suffix('.csv')}")
+                        else:
+                            print("Warning: Could not find SA_PUB2022 column in census data")
+                else:
+                    # For other formats, copy the file (filtering will happen during loading)
+                    import shutil
+                    shutil.copy2(census_path, dublin_census_path)
+                    print(f"Copied census file to: {dublin_census_path}")
+            else:
+                print("Warning: Could not find area identifier column, copying original files")
+                import shutil
+                shutil.copy2(census_path, dublin_census_path)
+                shutil.copy2(boundaries_geojson_path, dublin_boundaries_path)
+        else:
+            print(f"Warning: No Dublin areas found, copying original files")
+            import shutil
+            shutil.copy2(census_path, dublin_census_path)
+            shutil.copy2(boundaries_geojson_path, dublin_boundaries_path)
+            
+    except Exception as e:
+        print(f"Error creating Dublin filtered files: {e}")
+        # Fallback: copy original files
+        import shutil
+        shutil.copy2(census_path, dublin_census_path)
+        shutil.copy2(boundaries_geojson_path, dublin_boundaries_path)
+    
+    return dublin_census_path, dublin_boundaries_path
+
+
 def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Optional[pd.DataFrame]:
     """Load and merge census population data with small area boundaries."""
     try:
@@ -271,11 +386,45 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
             warnings.warn(f"Census data file not found: {census_path}")
             return None
         
+        # Check for Dublin-only filtered files first
+        dublin_census_path, dublin_boundaries_path = _get_dublin_filtered_paths(census_path, boundaries_geojson_path)
+        
+        # Use Dublin-only files if they exist and force_reprocess is False, otherwise create them
+        if not force_reprocess and dublin_census_path.exists() and dublin_boundaries_path.exists():
+            print(f"Using cached Dublin files (18km radius):")
+            print(f"  Census: {dublin_census_path}")
+            print(f"  Boundaries: {dublin_boundaries_path}")
+            census_path = dublin_census_path
+            boundaries_geojson_path = dublin_boundaries_path
+        else:
+            if force_reprocess:
+                print("Force reprocessing: recreating Dublin filtered files...")
+            else:
+                print("Dublin filtered files not found, creating them...")
+            census_path, boundaries_geojson_path = _create_dublin_filtered_files(census_path, boundaries_geojson_path)
+        
         # Try different file formats
-        if census_path.suffix.lower() == '.px':
-            # Parse PC-Axis format
-            print(f"Loading PC-Axis data from: {census_path}")
-            df_census = parse_px_file(census_path)
+        if census_path.suffix.lower() in ['.px', '.csv']:
+            # Parse PC-Axis format or CSV
+            if census_path.suffix.lower() == '.px' and census_path.exists():
+                print(f"Loading PC-Axis data from: {census_path}")
+                df_census = parse_px_file(census_path)
+            elif census_path.suffix.lower() == '.csv' and census_path.exists():
+                print(f"Loading CSV data from: {census_path}")
+                df_census = pd.read_csv(census_path)
+            else:
+                # Try alternative file extensions
+                csv_path = census_path.with_suffix('.csv')
+                px_path = census_path.with_suffix('.px')
+                if csv_path.exists():
+                    print(f"Loading CSV data from: {csv_path}")
+                    df_census = pd.read_csv(csv_path)
+                elif px_path.exists():
+                    print(f"Loading PC-Axis data from: {px_path}")
+                    df_census = parse_px_file(px_path)
+                else:
+                    print(f"Error: Neither {census_path} nor alternative formats found")
+                    return None
             if df_census is None:
                 return None
         else:
@@ -307,8 +456,8 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
                 })
         
         # Handle different data formats
-        if census_path.suffix.lower() == '.px':
-            # For .px files, data is already in the right format
+        if census_path.suffix.lower() in ['.px', '.csv']:
+            # For .px and .csv files, data is already in the right format
             population_by_area = df_census.rename(columns={"Population": "population"})
         else:
             # For JSON-stat files, filter and group
@@ -321,49 +470,16 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
             population_by_area = df_census.groupby("Small Area")["value"].sum().reset_index()
             population_by_area = population_by_area.rename(columns={"value": "population"})
         
-        # Load boundaries GeoJSON
+        # Load boundaries GeoJSON (already filtered to Dublin)
         try:
             import geopandas as gpd
             gdf_boundaries = gpd.read_file(str(boundaries_geojson_path))
-            
-            # Filter to County Dublin only
-            original_count = len(gdf_boundaries)
-            dublin_areas = None
-            
-            if 'COUNTY_ENGLISH' in gdf_boundaries.columns:
-                dublin_areas = gdf_boundaries[gdf_boundaries['COUNTY_ENGLISH'].str.contains('Dublin', case=False, na=False)]
-            elif 'COUNTY_GAEILGE' in gdf_boundaries.columns:
-                dublin_areas = gdf_boundaries[gdf_boundaries['COUNTY_GAEILGE'].str.contains('Baile Átha Cliath', case=False, na=False)]
-            elif 'COUNTY' in gdf_boundaries.columns:
-                dublin_areas = gdf_boundaries[gdf_boundaries['COUNTY'].str.contains('Dublin', case=False, na=False)]
-            else:
-                # Fallback: use bounding box for Dublin
-                print("Warning: No county column found, using Dublin bounding box")
-                dublin_bbox = {
-                    'min_lon': -6.5, 'max_lon': -6.0,
-                    'min_lat': 53.2, 'max_lat': 53.5
-                }
-                
-                # Get centroids and filter by bounding box
-                centroids = gdf_boundaries.geometry.centroid
-                dublin_mask = (
-                    (centroids.x >= dublin_bbox['min_lon']) & 
-                    (centroids.x <= dublin_bbox['max_lon']) &
-                    (centroids.y >= dublin_bbox['min_lat']) & 
-                    (centroids.y <= dublin_bbox['max_lat'])
-                )
-                dublin_areas = gdf_boundaries[dublin_mask]
-            
-            if dublin_areas is not None and len(dublin_areas) > 0:
-                print(f"Filtered to {len(dublin_areas)} Dublin areas from {original_count} total areas")
-                gdf_boundaries = dublin_areas
-            else:
-                print(f"Warning: No Dublin areas found, using all {original_count} areas")
+            print(f"Loaded {len(gdf_boundaries)} Dublin boundary areas")
             
             # Merge population with boundaries
             # Try different possible column names for the area identifier
-            if census_path.suffix.lower() == '.px':
-                # For .px files, use SA_PUB2022 column
+            if census_path.suffix.lower() in ['.px', '.csv']:
+                # For .px and .csv files, use SA_PUB2022 column
                 area_id_cols = ["SA_PUB2022", "SA_PUB2016", "SA_PUB2011", "Small Area", "small_area", "SA", "sa", "GUID", "guid"]
                 pop_area_col = "SA_PUB2022"
             else:
@@ -390,8 +506,9 @@ def load_census_data(census_path: Path, boundaries_geojson_path: Path) -> Option
                 how="left"
             )
             
-            # Fill missing population with 0
+            # Fill missing population with 0 and mark missing data
             merged["population"] = merged["population"].fillna(0)
+            merged["has_census_data"] = merged["population"] > 0
             
             return merged
             
@@ -451,17 +568,29 @@ def assign_population_from_census(G: nx.Graph, census_data: pd.DataFrame) -> nx.
         if polygons_without_values > 0:
             print(f"Warning: {polygons_without_values} polygons have no population values")
         
-        # Assign population to nodes
+        # Assign population to nodes - ONLY for sources and supernodes
         for _, row in joined.iterrows():
             node_id = row["node_id"]
             population = row.get("population", 0)
+            node_data = G.nodes[node_id]
             
+            # Check if this is a business sink - if so, preserve its tier-based capacity
+            if node_data.get('is_business_sink', False):
+                # Business sinks keep their tier-based capacity estimates
+                continue
+            
+            # Only assign population to sources and supernodes
             if pd.notna(population) and population > 0:
-                G.nodes[node_id]["population_capacity"] = int(population)
-                # Assign demand profile based on category
+                # Check if this is a source or supernode
                 category = row.get("category", "Other")
-                G.nodes[node_id]["demand_profile"] = assign_demand_profile(category)
-                nodes_with_population += 1
+                is_supernode = node_data.get('is_supernode', False)
+                
+                if category == 'Residential' or is_supernode:
+                    G.nodes[node_id]["population_capacity"] = int(population)
+                    G.nodes[node_id]["demand_profile"] = assign_demand_profile(category)
+                    nodes_with_population += 1
+                else:
+                    nodes_without_population += 1
             else:
                 nodes_without_population += 1
         
@@ -560,6 +689,9 @@ def create_synthetic_sources_for_districts(G: nx.MultiDiGraph, census_data) -> n
                     })
         
         print(f"Creating {len(districts_needing_sources)} synthetic source nodes for districts without sources")
+        print(f"Total districts with population: {len(census_data[census_data['population'] > 0])}")
+        print(f"Districts with existing sources: {len(districts_with_sources)}")
+        print(f"Districts needing sources: {len(districts_to_process)}")
         
         # Create synthetic source nodes
         # Handle both string and integer node IDs
@@ -632,7 +764,7 @@ def create_synthetic_sources_for_districts(G: nx.MultiDiGraph, census_data) -> n
         return G
 
 
-def assign_population_capacity_enhanced(G: nx.Graph, census_path: Optional[Union[str, Path]] = None) -> nx.Graph:
+def assign_population_capacity_enhanced(G: nx.Graph, census_path: Optional[Union[str, Path]] = None, force_reprocess: bool = False) -> nx.Graph:
     """Enhanced population capacity assignment with census integration."""
     G = G.copy()
     
@@ -649,7 +781,12 @@ def assign_population_capacity_enhanced(G: nx.Graph, census_path: Optional[Union
                     print(f"Assigned population from census data to {sum(1 for n, d in G.nodes(data=True) if 'population_capacity' in d)} nodes")
     
     # Fallback to POI-based and heuristic assignment for remaining nodes
+    # BUT preserve business sink tier-based capacities
     for node, data in G.nodes(data=True):
+        # Skip business sinks - they already have tier-based capacity estimates
+        if data.get('is_business_sink', False):
+            continue
+            
         if 'population_capacity' not in data:
             # Method 1: Try POI-based estimation
             try:
