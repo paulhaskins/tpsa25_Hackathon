@@ -1,0 +1,1008 @@
+[
+  {
+    "name": "Cushman & Wakefield - Commercial Real Estate Services",
+    "place_id": "ChIJfXy1xsYOZ0gRyds8HnBk7ds",
+    "lat": 53.34176,
+    "lon": -6.2480499,
+    "rating": 3,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Fenian St, Cumberland St S, Dublin, D02 H0V5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CBRE",
+    "place_id": "ChIJTf7MoOGZXUgRIqvladBiM8M",
+    "lat": 53.332711,
+    "lon": -6.247349300000001,
+    "rating": 4.8,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3rd floor, Connaught House, Burlington Rd, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Avison Young",
+    "place_id": "ChIJx3GTG-YOZ0gRByjKkWJwX18",
+    "lat": 53.3395369,
+    "lon": -6.2517849,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "86 Merrion Square S, Dublin 2, D02 YE10, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HWBC Ltd.",
+    "place_id": "ChIJC_ORmJ8OZ0gRaw4dD30x0QY",
+    "lat": 53.3357357,
+    "lon": -6.2630817,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "80 Harcourt St, Saint Kevin's, Dublin 2, D02 F449, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Savills Ireland",
+    "place_id": "ChIJofQUMpoOZ0gRdYPVUpCtlSA",
+    "lat": 53.3409743,
+    "lon": -6.2566029,
+    "rating": 3.6,
+    "user_ratings_total": 141,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "33 Molesworth St, Dublin, D02 CP04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenogue Business Park",
+    "place_id": "ChIJI3hHLQR0Z0gR_zlS4wvGa-o",
+    "lat": 53.2965039,
+    "lon": -6.4717768,
+    "rating": 4,
+    "user_ratings_total": 121,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 43 block 528, Grants Rd, Westmanstown, Rathcoole, Co. Dublin, D24 DVX7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Click Offices - Serviced Office Space Dublin & London",
+    "place_id": "ChIJvdXJepYOZ0gRz4Yoim30UWE",
+    "lat": 53.3394412,
+    "lon": -6.2454105,
+    "rating": 5,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lodging",
+      "real_estate_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "64 Mount Street Lower, Dublin 2, D02 TH77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Custom House Plaza",
+    "place_id": "ChIJvWhZGZoPZ0gRo-lH9Sxgz24",
+    "lat": 53.3513183,
+    "lon": -6.246232,
+    "rating": 4.6,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Custom House Quay, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Watermarque",
+    "place_id": "ChIJ48ni34wOZ0gRGi1BYbgUUHo",
+    "lat": 53.34125539999999,
+    "lon": -6.2306114,
+    "rating": 4.5,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Watermarque Building, Ringsend Rd, Dublin 4, D04 K7N3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Eight Building",
+    "place_id": "ChIJY_GWmSMMZ0gROjyPl2Y7Blk",
+    "lat": 53.3378112,
+    "lon": -6.277690799999999,
+    "rating": 4.8,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Newmarket, The Liberties, Dublin 8, D08 T2TX, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FJ Frisby & Associates",
+    "place_id": "ChIJ6dC1w7YMZ0gROGSIHPVAmHw",
+    "lat": 53.2757368,
+    "lon": -6.2194441,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, 17 The Mall, Bracken Rd, Sandyford Business Park, Dublin 18, D18 E3C8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Coopers Cross",
+    "place_id": "ChIJ_dlxzC0PZ0gR218pBn-XQMY",
+    "lat": 53.3499361,
+    "lon": -6.2341735,
+    "rating": 4.1,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8QX8+M7, Mayor Street Upper, North Wall, Dublin 1, D01 DR94, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Owens Commercial Auctioneers",
+    "place_id": "ChIJ9WqWEZgOZ0gRchUAktheYhU",
+    "lat": 53.33552049999999,
+    "lon": -6.2535178,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38-39 Fitzwilliam Square, Dublin 2, D02 NX53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Iconic Offices - The Lennox Building",
+    "place_id": "ChIJHcthqDUPZ0gRd-dA2OZoD6A",
+    "lat": 53.3314922,
+    "lon": -6.2647574,
+    "rating": 4.7,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "50 Richmond St S, Saint Kevin's, Dublin 2, D02 FK02, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Iconic Offices - The Greenway",
+    "place_id": "ChIJh0RX5J4OZ0gRsGTJV4T6dm0",
+    "lat": 53.3379183,
+    "lon": -6.263094499999999,
+    "rating": 4.4,
+    "user_ratings_total": 75,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block C, Ardilaun Court, 112-114 St Stephen's Green, Dublin 2, D02 TD28, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Agar Commercial",
+    "place_id": "ChIJWRljvgsJZ0gRPD9W1lkObfY",
+    "lat": 53.27573599999999,
+    "lon": -6.219443999999999,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, Bracken Rd, Sandyford Business Park, Dublin 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BDMProperty",
+    "place_id": "ChIJ_bzoWJkOZ0gRWx0h3PAw5sA",
+    "lat": 53.3400223,
+    "lon": -6.2588694,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "29 Dawson St, Dublin, D02 HW67, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "One Charlemont Square",
+    "place_id": "ChIJnYGNUuwPZ0gRxqSfvV_EmCU",
+    "lat": 53.3321674,
+    "lon": -6.263077399999999,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Charlemont St, Saint Kevin's, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JLL Dublin Real Estate",
+    "place_id": "ChIJm3myzJsOZ0gROc5CH1KfUy8",
+    "lat": 53.3342755,
+    "lon": -6.262347,
+    "rating": 4,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Styne House, Hatch Street Upper, Saint Kevin's, Dublin, D02 DY27, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "One Park Place",
+    "place_id": "ChIJB1f40aEOZ0gRI_l0QyQItuI",
+    "lat": 53.3338918,
+    "lon": -6.261332899999999,
+    "rating": 3.7,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Hatch Street Upper, Saint Kevin's, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bespoke Estate Agents",
+    "place_id": "ChIJFz9Q_JYOZ0gRcQ8AHNfOdN8",
+    "lat": 53.3384547,
+    "lon": -6.248872299999999,
+    "rating": 4.6,
+    "user_ratings_total": 113,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "60 Merrion Square S, Dublin 2, D02 NT04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wythe Building",
+    "place_id": "ChIJ4Xi67WYPZ0gRZTtsi26hCoo",
+    "lat": 53.3374716,
+    "lon": -6.2649398,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "48 Cuffe St, Dublin, D02 V9PO, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Homes",
+    "place_id": "ChIJYXxc37ORjaYRKucvFASwsaE",
+    "lat": 53.3832799,
+    "lon": -6.3979361,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 35, Orion Business Campus, Coolmine, Dublin, 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Fitzwilliam Properties",
+    "place_id": "ChIJhUVslaIOZ0gRaEE9pDaKtuA",
+    "lat": 53.33490440000001,
+    "lon": -6.254294,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "26 Pembroke Street Upper, Dublin 2, D02 X361, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sky Business Centres - Serviced Office Dublin",
+    "place_id": "ChIJWdNNk1QOZ0gRIgGaU479GYE",
+    "lat": 53.3626994,
+    "lon": -6.218202700000001,
+    "rating": 4.4,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "57 Clontarf Rd, Clontarf West, Dublin, D03 A7P0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "20 Kildare Street",
+    "place_id": "ChIJkbjgWFUPZ0gRi3-ppW7rt-E",
+    "lat": 53.3396035,
+    "lon": -6.256183999999999,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Kildare St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Iconic Offices - The Masonry",
+    "place_id": "ChIJjRSBs8wNZ0gRijTiaWZhD1Q",
+    "lat": 53.3435163,
+    "lon": -6.283308799999999,
+    "rating": 4.7,
+    "user_ratings_total": 76,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "151 Thomas St, The Liberties, Dublin, D08 PY5E, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Knight Frank Dublin Estate Agents",
+    "place_id": "ChIJI_y-g6IOZ0gRfYoP6GK5ShY",
+    "lat": 53.3347129,
+    "lon": -6.2547504,
+    "rating": 3.9,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20-21 Pembroke Street Upper, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Office Space",
+    "place_id": "ChIJi8nu-jYPZ0gRwyKfdnqnihY",
+    "lat": 53.3443585,
+    "lon": -6.2657415,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "68 Dame St, Temple Bar, Dublin, D02 XW73, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "1 Cumberland Place",
+    "place_id": "ChIJM7p5yn0PZ0gRfYMzOjZMQII",
+    "lat": 53.3418669,
+    "lon": -6.2481097,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Cumberland St S, Fenian St, Dublin, D02 FF20, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Two Grand Parade",
+    "place_id": "ChIJwaQ-VWMPZ0gRcBh8RulchhQ",
+    "lat": 53.33055419999999,
+    "lon": -6.258125499999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Grand Parade, Ranelagh, Dublin, D06 CX34, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Seamark Building",
+    "place_id": "ChIJHaiIcdUIZ0gRW5fV0g58MVo",
+    "lat": 53.3141535,
+    "lon": -6.2032001,
+    "rating": 4.1,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Merrion Row, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lisney",
+    "place_id": "ChIJJWe1c5kOZ0gRyuleuqzRxow",
+    "lat": 53.3354548,
+    "lon": -6.25699,
+    "rating": 3.5,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Saint Stephens Green House, 7th Floor, St Stephen's Green House, 3 Earlsfort Terrace, Saint Kevin's, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Arkcon Property Lettings & Management",
+    "place_id": "ChIJsV-yGHgOZ0gRU8InMdqQsX8",
+    "lat": 53.3663071,
+    "lon": -6.2712827,
+    "rating": 4.4,
+    "user_ratings_total": 266,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Botanic Rd, Glasnevin, Dublin, D09 A073, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Indeed Capital Dock Office",
+    "place_id": "ChIJnwN-p4cPZ0gR0qXNw1uyEds",
+    "lat": 53.345422,
+    "lon": -6.231888000000001,
+    "rating": 4.1,
+    "user_ratings_total": 101,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "80 Sir John Rogerson's Quay, Grand Canal Dock, Dublin, D02 HE36, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Westcourt Management Services Ltd.",
+    "place_id": "ChIJf55Yj5wOZ0gRCgZSThgBS_Q",
+    "lat": 53.34310139999999,
+    "lon": -6.2615653,
+    "rating": 4.1,
+    "user_ratings_total": 71,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "21 Wicklow St, Dublin 2, D02 XV83, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Iconic Offices - The Garrison",
+    "place_id": "ChIJ1_WVU7sOZ0gR3YnUVHwDJT4",
+    "lat": 53.3337342,
+    "lon": -6.2547811,
+    "rating": 4.4,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "31 - 32 Leeson Street Lower, Saint Kevin's, Dublin, D02 KA62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Norths Property",
+    "place_id": "ChIJhzYRSr0OZ0gRAK7ONMApVpI",
+    "lat": 53.33385209999999,
+    "lon": -6.251308000000001,
+    "rating": 4.4,
+    "user_ratings_total": 59,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7a Fitzwilliam Pl, Dublin 2, D02 YR60, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Robert Colleran",
+    "place_id": "ChIJE_O4PIQOZ0gREUNq1WCU9o0",
+    "lat": 53.35124159999999,
+    "lon": -6.2607789,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Connell Street Upper, North City, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Murphy Mulhall",
+    "place_id": "ChIJKUI83ZcOZ0gRjYGwS2nwUAg",
+    "lat": 53.32975769999999,
+    "lon": -6.240775,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38 Wellington Rd, Ballsbridge, Dublin 4, D04 H3E7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clifton House BusinessCentre",
+    "place_id": "ChIJBYQkWJYOZ0gRkDSe5u51cVc",
+    "lat": 53.3378538,
+    "lon": -6.2483472,
+    "rating": 3.5,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fitzwilliam Street Lower, Dublin 2, D02 DT85, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Premier Business Park",
+    "place_id": "ChIJA_264H8SZ0gRRsC0GhRruJI",
+    "lat": 53.3973345,
+    "lon": -6.336328,
+    "rating": 4.4,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Ballycoolin Rd, Cappoge, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Dublin - Gordon House",
+    "place_id": "ChIJyztuY6-0WkgR9klAm5SXxsQ",
+    "lat": 53.3398232,
+    "lon": -6.2362671,
+    "rating": 4.2,
+    "user_ratings_total": 1757,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Google Building Gordon House, Barrow St, Dublin, D04 E5W5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Kings Building",
+    "place_id": "ChIJcSyx0S4MZ0gRTwewfbd8kzM",
+    "lat": 53.3479387,
+    "lon": -6.2750359,
+    "rating": 4.7,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "152-155, 152-155 Church St, Arran Quay, Dublin 7, D07 A0TN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The One Building",
+    "place_id": "ChIJBRdCZJQOZ0gRX9_uFH_myc0",
+    "lat": 53.3400659,
+    "lon": -6.243053799999999,
+    "rating": 4.2,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grand Canal Street Lower, Grand Canal Dock, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Business Centre",
+    "place_id": "ChIJHw_v0dwNZ0gREcwoRdYNm-Y",
+    "lat": 53.3735752,
+    "lon": -6.2907996,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 33, 33 Slaney Rd, Blackwater Rd, Dublin Industrial Estate, Dublin, D11 VA40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The LINK Business Centre - Office Space",
+    "place_id": "ChIJoWKaYJ8MZ0gRDmTNpFqksdo",
+    "lat": 53.3127568,
+    "lon": -6.3442652,
+    "rating": 4.2,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Calmount Park, G1, Calmount Ave, Ballymount, Dublin 12, D12 TH56, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Glandore Serviced Offices | Private Office Space Rental",
+    "place_id": "ChIJY5Pm5qIOZ0gRtDjGcWOQwKs",
+    "lat": 53.33251,
+    "lon": -6.2527383,
+    "rating": 4.2,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fitzwilliam Hall, 26 Fitzwilliam Pl, Dublin 2, D02 T292, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Spaces - Dublin, South Docklands",
+    "place_id": "ChIJK_zZPAsPZ0gR39_O8iI4XGo",
+    "lat": 53.3455091,
+    "lon": -6.2333,
+    "rating": 4.5,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block C, 77 Sir John Rogerson's Quay, Grand Canal Dock, Dublin, D02 NP08, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Keane Thompson",
+    "place_id": "ChIJV_bormcJZ0gRmbIMBoGb8SQ",
+    "lat": 53.2700462,
+    "lon": -6.2245513,
+    "rating": 4.8,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 1, 3 Sandyford Village, Sandyford, Dublin 18, D18 VY10, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sky Business Centres - Serviced Office Dublin",
+    "place_id": "ChIJkTKV_ioQZ0gR9yE0KVW_ftM",
+    "lat": 53.4040258,
+    "lon": -6.2223606,
+    "rating": 4.8,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clonshagh, Dublin, D17 FY82, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sky Business Centres - Serviced Office Dublin",
+    "place_id": "ChIJl5XLs05tZ0gR_yzoY7Hdgms",
+    "lat": 53.40872880000001,
+    "lon": -6.4035253,
+    "rating": 5,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Plato Business Park, Damastown Rd, Parslickstown, Dublin, D15 PA4C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Airvista Office Park",
+    "place_id": "ChIJh0M4oGkPZ0gRjrEFJ2nhpqE",
+    "lat": 53.39558659999999,
+    "lon": -6.2458718,
+    "rating": 4.6,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Swords Rd, Whitehall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Morrison Chambers",
+    "place_id": "ChIJEQK4q5sOZ0gRf-499w4QHEU",
+    "lat": 53.3427729,
+    "lon": -6.2574783,
+    "rating": 3.8,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "32 Nassau St, Dublin 2, D02 YE06, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Casey Kennedy Estate Agents",
+    "place_id": "ChIJC5QX2PzuXUgRegqiryusUmM",
+    "lat": 53.288667,
+    "lon": -6.1981021,
+    "rating": 4.7,
+    "user_ratings_total": 205,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 The Hill, Stillorgan, Dublin, A94 CX66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Keller Williams Ireland",
+    "place_id": "ChIJaaGJ7zUJZ0gRflMt8B_KXso",
+    "lat": 53.2603381,
+    "lon": -6.196743,
+    "rating": 4.8,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Leopardstown Business Centre, Ballyogan, Dublin 18, D18 E983, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Douglas Newman Good Commercial",
+    "place_id": "ChIJnfBUnJsOZ0gRWyWDxY49pX4",
+    "lat": 53.3293315,
+    "lon": -6.2527414,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Leeson Park, Ranelagh, Dublin 6, D06 H1W2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lambert Smith Hampton - Commercial real estate consultants",
+    "place_id": "ChIJTZCNuZcOZ0gR13UeJA3ESLw",
+    "lat": 53.335207,
+    "lon": -6.2558412,
+    "rating": 3,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "86-88 Leeson Street Lower, Dublin 2, D02 A668, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "1862 Barrow",
+    "place_id": "ChIJNYdXokEPZ0gRJCxBhfNxCqc",
+    "lat": 53.3385241,
+    "lon": -6.236613999999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Communications House, Barrow St, Dublin 4, D04 R8X0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Offices",
+    "place_id": "ChIJaw46jmUPZ0gRQDBlcwmf9DQ",
+    "lat": 53.33694509999999,
+    "lon": -6.2446981,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mount Herbert Court, 34 Mount Street Upper, Dublin 2, D02 FT72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

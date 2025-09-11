@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "St James's Hospital",
+    "place_id": "ChIJe9ijRjgMZ0gRxm3aoBkMbTY",
+    "lat": 53.3396814,
+    "lon": -6.295052399999999,
+    "rating": 3.6,
+    "user_ratings_total": 798,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "James's St, Saint James, Dublin 8, D08 NHY1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Beaumont Hospital",
+    "place_id": "ChIJVQxAqzIOZ0gRGFkMJHmjWzE",
+    "lat": 53.3903749,
+    "lon": -6.223961399999999,
+    "rating": 3.4,
+    "user_ratings_total": 607,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beaumont Rd, Beaumont, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Vincent's University Hospital",
+    "place_id": "ChIJQUx3iDQPZ0gRiobNJV3XG0U",
+    "lat": 53.31703719999999,
+    "lon": -6.212234800000001,
+    "rating": 3.1,
+    "user_ratings_total": 249,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Elm Park, Dublin 4, D04 T6F4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Mater Misericordiae University Hospital",
+    "place_id": "ChIJ22_b6X4OZ0gRQm9hCo0wSog",
+    "lat": 53.36010959999999,
+    "lon": -6.265245999999999,
+    "rating": 3.1,
+    "user_ratings_total": 581,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eccles St, Phibsborough, Dublin 7, D07 R2WY, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bon Secours Hospital Dublin",
+    "place_id": "ChIJmbtfb3MOZ0gRDY5q62RjI_E",
+    "lat": 53.3754807,
+    "lon": -6.2675483,
+    "rating": 4.2,
+    "user_ratings_total": 169,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Glasnevin Hill, Glasnevin, Dublin 9, D09 YN97, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Connolly Hospital Blanchardstown",
+    "place_id": "ChIJwXsbk14NZ0gRry4-onG9zi0",
+    "lat": 53.3883035,
+    "lon": -6.3688477,
+    "rating": 3.2,
+    "user_ratings_total": 370,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mill Rd, Abbotstown, Dublin, D15 X40D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Vincent's Private Hospital",
+    "place_id": "ChIJDwUE6dQOZ0gRIVgslJlXnE0",
+    "lat": 53.3154243,
+    "lon": -6.2094749,
+    "rating": 3.9,
+    "user_ratings_total": 407,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Merrion Rd, Dublin 4, D04 N2E0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Emergency Department at St James's Hospital Dublin",
+    "place_id": "ChIJazm_ZUcMZ0gRFvbpl0J-sJA",
+    "lat": 53.33903369999999,
+    "lon": -6.2974596,
+    "rating": 2.6,
+    "user_ratings_total": 80,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "St. James's Hospital Dublin, James's Street, Saint James, Dublin 8, D08 NHY1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St Vincent's University Hospital - Emergency Department",
+    "place_id": "ChIJORrFa9MOZ0gRo0F-5DTMWG8",
+    "lat": 53.3171911,
+    "lon": -6.2148089,
+    "rating": 2.9,
+    "user_ratings_total": 226,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Elm Park, Dublin 4, DO4 T6F4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cherry Orchard Hospital",
+    "place_id": "ChIJF0QolNMMZ0gRiAo162Atfcw",
+    "lat": 53.3431186,
+    "lon": -6.377005599999999,
+    "rating": 4.1,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cherry Orchard, Ballyfermot, Co. Dublin, D10 Y821, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tallaght University Hospital",
+    "place_id": "ChIJg3IYMbF0Z0gRRoBJdBbfyIo",
+    "lat": 53.2911929,
+    "lon": -6.378605299999999,
+    "rating": 3.1,
+    "user_ratings_total": 305,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Tallaght, Dublin, D24 NR0A, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rotunda Hospital",
+    "place_id": "ChIJ0VEBzIYOZ0gRSW5TtAcfXHI",
+    "lat": 53.3525394,
+    "lon": -6.2636423,
+    "rating": 3.8,
+    "user_ratings_total": 357,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Parnell Square E, Rotunda, Dublin 1, D01 P5W9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The National Maternity Hospital",
+    "place_id": "ChIJOXUMIZQOZ0gRAYSeV0PwjJI",
+    "lat": 53.340152,
+    "lon": -6.2462214,
+    "rating": 3.8,
+    "user_ratings_total": 268,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Holles St, Dublin, D02 YH21, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mater Hospital",
+    "place_id": "ChIJjwNh0WwNZ0gRyqKqTaG_bqk",
+    "lat": 53.3601046,
+    "lon": -6.2652432,
+    "rating": 3.6,
+    "user_ratings_total": 117,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "N Circular Rd, Phibsborough, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St Michael's Hospital",
+    "place_id": "ChIJNQ4rZiEGZ0gRsfP9In673kQ",
+    "lat": 53.2937945,
+    "lon": -6.1387325,
+    "rating": 4.3,
+    "user_ratings_total": 127,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "George's Street Lower, D\u00fan Laoghaire, Dublin, A96 D628, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Beacon Hospital Dublin",
+    "place_id": "ChIJHxpjvgsJZ0gRvzKcVMbxyGE",
+    "lat": 53.2767734,
+    "lon": -6.218890099999999,
+    "rating": 3.5,
+    "user_ratings_total": 409,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, Bracken Rd, Sandyford Business Park, Dublin 18, D18 AK68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St Joseph's Hospital Raheny",
+    "place_id": "ChIJoemaiOsPZ0gReDL-813OYrk",
+    "lat": 53.3826492,
+    "lon": -6.182243199999999,
+    "rating": 4.4,
+    "user_ratings_total": 88,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Springdale Rd, Raheny, Dublin 5, D05 E261, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Luke's Hospital",
+    "place_id": "ChIJJ7UupPgLZ0gRayhP6NxCB1w",
+    "lat": 53.31111989999999,
+    "lon": -6.2686449,
+    "rating": 4.4,
+    "user_ratings_total": 88,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "St Luke's Hospital, Highfield Rd, Dublin 6, D06 HH36, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Blackrock Health Hermitage Clinic",
+    "place_id": "ChIJM7GOVNtyZ0gRnIn_TQdJmew",
+    "lat": 53.3593647,
+    "lon": -6.406051300000001,
+    "rating": 3.8,
+    "user_ratings_total": 352,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Blackrock Health, Hermitage Clinic, Lucan Road Old, Fonthill, Dublin 20, D20 W722, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Royal Hospital Kilmainham",
+    "place_id": "ChIJm1YiNeYHZ0gRi_W7SBxOmWg",
+    "lat": 53.3429206,
+    "lon": -6.3000339,
+    "rating": 4.6,
+    "user_ratings_total": 1245,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Military Rd, Saint James, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CHI at Temple Street",
+    "place_id": "ChIJA-oGjH0OZ0gR3hNoQ5RABMc",
+    "lat": 53.356787,
+    "lon": -6.2620292,
+    "rating": 3.3,
+    "user_ratings_total": 334,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Temple St, Rotunda, Dublin 1, D01 XD99, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St James Hospital 2",
+    "place_id": "ChIJ--89fUcMZ0gRKpHgPHN294A",
+    "lat": 53.34063399999999,
+    "lon": -6.293517,
+    "rating": 3.5,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ushers, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Royal Hospital Donnybrook",
+    "place_id": "ChIJe7UQoboOZ0gR8f3NLxa3DVw",
+    "lat": 53.3250523,
+    "lon": -6.248124499999999,
+    "rating": 3.9,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Morehampton Rd, Donnybrook, Dublin, D04 HX40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Blackrock Clinic",
+    "place_id": "ChIJA_ACR8UIZ0gREmkgcBah6g4",
+    "lat": 53.3033514,
+    "lon": -6.188751099999999,
+    "rating": 3.6,
+    "user_ratings_total": 202,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Rock Rd, Blackrock, Dublin, A94 E4X7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mater Private Network",
+    "place_id": "ChIJY-Ptc34OZ0gRI1OPvEO1CDY",
+    "lat": 53.3579182,
+    "lon": -6.264458899999999,
+    "rating": 3.6,
+    "user_ratings_total": 254,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eccles St, Phibsborough, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Children's Health Ireland (CHI) at Crumlin",
+    "place_id": "ChIJe2PK8ooMZ0gRLaI6SijhVyA",
+    "lat": 53.3262016,
+    "lon": -6.3179544,
+    "rating": 3.8,
+    "user_ratings_total": 354,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cooley Rd, Drimnagh, Dublin, D12 N512, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clontarf Hospital",
+    "place_id": "ChIJTTcxnKUPZ0gRwKOVBlzJmHI",
+    "lat": 53.3669764,
+    "lon": -6.201621299999999,
+    "rating": 4.7,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clontarf Hospital, Blackheath Park, Clontarf East, Co. Dublin, D03 AY95, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St Patrick's University Hospital",
+    "place_id": "ChIJ6zHtjzoMZ0gRjz4UVe12XEY",
+    "lat": 53.3442709,
+    "lon": -6.2918414,
+    "rating": 3.4,
+    "user_ratings_total": 71,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Steeven's Lane, James's St, Saint James, Dublin 8, D08 K7YW, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hospital.ie",
+    "place_id": "ChIJz8H-3a5bZ0gRUFONwCg1imE",
+    "lat": 53.3435984,
+    "lon": -6.2833552,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "151, Studio 1, The Masonry, 151 Thomas St, Saint Catherine's, Dublin 8, D08 PY5E, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tallaght University Hospital Accident and Emergency",
+    "place_id": "ChIJyUgGLrF0Z0gRI4Ya8-zfzY4",
+    "lat": 53.2919284,
+    "lon": -6.3782163,
+    "rating": 1.9,
+    "user_ratings_total": 169,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Tallaght Hospital, Belgard Square North, Tallaght, Dublin 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Royal Victoria Eye and Ear Hospital Dublin",
+    "place_id": "ChIJBajgkaEOZ0gRxptQgo5KaLY",
+    "lat": 53.3325194,
+    "lon": -6.2564052,
+    "rating": 3.1,
+    "user_ratings_total": 388,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Royal Victoria Eye and Ear Hospital, Adelaide Rd, Dublin 2, D02 XK51, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Emergency Department at Mater Misericordiae University Hospital",
+    "place_id": "ChIJ407s40gPZ0gRFOz6-pl90HY",
+    "lat": 53.3590001,
+    "lon": -6.2652335,
+    "rating": 2.1,
+    "user_ratings_total": 75,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mater Misericordiae University Hospital, Eccles St, Phibsborough, Dublin 7, D07 R2WY, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National Children's Hospital",
+    "place_id": "ChIJT8MbqJ8OZ0gRmhKNms9nK4A",
+    "lat": 53.29064589999999,
+    "lon": -6.378254099999999,
+    "rating": 4.5,
+    "user_ratings_total": 40,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Tallaght Hospital, Belgard Square North, Tallaght, Dublin 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "(Old) Meath Hospital",
+    "place_id": "ChIJPb9x1SANZ0gRxNIdD5gAWqU",
+    "lat": 53.3356461,
+    "lon": -6.2692559,
+    "rating": 2.9,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old meath hospital, Heytesbury St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Peamount Hospital",
+    "place_id": "ChIJW2xzUuFzZ0gRcJDVKnazh4A",
+    "lat": 53.3181132,
+    "lon": -6.4805101,
+    "rating": 4.7,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Loughtown Upper, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clonskeagh Hospital",
+    "place_id": "ChIJl0Op3tUPZ0gR9DmRkwX9Qu8",
+    "lat": 53.3160125,
+    "lon": -6.2391152,
+    "rating": 3.7,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clonskeagh Rd, Clonskeagh, Dublin, 6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National Orthopaedic Hospital Cappagh",
+    "place_id": "ChIJN0PrR4cNZ0gRJWkeidfG6fg",
+    "lat": 53.3941069,
+    "lon": -6.3269366,
+    "rating": 4.6,
+    "user_ratings_total": 186,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cappagh Rd, Cappoge, Dublin 11, D11 EV29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Columcille's Hospital",
+    "place_id": "ChIJo6d6V_0HZ0gRO6dsyPQ5EXo",
+    "lat": 53.24229099999999,
+    "lon": -6.1322326,
+    "rating": 3.9,
+    "user_ratings_total": 114,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bray Rd, Loughlinstown, Dublin, D18 V9K1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Emergency Department at Temple Street Children's Hospital",
+    "place_id": "ChIJp7VwkH0OZ0gRIrYZ5eWnDV0",
+    "lat": 53.3570755,
+    "lon": -6.261366799999999,
+    "rating": 3,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Children's Hospital, Temple St, Rotunda, Dublin 1, D01 XD99, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Leopardstown Park Hospital",
+    "place_id": "ChIJq1sR2asJZ0gREhXtapshWR0",
+    "lat": 53.26878740000001,
+    "lon": -6.2022544,
+    "rating": 3.9,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Foxrock, Dublin 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "New Children's Hospital (Main Office)",
+    "place_id": "ChIJNceMSj8MZ0gRgDJEp70l1c0",
+    "lat": 53.3381623,
+    "lon": -6.2934427,
+    "rating": 4.1,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "31 James's Walk, Rialto, Dublin 8, D08 E191, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mater Misericordiae University Hospital Outpatients Department",
+    "place_id": "ChIJc3b13H4OZ0gRXruGLJda4Gc",
+    "lat": 53.3593951,
+    "lon": -6.2682303,
+    "rating": 3.9,
+    "user_ratings_total": 35,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Phibsborough, Dublin, D07 R2WY, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rcsi Hospitals Group",
+    "place_id": "ChIJwWK2-Z4OZ0gR-lli3pkDjyE",
+    "lat": 53.337813,
+    "lon": -6.2628127,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "111 St Stephen's Green, Dublin, D02 VN51, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St Vincent's Hospital, Fairview",
+    "place_id": "ChIJEbpKsmcOZ0gR1j2eBUAxzek",
+    "lat": 53.3653513,
+    "lon": -6.2436428,
+    "rating": 2.6,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "pharmacy",
+      "hospital",
+      "health",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Convent Ave, Richmond Rd, Fairview, Dublin 3, D03 XK40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Connolly Hospital Accident and Emergency Department",
+    "place_id": "ChIJ4UXyqnUNZ0gR7y8E2X3u0Cg",
+    "lat": 53.3891705,
+    "lon": -6.3681337,
+    "rating": 2.3,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Connolly Hospital, Mill Rd, Abbotstown, Dublin 15, D15 X40D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Century Day Hospital",
+    "place_id": "ChIJI0C8XgkSZ0gRKUZ2-7UwHsg",
+    "lat": 53.4018252,
+    "lon": -6.3021322,
+    "rating": 2.2,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Charlestown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Our Lady's Hospital for Sick Children",
+    "place_id": "ChIJ-TNwdlgNZ0gRmB4r5TXBimA",
+    "lat": 53.3264228,
+    "lon": -6.3176557,
+    "rating": 4,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Our Lady's Children Hospital, Cooley Rd, Drimnagh, Dublin 12, D12 N512, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mount Carmel Short Stay Unit",
+    "place_id": "ChIJ7-8zlfwLZ0gRu09Psd4LLb0",
+    "lat": 53.3044537,
+    "lon": -6.2650618,
+    "rating": 3.4,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mount Carmel Community Hospital, Braemor Park, Churchtown, Dublin 14, D14 A5R2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Adelaide and Meath Hospital (Tallaght Hospital) Dublin",
+    "place_id": "ChIJGbHqE7F0Z0gRTIAVykEltRQ",
+    "lat": 53.2909646,
+    "lon": -6.3775955,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "parking",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Belgard Square North, Tamhlacht, Baile \u00c1tha Cliath, D24 TN3C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Saint James's Hospital - Mortuary",
+    "place_id": "ChIJ-eXBUzgMZ0gRnqURUsu5DYE",
+    "lat": 53.3419677,
+    "lon": -6.292322599999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Liberties, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clonskeagh Hospital - Whitehorn House/Le Brun House",
+    "place_id": "ChIJB7g-rLQOZ0gRZrFQOcPzBYw",
+    "lat": 53.3139979,
+    "lon": -6.238213000000001,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "113 Clonskeagh Rd, Rathmines, Dublin 6, D06 CK12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St Bricin's Military Hospital",
+    "place_id": "ChIJoQT_dTQMZ0gRBh9FOXhIDmo",
+    "lat": 53.35171949999999,
+    "lon": -6.291642599999999,
+    "rating": 4,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Infirmary Rd, Stoneybatter, Dublin 7, D07 DC84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St John of God University Hospital, Stillorgan",
+    "place_id": "ChIJjRfRn-QIZ0gRysi1iasEgGg",
+    "lat": 53.2854846,
+    "lon": -6.191736,
+    "rating": 3.6,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "St John of God University Hospital, Stillorgan Rd, Stillorgan Park, Blackrock, Dublin, A94 FH92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CHI at Tallaght Children's Outpatient and Emergency Care Unit",
+    "place_id": "ChIJR9c5UF51Z0gRBLbi3iLmbLg",
+    "lat": 53.2907415,
+    "lon": -6.377103099999999,
+    "rating": 2.8,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Belgard Square North, Tamhlacht, Baile \u00c1tha Cliath, D24 TN3C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Foundling Hospital",
+    "place_id": "ChIJx4hCikcMZ0gRf66HznXMEn4",
+    "lat": 53.3420424,
+    "lon": -6.295784299999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Mount Brown, Saint James, Dublin 8, D08 X8Y2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Saint Loman's Hospital",
+    "place_id": "ChIJFaaldN1yZ0gRv0Z_3z2-joc",
+    "lat": 53.3565535,
+    "lon": -6.404280200000001,
+    "rating": 3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Lucan Rd, Palmerston Lower, Yellow Walls, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National Rehabilitation Hospital",
+    "place_id": "ChIJvVnx8ocIZ0gRbxNTE6Htyr8",
+    "lat": 53.2751698,
+    "lon": -6.1510994,
+    "rating": 4.5,
+    "user_ratings_total": 61,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "National Rehabilitation Hospital, Rochestown Ave, D\u00fan Laoghaire, Dublin, A96 E2H2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mater Private Day Hospital, Cherrywood",
+    "place_id": "ChIJTTeN7iAJZ0gROpJuCCpob0o",
+    "lat": 53.2415044,
+    "lon": -6.140712000000001,
+    "rating": 3.6,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 11, Cherrywood Business Park, Loughlinstown, Dublin, D18 DH50, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Vincent's University Hospital - Herbert Wing",
+    "place_id": "ChIJ99w7lB8JZ0gRluCdDPYYtrg",
+    "lat": 53.3154906,
+    "lon": -6.211618199999999,
+    "rating": 4.4,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin City, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UPMC Kildare Hospital",
+    "place_id": "ChIJMyMZGv57Z0gRQCHjA-fwEJg",
+    "lat": 53.2894194,
+    "lon": -6.7014795,
+    "rating": 4.2,
+    "user_ratings_total": 105,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Prosperous Rd, Hoganswood East, Clane, Co. Kildare, W91 W535, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

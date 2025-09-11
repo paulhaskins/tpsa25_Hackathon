@@ -1,0 +1,1066 @@
+[
+  {
+    "name": "Nassau Clinic - GP & Weekend Doctor",
+    "place_id": "ChIJxeO3VZoOZ0gRRiyjvP-U6bc",
+    "lat": 53.3427498,
+    "lon": -6.257477,
+    "rating": 4.9,
+    "user_ratings_total": 1697,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "32 Nassau Street Suite 17 on 1st Floor, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chief Medical Office",
+    "place_id": "ChIJH7QnGSoMZ0gRGi4ZXOJope4",
+    "lat": 53.349899,
+    "lon": -6.279310199999999,
+    "rating": 1,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "90 King St N, Smithfield, Dublin, D07 N7CV, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CIE Medical Centre",
+    "place_id": "ChIJYyUft4UOZ0gRXue01DQVct8",
+    "lat": 53.3514995,
+    "lon": -6.249382199999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North Wall, Dublin 1, D01 V6V6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of Health",
+    "place_id": "ChIJq6qqqoUOZ0gR2USNrpJOseo",
+    "lat": 53.3365114,
+    "lon": -6.2469521,
+    "rating": 2.8,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "50 \u2013 58, Block 1, Miesian Plaza, Baggot Street Lower, Dublin 2, D02 XW14, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Medical Council of Ireland",
+    "place_id": "ChIJJf38oqIOZ0gR2gFd_QWh0RA",
+    "lat": 53.33442849999999,
+    "lon": -6.2533579,
+    "rating": 1.7,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kingram House, Kingram Pl, Dublin 2, D02 XY88, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Corporate Health Ireland",
+    "place_id": "ChIJx1fy0Y0OZ0gRa6WTrzbG2_4",
+    "lat": 53.3485145,
+    "lon": -6.2471558,
+    "rating": 2,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "10-11 Exchange Pl, International Financial Services Centre, Dublin 1, D01 N4X6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Medical Review Centre",
+    "place_id": "ChIJs7c5MYEOZ0gRLzpzkawddFo",
+    "lat": 53.3533741,
+    "lon": -6.2581618,
+    "rating": 4.4,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Elizabeth O'Farrell House,, 19-28 Cumberland St N, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hanover Medical Centre @ Lazer Lane",
+    "place_id": "ChIJfYGcQO0OZ0gRUo-z2Kk3EG8",
+    "lat": 53.3452618,
+    "lon": -6.238984299999999,
+    "rating": 3.6,
+    "user_ratings_total": 145,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Lazer Ln, Grand Canal Dock, Dublin, D02 RF77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Liffey Medical GP Surgery",
+    "place_id": "ChIJTd0sn3YNZ0gROv0Vh5U34-0",
+    "lat": 53.3493357,
+    "lon": -6.2701826,
+    "rating": 4.2,
+    "user_ratings_total": 145,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8A Little Britain St, Smithfield, Dublin 7, D07 NY18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin South City Local Health Office",
+    "place_id": "ChIJyWhC8ycMZ0gRma16XerNLbU",
+    "lat": 53.33583230000001,
+    "lon": -6.2710053,
+    "rating": 4.5,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Meath Hospital, Heytesbury St, Wood Quay, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin South East Local Health Office",
+    "place_id": "ChIJEbNoSUgPZ0gRREglr9jdqhs",
+    "lat": 53.3162785,
+    "lon": -6.2404614,
+    "rating": 4.3,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clonskeagh Rd, Clonskeagh, Dublin, 6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "24DOC Medical Clinic",
+    "place_id": "ChIJ5XGr2wcPZ0gRrZv1DtDz0iQ",
+    "lat": 53.3500054,
+    "lon": -6.2526331,
+    "rating": 4.2,
+    "user_ratings_total": 141,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "21A Store St, North Wall, Dublin 1, D01 RW68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "NorthWest Dublin Local Health Office",
+    "place_id": "ChIJQ9hM7L4SZ0gRaNjClRyuGFQ",
+    "lat": 53.4115558,
+    "lon": -6.3727776,
+    "rating": 2.6,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ground Floor, Unit 4 and 5, Nexus Building, Block 6A, Corporate Park, Blanchardstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Jervis Medical Centre",
+    "place_id": "ChIJcfNeI4IOZ0gR368q2nO3PtE",
+    "lat": 53.3499727,
+    "lon": -6.2671787,
+    "rating": 4.1,
+    "user_ratings_total": 238,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Jervis St, North City, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Travel Health Clinic",
+    "place_id": "ChIJ2eYXsJsOZ0gR2EgMHQJ5wnk",
+    "lat": 53.3422055,
+    "lon": -6.257772699999999,
+    "rating": 5,
+    "user_ratings_total": 1662,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd floor, 7 Dawson St, Dublin 2, D02 HX22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hanover Medical Centre @ Castleforbes Square",
+    "place_id": "ChIJHcwY2OcPZ0gRlq1ZHOAFlc4",
+    "lat": 53.3490887,
+    "lon": -6.2300182,
+    "rating": 4.2,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "400 N Wall Quay, Castleforbes Rd, corner, Dublin, D01 K2X8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "D2 Medical Centre",
+    "place_id": "ChIJP2Crt5cOZ0gRPEAFJHiEeSo",
+    "lat": 53.3352058,
+    "lon": -6.2503739,
+    "rating": 4.5,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4 Fitzwilliam Square E, Dublin 2, D02 FE06, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Abbey Street Medical Centre",
+    "place_id": "ChIJCXG8iYQOZ0gRE0TL6wYmXRs",
+    "lat": 53.3480869,
+    "lon": -6.260649900000001,
+    "rating": 4.1,
+    "user_ratings_total": 122,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "71 Middle Abbey St, North City, Dublin, D01 E7K5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "GPDOC Medical Centre",
+    "place_id": "ChIJCyS6f4IOZ0gRztnhcPitBx0",
+    "lat": 53.3561674,
+    "lon": -6.268451799999999,
+    "rating": 4.7,
+    "user_ratings_total": 221,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Wellington Court, Wellington Street Upper, Phibsborough, Dublin 7, D07 VFP5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Laya Health and Wellbeing Clinic - Cherrywood, Dublin",
+    "place_id": "ChIJG1ZKAAYIZ0gRT7J41R5o8OE",
+    "lat": 53.2432885,
+    "lon": -6.139751,
+    "rating": 3.4,
+    "user_ratings_total": 224,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 8, Cherrywood Business Park, Bray Rd, Cherrywood, Dublin 18, D18 W319, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CENTRAL PARK MEDICAL",
+    "place_id": "ChIJVenV_34JZ0gRxgEW4KT6eZo",
+    "lat": 53.2701029,
+    "lon": -6.204676,
+    "rating": 4.4,
+    "user_ratings_total": 177,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 8 Vantage West Central Park, Dublin 18, D18 K5FV, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dame Street Medical Centre (GP)",
+    "place_id": "ChIJt7v9Ip0OZ0gRaDROc-vjsfk",
+    "lat": 53.3441079,
+    "lon": -6.2651458,
+    "rating": 3.7,
+    "user_ratings_total": 166,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "16 Dame St, Dublin 2, D02 TD50, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Gables Medical Centre",
+    "place_id": "ChIJHwywuGYJZ0gRDSbQ5y9fcCk",
+    "lat": 53.2922745,
+    "lon": -6.2673954,
+    "rating": 4.1,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 13, Nutgrove Retail Park, Rathfarnham, Dublin 14, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Camden Medical Doctors Dublin",
+    "place_id": "ChIJgf5HTiAMZ0gRuMhwwWnVx3s",
+    "lat": 53.33598929999999,
+    "lon": -6.2691297,
+    "rating": 3,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "local_government_office",
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "GP Doctor Meath Primary Care Centre, Heytesbury St, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mount Merrion Medical Clinic",
+    "place_id": "ChIJy1e-5CIJZ0gRu6LiApFYEkM",
+    "lat": 53.2960512,
+    "lon": -6.2124649,
+    "rating": 4.3,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1st floor, 71 Deerpark Rd, Co, Dublin, A94 D087, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Polmed Medical Care Ltd",
+    "place_id": "ChIJW3hWrYcOZ0gR-5WoAFJcQu8",
+    "lat": 53.3536078,
+    "lon": -6.2587828,
+    "rating": 3.1,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "102 Parnell St, Rotunda, Dublin 1, D01 Y771, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bath Avenue Medical Centre",
+    "place_id": "ChIJx2prZuoOZ0gRYpzz1PIPVSo",
+    "lat": 53.3373225,
+    "lon": -6.2339702,
+    "rating": 3.9,
+    "user_ratings_total": 57,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4 Bath Ave, Sandymount, Dublin, D04 V8N8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Baggot Street Medical. GP and Doctor Dublin 4",
+    "place_id": "ChIJe31h2b0OZ0gRW3NOb8tcEOQ",
+    "lat": 53.3338706,
+    "lon": -6.244589,
+    "rating": 3.7,
+    "user_ratings_total": 170,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "10 Baggot Street Upper, Dublin 4, D04 KT35, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Meath Primary Care",
+    "place_id": "ChIJLUdyTiAMZ0gR4GpS5GmxDdA",
+    "lat": 53.3358877,
+    "lon": -6.269648999999999,
+    "rating": 3.4,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1-9 Heytesbury St, Portobello, Dublin 8, D08 Y1TW, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Beacon Hospital Dublin",
+    "place_id": "ChIJHxpjvgsJZ0gRvzKcVMbxyGE",
+    "lat": 53.2767734,
+    "lon": -6.218890099999999,
+    "rating": 3.5,
+    "user_ratings_total": 409,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, Bracken Rd, Sandyford Business Park, Dublin 18, D18 AK68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Parliament Street Medical Practice",
+    "place_id": "ChIJhUcgTp0OZ0gR6MoswhMI1l0",
+    "lat": 53.3446925,
+    "lon": -6.2672666,
+    "rating": 4.3,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Parliament St, Temple Bar, Dublin, D02 V277, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Thomas Court Medical Centre",
+    "place_id": "ChIJLW-yLyUMZ0gRgLq2RAZgrV8",
+    "lat": 53.34226760000001,
+    "lon": -6.2806229,
+    "rating": 3.1,
+    "user_ratings_total": 71,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 St Catherine's Ln W, The Liberties, Dublin, D08 KHE9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "North Doc Medical Services CLG",
+    "place_id": "ChIJkVmzwJAOZ0gRZJRGfpmcSIg",
+    "lat": 53.3478889,
+    "lon": -6.268680499999999,
+    "rating": 3.9,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 211 The Capel Building, St Mary's Abbey,, Dublin, D07 DP44, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Mater Misericordiae University Hospital",
+    "place_id": "ChIJ22_b6X4OZ0gRQm9hCo0wSog",
+    "lat": 53.36010959999999,
+    "lon": -6.265245999999999,
+    "rating": 3.1,
+    "user_ratings_total": 581,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eccles St, Phibsborough, Dublin 7, D07 R2WY, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Health Service Executive",
+    "place_id": "ChIJoZXgMKIOZ0gRPB4qjBhtpAA",
+    "lat": 53.3327883,
+    "lon": -6.257126,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Office of Legal Services, 63/64 Adelaide Rd, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Health Clinic",
+    "place_id": "ChIJGyXbzkNtZ0gRBX2a9Tirfoc",
+    "lat": 53.4312541,
+    "lon": -6.461211199999999,
+    "rating": 4.8,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bracetown Service Station, Bracetown, Clonee, Co. Meath, D15 W9YX, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Health Service Executive",
+    "place_id": "ChIJqYq2ZzYMZ0gR_cU9Y2V2aSU",
+    "lat": 53.3476693,
+    "lon": -6.294738199999999,
+    "rating": 4,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block D, Parkgate Business Centre, Parkgate St, Dublin 8, D08 YFF1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Life Health ExpressCare",
+    "place_id": "ChIJheEC7FcRZ0gRSTtl2T7ecnk",
+    "lat": 53.4036941,
+    "lon": -6.2578625,
+    "rating": 3.1,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 1, Business Park, Swift Square, Northwood Cres, Santry Demesne, Dublin, D09 A0E4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dr. Torun's Clinic",
+    "place_id": "ChIJs1I1y6YLZ0gR3kqXI53bP-A",
+    "lat": 53.2795935,
+    "lon": -6.364249699999999,
+    "rating": 4.7,
+    "user_ratings_total": 177,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "59a Old Bawn Way, Oldbawn, Dublin, D24 RY77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "North Strand Health Centre",
+    "place_id": "ChIJoVaN-18OZ0gRxRWjomX8cok",
+    "lat": 53.35570939999999,
+    "lon": -6.2457956,
+    "rating": 4.2,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Health Centre, 16 N Strand Rd, North Strand, Dublin 1, D01 CC81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Blackrock Health Hermitage Clinic",
+    "place_id": "ChIJM7GOVNtyZ0gRnIn_TQdJmew",
+    "lat": 53.3593647,
+    "lon": -6.406051300000001,
+    "rating": 3.8,
+    "user_ratings_total": 352,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Blackrock Health, Hermitage Clinic, Lucan Road Old, Fonthill, Dublin 20, D20 W722, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Custom House Square Medical Centre IFSC",
+    "place_id": "ChIJV45VmXQPZ0gRGi62tS-6fzQ",
+    "lat": 53.3494834,
+    "lon": -6.2448482,
+    "rating": 3.3,
+    "user_ratings_total": 166,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Gandon House, 2 Mayor Street Lower, North Wall, Dublin, D01 CY50, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rathfarnham Health Centre",
+    "place_id": "ChIJoULVTOoLZ0gRgDz9lvIvXoU",
+    "lat": 53.2931711,
+    "lon": -6.280899199999999,
+    "rating": 3.3,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dispensary Ln, Rathfarnham, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Medical Centre",
+    "place_id": "ChIJradSTyIOZ0gRL-FjnmLDMP0",
+    "lat": 53.39211599999999,
+    "lon": -6.2490504,
+    "rating": 3.9,
+    "user_ratings_total": 40,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Medical Centre, Omni Park S.C, Santry, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Doctor365 Dublin Walk-In Clinic & Out Of Hour GP Service",
+    "place_id": "ChIJI5902NUNZ0gRZ3LKjdskDqk",
+    "lat": 53.3419985,
+    "lon": -6.2755166,
+    "rating": 3.6,
+    "user_ratings_total": 88,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "128 Francis St, The Liberties, Dublin 8, D08 KV22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Old County Road Health Centre",
+    "place_id": "ChIJ3ScEJGkMZ0gRoXs1WkM39n0",
+    "lat": 53.3288606,
+    "lon": -6.301424799999999,
+    "rating": 4.4,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "57 Old County Rd, Drimnagh, Dublin 12, D12 KT66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "D Doc Hartstown Treatment Centre",
+    "place_id": "ChIJfZQGFG1tZ0gRovztHkbqD94",
+    "lat": 53.3923339,
+    "lon": -6.4212169,
+    "rating": 3.4,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cherryfield Lawn, Hartstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Centric Health",
+    "place_id": "ChIJoVe-2G4JZ0gRU2_0PWRkm-E",
+    "lat": 53.2859682,
+    "lon": -6.239060599999999,
+    "rating": 2.8,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7th Floor, RSA House, Dundrum Town Centre, Sandyford Rd, Dublin, D16 FC92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Brookfield Health Centre",
+    "place_id": "ChIJhV9YbJR0Z0gRFhM5TGwoqws",
+    "lat": 53.288413,
+    "lon": -6.4043152,
+    "rating": 2.5,
+    "user_ratings_total": 46,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Rossfield Ave, Tallaght, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Botanic Health Clinic",
+    "place_id": "ChIJH4amX28OZ0gRXvhpBurpbCc",
+    "lat": 53.3673773,
+    "lon": -6.2539172,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cian Park Industrial Estate, Unit 4, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Whitehall Clinic",
+    "place_id": "ChIJWYOPbj4OZ0gRTzdeqdeiaIw",
+    "lat": 53.3815769,
+    "lon": -6.240806399999999,
+    "rating": 4.8,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "394a Collins Ave, Whitehall, Dublin 9, D09 X7H5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Social Welfare Medical Assistance",
+    "place_id": "ChIJxaBhSoYOZ0gRqVwqFtcdem8",
+    "lat": 53.35329230000001,
+    "lon": -6.257999499999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cumberland St N, Rotunda, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Generation Health Medical Clinic",
+    "place_id": "ChIJI2qT-EANZ0gRPysopIeq13c",
+    "lat": 53.3750076,
+    "lon": -6.3631467,
+    "rating": 3.6,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9A Castlecourt Shopping Centre, Castleknock, Dublin 15, Castleknock, Co. Dublin, D15 W704, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "South Circular Road GP Clinic",
+    "place_id": "ChIJp6jR7RgMZ0gRqonSSqy8CCA",
+    "lat": 53.3323092,
+    "lon": -6.274778800000001,
+    "rating": 4.3,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "106a S Circular Rd, Wood Quay, Dublin, D08 K2V6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hse Tivoli Road",
+    "place_id": "ChIJVyBsNSYGZ0gRG5KLQVcdEys",
+    "lat": 53.2880628,
+    "lon": -6.139605599999999,
+    "rating": 3.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Tivoli Rd, Monkstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dalkey Health Centre",
+    "place_id": "ChIJJ38PsbQHZ0gRU5u9udw0th0",
+    "lat": 53.2768513,
+    "lon": -6.1063905,
+    "rating": 4.9,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dalkey Health Centre, Castle St, Dalkey, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Medixclinic",
+    "place_id": "ChIJr4JqL54OZ0gRsrG7sUnaPik",
+    "lat": 53.2755508,
+    "lon": -6.219119999999999,
+    "rating": 4.5,
+    "user_ratings_total": 133,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, Bracken Rd, Sandyford Business Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Blackrock Medical Clinic",
+    "place_id": "ChIJ7yijKscIZ0gRxD1D1djj_hs",
+    "lat": 53.3011461,
+    "lon": -6.176813699999999,
+    "rating": 3.6,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "34 Main St, Newtown Blackrock, Blackrock, Co. Dublin, A94 T6H3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ballymun Healthcare Facility",
+    "place_id": "ChIJe_epAY0PZ0gROu20PvbuZXA",
+    "lat": 53.3953166,
+    "lon": -6.2637922,
+    "rating": 4.1,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "pharmacy",
+      "health",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Civic Building, 45 Main St, Ballymun, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "D-Doc Coolock",
+    "place_id": "ChIJXWE79FYPZ0gRAHCtVIaJqcE",
+    "lat": 53.3955202,
+    "lon": -6.216794800000001,
+    "rating": 3,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cromcastle Road Coolock, Kilmore, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

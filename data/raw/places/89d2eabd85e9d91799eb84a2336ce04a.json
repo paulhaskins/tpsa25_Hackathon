@@ -1,0 +1,962 @@
+[
+  {
+    "name": "Guidewire Software",
+    "place_id": "ChIJDyGlXJcOZ0gRs28UrcH9YCc",
+    "lat": 53.41281919999999,
+    "lon": -6.3662329,
+    "rating": 4.9,
+    "user_ratings_total": 97,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "No. 1 Stemple Exchange, Blanchardstown Corporate Park, Ballycoolin, Dublin 15, D15 K66D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amharc Tech - IT Company in Dublin,Ireland",
+    "place_id": "ChIJGzwBM0YPZ0gRELuehsse1nE",
+    "lat": 53.3520301,
+    "lon": -6.2648798,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ivy Exchange, 174 Granby Pl, North City, Dublin 1, D01 F7H7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "GRIP Software Solutions",
+    "place_id": "ChIJuTgZWfcOZ0gRul4KM-Iexaw",
+    "lat": 53.3534877,
+    "lon": -6.2282291,
+    "rating": 5,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Docklands Innovation Park, 128-130 East Wall Road, Dublin, D03 XN75, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Spanish Point Technologies Ltd",
+    "place_id": "ChIJ2X-ao5IOZ0gRyW684-SvA70",
+    "lat": 53.3573867,
+    "lon": -6.223407000000001,
+    "rating": 4.8,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Plaza EastPoint Business Park, Clontarf -Dublin 3, Dublin, D03 E5R6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Synchronoss Technologies",
+    "place_id": "ChIJc84jtJEOZ0gRMv2sG6Ye62g",
+    "lat": 53.34446699999999,
+    "lon": -6.250108,
+    "rating": 4.4,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42 Pearse St, Dublin Southside, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Square Root Solutions",
+    "place_id": "ChIJ-Qbe0yM-XUgRy1fIElzayjM",
+    "lat": 53.34126819999999,
+    "lon": -6.283957900000001,
+    "rating": 4.9,
+    "user_ratings_total": 54,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Taylor's Ln, The Liberties, Dublin 8, D08 YPP9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Coder Spot",
+    "place_id": "ChIJ64lqICkPZ0gRgFEkFCOENaE",
+    "lat": 53.332598,
+    "lon": -6.2596234,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Saint Peter's, 13 Adelaide Rd, Saint Kevin's, Dublin, D02 P950, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cloud Software Operations (Ireland) Limited",
+    "place_id": "ChIJv1TPoDoMZ0gRjlm3nh2gtGc",
+    "lat": 53.35649189999999,
+    "lon": -6.2241051,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eastpoint Business Park, North Wall, Dublin, D03 N8K5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenfinch Technology",
+    "place_id": "ChIJ4yQiWvcOZ0gRk1H95Vwfh5g",
+    "lat": 53.3419166,
+    "lon": -6.243872199999999,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Harmony Court, Harmony Row, Dublin, D02 VY52, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Akamai Technologies Ireland Ltd.",
+    "place_id": "ChIJnbKZ7ZUOZ0gRice8-KIjEoM",
+    "lat": 53.33753129999999,
+    "lon": -6.2548398,
+    "rating": 4.9,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3-8 Hume St, Dublin 2, D02 C624, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zendesk EMEA HQ",
+    "place_id": "ChIJBWCZQaEOZ0gRWhyEhmNp7E8",
+    "lat": 53.3315803,
+    "lon": -6.2564424,
+    "rating": 4.7,
+    "user_ratings_total": 127,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "55 Charlemont Pl, Saint Kevin's, Dublin, D02 F985, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SAP Ireland Limited",
+    "place_id": "ChIJS6x1E6t0Z0gRI3u2o5_d0Cg",
+    "lat": 53.2946638,
+    "lon": -6.426899199999999,
+    "rating": 4.7,
+    "user_ratings_total": 174,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Waterside Citywest Business Campus, Kingswood Ave, Citywest Business Campus, Saggart, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nitro Software EMEA",
+    "place_id": "ChIJt8zyR7wOZ0gRnWwt-Kcf2-s",
+    "lat": 53.3358948,
+    "lon": -6.2629724,
+    "rating": 4.3,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "80 Harcourt St, Saint Kevin's, Dublin, D02 F449, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "intive",
+    "place_id": "ChIJL0rB34QOZ0gRUBv_xTdES38",
+    "lat": 53.3468215,
+    "lon": -6.2582634,
+    "rating": 4.6,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Connell Bridge House, D'Olier Street, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Microsoft Ireland",
+    "place_id": "ChIJpWo5fFkIZ0gRTvYFD4sd2TY",
+    "lat": 53.2689339,
+    "lon": -6.1968054,
+    "rating": 4.5,
+    "user_ratings_total": 767,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One Microsoft Place, South County Business Park, Carmanhall And Leopardstown, Dublin, D18 P521, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IBM Technology Campus",
+    "place_id": "ChIJr4pU0TttZ0gRYGBc5tsdulw",
+    "lat": 53.4218535,
+    "lon": -6.4195832,
+    "rating": 4.6,
+    "user_ratings_total": 228,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Powerstown, Dublin, D15 HN66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MongoDB Limited",
+    "place_id": "ChIJAxIGXScMZ0gRQRo883Ry-XY",
+    "lat": 53.33171489999999,
+    "lon": -6.2325519,
+    "rating": 4.8,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 2 Number One Ballsbridge, Shelbourne Rd, Ballsbridge, Dublin 4, D04 Y3X9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Informatica Ireland EMEA UC",
+    "place_id": "ChIJDWGmD5IOZ0gRrSUbtuhcMt4",
+    "lat": 53.3457282,
+    "lon": -6.246308,
+    "rating": 4.7,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Windmill Ln, SOBO district, Dublin, D02 F206, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HST Solutions",
+    "place_id": "ChIJe2x6yw4JZ0gR6H9T5TwWDsY",
+    "lat": 53.2775464,
+    "lon": -6.2156006,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 17, The Cubes Offices Beacon South Quarter, Sandyford, Dublin, D18 E932, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zalando Dublin Tech Hub",
+    "place_id": "ChIJKWMCZ-sOZ0gRuhUZSuN0aqM",
+    "lat": 53.3458349,
+    "lon": -6.2453025,
+    "rating": 4,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2WML, 2 Windmill Ln, Dublin 2, D02 KX66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Realweb: Dublin\u2019s custom software company for Full Stack, Agentic & Generative AI, AIOT, and remote web developer",
+    "place_id": "ChIJQdg6iKMPZ0gRkwimi0I_KDM",
+    "lat": 53.34106269999999,
+    "lon": -6.2838664,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Guinness Enterprise Centre, Taylor's Ln, The Liberties, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cohesity (formerly Veritas)",
+    "place_id": "ChIJDZXeBJoSZ0gRn15zx4kMGkY",
+    "lat": 53.4133977,
+    "lon": -6.365903599999999,
+    "rating": 4.9,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballycoolen, Dublin, D15 E4FN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dovetail Technologies",
+    "place_id": "ChIJP0KWGzsMZ0gRNFa9SocYX-c",
+    "lat": 53.3410805,
+    "lon": -6.28421,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The GEC, Taylor's Ln, The Liberties, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Arista Networks",
+    "place_id": "ChIJ60KLJowOZ0gR0g8yl34KfZ4",
+    "lat": 53.3496603,
+    "lon": -6.2479004,
+    "rating": 4.9,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 George's Dock, International Financial Services Centre, Dublin 1, D01 H2T6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clavis Insight",
+    "place_id": "ChIJBVCt34QOZ0gR755sNKPGMZM",
+    "lat": 53.3467996,
+    "lon": -6.258344,
+    "rating": 4.9,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7th Floor, O'Connell Bridge House, 2 D'Olier Street, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TEKenable Limited",
+    "place_id": "ChIJP7LatjKDY0ER4i8jeYE7fe4",
+    "lat": 53.3397618,
+    "lon": -6.2393261,
+    "rating": 5,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Clanwilliam Terrace, Grand Canal Dock, Dublin 2, D02 DR98, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dev Centre House Ireland",
+    "place_id": "ChIJR_5oeC4MZ0gRJ6CyZ-FM7e8",
+    "lat": 53.412101,
+    "lon": -6.365437,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 5, Plaza 256, Blanchardstown Corporate Park 2, Dublin 15, D15 VE24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "eDesk",
+    "place_id": "ChIJM3KGyJQOZ0gRn7BB0F64Z6E",
+    "lat": 53.3353646,
+    "lon": -6.241329599999999,
+    "rating": 4.4,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20-38, Two Haddington Buildings, 20 Haddington Rd, Dublin 4, D04 HE94, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Demonware Ltd",
+    "place_id": "ChIJ2TdS1YMOZ0gRyjkiLeBHpGw",
+    "lat": 53.3507342,
+    "lon": -6.2658692,
+    "rating": 4.8,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "194 Parnell St, Rotunda, Dublin 1, D01 A3Y8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Salmon Software",
+    "place_id": "ChIJzZAoQbUMZ0gRRsAUiv5CRZI",
+    "lat": 53.3354384,
+    "lon": -6.2535837,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38-39 Fitzwilliam Square W, Dublin, D02 NX53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Workday - Dublin",
+    "place_id": "ChIJ3f2BJSkMZ0gR8AIRCbtRBTw",
+    "lat": 53.3477901,
+    "lon": -6.2750869,
+    "rating": 4.7,
+    "user_ratings_total": 345,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building, 152, Kings, 152-155, Church St, Smithfield, Dublin 7, D07 A0TN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Marino Software",
+    "place_id": "ChIJv0SWMFoOZ0gRtuJVagN7MJ8",
+    "lat": 53.37780679999999,
+    "lon": -6.2712444,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DCU Alpha, Old Finglas Rd, Dublin, D11 KXN4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SoftwareOne Ireland",
+    "place_id": "ChIJF8FOqJIPZ0gRRsLsbIC0D0c",
+    "lat": 53.3374548,
+    "lon": -6.250312699999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Baggot Street Lower, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cozmotec",
+    "place_id": "ChIJ-3tDxqMljYIRmLZhmY_Koc8",
+    "lat": 53.4451691,
+    "lon": -6.2222238,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Columba House, Lakeshore Dr, Airside Retail Park, Swords, Co. Dublin, K67 R2Y9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IT Solutions Limited",
+    "place_id": "ChIJTwlBopwOZ0gRdKKSTwXaKz8",
+    "lat": 53.3438195,
+    "lon": -6.261888,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6-9 Trinity St, Dublin 2, D02 EY47, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wildcard Software",
+    "place_id": "ChIJ9WM9wAMMZ0gR1hq7Lk_O_7Y",
+    "lat": 53.319329,
+    "lon": -6.2675329,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "York House, Rathmines Park, Rathmines, Dublin, D06 C9H6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Creme Global",
+    "place_id": "ChIJtUWWrewOZ0gR-du8vZkNesU",
+    "lat": 53.34193339999999,
+    "lon": -6.2396563,
+    "rating": 4.6,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4th Floor The Design Tower, Trinity Technology & Enterprise Campus, Grand Canal Quay, Dublin 2, D02 P956, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Vizor Software",
+    "place_id": "ChIJw92rDZgOZ0gRA7L9qJn2euw",
+    "lat": 53.2772539,
+    "lon": -6.2077069,
+    "rating": 5,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5th Floor, Atrium A, Nova Atria, Sandyford Business Park, Dublin 18, D18 F5X2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "EdgeTier",
+    "place_id": "ChIJcRAE9h4LZ0gRPNerGtdHZLQ",
+    "lat": 53.34480869999999,
+    "lon": -6.2610132,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Foster Pl, Temple Bar, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Herbst Software",
+    "place_id": "ChIJHXovwqgMZ0gRn1P1YVPctd4",
+    "lat": 53.3117908,
+    "lon": -6.3612658,
+    "rating": 4.2,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd Floor, Parkway Business Centre, Ballymount House, Ballymount, Dublin, D24 XNE2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Adobe Systems Software Ireland",
+    "place_id": "ChIJ9VqzBIl0Z0gROKQ4OTnR6AA",
+    "lat": 53.2907766,
+    "lon": -6.42033,
+    "rating": 2.4,
+    "user_ratings_total": 100,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4-6, Riverwalk Drive, Citywest Business Campus, Brownsbarn, Dublin 24, D24 DCW0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Kaseya",
+    "place_id": "ChIJTcxVAIwOZ0gREnFFpoghwQk",
+    "lat": 53.3513738,
+    "lon": -6.2484008,
+    "rating": 3.7,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One IFSC, 1 Custom House Quay, North Wall, Dublin, D01 T9C2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DIGIT Game Studios",
+    "place_id": "ChIJcQ9kL44OZ0gReqD65_FJNko",
+    "lat": 53.3464451,
+    "lon": -6.2501355,
+    "rating": 4.7,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4 Prince's St S, City Quay, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Eskimo Software",
+    "place_id": "ChIJ2_F8Z2wNZ0gRYb53Ugf7dSA",
+    "lat": 53.3556657,
+    "lon": -6.280524400000001,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DIT Hothouse The Greenway Hub, Grangegorman Lower, Dublin 7, D07 X8R6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HQ Software",
+    "place_id": "ChIJQbrDneALZ0gRdwIjm6NlZOU",
+    "lat": 53.2911203,
+    "lon": -6.2614237,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "D19 Nutgrove Office Park, Whitehall, Dublin 14, D14 PF66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Liberty IT",
+    "place_id": "ChIJGayAivoNZ0gRY7JDdEQv4T0",
+    "lat": 53.3420327,
+    "lon": -6.2682538,
+    "rating": 4.2,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6th floor, One LePole Square, Ship Street Great, Dublin 8, D08 E6PD, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Square1",
+    "place_id": "ChIJO0U73lYNZ0gRtzQL9KZEcbw",
+    "lat": 53.3436252,
+    "lon": -6.2833388,
+    "rating": 4.4,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "151 Thomas St, The Liberties, Dublin 8, D08 PY5E, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bullet",
+    "place_id": "ChIJYVmdJNcJZ0gRcKm3B_eokM4",
+    "lat": 53.3328345,
+    "lon": -6.267354200000001,
+    "rating": 4.6,
+    "user_ratings_total": 159,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9 Meath St, Saint Kevin's, Dublin 9, D08 Y6XD, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tableau Software",
+    "place_id": "ChIJZ5ElRsEOZ0gRdko250p5nxY",
+    "lat": 53.33145349999999,
+    "lon": -6.231446699999999,
+    "rating": 4.2,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block 1, 160 Shelbourne Rd, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Incognito Software Systems Inc",
+    "place_id": "ChIJAQDw2joMZ0gR8ciFpJyJmPE",
+    "lat": 53.3421514,
+    "lon": -6.2826758,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Digital Court, Rainsford St, Ushers, Dublin, D08 EH4C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Toast Ireland",
+    "place_id": "ChIJI291v-UPZ0gRytRU3zdiDs0",
+    "lat": 53.3392521,
+    "lon": -6.26206,
+    "rating": 4.4,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bank of Scotland House, 124 St Stephen's Green, Dublin 2, D02 C628, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Oracle Block B",
+    "place_id": "ChIJ56vHTP8OZ0gRPp2AWimMYeA",
+    "lat": 53.35741729999999,
+    "lon": -6.2254317,
+    "rating": 4.6,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eastpoint Business Park, Fairview, Dublin, D03 Y8C5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Autodesk Ireland",
+    "place_id": "ChIJWXt5te4PZ0gR_TuxU9l82ms",
+    "lat": 53.3457282,
+    "lon": -6.246308,
+    "rating": 4.7,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Windmill Ln, Dublin, D02 F206, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dataships",
+    "place_id": "ChIJp0rS2PYPZ0gRLxMo4UTL4ig",
+    "lat": 53.3046196,
+    "lon": -6.2126531,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "NovaUCD, Stillorgan Rd, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Radii",
+    "place_id": "ChIJc_myw5cOZ0gRJvttbtI8oNk",
+    "lat": 53.2939295,
+    "lon": -6.2017398,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Priory Office Park, Stillorgan Rd, Blackrock, Dublin, A94 N2V3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Provident CRM",
+    "place_id": "ChIJdy9pM4wOZ0gRMPUL4vZJSes",
+    "lat": 53.348844,
+    "lon": -6.247851799999999,
+    "rating": 5,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dogpatch Labs, The Chq Building, Unit 1, Custom House Quay, North Wall, Dublin, D01 Y6H7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UWS Software Service Ltd.",
+    "place_id": "ChIJDRh4IT8MZ0gR-J1fbXRymd4",
+    "lat": 53.4018662,
+    "lon": -6.2607684,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 1+4, Block 1 Northwood Ct, Santry Demesne, Dublin, D09 E438, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Datalex",
+    "place_id": "ChIJoRljHfgOZ0gRiM536OXiX-g",
+    "lat": 53.3575538,
+    "lon": -6.229277199999999,
+    "rating": 4.4,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eastpoint Business Park, Block V, Marina House, Eastpoint St, Dublin, D03 AX24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Razorflow Software Solutions Ireland Limited",
+    "place_id": "ChIJ5xxSwfkPZ0gRbolO9GNgvKI",
+    "lat": 53.3407257,
+    "lon": -6.2365759,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6th Floor, South Bank House, Barrow St, Dublin 4, D04 TR29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sitecore Ireland Ltd",
+    "place_id": "ChIJgVhz5i2DY0ERLuqiROtPA0E",
+    "lat": 53.3464824,
+    "lon": -6.2548897,
+    "rating": 3.7,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ashford House, 18-23 Tara St, Dublin 2, D02 VX67, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

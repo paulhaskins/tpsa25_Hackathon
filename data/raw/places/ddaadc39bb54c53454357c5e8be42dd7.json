@@ -1,0 +1,67 @@
+[
+  {
+    "name": "DCU:Innovate Hub",
+    "place_id": "ChIJVdVXyXQOZ0gRY41c-PDWO0Q",
+    "lat": 53.37624779999999,
+    "lon": -6.2706675,
+    "rating": 4.8,
+    "user_ratings_total": 53,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DCU Alpha, Old Finglas Rd, Glasnevin, Dublin, D11 KXN4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Docklands Innovation Park",
+    "place_id": "ChIJ303a7vkOZ0gRmCvmLGE1nCY",
+    "lat": 53.3538223,
+    "lon": -6.2288403,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Docklands Innovation Park Centre Block, E Wall Rd, Dublin, D03 X316, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity Innovation and Enterprise",
+    "place_id": "ChIJ3cp6b0kPZ0gRS3ZQ8-85pNU",
+    "lat": 53.3418923,
+    "lon": -6.2394398,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Tower, Trinity Technology and Enterprise Campus, Pearse St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Innovation Academy",
+    "place_id": "ChIJafL0NTEJZ0gRbihZvZ3ndXg",
+    "lat": 53.3080785,
+    "lon": -6.2242279,
+    "rating": 3.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Science Centre (Hub), University College Dublin, Belfield, Dublin 4, D04 N2E5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

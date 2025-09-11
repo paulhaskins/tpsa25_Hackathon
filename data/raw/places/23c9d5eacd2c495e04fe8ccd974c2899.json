@@ -1,0 +1,1087 @@
+[
+  {
+    "name": "Greavy & Co Accountants",
+    "place_id": "ChIJ1TbGI5YOZ0gRsRMNamfEPzY",
+    "lat": 53.3396747,
+    "lon": -6.2402976,
+    "rating": 5,
+    "user_ratings_total": 41,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Clanwilliam Square, Grand Canal Dock, Dublin 2, D02 PF75, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Beyond Accounting - Chartered Accountant & Outsourced Management Accountant",
+    "place_id": "ChIJIwJgk5cOZ0gRj9_cXTALy50",
+    "lat": 53.33611149999999,
+    "lon": -6.2519944,
+    "rating": 4.8,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "56 Fitzwilliam Square N, Dublin, D02 X224, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rory Williams Chartered Accountants",
+    "place_id": "ChIJuf_AruoPZ0gR-5mYO2k6fTg",
+    "lat": 53.3360139,
+    "lon": -6.2636081,
+    "rating": 5,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Harcourt St, Saint Kevin's, Dublin 2, D02 H364, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Gallagher Keane Chartered Accountants",
+    "place_id": "ChIJe4fxMZYOZ0gR7FGkiMf2FlY",
+    "lat": 53.335907,
+    "lon": -6.249658999999999,
+    "rating": 4.8,
+    "user_ratings_total": 41,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Fitzwilliam Street Upper, Dublin 2, D02 X205, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CloudAccounts",
+    "place_id": "ChIJge2TcHEPZ0gRd_hcTwgZpVQ",
+    "lat": 53.3326152,
+    "lon": -6.259623299999999,
+    "rating": 5,
+    "user_ratings_total": 209,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13 Adelaide Rd, Saint Kevin's, Dublin 2, D02 P950, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Brady & Associates",
+    "place_id": "ChIJG1Om7X0MZ0gRLfcxjKnzesc",
+    "lat": 53.3420895,
+    "lon": -6.279251599999999,
+    "rating": 5,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9 Meath St, The Liberties, Dublin, D08 Y6XD, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TASC Accountants",
+    "place_id": "ChIJX2Lj_GdtZ0gRCaaOKvNmoTg",
+    "lat": 53.3954391,
+    "lon": -6.4393804,
+    "rating": 5,
+    "user_ratings_total": 65,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3C Main St, Ongar, Dublin, D15 RW2D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Simpletax Accountants",
+    "place_id": "ChIJ7cVfFR8PZ0gRR2kJ7Y5v-fI",
+    "lat": 53.3440904,
+    "lon": -6.2626551,
+    "rating": 4.9,
+    "user_ratings_total": 65,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "40/41 Dame St, Dublin, D02 VA44, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Everyday Accountancy Services",
+    "place_id": "ChIJv0YknwKXW0gRNjHBl65r4lg",
+    "lat": 53.332598,
+    "lon": -6.2596234,
+    "rating": 5,
+    "user_ratings_total": 40,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13 Adelaide Rd, Saint Kevin's, Dublin, D02 P950, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "OSA McQuillan - Dublin Accountants",
+    "place_id": "ChIJmZWjA7OFXkgR_wPa2hTNb-w",
+    "lat": 53.3006024,
+    "lon": -6.175774,
+    "rating": 4.7,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "69 Main St, Newtown Blackrock, Blackrock, Co. Dublin, A94 N6D0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ireland Accountant - Dublin Accounting Firm",
+    "place_id": "ChIJFWOs7NZ1Z0gRgrqRdbqfbI8",
+    "lat": 53.2810248,
+    "lon": -6.474205500000001,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Inniscarra, Suite 4, Main St, Rathcoole, Dublin, D24 E029, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Merry Mullen Accountants",
+    "place_id": "ChIJRfs9jJEOZ0gRCEJZluse824",
+    "lat": 53.34453990000001,
+    "lon": -6.247461599999999,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "18 Westland Square, Pearse St, Dublin, D02 F751, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Icon Accounting",
+    "place_id": "ChIJV7NNj_gQZ0gRwA5z9YDANL0",
+    "lat": 53.4454645,
+    "lon": -6.2248378,
+    "rating": 5,
+    "user_ratings_total": 505,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Columba House, Lakeshore Dr, Airside Retail Park, Swords, Co. Dublin, K67 R2Y9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Kinore Accountants",
+    "place_id": "ChIJ4wQ_PFoOZ0gRETp8VLMSSqI",
+    "lat": 53.3380997,
+    "lon": -6.2531078,
+    "rating": 4.2,
+    "user_ratings_total": 106,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "71 Baggot Street Lower, Dublin 2, D02 P593, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ormsby & Rhodes Chartered Accountants",
+    "place_id": "ChIJH5ISxpAOZ0gRsUbu0j2vf2A",
+    "lat": 53.3414686,
+    "lon": -6.2512574,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9 Clare St, Dublin, D02 HH30, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FM Accountants Dublin",
+    "place_id": "ChIJddt40gsJZ0gRGEThWHHiaBA",
+    "lat": 53.3361412,
+    "lon": -6.2529521,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Carrick House, 49 Fitzwilliam Square W, Dublin 2, D02 N578, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Kilcoyne & Co Accountants",
+    "place_id": "ChIJo6BnUy8MZ0gRD8Kholwyz6A",
+    "lat": 53.3452504,
+    "lon": -6.2970277,
+    "rating": 4.8,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 9, The Dargan Building, Heuston South Quarter, Saint James, Dublin 8, D08 A4V6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Malone and Co. Accountants",
+    "place_id": "ChIJLxbtyMgMZ0gRQhEqqoMpHD4",
+    "lat": 53.2955305,
+    "lon": -6.4409176,
+    "rating": 5,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Landscape House, Baldonnell Business Park, Baldonnell, Co. Dublin, D22 P3K7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PTB Accounting Ltd.",
+    "place_id": "ChIJK8xu0DYPZ0gRXpgGqcMnHN8",
+    "lat": 53.2744174,
+    "lon": -6.2171408,
+    "rating": 5,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Workhub, 51 Bracken Rd, Sandyford, Dublin, D18 CV48, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Grant Thornton Ireland",
+    "place_id": "ChIJb4l2PY4OZ0gR53-LtBak8JY",
+    "lat": 53.346958,
+    "lon": -6.2504155,
+    "rating": 4.7,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13-18, 13 City Quay, Dublin 2, D02 ED70, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ITAS Accounting",
+    "place_id": "ChIJv46BoVAOZ0gRfTvTEKA8hWY",
+    "lat": 53.3640658,
+    "lon": -6.2328069,
+    "rating": 5,
+    "user_ratings_total": 59,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Marino Mart, Clontarf, Dublin, D03 K400, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HLB Ireland Head Office - Accountancy and Advisory",
+    "place_id": "ChIJ7zkSrggJZ0gR8SWL4GF-Juk",
+    "lat": 53.277501,
+    "lon": -6.211118,
+    "rating": 4.3,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 7, The Courtyard, Carmanhall Rd, Sandyford, Dublin, D18 NW62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Moran and Partners Accountants & Tax Consultants",
+    "place_id": "ChIJI4SWI28OZ0gRz405Yo_bJz4",
+    "lat": 53.3697384,
+    "lon": -6.254054699999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Drumcondra Rd Upper, Drumcondra, Dublin 9, D09 FT7K, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Francis Brophy & Company Chartered Accountants",
+    "place_id": "ChIJm2oyFloOZ0gRUgL2kMou8q4",
+    "lat": 53.36419000000001,
+    "lon": -6.232488999999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ground floor, 8, Marino Mart, Fairview, Dublin, D03 EK81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Peak Accounting Solutions Limited",
+    "place_id": "ChIJM1ASNcUPZ0gR7KvMNLNyizY",
+    "lat": 53.3353123,
+    "lon": -6.2654232,
+    "rating": 4.5,
+    "user_ratings_total": 89,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nolan & Associates",
+    "place_id": "ChIJQXKvJigMZ0gRv9KRGv0-RrI",
+    "lat": 53.3468839,
+    "lon": -6.269183399999999,
+    "rating": 4.6,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "302-304, 7 Mary's Abbey, North City, Dublin 7, D07 PY7X, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Accounts",
+    "place_id": "ChIJ65rRAmAFZ0gRiiiuOMtrYRE",
+    "lat": 53.3957856,
+    "lon": -6.1437079,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Abbey Business Park, Grange Drive, Baldoyle Industrial Estate, Dublin 13 D13 N738, Co. Dublin, D05 W3C8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cronin and Company | Accountancy Firm",
+    "place_id": "ChIJZTvjuvULZ0gR8wWmgkP_voI",
+    "lat": 53.3098871,
+    "lon": -6.283724599999999,
+    "rating": 3.3,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Terenure Pl, Terenure, Dublin 6W, Co. Dublin, D6W FN23, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Meagher Moynihan Chartered Accountants",
+    "place_id": "ChIJ88ig2LwOZ0gRrhTMdYwtg0c",
+    "lat": 53.3399057,
+    "lon": -6.2402769,
+    "rating": 5,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "14 Clanwilliam Square, Dublin 2, D02 FK23, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Deluxe accounting solutions",
+    "place_id": "ChIJTXfefwAPZ0gRewtFlvJ1A6Q",
+    "lat": 53.3351169,
+    "lon": -6.250356399999999,
+    "rating": 5,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Fitzwilliam Square E, Dublin 2, D02 R744, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PKF Brenson Lawlor",
+    "place_id": "ChIJF69sbLcOZ0gRvEPg7MmpKzw",
+    "lat": 53.3238308,
+    "lon": -6.2403052,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Brenson Lawlor House, Brenson Lawlor House, Argyle Square, Morehampton Rd, Donnybrook, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "APM Accountants Dublin",
+    "place_id": "ChIJw-4B9OgLZ0gRPyyixMKYENI",
+    "lat": 53.2794205,
+    "lon": -6.3661695,
+    "rating": 5,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "23 Tymon Lawn, Oldbawn, Dublin, D24 C2YY, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hugh McCarthy & Associates Accountants",
+    "place_id": "ChIJO04PKw0MZ0gRUAmO3dN6npQ",
+    "lat": 53.3284606,
+    "lon": -6.2790665,
+    "rating": 3.9,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1st & 2nd Floor, The Mill, Greenmount Industrial Estate, Harold's Cross, Dublin 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Garvey Moran, Chartered Certified Accountants and Chartered Tax Advisers",
+    "place_id": "ChIJp0GtKH4JZ0gRipkTtKi_1Cs",
+    "lat": 53.29433359999999,
+    "lon": -6.2015404,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "22 Priory Office Park, Merrion, Blackrock, Co. Dublin, A94 HK76, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "GBW Accountants",
+    "place_id": "ChIJL4hPgZgOZ0gRPMMncs6FwTc",
+    "lat": 53.3253323,
+    "lon": -6.254335999999999,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Westmoreland House, Westmoreland Park, Dublin 6, D06 DP62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Realtime Accountants -",
+    "place_id": "ChIJN_4aGzsMZ0gRajXbxIl8yzM",
+    "lat": 53.3132737,
+    "lon": -6.3485783,
+    "rating": 5,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "76 Western business parkway ballymount, Dublin 12, D12 R156, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FinTechPRO",
+    "place_id": "ChIJ_7v3_FQTZ0gRffNQWWMKq1c",
+    "lat": 53.3136045,
+    "lon": -6.3486527,
+    "rating": 5,
+    "user_ratings_total": 54,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 79 Block 5, FF FinTech PRO, Engineering House, Western Business Parkway Center, Ballymount, Dublin 12, D12 NRY2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Donal Ryan & Associates",
+    "place_id": "ChIJvVBCmzIMZ0gR9Il9P2n-qJI",
+    "lat": 53.3531382,
+    "lon": -6.284637399999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "34 Manor St, Stoneybatter, Dublin 7, D07 FX33, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "QR ACCOUNTANTS",
+    "place_id": "ChIJtTK4eExtZ0gR1vh60UHycT8",
+    "lat": 53.40872880000001,
+    "lon": -6.4035253,
+    "rating": 5,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Plato Business Park, Damastown Industrial Park, Dublin 15, D15 WN20, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hayden Brown Chartered Accountants",
+    "place_id": "ChIJdf0oCpwOZ0gRWFaBB3QIYeQ",
+    "lat": 53.3411031,
+    "lon": -6.2603857,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "34 Grafton Street, Dublin, D02 XY06, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Niall Byrne & Company",
+    "place_id": "ChIJaz44hKIOZ0gRmGGfZIy8FIE",
+    "lat": 53.3344263,
+    "lon": -6.2546672,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13 Pembroke Street Upper, Dublin, D02 YW25, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tax Accounting Ireland",
+    "place_id": "ChIJ7zlu3pcOZ0gR7kXzZmNRMXI",
+    "lat": 53.3388603,
+    "lon": -6.2446068,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "16 Mount Street Lower, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Accounts Advice Centre",
+    "place_id": "ChIJC9rB84QOZ0gRNz-YvwjihjQ",
+    "lat": 53.3478098,
+    "lon": -6.2597546,
+    "rating": 5,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "lawyer",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "52 O'Connell Street Lower, North City, Dublin 1, D01 C2P1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Forvis Mazars in Ireland",
+    "place_id": "ChIJXzA1QaAOZ0gR-fNMx9uWDYk",
+    "lat": 53.3328742,
+    "lon": -6.2632601,
+    "rating": 3.3,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3, Harcourt Centre, 2 Harcourt Rd, Saint Kevin's, Dublin 2, D02 A339, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Expert Services",
+    "place_id": "ChIJj2zi3mAPZ0gR8YJm-LMryow",
+    "lat": 53.40446679999999,
+    "lon": -6.1828943,
+    "rating": 4.9,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Chase House, Malahide Rd, City Junction Business Park, Dublin 17, D17 AK63, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cyril O'Neill & Company Legal Costs Accountants",
+    "place_id": "ChIJS-L8qygMZ0gRRapvgZ-e5_w",
+    "lat": 53.3450169,
+    "lon": -6.2748751,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20/23 Merchant's Quay, Merchants Quay, Dublin, D08 DXW6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Paddy Quinn & Co Chartered Accountants",
+    "place_id": "ChIJx4eiDv4NZ0gRhqaQNu-7Y1A",
+    "lat": 53.3725922,
+    "lon": -6.268028,
+    "rating": 4.8,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "208 Botanic Ave, Glasnevin, Dublin, D09 YP49, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BKM Accountants Ltd",
+    "place_id": "ChIJucFnlX8MZ0gRI1jUDAYDfPA",
+    "lat": 53.32956739999999,
+    "lon": -6.2771165,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "First Floor 33, Greenmount Office Park, Harold's Cross Rd, Harold's Cross, Dublin 6W, Co. Dublin, D6W P267, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Karl McDonald & Company Accountants",
+    "place_id": "ChIJrabNKH0OZ0gR2EfG7tlj2cg",
+    "lat": 53.3588051,
+    "lon": -6.2580803,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "21 Belvedere Pl, Mountjoy, Dublin, D01 WP22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Shelbourne Accountants",
+    "place_id": "ChIJg6Lg9M8OZ0gRNZ2KAwCwnVI",
+    "lat": 53.273183,
+    "lon": -6.2175515,
+    "rating": 4.1,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 1a, Bracken Business Park, Bracken Rd, Sandyford, Dublin 18, D18 H283, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lombard Accountants Ltd",
+    "place_id": "ChIJkRSO-JMOZ0gRUP85suAdK7Q",
+    "lat": 53.3409079,
+    "lon": -6.2454372,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Holles St, Dublin 2, D02 ER81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SM & Co Accountants",
+    "place_id": "ChIJg34WW8sMZ0gRL8A1yALWWoQ",
+    "lat": 53.3443207,
+    "lon": -6.2652378,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "House, Suite 1B, Olympia, 61-63 Dame St, Dublin 2, D02 KT54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BJK Accountants",
+    "place_id": "ChIJX0472XsIZ0gR5ieUj54QQhI",
+    "lat": 53.268528,
+    "lon": -6.145951999999999,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "29 Johnstown Rd, Johnstown, Cabinteely, Co. Dublin, A96 CH56, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lewis & Co Chartered Accountants",
+    "place_id": "ChIJ26ID8x8JZ0gRDoqSrEaI1Vw",
+    "lat": 53.2939592,
+    "lon": -6.2021172,
+    "rating": 4.2,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Priory Office Park, Stillorgan Rd, Blackrock, Dublin, A94 EE95, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JP O\u2019Donohoe & Company",
+    "place_id": "ChIJkYmiwh4NZ0gRK1DS_UThCCY",
+    "lat": 53.3382327,
+    "lon": -6.2759525,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Newmarket House, Newmarket, The Liberties, Dublin, D08 VAP9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Azets",
+    "place_id": "ChIJlbOaB5QOZ0gRVNTYcKZoNKE",
+    "lat": 53.3329073,
+    "lon": -6.2482302,
+    "rating": 5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3rd floor, 40 Mespil Rd, Dublin 4, D04 C2N4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Accountancy",
+    "place_id": "ChIJVxTGpU_dfUIRl9Wi3U5r7qA",
+    "lat": 53.3353364,
+    "lon": -6.265429699999999,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Lower Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intax",
+    "place_id": "ChIJyzKCqwgJZ0gRFntUXJZ4Sbs",
+    "lat": 53.2757368,
+    "lon": -6.2194441,
+    "rating": 5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, Suite 32, Second Floor, The Mall, Bracken Rd, Sandyford, Co. Dublin, D18 AYF3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TaxAssist Accountants",
+    "place_id": "ChIJYTya1XIMZ0gRg-UtBUPpvGQ",
+    "lat": 53.3175541,
+    "lon": -6.3334134,
+    "rating": 5,
+    "user_ratings_total": 77,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "174 Walkinstown Rd, Walkinstown, Dublin, D12 K6NT, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DBASS Chartered Accountants",
+    "place_id": "ChIJLemibNYUZ0gRpzUmtmTrV70",
+    "lat": 53.5189815,
+    "lon": -6.4142972,
+    "rating": 5,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Berkeley House, Ballybin Rd, Cookstown, Ashbourne, Co. Meath, A84 VY66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

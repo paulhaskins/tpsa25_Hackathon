@@ -1,0 +1,1046 @@
+[
+  {
+    "name": "Progressive Financial Services",
+    "place_id": "ChIJ-VKCPEEMZ0gRJVYRXrqPLjA",
+    "lat": 53.338822,
+    "lon": -6.2794319,
+    "rating": 5,
+    "user_ratings_total": 275,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ardee Court, Unit 1, Ardee St, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mason Wealth Management",
+    "place_id": "ChIJ4fE2EAMMZ0gR8U_rkx2pS8E",
+    "lat": 53.334159,
+    "lon": -6.2546216,
+    "rating": 5,
+    "user_ratings_total": 175,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "insurance_agency",
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "73 Leeson Street Lower, Dublin 2, D02 X524, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CMCC Financial Solutions",
+    "place_id": "ChIJ913ivgsJZ0gR2f9bI5HGCaQ",
+    "lat": 53.27572060000001,
+    "lon": -6.2197004,
+    "rating": 5,
+    "user_ratings_total": 80,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 30 The Mall, Beacon Court, Sandyford, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Finance Solutions",
+    "place_id": "ChIJJzANiVlyZ0gREmTyV6UgxN4",
+    "lat": 53.3487233,
+    "lon": -6.24094,
+    "rating": 5,
+    "user_ratings_total": 2206,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Two Dockland Central, Guild St, International Financial Services Centre, Dublin 1, D01 K2C5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hegarty Financial Management Limited",
+    "place_id": "ChIJ9aNwW6YOZ0gRNPB5DSTEWhg",
+    "lat": 53.3288154,
+    "lon": -6.2629722,
+    "rating": 4.9,
+    "user_ratings_total": 113,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "47 Mountpleasant Ave Lower, Rathmines, Dublin, D06 W5A0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Financial Life",
+    "place_id": "ChIJx0HqRhkJZ0gR6AQMmcC0r1w",
+    "lat": 53.3182644,
+    "lon": -6.4387418,
+    "rating": 5,
+    "user_ratings_total": 187,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Business Park, Unit 22 The Courtyard, New Nangor Road, Kilcarbery, Dublin 22, D22 X928, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Park Financial - Mortgage Broker",
+    "place_id": "ChIJs-Dg_XAMZ0gRw0Yj2DJspc0",
+    "lat": 53.3169783,
+    "lon": -6.301861799999999,
+    "rating": 5,
+    "user_ratings_total": 1146,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 13 Cashel Business Centre, Kimmage, Dublin 12, D12 A567, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Shankill Financial Services",
+    "place_id": "ChIJC22lbP8HZ0gRQAPeOV9kTrw",
+    "lat": 53.2345889,
+    "lon": -6.126346799999999,
+    "rating": 5,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Station Road Shankill Business Centre, Shankill, Dublin, 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Howth Financial Services Limited",
+    "place_id": "ChIJb-kIx5kEZ0gRTuk3itn7X2c",
+    "lat": 53.3881107,
+    "lon": -6.0653255,
+    "rating": 4.9,
+    "user_ratings_total": 140,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Howth House, Harbour Rd, Howth, Dublin, D13 XK75, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "LHK Finance One",
+    "place_id": "ChIJLSHA5JUOZ0gRkS_SSBuq-jw",
+    "lat": 53.2957744,
+    "lon": -6.245823199999999,
+    "rating": 5,
+    "user_ratings_total": 337,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Rosemount House, Dundrum Rd, Dundrum, Dublin, 14, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "All Financials",
+    "place_id": "ChIJw64IUIsPZ0gRIycZf0PK6DI",
+    "lat": 53.38105419999999,
+    "lon": -6.1654387,
+    "rating": 5,
+    "user_ratings_total": 104,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "63 St Assam's Park, Raheny - St. Assam, Dublin, 5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ocean Finance",
+    "place_id": "ChIJ0RxTLM0NZ0gRiuSa3m2FFa8",
+    "lat": 53.3567091,
+    "lon": -6.2879837,
+    "rating": 4.9,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Finance House, 46 Prussia St, Dublin 7, D07 VW0Y, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Keenan Financial Planning",
+    "place_id": "ChIJj4CNwVYNZ0gRWYOG8YblcuE",
+    "lat": 53.3885438,
+    "lon": -6.3803149,
+    "rating": 5,
+    "user_ratings_total": 102,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "House, The Rise, Valleymount, Main St, Blanchardstown, Dublin 15, D15 CP5X, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Highfield Financial Planning",
+    "place_id": "ChIJxasmihYPZ0gRClziV9aeoiU",
+    "lat": 53.3438195,
+    "lon": -6.261888,
+    "rating": 5,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6-9 Trinity St, Dublin, D02 EY47, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Smart Financial",
+    "place_id": "ChIJ88KhAEF0Z0gRnLXHDthlQso",
+    "lat": 53.31604129999999,
+    "lon": -6.3346456,
+    "rating": 5,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Units 1 & 2, Greenhills Centre, 1 Greenhills Rd, Walkinstown, Dublin 12, D12 YH22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Prosperous Financial",
+    "place_id": "ChIJgwmbJN14Z0gR2r4wPQDIZZ4",
+    "lat": 53.3470964,
+    "lon": -6.2694152,
+    "rating": 4.8,
+    "user_ratings_total": 74,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 124A The Capel Building, Mary's Abbey, Dublin, D07 VX33, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "#1 Retirement Experts in Ireland | Financial Planning and Advice Dublin | Imperius Wealth",
+    "place_id": "ChIJdVgDI5gPZ0gRF6g06pxm69E",
+    "lat": 53.3454463,
+    "lon": -6.2334238,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block C, 77 Sir John Rogerson's Quay, Grand Canal Dock, Dublin, D02 VK60, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DNG Financial Services Ireland",
+    "place_id": "ChIJewvHwy2ypo0R972Uh7J3swM",
+    "lat": 53.3293006,
+    "lon": -6.2528314,
+    "rating": 5,
+    "user_ratings_total": 58,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Leeson Park, Ranelagh, Dublin 6, D06 H1W2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "First Choice Financial Services DAC",
+    "place_id": "ChIJgWMdBdAIZ0gRijgWqsXFKjg",
+    "lat": 53.3373821,
+    "lon": -6.2510727,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "128 Baggot Street Lower, Dublin, D02 A430, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Anthony O'Neill Financial Services",
+    "place_id": "ChIJu8EtpAERZ0gRSuANS3AWXJA",
+    "lat": 53.2348709,
+    "lon": -6.126908999999999,
+    "rating": 4.9,
+    "user_ratings_total": 100,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Shankill Business Centre, Station Rd, Shankill, Dublin, D18 N1N2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Prudent Management Group",
+    "place_id": "ChIJiRi-_vcLZ0gRMQhbjvYTPoU",
+    "lat": 53.3119708,
+    "lon": -6.2751318,
+    "rating": 5,
+    "user_ratings_total": 35,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Terenure Rd E, Terenure, Dublin 6, D06 K2T9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Metis Ireland",
+    "place_id": "ChIJb-pRNtoPZ0gRZ1lJ-46YNV4",
+    "lat": 53.3362868,
+    "lon": -6.252928199999999,
+    "rating": 5,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Lis Cara Business Centre, 51 - 52 Fitzwilliam Square W, Dublin 2, D02 X504, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Affinity Advisors",
+    "place_id": "ChIJTxkGvZcOZ0gRQTJp-m9Jm44",
+    "lat": 53.3394412,
+    "lon": -6.2454105,
+    "rating": 5,
+    "user_ratings_total": 412,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "64 Mount Street Lower, Dublin 2, D02 TH77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rockwell",
+    "place_id": "ChIJS74Am-ALZ0gR-dT-oxsAC0Y",
+    "lat": 53.34069359999999,
+    "lon": -6.2746567,
+    "rating": 4.9,
+    "user_ratings_total": 130,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "103 Francis St, The Liberties, Dublin 8, D08 Y70F, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SparksWealth",
+    "place_id": "ChIJdwXtctgPZ0gRRWF0lyKfFP4",
+    "lat": 53.3340685,
+    "lon": -6.2568209,
+    "rating": 5,
+    "user_ratings_total": 35,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Hatch Street Lower, Saint Kevin's, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cornmarket Group Financial Services",
+    "place_id": "ChIJyySzXCYMZ0gRJGmHAK_ViuQ",
+    "lat": 53.3428216,
+    "lon": -6.272696799999999,
+    "rating": 4.4,
+    "user_ratings_total": 466,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Christchurch Square, 1-2 Back Ln, The Liberties, Dublin, D08 FP21, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "McCarney Financial Services",
+    "place_id": "ChIJNYBsl3sOZ0gRmWGwkZod3xo",
+    "lat": 53.36273509999999,
+    "lon": -6.262711899999999,
+    "rating": 4.8,
+    "user_ratings_total": 42,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "29 Whitworth Rd, Drumcondra, Dublin 9, D09 E5C9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SS&C Financial Services (Ireland) Limited",
+    "place_id": "ChIJAQDA7Y4OZ0gRz2LIIWUkayY",
+    "lat": 53.3378458,
+    "lon": -6.2666439,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bishops Square, Redmond's Hill, Dublin, D02 TD99, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Arena Financial Services LTD",
+    "place_id": "ChIJ3aHP5QoRZ0gRJxIOa7BW1o8",
+    "lat": 53.407334,
+    "lon": -6.2380754,
+    "rating": 4.6,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "108 Dublin Airport Business Park, Santry, Dublin 9, D09 TY47, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Financial Services Ireland",
+    "place_id": "ChIJIfvO8r0OZ0gRNi8yyjrbwtY",
+    "lat": 53.3366098,
+    "lon": -6.2490643,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Baggot Street Lower, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Padraic Kissane Financial Services",
+    "place_id": "ChIJS74Am-ALZ0gRMT8eGGuREPQ",
+    "lat": 53.2914399,
+    "lon": -6.260113500000001,
+    "rating": 5,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Whitehall, Dublin, D14 W5E5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MC Financial",
+    "place_id": "ChIJ-bZxJKRyZ0gRp4M25mgP3W8",
+    "lat": 53.3831047,
+    "lon": -6.4001348,
+    "rating": 4.9,
+    "user_ratings_total": 296,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 1, Coolmine Business Centre, Porters Ave, Coolmine Industrial Estate, Dublin 15, D15 WN6W, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Full Circle Financial Services Limited",
+    "place_id": "ChIJU4IPKhcJZ0gRCCczNxChZw8",
+    "lat": 53.28857,
+    "lon": -6.216573899999999,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "120 Lower Kilmacud Rd, Stillorgan, Dublin, A94 KD37, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Investwise Financial Planning Limited",
+    "place_id": "ChIJo8V7Z5gEZ0gRRvOP_m9AH8M",
+    "lat": 53.3349086,
+    "lon": -6.2506086,
+    "rating": 5,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Viscount House, 6/7 Fitzwilliam Square E, Dublin 2, D02 Y447, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "askpaul",
+    "place_id": "ChIJwXIdlgYJZ0gRx1edv70wl50",
+    "lat": 53.28809709999999,
+    "lon": -6.200488699999999,
+    "rating": 4.5,
+    "user_ratings_total": 98,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Maple House, 2nd Floor, Lower Kilmacud Rd, Stillorgan, Dublin, A94 E3F2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenway Financial Advisors | Pensions | Financial Advice | Business Advice",
+    "place_id": "ChIJN_EfVc0PZ0gRe1RBaE4NQYc",
+    "lat": 53.3597715,
+    "lon": -6.1866812,
+    "rating": 5,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "local_government_office",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "277 Clontarf Rd, Clontarf East, Dublin, D03 E9A0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Financial Planning Matters Limited",
+    "place_id": "ChIJH62GFiAJZ0gRjHfhpytzcD0",
+    "lat": 53.2775885,
+    "lon": -6.215598200000001,
+    "rating": 5,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 1, The Cubes Offices Beacon South Quarter, Sandyford, Dublin, D18 RF44, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Citywide Financial Solutions",
+    "place_id": "ChIJXf3fuSYOZ0gRkQbZ-BZ5JC4",
+    "lat": 53.388662,
+    "lon": -6.2454534,
+    "rating": 5,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "238 Swords Rd, Whitehall, Dublin, D09 H9N3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dowling Financial",
+    "place_id": "ChIJJ4PR21sOZ0gRCh0gOUptEtY",
+    "lat": 53.3635054,
+    "lon": -6.2347931,
+    "rating": 5,
+    "user_ratings_total": 302,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fairview Fairview, Dublin 3, D03 K4H0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Fairstone Ireland",
+    "place_id": "ChIJCfBgvAYJZ0gRiL6Tg-d5AT0",
+    "lat": 53.28809709999999,
+    "lon": -6.200488699999999,
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Maple House, 2nd, Lower Kilmacud Rd, Stillorgan, Dublin, A94 E3F2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mark Cahill Financial Services",
+    "place_id": "ChIJ62JYeWEQZ0gRZpghTQ_A3o4",
+    "lat": 53.4420914,
+    "lon": -6.2040191,
+    "rating": 5,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38 Drynam Ave, Drinan, Kinsealy, Co. Dublin, K67 VX58, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Liffey Financial Services",
+    "place_id": "ChIJ2_NPLJlyZ0gRswy4nt1WZLc",
+    "lat": 53.38554,
+    "lon": -6.42251,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Porter's Gate Ct, Clonsilla, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Alchemi Financial Services",
+    "place_id": "ChIJOxNH2L0OZ0gR6G-FYiaa3TE",
+    "lat": 53.33353289999999,
+    "lon": -6.2447034,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Baggot Street Upper, Ballsbridge, Dublin 4, D04 V4P5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bluewater Financial Planning",
+    "place_id": "ChIJBSZ8MgoJZ0gRh-1JgaJ47hM",
+    "lat": 53.2779087,
+    "lon": -6.213927399999999,
+    "rating": 5,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Hub 17, 17 Corrig Rd, Sandyford Business Park, Dublin, D18 N6K8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Engage Financial Solutions",
+    "place_id": "ChIJHfchlqMJZ0gRPeEUTuy5690",
+    "lat": 53.3015705,
+    "lon": -6.1775091,
+    "rating": 5,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 2, First Floor, 14-18 Main St, Blackrock, Dublin, A94 W0Y3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Personal Financial Advisor - Bellwether Financial Planning",
+    "place_id": "ChIJkXcXEJgOZ0gRGiOiXMzKnOs",
+    "lat": 53.3354897,
+    "lon": -6.2536116,
+    "rating": 5,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38/39 Fitzwilliam Square W, Dublin 2, D02 NX53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RK Financial Ltd",
+    "place_id": "ChIJx4yoX88JZ0gRDdh7zKIVtU8",
+    "lat": 53.27444,
+    "lon": -6.217289999999999,
+    "rating": 5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "51 Bracken Rd, Sandyford, Dublin, D18 CV48, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Euro Wealth Financial Services Ltd",
+    "place_id": "ChIJ5zyIJAARZ0gRGm9bdPb2fKw",
+    "lat": 53.446048,
+    "lon": -6.2356984,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Boroimhe Laurels, Fosterstown North, Dublin, K67 AC60, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Advanced Financial Solutions",
+    "place_id": "ChIJ85K_0QcMZ0gRIfAfK0ndK74",
+    "lat": 53.3145248,
+    "lon": -6.2745226,
+    "rating": 4.6,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7 Winton Ave, Dublin, D06 K6C9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Financial Services Union",
+    "place_id": "ChIJuaMI9Z0OZ0gRgceuJRC00bE",
+    "lat": 53.3408676,
+    "lon": -6.2668784,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Stephen Street Upper, Dublin, D08 DR9P, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Sullivan Financial Solutions",
+    "place_id": "ChIJBdLolGsJZ0gRyP93aQ7pJS8",
+    "lat": 53.2780713,
+    "lon": -6.1632317,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6, 8 Clonkeen Rd, Deansgrange, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Orca Financial Ltd",
+    "place_id": "ChIJcYMh__wIZ0gRty6jUt74_xI",
+    "lat": 53.2606338,
+    "lon": -6.197098,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Leopardstown Business Centre, Ballyogan Rd, Ballyogan, Dublin, 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Unio",
+    "place_id": "ChIJ74oBTwYJZ0gRRSc5O2ce3-Y",
+    "lat": 53.27563720000001,
+    "lon": -6.207995299999999,
+    "rating": 4.4,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unio Head Office, Sandyford Business Centre, 2 Burton Hall Rd, Sandyford, Dublin 18, D18 R2N8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mobilize Financial Services Ireland",
+    "place_id": "ChIJRXwcZYUgeYAR9NoCbQVae7E",
+    "lat": 53.3296858,
+    "lon": -6.376281,
+    "rating": 4.8,
+    "user_ratings_total": 51,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cedar House, 13 Joyce Way, Park West Business Park, Dublin 12, D12 RW59, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RR Financial Services",
+    "place_id": "ChIJI86fvi8MZ0gROeRK3C2mNfQ",
+    "lat": 53.34605269999999,
+    "lon": -6.2803043,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Traders Wharf, 43 Usher's Quay, Dublin, D08 KT67, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "First Rate Financial Planning",
+    "place_id": "ChIJN3VJ-HttZ0gRnLFWX8QIaJM",
+    "lat": 53.3957665,
+    "lon": -6.4407605,
+    "rating": 5,
+    "user_ratings_total": 149,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "local_government_office",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "37A Main St, Ongar, Dublin 15, D15 H766, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Money Doctors - the experts in personal finance",
+    "place_id": "ChIJ-_hzxR0JZ0gRBhplL6J24Qk",
+    "lat": 53.2883137,
+    "lon": -6.201722699999999,
+    "rating": 3.5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "61 Lower Kilmacud Rd, Stillorgan, Dublin, A94 A2F7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Seaspray Financial Services Ltd",
+    "place_id": "ChIJu29Hp1gPZ0gRsuOXjccSTmo",
+    "lat": 53.3341266,
+    "lon": -6.255218699999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "25 Lower Leeson Street Lower, Saint Kevin's, Dublin 2, D02 XD77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FM Downes LTD",
+    "place_id": "ChIJx0IwrF4OZ0gRDjIe78izPpA",
+    "lat": 53.3625102,
+    "lon": -6.2375753,
+    "rating": 4.9,
+    "user_ratings_total": 86,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kandoy House, 2 Fairview Strand, Clontarf West, Dublin 3, D03 R8P3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Fiduciam Financial Planning",
+    "place_id": "ChIJ6VFbkRAJZ0gR9ue3JSpW3Bg",
+    "lat": 53.286765,
+    "lon": -6.2140464,
+    "rating": 5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Lioscarran Mews, Dale Rd, Stillorgan, Dublin, A94 TW68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

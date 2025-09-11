@@ -1,0 +1,966 @@
+[
+  {
+    "name": "Akamai Technologies Ireland Ltd.",
+    "place_id": "ChIJnbKZ7ZUOZ0gRice8-KIjEoM",
+    "lat": 53.33753129999999,
+    "lon": -6.2548398,
+    "rating": 4.9,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3-8 Hume St, Dublin 2, D02 C624, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Synchronoss Technologies",
+    "place_id": "ChIJc84jtJEOZ0gRMv2sG6Ye62g",
+    "lat": 53.34446699999999,
+    "lon": -6.250108,
+    "rating": 4.4,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42 Pearse St, Dublin Southside, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amharc Tech - IT Company in Dublin,Ireland",
+    "place_id": "ChIJGzwBM0YPZ0gRELuehsse1nE",
+    "lat": 53.3520301,
+    "lon": -6.2648798,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ivy Exchange, 174 Granby Pl, North City, Dublin 1, D01 F7H7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IBM Technology Campus",
+    "place_id": "ChIJr4pU0TttZ0gRYGBc5tsdulw",
+    "lat": 53.4218535,
+    "lon": -6.4195832,
+    "rating": 4.6,
+    "user_ratings_total": 228,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Powerstown, Dublin, D15 HN66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Spanish Point Technologies Ltd",
+    "place_id": "ChIJ2X-ao5IOZ0gRyW684-SvA70",
+    "lat": 53.3573867,
+    "lon": -6.223407000000001,
+    "rating": 4.8,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Plaza EastPoint Business Park, Clontarf -Dublin 3, Dublin, D03 E5R6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Tech IQ",
+    "place_id": "ChIJgVFn2KkPZ0gRWVEZscjmtYY",
+    "lat": 53.3353729,
+    "lon": -6.2657573,
+    "rating": 4.7,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenfinch Technology",
+    "place_id": "ChIJ4yQiWvcOZ0gRk1H95Vwfh5g",
+    "lat": 53.3419166,
+    "lon": -6.243872199999999,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Harmony Court, Harmony Row, Dublin, D02 VY52, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zalando Dublin Tech Hub",
+    "place_id": "ChIJKWMCZ-sOZ0gRuhUZSuN0aqM",
+    "lat": 53.3458349,
+    "lon": -6.2453025,
+    "rating": 4,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2WML, 2 Windmill Ln, Dublin 2, D02 KX66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guidewire Software",
+    "place_id": "ChIJDyGlXJcOZ0gRs28UrcH9YCc",
+    "lat": 53.41281919999999,
+    "lon": -6.3662329,
+    "rating": 4.9,
+    "user_ratings_total": 97,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "No. 1 Stemple Exchange, Blanchardstown Corporate Park, Ballycoolin, Dublin 15, D15 K66D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lantech IT Support - Cyber Security - Cloud Services",
+    "place_id": "ChIJO7Oh0iMMZ0gRYT0zryObFQE",
+    "lat": 53.3451167,
+    "lon": -6.2757184,
+    "rating": 4.8,
+    "user_ratings_total": 58,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Merchant House, 27-30 Merchant's Quay, The Liberties, Dublin, D08 K3KD, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dovetail Technologies",
+    "place_id": "ChIJP0KWGzsMZ0gRNFa9SocYX-c",
+    "lat": 53.3410805,
+    "lon": -6.28421,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The GEC, Taylor's Ln, The Liberties, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Informatica Ireland EMEA UC",
+    "place_id": "ChIJDWGmD5IOZ0gRrSUbtuhcMt4",
+    "lat": 53.3457282,
+    "lon": -6.246308,
+    "rating": 4.7,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Windmill Ln, SOBO district, Dublin, D02 F206, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cohesity (formerly Veritas)",
+    "place_id": "ChIJDZXeBJoSZ0gRn15zx4kMGkY",
+    "lat": 53.4133977,
+    "lon": -6.365903599999999,
+    "rating": 4.9,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballycoolen, Dublin, D15 E4FN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O.C.E. Technology Ltd",
+    "place_id": "ChIJUe7u_IKoZ0gRCZgbDL0vXg0",
+    "lat": 53.304413,
+    "lon": -6.2122091,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "NovaUCD, Uinversity College Dublin,, Stillorgan Rd, Belfield, Dublin, Co. Wicklow, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Eolas Technologies",
+    "place_id": "ChIJ36oB6JgMZ0gRUEOkBHyK7LQ",
+    "lat": 53.3143806,
+    "lon": -6.3453931,
+    "rating": 5,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit J7, Ballymount Dr, Walkinstown, Dublin, D12 AK13, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Infinite Technology",
+    "place_id": "ChIJd_8d97MMZ0gR_qojHBzOa7Y",
+    "lat": 53.3232876,
+    "lon": -6.3693851,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "electronics_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit E3, Centre Point Business Park, Oak Dr, Knockmitten, Dublin, D12 R2V3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Inpute Technologies",
+    "place_id": "ChIJ8W2SflwJZ0gRoufWDQF0Nio",
+    "lat": 53.2971791,
+    "lon": -6.247005799999999,
+    "rating": 4.4,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Parnell Plaza, Frankfort Centre, Dundrum Rd, Churchtown Lower, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "GRIP Software Solutions",
+    "place_id": "ChIJuTgZWfcOZ0gRul4KM-Iexaw",
+    "lat": 53.3534877,
+    "lon": -6.2282291,
+    "rating": 5,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Docklands Innovation Park, 128-130 East Wall Road, Dublin, D03 XN75, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Coder Spot",
+    "place_id": "ChIJ64lqICkPZ0gRgFEkFCOENaE",
+    "lat": 53.332598,
+    "lon": -6.2596234,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Saint Peter's, 13 Adelaide Rd, Saint Kevin's, Dublin, D02 P950, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ultan Technologies",
+    "place_id": "ChIJw2yktvcOZ0gRZHDd4Y-jyOA",
+    "lat": 53.3489564,
+    "lon": -6.247024300000001,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6, 7 Exchange Pl, International Financial Services Centre, Dublin 1, D01 T9C2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cloud Software Operations (Ireland) Limited",
+    "place_id": "ChIJv1TPoDoMZ0gRjlm3nh2gtGc",
+    "lat": 53.35649189999999,
+    "lon": -6.2241051,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eastpoint Business Park, North Wall, Dublin, D03 N8K5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "mAdme Technologies Limited",
+    "place_id": "ChIJlewGi6IOZ0gRmxSjCk-Jrik",
+    "lat": 53.3306177,
+    "lon": -6.2605985,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42 Charlemont St, Saint Kevin's, Dublin, D02 R593, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zendesk EMEA HQ",
+    "place_id": "ChIJBWCZQaEOZ0gRWhyEhmNp7E8",
+    "lat": 53.3315803,
+    "lon": -6.2564424,
+    "rating": 4.7,
+    "user_ratings_total": 127,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "55 Charlemont Pl, Saint Kevin's, Dublin, D02 F985, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cozmotec",
+    "place_id": "ChIJ-3tDxqMljYIRmLZhmY_Koc8",
+    "lat": 53.4451691,
+    "lon": -6.2222238,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Columba House, Lakeshore Dr, Airside Retail Park, Swords, Co. Dublin, K67 R2Y9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amgen Technology (Ireland) UC",
+    "place_id": "ChIJdSKH2okIZ0gRw8WE4RL1Gbo",
+    "lat": 53.2708176,
+    "lon": -6.1509883,
+    "rating": 4.3,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Pottery Rd, D\u00fan Laoghaire, Dublin, A96 F2A8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IBM Campus - Building 4",
+    "place_id": "ChIJZWSCgUhtZ0gRlpocOomRhVQ",
+    "lat": 53.4176213,
+    "lon": -6.416845599999999,
+    "rating": 4.5,
+    "user_ratings_total": 96,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Damastown Industrial Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Viatel Technology Group",
+    "place_id": "ChIJAeHyWLsSZ0gRdnmKAImplPM",
+    "lat": 53.4068967,
+    "lon": -6.372032099999999,
+    "rating": 4,
+    "user_ratings_total": 36,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 1, College Business & Technology Park, Blanchardstown, Dublin 15, D15 PEC4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Realweb: Dublin\u2019s custom software company for Full Stack, Agentic & Generative AI, AIOT, and remote web developer",
+    "place_id": "ChIJQdg6iKMPZ0gRkwimi0I_KDM",
+    "lat": 53.34106269999999,
+    "lon": -6.2838664,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Guinness Enterprise Centre, Taylor's Ln, The Liberties, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Techsure Limited",
+    "place_id": "ChIJ_Rd4paQSZ0gRZ9fz1cAWRms",
+    "lat": 53.40107,
+    "lon": -6.3402472,
+    "rating": 4.6,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "39 The Business Centre, Stadium Business Park, Ballycoolin, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ardanis Technologies Limited",
+    "place_id": "ChIJ7zlu3pcOZ0gRUEZnXIbU6FA",
+    "lat": 53.3318161,
+    "lon": -6.2641811,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Lennox Building, Iconic Office, 50 Richmond St S, Saint Kevin's, Dublin 2, D02 FK02, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Skytek Limited",
+    "place_id": "ChIJoZ1RGpcOZ0gRfZLoqhFx11Q",
+    "lat": 53.33885069999999,
+    "lon": -6.2498583,
+    "rating": 3.2,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "69 Merrion Square S, Dublin 2, D02 DX29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UpCo Technologies Limited",
+    "place_id": "ChIJZ1j5Z_VzZ0gR6ZwMpYiZgyA",
+    "lat": 53.2759577,
+    "lon": -6.218100799999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Sandyford, Dublin, D18 VH36, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ETU",
+    "place_id": "ChIJrQavs-wOZ0gRuGhbBOyEY_A",
+    "lat": 53.34192789999999,
+    "lon": -6.239419199999999,
+    "rating": 4.2,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5th Floor, The Tower, Trinity Technology & Enterprise Campus, Pearse St, Dublin, D02 K1W7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "eDesk",
+    "place_id": "ChIJM3KGyJQOZ0gRn7BB0F64Z6E",
+    "lat": 53.3353646,
+    "lon": -6.241329599999999,
+    "rating": 4.4,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20-38, Two Haddington Buildings, 20 Haddington Rd, Dublin 4, D04 HE94, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clavis Insight",
+    "place_id": "ChIJBVCt34QOZ0gR755sNKPGMZM",
+    "lat": 53.3467996,
+    "lon": -6.258344,
+    "rating": 4.9,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7th Floor, O'Connell Bridge House, 2 D'Olier Street, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ire-Tech",
+    "place_id": "ChIJs2zFIdJmi2ERBPXZu-EPiuc",
+    "lat": 53.3353729,
+    "lon": -6.2657573,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "D2, 77 Camden Street, Lower, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Emydex Technology",
+    "place_id": "ChIJIZJWiJESZ0gRTO6DVvhHmgk",
+    "lat": 53.41016279999999,
+    "lon": -6.3696813,
+    "rating": 3.5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Blanchardstown Corporate Park, 4B, Blanchardstown, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IT Solutions Limited",
+    "place_id": "ChIJTwlBopwOZ0gRdKKSTwXaKz8",
+    "lat": 53.3438195,
+    "lon": -6.261888,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6-9 Trinity St, Dublin 2, D02 EY47, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Celtech Software Group",
+    "place_id": "ChIJQSF5EfgOZ0gRtXWxaSUXhF0",
+    "lat": 53.357246,
+    "lon": -6.227592,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "East Point, Alfie Byrne Road, Fairview, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TEKenable Limited",
+    "place_id": "ChIJP7LatjKDY0ER4i8jeYE7fe4",
+    "lat": 53.3397618,
+    "lon": -6.2393261,
+    "rating": 5,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Clanwilliam Terrace, Grand Canal Dock, Dublin 2, D02 DR98, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Automate Technology",
+    "place_id": "ChIJbW4o3ZcOZ0gRkioUiiFBM8I",
+    "lat": 53.335643,
+    "lon": -6.250578399999999,
+    "rating": 5,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Fitzwilliam Street Upper, Dublin 2, D02 NA47, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wriggle - Technology For Learning",
+    "place_id": "ChIJEUrdRp8MZ0gR9qa0yA78BM4",
+    "lat": 53.3131064,
+    "lon": -6.343407,
+    "rating": 3.5,
+    "user_ratings_total": 265,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit G6, Calmount Park, Calmount Ave, Ballymount, Dublin 12, D12 XW25, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Arista Networks",
+    "place_id": "ChIJ60KLJowOZ0gR0g8yl34KfZ4",
+    "lat": 53.3496603,
+    "lon": -6.2479004,
+    "rating": 4.9,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 George's Dock, International Financial Services Centre, Dublin 1, D01 H2T6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Technology Ireland",
+    "place_id": "ChIJu8J7i70OZ0gRbsjIcn8jNIo",
+    "lat": 53.3350437,
+    "lon": -6.246713199999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "84/86 Baggot Street Lower, Dublin 2, D02 H720, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Stratus Technologies Ireland Limited",
+    "place_id": "ChIJwRGhNqISZ0gRnoOsmChOYp0",
+    "lat": 53.4130998,
+    "lon": -6.360898199999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballycoolen, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Tech Summit (DTS)",
+    "place_id": "ChIJY8O5k-wOZ0gRs_5ntDVI1mg",
+    "lat": 53.342371,
+    "lon": -6.237113600000001,
+    "rating": 4.4,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Charlotte Quay Dock, 1A Waters Edge, Grand Canal Dock, Dublin, D04 N2W8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intercom",
+    "place_id": "ChIJg0Pm6J8OZ0gRzaqzE1UPKXo",
+    "lat": 53.3392197,
+    "lon": -6.261693999999999,
+    "rating": 4.5,
+    "user_ratings_total": 67,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "124 St Stephen's Green, Dublin 2, D02 C628, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DreamTec Systems",
+    "place_id": "ChIJjSgU7JtzZ0gRClDKdX0kKqg",
+    "lat": 53.31823439999999,
+    "lon": -6.4387573,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "25 The Courtyard, Kilcarbery, Dublin 22, D22 NH32, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Liberty IT",
+    "place_id": "ChIJGayAivoNZ0gRY7JDdEQv4T0",
+    "lat": 53.3420327,
+    "lon": -6.2682538,
+    "rating": 4.2,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6th floor, One LePole Square, Ship Street Great, Dublin 8, D08 E6PD, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Saadian Technologies",
+    "place_id": "ChIJL9Rov5QOZ0gRu3zMOB96USI",
+    "lat": 53.3398389,
+    "lon": -6.2402763,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Clanwilliam Square, Grand Canal Dock, Dublin 2, D02 H996, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Complex Technology IT Support",
+    "place_id": "ChIJ9XjXxLwOZ0gRFqSL6fbmHYc",
+    "lat": 53.3129881,
+    "lon": -6.337923099999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 6c, Greenhills Industrial Estate, Greenhills Rd, Walkinstown, Dublin 12, D12 A026, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Banach Technology",
+    "place_id": "ChIJwXIdlgYJZ0gRYz_kkO3qPpo",
+    "lat": 53.267035,
+    "lon": -6.184437200000001,
+    "rating": 4.5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Banach Technology, The Gables, Torquay Rd, Dublin 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Total Digital",
+    "place_id": "ChIJqVVg9F4NZ0gRhj5H8Tu8NC0",
+    "lat": 53.342156,
+    "lon": -6.2826878,
+    "rating": 5,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The, Digital Court, Rainsford St, The Liberties, Dublin, D08 EH4C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Travelport",
+    "place_id": "ChIJcxaY0DoMZ0gRse_X7V5QaoY",
+    "lat": 53.34177039999999,
+    "lon": -6.248215600000001,
+    "rating": 4.8,
+    "user_ratings_total": 46,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cumberland House, 1 Cumberland St S, Fenian St, Dublin 2, D02 FF20, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Toast Ireland",
+    "place_id": "ChIJI291v-UPZ0gRytRU3zdiDs0",
+    "lat": 53.3392521,
+    "lon": -6.26206,
+    "rating": 4.4,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bank of Scotland House, 124 St Stephen's Green, Dublin 2, D02 C628, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Onnec Ireland Ltd",
+    "place_id": "ChIJ1fv_ZykQZ0gRTyq7jFKqsXw",
+    "lat": 53.4056187,
+    "lon": -6.2178198,
+    "rating": 4.6,
+    "user_ratings_total": 41,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "East Corner Willsborough Clonshaugh Business & Technology Park Dublin, Dublin, D17 TC90, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Handheld Technologies Ireland",
+    "place_id": "ChIJy30tM88RZ0gRoX54HDh1eOY",
+    "lat": 53.4170169,
+    "lon": -6.2398362,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Collinstown Cross, Cloaghran, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Microsoft Ireland",
+    "place_id": "ChIJpWo5fFkIZ0gRTvYFD4sd2TY",
+    "lat": 53.2689339,
+    "lon": -6.1968054,
+    "rating": 4.5,
+    "user_ratings_total": 767,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One Microsoft Place, South County Business Park, Carmanhall And Leopardstown, Dublin, D18 P521, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rockall Technologies",
+    "place_id": "ChIJq6qqqiEGZ0gRNUfq1-r9OPo",
+    "lat": 53.2955537,
+    "lon": -6.1443834,
+    "rating": 4.6,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block 1, West Pier Business Campus, Dun Laoghaire, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Evercam - Construction Visibility",
+    "place_id": "ChIJud11WIAOZ0gR44KJCAtgE3k",
+    "lat": 53.3540772,
+    "lon": -6.266790599999999,
+    "rating": 4.2,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6-7, Granby Row, Rotunda, Dublin 1, D01 FW20, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

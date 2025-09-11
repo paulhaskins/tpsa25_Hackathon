@@ -1,0 +1,965 @@
+[
+  {
+    "name": "Google Dublin - Gordon House",
+    "place_id": "ChIJyztuY6-0WkgR9klAm5SXxsQ",
+    "lat": 53.3398232,
+    "lon": -6.2362671,
+    "rating": 4.2,
+    "user_ratings_total": 1757,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Google Building Gordon House, Barrow St, Dublin, D04 E5W5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Primark Head Office",
+    "place_id": "ChIJpZpMKYIOZ0gRr4_qIRTcSYE",
+    "lat": 53.3500994,
+    "lon": -6.266793,
+    "rating": 4.2,
+    "user_ratings_total": 85,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "22-24 Parnell St, North City, Dublin, D01 NX45, Ireland",
+    "vicinity": "",
+    "price_level": 1
+  },
+  {
+    "name": "AIB Head Office",
+    "place_id": "ChIJp9sky8UOZ0gRCzyp1VOBjU8",
+    "lat": 53.3412966,
+    "lon": -6.2568348,
+    "rating": 4.2,
+    "user_ratings_total": 207,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "10 Molesworth Pl, Dublin, D02 W260, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google 1GC",
+    "place_id": "ChIJ6QyxL-sOZ0gROQnISc4vKmQ",
+    "lat": 53.3389853,
+    "lon": -6.2382178,
+    "rating": 4.6,
+    "user_ratings_total": 142,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Grand Canal Plaza, Grand Canal Street Upper, Dublin, D04 HR25, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "LinkedIn Ireland",
+    "place_id": "ChIJy9khbL0OZ0gRpRQQnit3ZHg",
+    "lat": 53.33457379999999,
+    "lon": -6.248886199999999,
+    "rating": 4.4,
+    "user_ratings_total": 331,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Wilton Pl, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lidl Head Office",
+    "place_id": "ChIJY_sd4kcLZ0gRUVtzKOJR58k",
+    "lat": 53.2874246,
+    "lon": -6.353684599999999,
+    "rating": 4.1,
+    "user_ratings_total": 92,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Main Rd, Tallaght, Dublin, D24 PW6K, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Building GRCQ1",
+    "place_id": "ChIJ_7ZfrJQOZ0gRh-izyzZB8lE",
+    "lat": 53.3408413,
+    "lon": -6.2393379,
+    "rating": 4.6,
+    "user_ratings_total": 112,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Grand Canal Quay, Dublin, D02 FF61, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Companies Registration Office",
+    "place_id": "ChIJXaYqMYcOZ0gR0rLDZljkV3Q",
+    "lat": 53.3527893,
+    "lon": -6.2543488,
+    "rating": 2.8,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bloom House, Gloucester Place Lower, Mountjoy, Dublin, D01 C8P4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tesco Ireland Head Office",
+    "place_id": "ChIJLeAUoYMHZ0gR5sJd8zen3Uk",
+    "lat": 53.29213619999999,
+    "lon": -6.135444199999999,
+    "rating": 1.8,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "111 George's Street Upper, D\u00fan Laoghaire, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HQ",
+    "place_id": "ChIJYUfmQCUTZ0gRvFuV6UjlAa4",
+    "lat": 53.4141272,
+    "lon": -6.3633259,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Suite 213, Blanchardstown Corporate Park 1, Ballycoolen, Dublin, D15 CC84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Freeman",
+    "place_id": "ChIJw82O1VcOZ0gRmN3T7RhEd7c",
+    "lat": 53.358418,
+    "lon": -6.2256619,
+    "rating": 4.3,
+    "user_ratings_total": 92,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block L, Eastpoint Business Park, North Wall, Dublin, D03 XF70, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Staycity Group Head Office",
+    "place_id": "ChIJq4a-CCMMZ0gRKZK_oQHxFFo",
+    "lat": 53.3372052,
+    "lon": -6.2773229,
+    "rating": 4.9,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Staycity Group, Mission Hall, 11 Mill St, Dublin, D08 X9K6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Flavours of Fingal HQ",
+    "place_id": "ChIJbQceYIYbZ0gRhoLK0FJa8iw",
+    "lat": 53.4879681,
+    "lon": -6.174564500000001,
+    "rating": 3.7,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Newbridge Demesne, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Sorting Office",
+    "place_id": "ChIJlT1Gy0YPZ0gRWwwtiOgx5vA",
+    "lat": 53.344801,
+    "lon": -6.240931600000001,
+    "rating": 4.1,
+    "user_ratings_total": 40,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "63 Cardiff Ln, Grand Canal Dock, Dublin, D02 HD23, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Heineken Ireland",
+    "place_id": "ChIJHZ8QU0UMZ0gRvkpwPDfnsUU",
+    "lat": 53.3423375,
+    "lon": -6.3095376,
+    "rating": 4.3,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One Kilmainham Square,, Kilmainham Square,, Inchicore Road,, Dublin 8,, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Citi",
+    "place_id": "ChIJC-1Auo0OZ0gRax95jCBCafc",
+    "lat": 53.3480269,
+    "lon": -6.245364599999999,
+    "rating": 4.3,
+    "user_ratings_total": 124,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 N Wall Quay, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Meta",
+    "place_id": "ChIJB4nDaYIPZ0gRhrSMR295-F8",
+    "lat": 53.3293287,
+    "lon": -6.2269252,
+    "rating": 3.9,
+    "user_ratings_total": 1010,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Serpentine Ave, Dublin, D04 H0C9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Circle K Ireland Head Office",
+    "place_id": "ChIJ8ZtM2UoJZ0gROPAmxuNeqjY",
+    "lat": 53.3130612,
+    "lon": -6.236131299999999,
+    "rating": 3.7,
+    "user_ratings_total": 35,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Circle K House, Beech Hill Office Campus, Clonskeagh, Dublin, D04 Y016, Ireland",
+    "vicinity": "",
+    "price_level": 1
+  },
+  {
+    "name": "Dublin Google Data Center",
+    "place_id": "ChIJn1-FRr1zZ0gRIy5Pudathrw",
+    "lat": 53.313637,
+    "lon": -6.4474062,
+    "rating": 4.3,
+    "user_ratings_total": 67,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grange Castle Business Park South, 22 Baldonnel Rd, Dublin 22, D22 X602, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Harvey Norman Corporate Head Office",
+    "place_id": "ChIJU2_dkI0QZ0gRCDS32lq_G7M",
+    "lat": 53.4558715,
+    "lon": -6.2044004,
+    "rating": 3.2,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Brent House, Swords Business Campus, Seatown Rd, Mountgorry, Swords, Co. Dublin, K67 Y2V0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amazon Ireland",
+    "place_id": "ChIJ2dYqhrwOZ0gRpF6T5yBBuNI",
+    "lat": 53.3306114,
+    "lon": -6.2474102,
+    "rating": 4,
+    "user_ratings_total": 281,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Burlington Rd, Dublin 4, D04 HH21, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Diageo Ireland",
+    "place_id": "ChIJB5AxdzoMZ0gRBZEEfMKNvHY",
+    "lat": 53.3432918,
+    "lon": -6.2843539,
+    "rating": 3.6,
+    "user_ratings_total": 63,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Saint James's Gate, The Liberties, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Bus Head Office",
+    "place_id": "ChIJqdsPmHUPZ0gRPDawRPEfpJo",
+    "lat": 53.35052270000001,
+    "lon": -6.2609461,
+    "rating": 3.1,
+    "user_ratings_total": 262,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "59 O'Connell Street Upper, North City, Dublin, D01 RX04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ESB Head Office",
+    "place_id": "ChIJ8eE5IvYOZ0gRiNDrSuYVf2c",
+    "lat": 53.3372454,
+    "lon": -6.2483785,
+    "rating": 3.2,
+    "user_ratings_total": 42,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "27 Fitzwilliam Street Lower, Dublin, D02 KT92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CRH",
+    "place_id": "ChIJk7YGEpgOZ0gRKXlynCdIEe4",
+    "lat": 53.33572179999999,
+    "lon": -6.2533296,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42 Fitzwilliam Square W, Dublin, D02 R279, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MrPRICE Head Office",
+    "place_id": "ChIJh72vSNALZ0gRlLiLWpR6iwE",
+    "lat": 53.2937537,
+    "lon": -6.3649163,
+    "rating": 1.9,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "No.1, Airton House, Airton Rd, Tallaght, Dublin 24, D24 HY67, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Eaton Corporation plc",
+    "place_id": "ChIJafSQ_r4OZ0gRLwz0W_hopNA",
+    "lat": 53.3328211,
+    "lon": -6.241014499999999,
+    "rating": 4.7,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Pembroke Rd, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Indeed Capital Dock Office",
+    "place_id": "ChIJnwN-p4cPZ0gR0qXNw1uyEds",
+    "lat": 53.345422,
+    "lon": -6.231888000000001,
+    "rating": 4.1,
+    "user_ratings_total": 101,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "80 Sir John Rogerson's Quay, Grand Canal Dock, Dublin, D02 HE36, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "McDonalds Restaurants of Ireland Ltd.",
+    "place_id": "ChIJEWMbEksJZ0gRRvB9ls6h97g",
+    "lat": 53.3485203,
+    "lon": -6.266415299999999,
+    "rating": 1.8,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "23 Jervis St, North City, Dublin, D01 TH72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Applegreen",
+    "place_id": "ChIJT_vJYMoMZ0gRNynASVQ6o-8",
+    "lat": 53.3301422,
+    "lon": -6.3734614,
+    "rating": 3.6,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Joyce Way, Park West Business Park, Dublin, D12 F2V3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dunnes Stores",
+    "place_id": "ChIJ_cZpvZ0OZ0gRrxt2PI86mxA",
+    "lat": 53.3416635,
+    "lon": -6.265482899999999,
+    "rating": 3.8,
+    "user_ratings_total": 92,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "46 - 50 South Great George's Street, Dublin 2, D02 RX86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Accenture",
+    "place_id": "ChIJ6cnINgYJZ0gRiAxAB1ciHx0",
+    "lat": 53.33936420000001,
+    "lon": -6.2388854,
+    "rating": 4.4,
+    "user_ratings_total": 151,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3 Grand Canal Plaza, Grand Canal Dock, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HubSpot House",
+    "place_id": "ChIJBwmtPBMPZ0gRdBvF7ukO4KU",
+    "lat": 53.3464993,
+    "lon": -6.2460052,
+    "rating": 4.5,
+    "user_ratings_total": 46,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Sir John Rogerson's Quay, Dublin Docklands, Dublin, D02 CR67, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Pluralsight EMEA HQ",
+    "place_id": "ChIJB_-s9o0OZ0gRIZpyO8LZ8C4",
+    "lat": 53.3440045,
+    "lon": -6.2327672,
+    "rating": 4.4,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Hanover Quay, Grand Canal Dock, Dublin, D02 DP23, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Pinterest Europe Ltd",
+    "place_id": "ChIJETj4MJEOZ0gR-bqcfUqaIB0",
+    "lat": 53.342573,
+    "lon": -6.2582754,
+    "rating": 4.4,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "60 Dawson St, Dublin, D02 K330, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Microsoft Ireland",
+    "place_id": "ChIJpWo5fFkIZ0gRTvYFD4sd2TY",
+    "lat": 53.2689339,
+    "lon": -6.1968054,
+    "rating": 4.5,
+    "user_ratings_total": 767,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One Microsoft Place, South County Business Park, Carmanhall And Leopardstown, Dublin, D18 P521, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Salesforce Tower Dublin",
+    "place_id": "ChIJR4qjYYoPZ0gRaLFh3EGaS_Q",
+    "lat": 53.3476376,
+    "lon": -6.235879799999999,
+    "rating": 4.6,
+    "user_ratings_total": 215,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North Wall, Dublin 1, D01 W2Y3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Aptiv",
+    "place_id": "ChIJ9XRby-0OZ0gRZMXWzMkBTdU",
+    "lat": 53.3441909,
+    "lon": -6.2357632,
+    "rating": 4.6,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Hanover Quay, Grand Canal Dock, Dublin, D02 VY79, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DAA",
+    "place_id": "ChIJm98y9rQRZ0gRVklr7D78jfo",
+    "lat": 53.4293194,
+    "lon": -6.246226399999999,
+    "rating": 4.3,
+    "user_ratings_total": 321,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Central Terminal Building, Dublin Airport, Collinstown, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Labour Party Head Office",
+    "place_id": "ChIJ3Rd3pOgPZ0gRkjYTnpq8UAQ",
+    "lat": 53.3392766,
+    "lon": -6.2661045,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Whitefriars, 2 Aungier St, Dublin, D02 A008, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Velasco",
+    "place_id": "ChIJEzYC15QOZ0gR0TrrIy6zBTc",
+    "lat": 53.3385256,
+    "lon": -6.239833399999999,
+    "rating": 4.7,
+    "user_ratings_total": 142,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grand Canal Block, Clanwilliam Pl, Dublin, D02 KW81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Diesel Head Office",
+    "place_id": "ChIJu68v440SZ0gRVhPWMZ97shQ",
+    "lat": 53.411271,
+    "lon": -6.354494,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "1, Northwest Business Park, Ballycoolen, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Gong EMEA HQ",
+    "place_id": "ChIJsY6-at0PZ0gRy3ID_kpGcdk",
+    "lat": 53.3447255,
+    "lon": -6.262829099999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Dame St, Temple Bar, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Watermarque",
+    "place_id": "ChIJ48ni34wOZ0gRGi1BYbgUUHo",
+    "lat": 53.34125539999999,
+    "lon": -6.2306114,
+    "rating": 4.5,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Watermarque Building, Ringsend Rd, Dublin 4, D04 K7N3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Indaver Ireland Head Office",
+    "place_id": "ChIJdcUKdyAGZ0gRa0nTgzrJ4fo",
+    "lat": 53.2949981,
+    "lon": -6.1427784,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bakers Point, Pottery Rd, D\u00fan Laoghaire, Dublin, A96 KW29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Coral Leisure Club head office",
+    "place_id": "ChIJeUmiRhMJZ0gRSJXOIevHs7Y",
+    "lat": 53.29185,
+    "lon": -6.2447681,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dundrum, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "APCOA Parking - Head Office",
+    "place_id": "ChIJfc6sxlhyZ0gR5Rx6VkOCBn0",
+    "lat": 53.3626041,
+    "lon": -6.442806500000001,
+    "rating": 1.3,
+    "user_ratings_total": 33,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Millbank Business Park, 11 Lower Lucan Rd, Laraghcon, Lucan, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HQ Software",
+    "place_id": "ChIJQbrDneALZ0gRdwIjm6NlZOU",
+    "lat": 53.2911203,
+    "lon": -6.2614237,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "D19 Nutgrove Office Park, Whitehall, Dublin 14, D14 PF66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Select, Head Office",
+    "place_id": "ChIJ-fX64PENZ0gRauyDfMogQfk",
+    "lat": 53.3484779,
+    "lon": -6.4129102,
+    "rating": 3.3,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fonthill Business Park, Fonthill Rd, Ballyowen, Lucan, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Facebook 3",
+    "place_id": "ChIJP5p9yRMPZ0gR8ff0LkvOAME",
+    "lat": 53.35431269999999,
+    "lon": -6.2298279,
+    "rating": 3.3,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Transit House, East Rd, East Wall, Dublin 3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HeadStuff HQ",
+    "place_id": "ChIJM3ckvpEOZ0gRHr7ZlCp-bpc",
+    "lat": 53.3444169,
+    "lon": -6.2484654,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "14a Magennis Pl, Dublin 2, D02 F5P6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Offices @ The Grange",
+    "place_id": "ChIJa2T_B8cJZ0gRHY4VuD-Znk8",
+    "lat": 53.2810999,
+    "lon": -6.1928246,
+    "rating": 3.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Galloping Green South, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Exo Building",
+    "place_id": "ChIJA0_XYaQPZ0gRG9qdcdxHA20",
+    "lat": 53.3477178,
+    "lon": -6.2275452,
+    "rating": 4.4,
+    "user_ratings_total": 56,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National Lottery",
+    "place_id": "ChIJqz7omoUOZ0gRrnPNmUJUnSQ",
+    "lat": 53.3470458,
+    "lon": -6.252591,
+    "rating": 3.5,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1GQ, George's Quay, Dublin 2, D02 Y098, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Glanbia Ireland Citywest",
+    "place_id": "ChIJVbG1rmJ0Z0gRvSG7XhHbb0A",
+    "lat": 53.292881,
+    "lon": -6.4252061,
+    "rating": 3.9,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3008 Lake Dr, Citywest Business Campus, Dublin, D24 W283, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Workhub - Virtual Office Space Dublin",
+    "place_id": "ChIJlb-GwfYPZ0gRrJF5nXMgrfQ",
+    "lat": 53.3353511,
+    "lon": -6.265422,
+    "rating": 4.9,
+    "user_ratings_total": 149,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Belfield Office Park",
+    "place_id": "ChIJP-8tjEoJZ0gReNT5gvu8CfU",
+    "lat": 53.3120844,
+    "lon": -6.2338656,
+    "rating": 4.1,
+    "user_ratings_total": 155,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Belfield Office Park, Beech Hill Rd, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ornua Co-operative Limited",
+    "place_id": "ChIJd62EPJQOZ0gRoPYwrZwlXbU",
+    "lat": 53.3391741,
+    "lon": -6.2444671,
+    "rating": 4.4,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grattan House, Mount Street Lower, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ireland Virtual Office - Virtual Office Dublin",
+    "place_id": "ChIJMZrfnlcPZ0gRVgM8PvUE8ZQ",
+    "lat": 53.3353754,
+    "lon": -6.265457,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Barclays Ireland",
+    "place_id": "ChIJDdqqMqAOZ0gRtk3_PFNNwNM",
+    "lat": 53.3413519,
+    "lon": -6.2576811,
+    "rating": 2.5,
+    "user_ratings_total": 51,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Molesworth St, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

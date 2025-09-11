@@ -1,0 +1,19 @@
+[
+  {
+    "name": "University College Dublin",
+    "place_id": "ChIJYzrIIDEJZ0gRz78kFPMqdjY",
+    "lat": 53.3097268,
+    "lon": -6.2215897,
+    "rating": 4.6,
+    "user_ratings_total": 993,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

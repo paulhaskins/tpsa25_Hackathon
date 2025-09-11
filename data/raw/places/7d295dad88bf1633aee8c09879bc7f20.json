@@ -1,0 +1,957 @@
+[
+  {
+    "name": "The Bank on College Green",
+    "place_id": "ChIJb01BopwOZ0gRGK_aIlZ-Q4g",
+    "lat": 53.34410829999999,
+    "lon": -6.261492,
+    "rating": 4.5,
+    "user_ratings_total": 6329,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "bar",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "20-22 College Green, Dublin 2, D02 C868, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJkThd94QOZ0gRAOmDtf0JX7U",
+    "lat": 53.34808779999999,
+    "lon": -6.259102899999999,
+    "rating": 2.8,
+    "user_ratings_total": 95,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6, 7 Lower O'Connell Street Lower, North City, Dublin, D01 X324, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJmwOwhJoOZ0gR1mz8qp4jPBQ",
+    "lat": 53.3447661,
+    "lon": -6.259974,
+    "rating": 3.4,
+    "user_ratings_total": 91,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 College Green, Temple Bar, Dublin, D02 VR66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJebf9xo4MZ0gRddc36sQfU28",
+    "lat": 53.3238506,
+    "lon": -6.3272357,
+    "rating": 2.8,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "177 Drimnagh Rd, Walkinstown, Dublin, D12 RX01, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Central Bank of Ireland",
+    "place_id": "ChIJXfZzqpwOZ0gRqVpgymnKWqw",
+    "lat": 53.34733740000001,
+    "lon": -6.2347487,
+    "rating": 3.8,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "N Wall Quay, North Wall, Dublin, D01 F7X3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJqSQTAL0OZ0gR-FV4HgIqyRA",
+    "lat": 53.3333053,
+    "lon": -6.2442818,
+    "rating": 3.7,
+    "user_ratings_total": 69,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit, 27, Baggot Street Upper, Dublin, D04 N1W9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJs43ePp0OZ0gRicfaUJJbcMs",
+    "lat": 53.3440764,
+    "lon": -6.265894299999999,
+    "rating": 3.3,
+    "user_ratings_total": 85,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7/12 Dame St, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJZcOmpJkOZ0gR8D1XBkdqu3Q",
+    "lat": 53.3384734,
+    "lon": -6.2551782,
+    "rating": 3.5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "39 St Stephen's Green, Dublin 2, D02 HF62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Deutsche Bank International Corporate Services (Ireland) Limited",
+    "place_id": "ChIJU-c3rI4OZ0gRRsn9PvjSky0",
+    "lat": 53.3436691,
+    "lon": -6.2405835,
+    "rating": 4,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd Floor, 2 Grand Canal Quay, Harbour, Dublin 2, D02 A342, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Danske Bank",
+    "place_id": "ChIJo_NTsI4OZ0gRrnGZyGRFaGg",
+    "lat": 53.3459519,
+    "lon": -6.243200900000001,
+    "rating": 4,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grand Canal Dock, Dublin, D02 Y049, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank Of Ireland",
+    "place_id": "ChIJFyHFVZMOZ0gRO5Ld01Zz1XM",
+    "lat": 53.3437445,
+    "lon": -6.2394083,
+    "rating": 3.2,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Grand Canal Quay, Grand Canal Dock, Dublin 2, D02 P820, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of America",
+    "place_id": "ChIJo5Nxz6EOZ0gRA7YSp56lQuo",
+    "lat": 53.3337277,
+    "lon": -6.2613347,
+    "rating": 4.3,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Two Park Place, Hatch Street Lower, Saint Kevin's, Dublin, D02 NP94, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJg2erd5sOZ0gRFI4ojFUls48",
+    "lat": 53.3429365,
+    "lon": -6.259671699999999,
+    "rating": 2.8,
+    "user_ratings_total": 137,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "100, 101 Grafton Street, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJnW6Zd4IOZ0gRdmmyYczj8ug",
+    "lat": 53.3484867,
+    "lon": -6.269069399999999,
+    "rating": 3,
+    "user_ratings_total": 168,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "126, 128 Capel St, North City, Dublin, 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJPcnjJ74OZ0gReMenYQlLOXo",
+    "lat": 53.3363315,
+    "lon": -6.2478926,
+    "rating": 3.6,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "50-55 Baggot Street Lower, Dublin 2, D02 Y754, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJH7dZ0ZkOZ0gRG8XIwZSWFYQ",
+    "lat": 53.338142,
+    "lon": -6.2530508,
+    "rating": 3.5,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1, 4 Baggot Street Lower, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJeZXFnV4OZ0gRrcXp4TtNrqU",
+    "lat": 53.3645294,
+    "lon": -6.2303959,
+    "rating": 3.8,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "26 Marino Mart, Dublin 3, D03 R928, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJTRXGeaAOZ0gRtQXHh0oxlTU",
+    "lat": 53.33233079999999,
+    "lon": -6.2650313,
+    "rating": 1.8,
+    "user_ratings_total": 63,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "61 Richmond St S, Saint Kevin's, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJXfZzqpwOZ0gRTiEprRQn6DA",
+    "lat": 53.336151,
+    "lon": -6.2655774,
+    "rating": 3,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "88-90 Camden Street Lower, Saint Kevin's, Dublin, D02 PY23, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJG9yWpy8MZ0gR2Bae2nlhfBU",
+    "lat": 53.3465176,
+    "lon": -6.279213899999999,
+    "rating": 2.3,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "33-34 Arran Quay, Smithfield, Dublin, D07 YP98, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJ5fWBHO0OZ0gRKX7jeja8VaA",
+    "lat": 53.34438859999999,
+    "lon": -6.2374811,
+    "rating": 3,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Hanover Quay, Grand Canal Dock, Dublin, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intesa Sanpaolo Bank Ireland plc",
+    "place_id": "ChIJZxaxPIwOZ0gR4FtlK0-ZVGw",
+    "lat": 53.3508201,
+    "lon": -6.249291599999999,
+    "rating": 4,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3 Harbourmaster Pl, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJQ62zM-IPZ0gRej5Z8x6q--Y",
+    "lat": 53.3492274,
+    "lon": -6.245132799999999,
+    "rating": 1.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "IFSC, Dockline, Mayor Street Lower, Lr, Dublin 1, D01 K8N7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JP Morgan",
+    "place_id": "ChIJedrpnI4OZ0gR8YOqX2AliZE",
+    "lat": 53.3448171,
+    "lon": -6.2323084,
+    "rating": 4.5,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "79 Sir John Rogerson's Quay, Grand Canal Dock, Dublin, D02 RK57, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJwQp3CC4JZ0gRyUGeqFVaVs8",
+    "lat": 53.3087418,
+    "lon": -6.2150776,
+    "rating": 3.8,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University Montrose, Stillorgan Rd, Priesthouse, Dublin 4, D04 W201, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Barclays Ireland",
+    "place_id": "ChIJDdqqMqAOZ0gRtk3_PFNNwNM",
+    "lat": 53.3413519,
+    "lon": -6.2576811,
+    "rating": 2.5,
+    "user_ratings_total": 51,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Molesworth St, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland Ballsbridge",
+    "place_id": "ChIJ39FC0MAOZ0gRmGoVCwMhW70",
+    "lat": 53.331021,
+    "lon": -6.234449400000001,
+    "rating": 3.2,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "87-89 Pembroke Rd, Ballsbridge, Dublin, D04 X738, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB IFSC",
+    "place_id": "ChIJNWmZAo0OZ0gR0mHp53vsmLA",
+    "lat": 53.3490338,
+    "lon": -6.24381,
+    "rating": 2.3,
+    "user_ratings_total": 57,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clarion Quay, Excise Walk, North Wall, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJL4sviq8OZ0gRxskQwKwRzB8",
+    "lat": 53.3240814,
+    "lon": -6.251613,
+    "rating": 2.5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "104 Ranelagh, Dublin 6, D06 P3F1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland Collinstown Cross",
+    "place_id": "ChIJ1VbA1cgRZ0gR0K6CcbxsmH4",
+    "lat": 53.41705169999999,
+    "lon": -6.2400555,
+    "rating": 2.5,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Omega House, 2-3, Collinstown Cross, Cloghran, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "River Bank",
+    "place_id": "ChIJWU5UoCgMZ0gRyHuFf6JvGME",
+    "lat": 53.3449591,
+    "lon": -6.2736912,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Merchant's Quay, The Liberties, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PTSB Baggot St",
+    "place_id": "ChIJ-5_f3b0OZ0gReFacqDKj42U",
+    "lat": 53.3340234,
+    "lon": -6.2448678,
+    "rating": 2.5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2-4, 2-4 Baggot Street Upper, Dublin 4, D04 N8Y9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJGwLlfmcJZ0gRceZqPMi-JAc",
+    "lat": 53.2918323,
+    "lon": -6.2455227,
+    "rating": 2.8,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Main St, Dundrum, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJI67ivqUOZ0gRLmIZ2mz8OBI",
+    "lat": 53.3256449,
+    "lon": -6.2546838,
+    "rating": 3,
+    "user_ratings_total": 42,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "40/42, Ranelagh, Dublin 6, D06 VY58, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of America Merrill Lynch Limited",
+    "place_id": "ChIJkw_18akJZ0gRisNFZwudSAw",
+    "lat": 53.2715022,
+    "lon": -6.2030758,
+    "rating": 4.5,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block D Central Park, Carmanhall And Leopardstown, Dublin, D18 N924, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIB Bank",
+    "place_id": "ChIJYzcDFUoLZ0gRsznKwvJ4kRY",
+    "lat": 53.28716009999999,
+    "lon": -6.361764699999999,
+    "rating": 3.2,
+    "user_ratings_total": 80,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Bawn Rd, Tallaght, Dublin 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJVcJVIJwOZ0gR-KSxxhn9PJI",
+    "lat": 53.3384734,
+    "lon": -6.2551782,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "39 St Stephen's Green, East, Dublin 2, D02 HF62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJAdt_yWQOZ0gRrkVc6hh10pM",
+    "lat": 53.3632757,
+    "lon": -6.2577112,
+    "rating": 3.1,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "43 Drumcondra Rd Lower, Drumcondra, Dublin, D09 C6PT, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJWQfAcfENZ0gRTRUy6AaZFMM",
+    "lat": 53.3900203,
+    "lon": -6.2985834,
+    "rating": 3.4,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Seamus Ennis Rd, Finglas East, Dublin, D11 C927, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HSBC Corporate PLC",
+    "place_id": "ChIJvUK1JDoMZ0gRDHeZSxIHa5M",
+    "lat": 53.34348809999999,
+    "lon": -6.2390937,
+    "rating": 3.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Grand Canal Square, Grand Canal Harbour, Grand Canal Dock, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BNP Paribas Dublin Branch",
+    "place_id": "ChIJR9K2N4wOZ0gRHESw0FF7x3s",
+    "lat": 53.2777623,
+    "lon": -6.2076433,
+    "rating": 4.1,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Termini, 3 Arkle Rd, Sandyford, Dublin, D18 T6T7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJcX1HK8cIZ0gRSdLj8nZvUvo",
+    "lat": 53.3012885,
+    "lon": -6.1769775,
+    "rating": 2.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "28 Main St, Blackrock, Dublin, A94 D890, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJw2YEw3YOZ0gR4T9ZCXe5rpg",
+    "lat": 53.370279,
+    "lon": -6.2679439,
+    "rating": 2.8,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "112 St Mobhi Rd, Glasnevin, Dublin 9, D09 E062, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "European Investment Bank",
+    "place_id": "ChIJ-5rvYpYOZ0gRPOn0DbJlOh4",
+    "lat": 53.3473049,
+    "lon": -6.2338866,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 A9T8, Treasury Dock, N Wall Quay, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BNY",
+    "place_id": "ChIJU5AupZcOZ0gRU5K1J10BVOU",
+    "lat": 53.3459519,
+    "lon": -6.243200900000001,
+    "rating": 3.3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20-26 Sir John Rogerson's Quay, Grand Canal Dock, Dublin 2, D02 Y049, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJHysTuYsIZ0gRGnaa2nDcBWQ",
+    "lat": 53.2779866,
+    "lon": -6.1640519,
+    "rating": 3.4,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clonkeen Road, Kill O' The Grange, Blackrock, Co. Dublin, A94 Y002, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJSTkQskkLZ0gRwBChrJRdkzI",
+    "lat": 53.2880243,
+    "lon": -6.357217299999999,
+    "rating": 3,
+    "user_ratings_total": 47,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 4-6, Block 3, Priors Gate, Greenhills Rd, Extension, Dublin, D24 YX89, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "LGT Bank AG, Dublin Branch",
+    "place_id": "ChIJqx7nUN8PZ0gR4cbw6YDzm_Y",
+    "lat": 53.3364969,
+    "lon": -6.2449251,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 Herbert St, Dublin 2, D02 W329, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJjdQiQAIQZ0gRyvjOpAYIVIE",
+    "lat": 53.4054662,
+    "lon": -6.1785204,
+    "rating": 3.2,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Units 2 & 3 Burnell Green,, Malahide Road, Northern Cross, Co. Dublin, K36 EH73, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJHVAcpzIOZ0gRM0xYSCNUGyQ",
+    "lat": 53.3910964,
+    "lon": -6.2233345,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beaumont Hospital, Beaumont Rd, Beaumont, Dublin, D09 V2NO, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Little Island Bank of Ireland",
+    "place_id": "ChIJhXL-_7wOZ0gRv7TLSHbIU6I",
+    "lat": 53.332908,
+    "lon": -6.2482307,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bank",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "40 Mespil Rd, Dublin, D04 C2N4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "bank of ireland",
+    "place_id": "ChIJIdWCxXYOZ0gRn4V_b6p1Qhk",
+    "lat": 53.3702883,
+    "lon": -6.268,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "St Mobhi Rd St Mobhi Rd, Drumcondra, Dublin 9, D09 E062, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJu8H8biQGZ0gRMP1JSP8BPV8",
+    "lat": 53.2916576,
+    "lon": -6.134338000000001,
+    "rating": 3,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "atm",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "101 George's Street Upper, D\u00fan Laoghaire, Dublin, A96 F240, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

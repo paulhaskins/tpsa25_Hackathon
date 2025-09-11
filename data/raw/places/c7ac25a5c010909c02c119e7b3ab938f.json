@@ -1,0 +1,17 @@
+[
+  {
+    "name": "School St",
+    "place_id": "ChIJjZfSIDsMZ0gREM_ta4SUNcY",
+    "lat": 53.3414674,
+    "lon": -6.2826365,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "route"
+    ],
+    "formatted_address": "School St, The Liberties, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

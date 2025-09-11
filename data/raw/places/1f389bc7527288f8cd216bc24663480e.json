@@ -1,0 +1,971 @@
+[
+  {
+    "name": "The Economic and Social Research Institute (ESRI)",
+    "place_id": "ChIJO8wao5IOZ0gRRoL8epWgfes",
+    "lat": 53.3452699,
+    "lon": -6.2425771,
+    "rating": 4,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Whitaker Square, Sir John Rogerson's Quay, Grand Canal Dock, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National Institute for Bioprocessing Research and Training",
+    "place_id": "ChIJoXGVsSUJZ0gR6L-DP94mOMo",
+    "lat": 53.3032689,
+    "lon": -6.214569200000001,
+    "rating": 4.7,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Foster Ave, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Educational Research Centre, DCU St Patrick's Campus",
+    "place_id": "ChIJ0xOlUm4OZ0gRjOuqpE8O90c",
+    "lat": 53.3700427,
+    "lon": -6.2572385,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "St. Patrick's College- Lodge, Drumcondra Rd Upper, Drumcondra, Dublin 9, D09 AN2F, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Focas Research Institute",
+    "place_id": "ChIJ88d4cCAMZ0gRrWunSr-z19U",
+    "lat": 53.3361682,
+    "lon": -6.267169900000001,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Camden Row, Saint Kevin's, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity Biomedical Sciences Institute",
+    "place_id": "ChIJMS0Ig5EOZ0gRl3eAKykGhJ0",
+    "lat": 53.3436033,
+    "lon": -6.2476465,
+    "rating": 4.6,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "152-160 Pearse St, Dublin, D02 R590, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cardiovascular Research Institute Dublin (CVRI Dublin)",
+    "place_id": "ChIJfy1cvgQPZ0gRNiOGoXqIGww",
+    "lat": 53.3576719,
+    "lon": -6.2648398,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "73 Eccles St, Phibsborough, Dublin, D07 KWR1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity Translational Medicine Institute",
+    "place_id": "ChIJTY1xbzgMZ0gR4MgrF4kqqr8",
+    "lat": 53.341718,
+    "lon": -6.294448999999999,
+    "rating": 4.4,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Trinity Centre for Health Sciences,, Trinity College Dublin, the University of Dublin,, St. James\u2019s Hospital,, Dublin 8, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Conway Institute, University College Dublin",
+    "place_id": "ChIJWVlkizMJZ0gRwVToI5y7Efo",
+    "lat": 53.310216,
+    "lon": -6.224785499999999,
+    "rating": 4.9,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Centre for Eye Research Ireland",
+    "place_id": "ChIJq8BFLtMNZ0gRkcII5zBVH0Q",
+    "lat": 53.3556061,
+    "lon": -6.2805319,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grangegorman Lower, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Systems Biology Ireland",
+    "place_id": "ChIJ95E19DMJZ0gRuCTtkxyzRSA",
+    "lat": 53.31006929999999,
+    "lon": -6.2259555,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, Belfield, Roebuck, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RCSI Education & Research Centre",
+    "place_id": "ChIJm4D7XM0PZ0gROILTJ2tLnMw",
+    "lat": 53.390255,
+    "lon": -6.2212885,
+    "rating": 4.8,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Montrose Dr, Beaumont, Dublin 5, D05 AT88, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Huawei Ireland Research Centre",
+    "place_id": "ChIJd9u1PEMPZ0gR4SOhpzGiTFk",
+    "lat": 53.34583809999999,
+    "lon": -6.2509023,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Georges Court, 4th Floor, Townsend St, Dublin 2, D02 R156, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity Long Room Hub",
+    "place_id": "ChIJS7baApsOZ0gRSkX0tqxlHZg",
+    "lat": 53.3436236,
+    "lon": -6.2577108,
+    "rating": 4,
+    "user_ratings_total": 35,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Trinity College Dublin, College Green, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ICE Research Institute",
+    "place_id": "ChIJI0qIEhQNZ0gRt9SCGAddPUk",
+    "lat": 53.3577883,
+    "lon": -6.2873145,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "191 N Circular Rd, Cabra East, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Research Ireland",
+    "place_id": "ChIJn1aCJ1YPZ0gRQwvxlyVIkvk",
+    "lat": 53.3339051,
+    "lon": -6.2605265,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Three Park Place, Hatch Street Upper, Saint Kevin's, Dublin 2, D02 FX65, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Manufacturing Research",
+    "place_id": "ChIJLdPvchB0Z0gRq02PptavF_k",
+    "lat": 53.2897761,
+    "lon": -6.4659744,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block A, Collegeland, Rathcoole, Co. Dublin, D24 WC04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Royal College of Surgeons in Ireland (RCSI)",
+    "place_id": "ChIJewsHlJ4OZ0gR77WTaTKrgNQ",
+    "lat": 53.3391467,
+    "lon": -6.263110999999999,
+    "rating": 4.5,
+    "user_ratings_total": 178,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "123 St Stephen's Green, Dublin 2, D02 YN77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Energy Institute",
+    "place_id": "ChIJSxJ59WUJZ0gRqrn4hWVFwPU",
+    "lat": 53.3088265,
+    "lon": -6.2233892,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, O'Brien Centre for Science, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Institute for Advanced Studies",
+    "place_id": "ChIJuWd2QbwOZ0gRyl9oZXUzvi4",
+    "lat": 53.3313597,
+    "lon": -6.2457636,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "10 Burlington Rd, Dublin, D04 C932, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "EPRI Europe",
+    "place_id": "ChIJq0vHk0oJZ0gRoK2TTfioa2k",
+    "lat": 53.312569,
+    "lon": -6.234146000000001,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "NexusUCD, Block 9 & 10 Belfield Office Park, Beech Hill Road, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Research And Markets",
+    "place_id": "ChIJS4PfqTsMZ0gROzCG_FuVF_0",
+    "lat": 53.3414423,
+    "lon": -6.283932399999999,
+    "rating": 4.8,
+    "user_ratings_total": 279,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Guinness Enterprise Centre, Taylor's Ln, The Liberties, Dublin, D08 AH31, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ADAPT Centre",
+    "place_id": "ChIJx8raU5AOZ0gRiNak9iDMMqE",
+    "lat": 53.3435769,
+    "lon": -6.2503695,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Reilly Institute, Trinity College 25 Westland Row, Dublin, D02 PN40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Earth Institute",
+    "place_id": "ChIJOUfqQzEJZ0gRggPnOuG0kOc",
+    "lat": 53.3084449,
+    "lon": -6.223436599999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Science Centre (Hub), University College Dublin, East, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Learnovate Centre",
+    "place_id": "ChIJUelTW5MOZ0gROEQQ7QABd7c",
+    "lat": 53.3419846,
+    "lon": -6.2399765,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 28, Trinity Technology & Enterprise Campus Trinity College Dublin, Pearse St, Dublin, D02 N638, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CONNECT Centre, Trinity College Dublin, the University of Dublin",
+    "place_id": "ChIJzwDG4JAOZ0gR0m-gPi0UrQk",
+    "lat": 53.342052,
+    "lon": -6.250362,
+    "rating": 4.9,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "34 Westland Row, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hamilton Institute",
+    "place_id": "ChIJvZ2AB-NvZ0gRBmqGnHm2SF0",
+    "lat": 53.3846387,
+    "lon": -6.6016401,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Maynooth University, Maynooth, Co. Kildare, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Health Research Board",
+    "place_id": "ChIJlWSg770OZ0gRh_fLARTqAig",
+    "lat": 53.33919280000001,
+    "lon": -6.2447253,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grattan House 67-72 Lower Mount Street, Dublin 2, D02 H638, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RCSI University of Medicine and Health Sciences",
+    "place_id": "ChIJUdD1aowPZ0gR2NQVDvE2n88",
+    "lat": 53.3390102,
+    "lon": -6.2619652,
+    "rating": 4.4,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "123 St Stephen's Green, Dublin 2, D02 YN77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IINH - International Institute of Nutrition & Health",
+    "place_id": "ChIJEzWzVYmoZ0gRvMvItrS-ouM",
+    "lat": 53.24303450000001,
+    "lon": -6.1236278,
+    "rating": 5,
+    "user_ratings_total": 55,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "58 Cois Cualann, Glenageary, Ballybrack, Co. Dublin, A96 E2F7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Code Institute",
+    "place_id": "ChIJFzY_c5kOZ0gRA6be4y8g938",
+    "lat": 53.2981981,
+    "lon": -6.1786506,
+    "rating": 4.4,
+    "user_ratings_total": 202,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Block 1, Blackrock Business Park, Carysfort Ave, Newtown Blackrock, Blackrock, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Teagasc Ashtown Food Research Centre",
+    "place_id": "ChIJRxBKi3YNZ0gReAPVF1uDBcY",
+    "lat": 53.380156,
+    "lon": -6.335448800000001,
+    "rating": 4.6,
+    "user_ratings_total": 133,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "Scribbletown, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RCSI Office of Research and Innovation",
+    "place_id": "ChIJ_R3L-54OZ0gR_1fN1wNm2V8",
+    "lat": 53.3377789,
+    "lon": -6.2626634,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "111 St Stephen's Green, Dublin, D02 VN51, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tyndall National Institute",
+    "place_id": "ChIJYTOkyBeQREgRcfvQpGSP1fo",
+    "lat": 51.89797009999999,
+    "lon": -8.4827994,
+    "rating": 4.6,
+    "user_ratings_total": 36,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Tyndall National Institute, Lee Maltings Complex Dyke Parade, Cork, Cork, T12 R5CP, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TobaccoFree Research institute Ireland",
+    "place_id": "ChIJH2Q9biAMZ0gRjrYwGKpUdjA",
+    "lat": 53.336162,
+    "lon": -6.267256,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DIT FOCAS Institute, 8 Camden Row, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HRB Stroke Clinical Trials Network Ireland",
+    "place_id": "ChIJBWHZTH4OZ0gRmYoMRetiARs",
+    "lat": 53.3578343,
+    "lon": -6.2676808,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Nelson St, Phibsborough, Dublin, D07 A8NN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Pillar Centre for Transformative Healthcare",
+    "place_id": "ChIJEb6TwdMPZ0gR6CvnURIeU2Y",
+    "lat": 53.3591939,
+    "lon": -6.2689888,
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Eccles St, Phibsborough, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity Research & Innovation",
+    "place_id": "ChIJD8Uip5wOZ0gRFPBw5g8GOEs",
+    "lat": 53.3433454,
+    "lon": -6.2500449,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Reilly Institute, Trinity College Dublin, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CeADAR - Ireland's Centre for AI",
+    "place_id": "ChIJPWRBhUoJZ0gRdrWlIdvdywk",
+    "lat": 53.3124946,
+    "lon": -6.2338403,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block 9/10 NexusUCD, Belfield Office Park, Beech Hill Rd, Clonskeagh, Dublin, D04 V2N9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Centre For BioNano Interactions (CBNI)",
+    "place_id": "ChIJyY9jMTEJZ0gRTxSjgUy2zv4",
+    "lat": 53.307675,
+    "lon": -6.224119,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "School of Chemistry and Chemical Biology Science Centre South, University College Dublin (UCD, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AMBER Centre",
+    "place_id": "ChIJUXLU-aEPZ0gRhLuNwymMf4o",
+    "lat": 53.3442132,
+    "lon": -6.2502336,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Trinity College Dublin, Pearse St, Dublin 2, D02 CP49, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BiOrbic Bioeconomy Research Centre",
+    "place_id": "ChIJz30q8ukJZ0gRjD0zWzG6M-s",
+    "lat": 53.30815190000001,
+    "lon": -6.2237521,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Brien Centre for Science, UCD, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Ireland Institute",
+    "place_id": "ChIJCfyOD5AOZ0gRQpjayPl2aOM",
+    "lat": 53.3450719,
+    "lon": -6.2534763,
+    "rating": 4.6,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "27 Pearse St, Dublin 2, D02 K037, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Dooge Centre for Water Resources Research",
+    "place_id": "ChIJlXK6IUoJZ0gRN-PKmi4bQbQ",
+    "lat": 53.3091823,
+    "lon": -6.233841099999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Newstead Building, Block B, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Industry Research & Development Group",
+    "place_id": "ChIJ2z4JGZgOZ0gRzqlVY6HYNfw",
+    "lat": 53.3347055,
+    "lon": -6.2540396,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Regus Pembroke House 28, 32 Upper Pembroke Rd, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Institute for Discovery",
+    "place_id": "ChIJFx_MXDEJZ0gRNznmE2_oz3A",
+    "lat": 53.30822389999999,
+    "lon": -6.2243011,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, O'Brien Centre for Science, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wellcome-HRB Clinical Research Facility at St James's Hospital",
+    "place_id": "ChIJEbJlIioNZ0gRSg0rZm0QITs",
+    "lat": 53.3386333,
+    "lon": -6.293969499999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd Floor, H&H Building, St James's Hospital, James's ST, Dublin, D08 A978, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Institute for Advanced Studies - Geophysics Section",
+    "place_id": "ChIJ59NL1pAOZ0gRxaSVMOCaWQM",
+    "lat": 53.3410395,
+    "lon": -6.249974,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Geophysics Section, School of Cosmic Physics, 5 Merrion Square N, Dublin, D02 Y006, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RCSI Graduate School of Healthcare Management",
+    "place_id": "ChIJ9TMg-wUJZ0gRuOEOgdAMbuc",
+    "lat": 53.2785555,
+    "lon": -6.2100235,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballymoss Rd, Blackthorn, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Institute of Digital Business",
+    "place_id": "ChIJqyBus4QOZ0gReN_xGqdSPbE",
+    "lat": 53.38634279999999,
+    "lon": -6.257689,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DCU Business School, Collins Ave, Glasnevin, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Innovation Value Institute",
+    "place_id": "ChIJcfZU1B9wZ0gRtzaE8Wpr5tA",
+    "lat": 53.3850223,
+    "lon": -6.6020007,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University North Campus Eolas Building, 2nd Floor, Maynooth, Co. Kildare, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IES Abroad Dublin Center",
+    "place_id": "ChIJPW-__x0MZ0gR69NoxX_cCpQ",
+    "lat": 53.3289223,
+    "lon": -6.2646809,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "27-29, 27-29 Rathmines Rd Lower, Rathmines, Dublin, D06 Y8P9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Portobello Institute",
+    "place_id": "ChIJ5739ooEOZ0gRRPAUAtzwmk0",
+    "lat": 53.3520786,
+    "lon": -6.2670565,
+    "rating": 4.7,
+    "user_ratings_total": 392,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "43 Dominick Street Lower, Rotunda, Dublin 1, D01 XD86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Advanced Microscopy Laboratory (AML)",
+    "place_id": "ChIJXVcLs-wOZ0gRYkdLm8mZfSw",
+    "lat": 53.34183669999999,
+    "lon": -6.2398428,
+    "rating": 4.8,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 27/29, Trinity Enterprise Centre, Grand Canal Quay, Dublin, D02 DA31, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Reilly Institute",
+    "place_id": "ChIJsTOj-pAOZ0gRXsyFTS3hUag",
+    "lat": 53.3434936,
+    "lon": -6.250251500000001,
+    "rating": 3.5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "25 Westland Row, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hamilton Mathematics Institute",
+    "place_id": "ChIJ9y2uppwOZ0gRoNnH64cahqk",
+    "lat": 53.3431206,
+    "lon": -6.2506692,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "College Green, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Behavioural Training Institute",
+    "place_id": "ChIJs3ZrjPYLZ0gRWlcQBkMXTw0",
+    "lat": 53.2716528,
+    "lon": -6.317749,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Stocking Wood Dr, Woodtown, Dublin, D16 XN82, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dunsink Observatory",
+    "place_id": "ChIJxfpMVHgNZ0gRj4_zF_DTY2w",
+    "lat": 53.3873674,
+    "lon": -6.338595400000001,
+    "rating": 4.6,
+    "user_ratings_total": 128,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dunsink Ln, Castleknock, Dublin, D15 XR2R, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ICARUS Institute",
+    "place_id": "ChIJF5Qu9-JvZ0gRRFdH_LzI5y0",
+    "lat": 53.38331239999999,
+    "lon": -6.5986395,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Maynooth, Co. Kildare, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Grouper Innovation Centre",
+    "place_id": "ChIJl1XtCh0PZ0gRGFz7RHdoW08",
+    "lat": 53.33792829999999,
+    "lon": -6.2540106,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3rd Floor, 22 Ely Pl, Dublin, D02 AH73, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Centre for Longitudinal Studies in Ireland (CLSI)",
+    "place_id": "ChIJ75wS6iUPZ0gRgaJX09yZunc",
+    "lat": 53.3443222,
+    "lon": -6.2545364,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Pearse St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

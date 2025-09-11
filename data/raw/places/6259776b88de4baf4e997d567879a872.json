@@ -1,0 +1,17 @@
+[
+  {
+    "name": "NW Business Park",
+    "place_id": "ChIJq5HzqY0SZ0gRLD3VPTRmrtE",
+    "lat": 53.4119205,
+    "lon": -6.353186699999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "route"
+    ],
+    "formatted_address": "NW Business Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

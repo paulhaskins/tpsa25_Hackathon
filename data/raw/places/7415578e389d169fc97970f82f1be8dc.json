@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Dublin City Council",
+    "place_id": "ChIJFRyT0CcMZ0gR2gdbwjCe7d0",
+    "lat": 53.3449733,
+    "lon": -6.2707241,
+    "rating": 3.3,
+    "user_ratings_total": 109,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Civic Offices, Wood Quay, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "South Dublin County Council",
+    "place_id": "ChIJS8NKMbR0Z0gRc0crl0WiUws",
+    "lat": 53.2887578,
+    "lon": -6.373039899999999,
+    "rating": 3.4,
+    "user_ratings_total": 103,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "County Hall, Belgard Square North, Tallaght, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council",
+    "place_id": "ChIJw5mUnIkOZ0gRY2U0q98QFZI",
+    "lat": 53.3543792,
+    "lon": -6.2503455,
+    "rating": 1.9,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "51-53 Sean Macdermott Street Lower, Mountjoy, Dublin 1, D01 HW44, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council, Cabra Area Office",
+    "place_id": "ChIJv02TktENZ0gR9Yv0Fc76Puc",
+    "lat": 53.3612755,
+    "lon": -6.2840643,
+    "rating": 2.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "97 New Cabra Road, Cabra East, Dublin 7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Fingal County Council, Grove Road Office",
+    "place_id": "ChIJD0N5xKpyZ0gRfz4HCCrSuIs",
+    "lat": 53.3910244,
+    "lon": -6.3927455,
+    "rating": 3.8,
+    "user_ratings_total": 66,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grove Rd, Blanchardstown, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council - Chief Valuers Department",
+    "place_id": "ChIJs-A9tTKDY0ERFZIRWuAvZ_4",
+    "lat": 53.344843,
+    "lon": -6.271882499999999,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Richmond Apartment, Wood Quay, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council Office of International Relations & Research",
+    "place_id": "ChIJV1sOgJ0OZ0gRwipmrRTDILI",
+    "lat": 53.34234,
+    "lon": -6.267571,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3 Palace St, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Docklands, Dublin City Council",
+    "place_id": "ChIJYXyvcu0OZ0gR3fiaEJmUM-E",
+    "lat": 53.3479402,
+    "lon": -6.247570899999999,
+    "rating": 4.3,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Custom House Quay, Docklands, Dublin 1, Dublin 1, D01 KF84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

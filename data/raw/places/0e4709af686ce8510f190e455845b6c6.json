@@ -1,0 +1,988 @@
+[
+  {
+    "name": "Silent-Aire Manufacturing",
+    "place_id": "ChIJg7DNpckMZ0gRwGk2ulnyVBQ",
+    "lat": 53.3347744,
+    "lon": -6.362984699999999,
+    "rating": 4.7,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 14, Heaney Ave, Park West Industrial Park, Dublin 12, D12 H584, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Silent-Aire Manufacturing",
+    "place_id": "ChIJLdoYkMYMZ0gRCPSvZ7bOZ_U",
+    "lat": 53.3340873,
+    "lon": -6.3627406,
+    "rating": 3.9,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit S1, Friel Avenue, Park West Industrial Park, Dublin 12, D12 XV40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Alexion Dublin Manufacturing Facility",
+    "place_id": "ChIJ61gOrLsSZ0gRfsAtygyA90k",
+    "lat": 53.4072144,
+    "lon": -6.3776328,
+    "rating": 3.9,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "College Business & Technology Park, B\u00f3thar Bhaile Bhlains\u00e9ir Thuaidh, Blanchardstown, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Manufacturing Research",
+    "place_id": "ChIJLdPvchB0Z0gRq02PptavF_k",
+    "lat": 53.2897761,
+    "lon": -6.4659744,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block A, Collegeland, Rathcoole, Co. Dublin, D24 WC04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ipsen Manufacturing Ireland Limited",
+    "place_id": "ChIJxdrWaL0SZ0gRRmX6cTx9UA8",
+    "lat": 53.4064256,
+    "lon": -6.3678402,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Blanchardstown Industrial Park, Snugborough Rd, Blanchardstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Plastic Trays & Fittings in Dublin - Abby Plastics Manufacturing Ltd",
+    "place_id": "ChIJ0TkhmwZ0Z0gRyweyVLBQyg8",
+    "lat": 53.2986584,
+    "lon": -6.461519999999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 31, Greenogue Business Park, Block 613, Jordanstown, Rathcoole, Co. Dublin, D24 X685, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Realtime Technologies Ltd",
+    "place_id": "ChIJu-vl0zMOZ0gRc96QPClmG8U",
+    "lat": 53.4024278,
+    "lon": -6.2255072,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Realtime Building, Clonshaugh Business & Technology Park, Dublin, D17 H262, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CONTICO MANUFACTURING IRELAND LTD",
+    "place_id": "ChIJB7OCF64MZ0gRosg9xgPZEBQ",
+    "lat": 53.3169615,
+    "lon": -6.365809,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hardware_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 4 Red Cow Interchange Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trident Manufacturing",
+    "place_id": "ChIJSbq8BaIMZ0gRgmyPe_fts_g",
+    "lat": 53.3148442,
+    "lon": -6.3426412,
+    "rating": 4.6,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "car_repair",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit C2, Ballymount Dr, Ballymount Industrial Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CSI Manufacturing Limited",
+    "place_id": "ChIJgcsTlq8MZ0gRh82zdmnSw3c",
+    "lat": 53.3172292,
+    "lon": -6.3653669,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Red Cow Interchange Estate, 5, 22 Turnpike Rd, Ballymount, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "A.C. Manufacturing Ltd., a Lindab Group company",
+    "place_id": "ChIJjyHcH78TZ0gROIbKE2mXYRU",
+    "lat": 53.3997635,
+    "lon": -6.3355073,
+    "rating": 3.9,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 5 10B Stadium Business Park Ballycoolin Road, Dublin 11, D11 CKN7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Barclay Chemicals Manufacturing Limited",
+    "place_id": "ChIJb8KL4UhtZ0gRtmLODrpvIwg",
+    "lat": 53.4100213,
+    "lon": -6.4067798,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Damastown Way, Mulhuddart, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Peterson Manufacturing Ltd",
+    "place_id": "ChIJaTe3TyWQREgRc6EwvbaZkGg",
+    "lat": 53.3221547,
+    "lon": -6.3665807,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "212 Holly Rd, Fox-And-Geese, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FAAC Electronics (Ireland) Limited",
+    "place_id": "ChIJGb4X44V0Z0gR4nMSlME9oe4",
+    "lat": 53.2951418,
+    "lon": -6.417826799999999,
+    "rating": 4.7,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4055 Kingswood Ave, Citywest Business Campus, Dublin, D24 HX79, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Churchtown Steel Engineering Limited",
+    "place_id": "ChIJN7CeW-ELZ0gRkXc0RWmMA4k",
+    "lat": 53.3138484,
+    "lon": -6.3786149,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Industrial Estate, Naas Byp, 3, Ashfield, Dublin, D22 E6N2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Valeo Foods Group",
+    "place_id": "ChIJgbQP87ARZ0gReeirfB3Xryw",
+    "lat": 53.429916,
+    "lon": -6.243507999999999,
+    "rating": 3.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "3rd Floor, Skybridge House, Dublin Airport, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Anvil Engineering Ltd",
+    "place_id": "ChIJ-VuNmNYMZ0gRWY0o_d-iDFI",
+    "lat": 53.3465871,
+    "lon": -6.3731238,
+    "rating": 4.4,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 14 B, Cherry Orchard Industrial Estate, Dublin 10, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "West Pharma - Building I",
+    "place_id": "ChIJDTHpkbUSZ0gRf4ymi19KOFc",
+    "lat": 53.41009099999999,
+    "lon": -6.4100933,
+    "rating": 4.1,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Damastown Cl, Mulhuddart, Dublin 15, D15 K009, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "THK Manufacturing of Ireland",
+    "place_id": "ChIJ-_TjXkgLZ0gRKl6uafvh2ns",
+    "lat": 53.2782167,
+    "lon": -6.3789959,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Whitestown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Jabil Dublin",
+    "place_id": "ChIJQQ12_egTZ0gRcK6uEcZKUPs",
+    "lat": 53.4198028,
+    "lon": -6.3446374,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "624 Kilshane Ave, Kilshane, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amgen Technology (Ireland) UC",
+    "place_id": "ChIJdSKH2okIZ0gRw8WE4RL1Gbo",
+    "lat": 53.2708176,
+    "lon": -6.1509883,
+    "rating": 4.3,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Pottery Rd, D\u00fan Laoghaire, Dublin, A96 F2A8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Siemens Healthcare Diagnostics Manufacturing limited (Siemens Healthineers)",
+    "place_id": "ChIJn4OJO38RZ0gRVYqp5AKYksQ",
+    "lat": 53.45599379999999,
+    "lon": -6.210086,
+    "rating": 4.1,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Chapel Ln, Swords Demesne, Swords, Co. Dublin, K67 AT86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Prodieco - Advanced Engineering Solutions",
+    "place_id": "ChIJjZohvrp0Z0gRCTxB6T8eb-k",
+    "lat": 53.2944203,
+    "lon": -6.3843557,
+    "rating": 4.3,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 4 EXT Second Avenue, Cookstown Industrial Estate, Tallaght, Dublin 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "James\u2019s Street Steel Manufacturing Ltd",
+    "place_id": "ChIJQVmY2A50Z0gRXECpLer3pxg",
+    "lat": 53.2977906,
+    "lon": -6.464242,
+    "rating": 5,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "611 Jordanstown Road, Jordanstown, Rathcoole, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MSD Biotech, Dublin",
+    "place_id": "ChIJ1WEq9IoQZ0gRq7qUpByKZug",
+    "lat": 53.4483592,
+    "lon": -6.208944499999999,
+    "rating": 3.9,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Drynam Rd, Barrysparks, Swords, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Propel Steel Manufacturing",
+    "place_id": "ChIJS4ApRV8NZ0gRow1gHvsbjCI",
+    "lat": 53.32978960000001,
+    "lon": -6.3511992,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Propel Manufacturing, Bluebell Industrial Estate, Bluebell, Dublin, D12 FX38, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "APC Ltd",
+    "place_id": "ChIJkaNfxgUIZ0gROEL01MYXGV4",
+    "lat": 53.2416438,
+    "lon": -6.140755299999999,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Building 11, Cherrywood Business Park, Loughlinstown, Dublin, D18 DH50, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Pfizer Grange Castle",
+    "place_id": "ChIJXWtUmqFzZ0gRarX1B5Qcqps",
+    "lat": 53.3264236,
+    "lon": -6.4350657,
+    "rating": 4.2,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Grange Castle Business Park, Nangor Road, Kilmahuddrick, Dublin 22, D22 V8F8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Klockner Moeller Ireland Ltd",
+    "place_id": "ChIJYUs8kMINZ0gRKBx9hGejmbI",
+    "lat": 53.4153429,
+    "lon": -6.3488948,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 7, Primeside Park, NW Business Park, Ballycoolen, Dublin, D15 X208, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Extreme Steel",
+    "place_id": "ChIJGzauKM12Z0gRMNFNQzVrfzQ",
+    "lat": 53.29677580000001,
+    "lon": -6.512947,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Lyons Road, Newcastle Demesne, Newcastle, Co. Dublin, D22 X5P5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SK Biotek Ireland",
+    "place_id": "ChIJY5FAPrkSZ0gReBCKL0rud5M",
+    "lat": 53.4636225,
+    "lon": -6.2206399,
+    "rating": 4.2,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Watery Ln, Newtown, Swords, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Strong Roots Ireland",
+    "place_id": "ChIJZc4duSkMZ0gRUexvvcOY0To",
+    "lat": 53.3175155,
+    "lon": -6.239440399999999,
+    "rating": 4.3,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "Terminus Mills, Unit 10 B\u00f3thar Chluain Sceach, Clonskeagh Rd, Rathmines, Dublin 6, D06 F2H7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Saica Pack - Dublin",
+    "place_id": "ChIJacIZIzFzZ0gRB0WBGcRYh7c",
+    "lat": 53.3347889,
+    "lon": -6.3888576,
+    "rating": 3.6,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cloverhill Industrial Estate, Cloverhill Rd, Clondalkin, Dublin, D22 R924, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ballymaguire Foods",
+    "place_id": "ChIJu1Bjd0cYZ0gR2x8U_HUBOk4",
+    "lat": 53.5479873,
+    "lon": -6.1748143,
+    "rating": 4.1,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "Rathmooney, Dublin, K45 NP03, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cellusys Manufacturing & Logistics",
+    "place_id": "ChIJ45puu0MPZ0gRBi2DYI3mlTw",
+    "lat": 53.3990475,
+    "lon": -6.2390925,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Barclay House, Lilmar Industrial Estate, Santry, Dublin 9, D09 X720, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chemco Ireland Ltd (Logistics and Warehousing)",
+    "place_id": "ChIJVYsF5ZcMZ0gRlJ0yav6PWzk",
+    "lat": 53.3199863,
+    "lon": -6.3460692,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 49, Robinhood Industrial Estate, Long Mile Rd, Robinhood, Dublin 22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hitech Manufacturing Limited",
+    "place_id": "ChIJAxiZQZcSZ0gRrRoqEoUmuIs",
+    "lat": 53.40521769999999,
+    "lon": -6.356353899999999,
+    "rating": 4.4,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "B2, Ballycoolin Business Park, Ballycoolin Rd, Blanchardstown, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Jabil",
+    "place_id": "ChIJiY_UqHKoZ0gRfV6Ii8C_GSM",
+    "lat": 53.21216039999999,
+    "lon": -6.1126258,
+    "rating": 4,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Solus Tower Estate, Corke Abbey Ave, Cork Great, Bray, Co. Dublin, A98 R208, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Manufacturing Research, IMR",
+    "place_id": "ChIJ7Rvu5LfqXUgRSUSR_1nlViQ",
+    "lat": 53.52366749999999,
+    "lon": -7.309504700000001,
+    "rating": 5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "National Science Park, Dublin Road, Mullingar, Co. Westmeath, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Delvo Engineering",
+    "place_id": "ChIJo4YmCgkQZ0gRpdLhXd_luDA",
+    "lat": 53.4186266,
+    "lon": -6.1760825,
+    "rating": 4.8,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Malahide Rd, Balgriffin, Dublin 17, D17 DE40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "3M Ireland Limited",
+    "place_id": "ChIJRzQg-DUIZ0gR8-VNsFftB4M",
+    "lat": 53.25193600000001,
+    "lon": -6.1849626,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Iveagh Building, The Park 18, Carrickmines, Co. Dublin, D18 X015, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Progress Electroplating & Manufacturing Company Limited",
+    "place_id": "ChIJIxjcl2uoZ0gRrwcT_kTFuCw",
+    "lat": 53.2092208,
+    "lon": -6.102873900000001,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Harbour Industrial Estate, Harbour Road, Bray Commons, Bray, Co. Wicklow, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Perrigo Company plc",
+    "place_id": "ChIJNS12xJQOZ0gRZelgk4G00Ig",
+    "lat": 53.3409224,
+    "lon": -6.244296299999999,
+    "rating": 3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Sharp Building, 10 12 Hogan Pl, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Pearse Lyons Whiskey Distillery",
+    "place_id": "ChIJ5ylq_DkMZ0gRZVVjqVBQtgo",
+    "lat": 53.3435139,
+    "lon": -6.2898404,
+    "rating": 4.7,
+    "user_ratings_total": 1143,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "121-122, James's St, The Liberties, Dublin, D08 ET27, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clarochem Ireland",
+    "place_id": "ChIJY4mUPEBtZ0gR3peKNItXU6o",
+    "lat": 53.4115626,
+    "lon": -6.4235029,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Damastown Industrial Park, Damastown Rd, Damastown, Dublin 15, D15 X925, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Safco Fine Food Ltd",
+    "place_id": "ChIJ65jEMrB0Z0gR0mkg-kvrDc0",
+    "lat": 53.3329339,
+    "lon": -6.3844074,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clondalkin Business Centre, 13 Crag Cres, Clondalkin Industrial Estate, Dublin 22, D22 Y298, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Total Produce Ireland",
+    "place_id": "ChIJy3W3CykMZ0gRW2d3VThmDAo",
+    "lat": 53.34852979999999,
+    "lon": -6.2732788,
+    "rating": 4.2,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Beresford St, Dublin, D07 T611, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Farleng Engineering Ltd",
+    "place_id": "ChIJsxlqZDlzZ0gRk-EJEAxdwhI",
+    "lat": 53.36600840000001,
+    "lon": -6.4460893,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 2 Laraghcon, Farm, Lucan, Co. Dublin, K78 PK03, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nauman Sab Factory Dublin",
+    "place_id": "ChIJS-9JWAsNZ0gRSOOdsSjWb_E",
+    "lat": 53.3245646,
+    "lon": -6.366500599999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Knockmitten Business Park, 10 Knockmitten Ln, Fox-And-Geese Common, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "LEO Pharma",
+    "place_id": "ChIJA0jEomUMZ0gRA4UuPpM4qV4",
+    "lat": 53.3166743,
+    "lon": -6.301289499999999,
+    "rating": 4.2,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "285 Cashel Rd, Crumlin, Dublin 12, D12 E923, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Moulding Company",
+    "place_id": "ChIJkyGnwDZzZ0gR2hDciVpkJnY",
+    "lat": 53.3324481,
+    "lon": -6.3867748,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 24A, Unit 24 Crag Cres, Clondalkin Industrial Estate, Baile \u00c1tha Cliath, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "InnoGlobal Technology",
+    "place_id": "ChIJ-7AlYIoJZ0gRGdY-QzdOIl0",
+    "lat": 53.2751914,
+    "lon": -6.209441,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3rd Floor, Ravenscourt Campus, Three Rock Rd, Sandyford, Dublin 18, D18 K599, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chemco Ireland Ltd (Head Office)",
+    "place_id": "ChIJ8RkHUocSZ0gRa6lDcsYV3RI",
+    "lat": 53.3989554,
+    "lon": -6.340619299999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 2, Stadium Business Park, Ballycoolin Road, Cappagh, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Smurfit Westrock Display",
+    "place_id": "ChIJ8WuttEh1Z0gRUu0rqnxHiVQ",
+    "lat": 53.2804517,
+    "lon": -6.382754299999999,
+    "rating": 3.7,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Tallaght Business Park, IDA, Whitestown, Dublin, D24 NX93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nestle (Ireland)",
+    "place_id": "ChIJuQDwcoh0Z0gR2Z3gNNK7YqQ",
+    "lat": 53.2919931,
+    "lon": -6.4228543,
+    "rating": 2.9,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3009 Lake Dr, Citywest Business Campus, Dublin, 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Fairdeal Furniture Ltd, DREAMREST Mattress Manufacturing.",
+    "place_id": "ChIJ_QxkF4USZ0gRk7rhjHgW_h8",
+    "lat": 53.4037525,
+    "lon": -6.350136699999999,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4a, Rosemount Park Drive Rosemount Business Park, Ballycoolin Rd, Dublin, D11 YY06, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AC Stainless Steel Limited",
+    "place_id": "ChIJo8EBSrQMZ0gR1fk3ey50gvU",
+    "lat": 53.332077,
+    "lon": -6.3855881,
+    "rating": 4.2,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Crag Cres, Clondalkin Industrial Estate, Dublin 22, D22 HE14, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "1Global Manufacturing MGMT Ireland Limited",
+    "place_id": "ChIJ8arHRUyRREgRVuHsR_b4HIw",
+    "lat": 51.9002851,
+    "lon": -8.4621674,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Penrose Quay, Penrose Dock, Victorian Quarter, Cork, T23 KW81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Profab Services Limited",
+    "place_id": "ChIJUUPtCDwLZ0gRmpCtWeQyCz4",
+    "lat": 53.2794591,
+    "lon": -6.3747775,
+    "rating": 4.9,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit C6, South City Business Park, 24 Whitestown Way, Whitestown, Dublin, D24 DX82, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tendermeats",
+    "place_id": "ChIJ83LCTjZzZ0gRFq9NUpNEV1w",
+    "lat": 53.3298018,
+    "lon": -6.386823799999999,
+    "rating": 3.7,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 17 B Canal Turn, Clondalkin Industrial Estate, Dublin 22, D22 KV65, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

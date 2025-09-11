@@ -1,0 +1,994 @@
+[
+  {
+    "name": "Sky Business Centres - Serviced Office Dublin",
+    "place_id": "ChIJl5XLs05tZ0gR_yzoY7Hdgms",
+    "lat": 53.40872880000001,
+    "lon": -6.4035253,
+    "rating": 5,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Plato Business Park, Damastown Rd, Parslickstown, Dublin, D15 PA4C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Business Centre",
+    "place_id": "ChIJHw_v0dwNZ0gREcwoRdYNm-Y",
+    "lat": 53.3735752,
+    "lon": -6.2907996,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 33, 33 Slaney Rd, Blackwater Rd, Dublin Industrial Estate, Dublin, D11 VA40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The LINK Business Centre - Office Space",
+    "place_id": "ChIJoWKaYJ8MZ0gRDmTNpFqksdo",
+    "lat": 53.3127568,
+    "lon": -6.3442652,
+    "rating": 4.2,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Calmount Park, G1, Calmount Ave, Ballymount, Dublin 12, D12 TH56, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sky Business Centres - Serviced Office Dublin",
+    "place_id": "ChIJWdNNk1QOZ0gRIgGaU479GYE",
+    "lat": 53.3626994,
+    "lon": -6.218202700000001,
+    "rating": 4.4,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "57 Clontarf Rd, Clontarf West, Dublin, D03 A7P0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clifton House BusinessCentre",
+    "place_id": "ChIJBYQkWJYOZ0gRkDSe5u51cVc",
+    "lat": 53.3378538,
+    "lon": -6.2483472,
+    "rating": 3.5,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fitzwilliam Street Lower, Dublin 2, D02 DT85, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mespil Business Centre",
+    "place_id": "ChIJJScgKL0OZ0gRTzvBJ7_aX8A",
+    "lat": 53.3316823,
+    "lon": -6.2505218,
+    "rating": 4.2,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mespil House, Sussex Rd, Dublin 4, D04 T4A6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lis Cara Business Centre | Offices to Rent in Dublin",
+    "place_id": "ChIJFaKXIZgOZ0gRIAz8GrkeKOc",
+    "lat": 53.3362917,
+    "lon": -6.2528475,
+    "rating": 4.3,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "51 Fitzwilliam Square W, Dublin 2, D02 X504, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sky Business Centres - Serviced Office Dublin",
+    "place_id": "ChIJkTKV_ioQZ0gR9yE0KVW_ftM",
+    "lat": 53.4040258,
+    "lon": -6.2223606,
+    "rating": 4.8,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clonshagh, Dublin, D17 FY82, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Premier Business Centres",
+    "place_id": "ChIJUcfGy5sPZ0gRoCLUPjWaZTQ",
+    "lat": 53.3340727,
+    "lon": -6.2567163,
+    "rating": 5,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Hatch Street Lower, Saint Kevin's, Dublin 2, D02 DE00, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Premier Business Centre Citywest",
+    "place_id": "ChIJAVUxV4h0Z0gRjyO0ytcQrsg",
+    "lat": 53.2907433,
+    "lon": -6.4223982,
+    "rating": 4.8,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3013 Lake Dr, Brownsbarn, Dublin 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guinness Enterprise Centre (GEC)",
+    "place_id": "ChIJJdhahFoNZ0gRdyQFk_vDZ1Q",
+    "lat": 53.3412725,
+    "lon": -6.2839597,
+    "rating": 4.8,
+    "user_ratings_total": 57,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Taylor's Ln, The Liberties, Dublin 8, D08 YPP9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Finglas Business Centre",
+    "place_id": "ChIJafKocZoNZ0gRlKCHddh5WDo",
+    "lat": 53.3964185,
+    "lon": -6.2937411,
+    "rating": 4.2,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Jamestown Rd, Finglas North, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Workhub - Virtual Office Space Dublin",
+    "place_id": "ChIJlb-GwfYPZ0gRrJF5nXMgrfQ",
+    "lat": 53.3353511,
+    "lon": -6.265422,
+    "rating": 4.9,
+    "user_ratings_total": 149,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bridge Enterprise Centres - Nutgrove Campus",
+    "place_id": "ChIJMQtJNt0LZ0gRdWfXH2eI9U4",
+    "lat": 53.2889126,
+    "lon": -6.2667787,
+    "rating": 4.6,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bridge Enterprise Centres, Nutgrove Way, Rathfarnham, Dublin 14, D14 T8W2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cherrywood Business Park",
+    "place_id": "ChIJBfKEWAgIZ0gR_zyIomkREkM",
+    "lat": 53.24447079999999,
+    "lon": -6.1396347,
+    "rating": 4.3,
+    "user_ratings_total": 435,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Level 2, Building 10, Cherrywood Business Park, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Chase",
+    "place_id": "ChIJcXunHAYJZ0gRwMSZMphPlMk",
+    "lat": 53.2769539,
+    "lon": -6.2098615,
+    "rating": 4.4,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Carmanhall Road,, Dublin 18, Co. Dun Laoghaire-Rathdown, Ireland, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Broombridge Business Centre",
+    "place_id": "ChIJr8mPcO8NZ0gRodX42yLbdc8",
+    "lat": 53.3720092,
+    "lon": -6.298647799999999,
+    "rating": 4.6,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "288 Bannow Rd, Cabra West, Dublin 7, D07 PP9T, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Digital Depot at The Digital Hub",
+    "place_id": "ChIJezr9lzoMZ0gRYGq1ZoA-bh0",
+    "lat": 53.3440308,
+    "lon": -6.283706,
+    "rating": 4.6,
+    "user_ratings_total": 76,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Digital Hub, Roe Ln, The Liberties, Dublin 8, D08 TCV4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clontarf Business Centre - Serviced Office Dublin",
+    "place_id": "ChIJ21N55qoPZ0gRJv91wBnitPs",
+    "lat": 53.3609784,
+    "lon": -6.2134412,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "57 Clontarf Rd, Clontarf East, Dublin, D03 A7P0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sigmund Business Centre - Office Space Rental Dublin City",
+    "place_id": "ChIJFYswj8INZ0gRp0OsApPrLoE",
+    "lat": 53.3755998,
+    "lon": -6.2928437,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "93 Lagan Rd, Dublin Industrial Estate, Dublin, D11 PC65, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Premier Business Centre",
+    "place_id": "ChIJPUjhFoQOZ0gRFp9gjp5jsDc",
+    "lat": 53.350018,
+    "lon": -6.2607265,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "65-66 O'Connell Street Upper, North City, Dublin 1, D01 KT72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Business Service Center",
+    "place_id": "ChIJFT9qcIIOZ0gRXG5WjUSgx8k",
+    "lat": 53.3484675,
+    "lon": -6.2682441,
+    "rating": 4.8,
+    "user_ratings_total": 167,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3 Mary St, North City, Dublin, D01 PA03, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lansdowne Gate Business Centre",
+    "place_id": "ChIJMx0TgI4MZ0gRuAmlDDgn_ZE",
+    "lat": 53.325456,
+    "lon": -6.3304117,
+    "rating": 3.4,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Slievebloom Park, Walkinstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Shankill Business Centre",
+    "place_id": "ChIJcykpgOwHZ0gRBsZc3IuiTc0",
+    "lat": 53.23455939999999,
+    "lon": -6.1263424,
+    "rating": 3.6,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "lodging",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Station Rd, Shankill, Dublin, D18 N1N2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Glandore Serviced Offices | Private Office Space Rental",
+    "place_id": "ChIJY5Pm5qIOZ0gRtDjGcWOQwKs",
+    "lat": 53.33251,
+    "lon": -6.2527383,
+    "rating": 4.2,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fitzwilliam Hall, 26 Fitzwilliam Pl, Dublin 2, D02 T292, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "One Dockland Central",
+    "place_id": "ChIJM56EMY0OZ0gRmlnNLVM_wkE",
+    "lat": 53.34841369999999,
+    "lon": -6.241262000000001,
+    "rating": 4.4,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Guild St, North Wall, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IFSC House",
+    "place_id": "ChIJ9_j3WY4OZ0gRyReh386-0ak",
+    "lat": 53.3483982,
+    "lon": -6.25047,
+    "rating": 4.2,
+    "user_ratings_total": 227,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Custom House Quay, International Financial Services Centre, Dublin, D01 R2P9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lyon House Business Centre",
+    "place_id": "ChIJUZ8FrcMNZ0gRyYYRa1zVMRg",
+    "lat": 53.37369890000001,
+    "lon": -6.2933374,
+    "rating": 3.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "50 Nore Rd, Dublin Industrial Estate, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DMG Business Centre",
+    "place_id": "ChIJj-xWGC4MZ0gRcxYnhwRAoD4",
+    "lat": 53.3497198,
+    "lon": -6.2819983,
+    "rating": 3.8,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13 Blackhall Pl, Stoneybatter, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Office Suites Club - Flexible Office Solutions In Harcourt Street D2.",
+    "place_id": "ChIJcU7MvJ8OZ0gRa2YLf1bkZWQ",
+    "lat": 53.3360139,
+    "lon": -6.2636085,
+    "rating": 4.8,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Harcourt St, Saint Kevin's, Dublin 2, D02 PF99, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nesta Business Centres - Kylemore",
+    "place_id": "ChIJc-KufukMZ0gRUHadvEvxL-k",
+    "lat": 53.3358503,
+    "lon": -6.3465706,
+    "rating": 4.6,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Glencullen House, Kylemore Rd, Ballyfermot, Dublin 10, D10 CA33, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Serviced Offices",
+    "place_id": "ChIJ1YtVlpwOZ0gRc0Hse5wNZBA",
+    "lat": 53.2911906,
+    "lon": -6.1329502,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "93 George's Street Upper, D\u00fan Laoghaire, Dublin, A96 V1K8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus Citywest Business Campus",
+    "place_id": "ChIJ6_dMNOB1Z0gR7XTZFVD9bv4",
+    "lat": 53.291911,
+    "lon": -6.4207657,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1st floor, 3054 C\u00e9ide an Locha, Sciob\u00f3l an Bhr\u00fanaigh, Dublin 24, D24 HN20, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "World Trade Centre Dublin",
+    "place_id": "ChIJDTtuNpQOZ0gRRbpvQ5tAsQw",
+    "lat": 53.3385987,
+    "lon": -6.244066699999999,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Newmount House, Mount Street Lower, Dublin 2, D02 Y759, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SPADE Enterprise Centre",
+    "place_id": "ChIJqyx0eC4MZ0gRaHPxJimvmI0",
+    "lat": 53.3497533,
+    "lon": -6.2806605,
+    "rating": 4.7,
+    "user_ratings_total": 56,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North King Street, Smithfield, Dublin 7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Workhub - Virtual Office Services",
+    "place_id": "ChIJPxkm3d0JZ0gRUwuiCAFkwok",
+    "lat": 53.2735628,
+    "lon": -6.2127833,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Fern Road, Sandyford Business Park, Dublin, D18 FP98, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus - Dublin 2 Harcourt",
+    "place_id": "ChIJ57B7QaAOZ0gRHe5tJ7A8olk",
+    "lat": 53.3328672,
+    "lon": -6.2638775,
+    "rating": 4.1,
+    "user_ratings_total": 61,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block 4 Harcourt Rd, Saint Kevin's, Dublin, D02 HW77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Inner City Enterprise",
+    "place_id": "ChIJBzoYg1ENZ0gRfJ41uNbGtbw",
+    "lat": 53.3516238,
+    "lon": -6.273211,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "49/50, Coleraine St, Smithfield, Dublin 7, D07 XW62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Prosperity Chambers Baggot Street",
+    "place_id": "ChIJ8anJTrkPZ0gRT4NAKij_W7w",
+    "lat": 53.33777749999999,
+    "lon": -6.2512827,
+    "rating": 4.6,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "19-22 Baggot Street Lower, Dublin 2, D02 X658, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "2 Grand Canal Plaza",
+    "place_id": "ChIJ2fYwMusOZ0gRHXQeLkFMLoc",
+    "lat": 53.3392712,
+    "lon": -6.2385268,
+    "rating": 4.4,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grand Canal Street Lower, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Spaces - Dublin, South Docklands",
+    "place_id": "ChIJK_zZPAsPZ0gR39_O8iI4XGo",
+    "lat": 53.3455091,
+    "lon": -6.2333,
+    "rating": 4.5,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block C, 77 Sir John Rogerson's Quay, Grand Canal Dock, Dublin, D02 NP08, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "10-13 Thomas Street",
+    "place_id": "ChIJ73ufvToMZ0gRqXGSqPsDY1A",
+    "lat": 53.34327829999999,
+    "lon": -6.283274599999999,
+    "rating": 4.7,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Digital Hub, 10-13 Thomas St, The Liberties, Dublin 8, D08 PX8H, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Furthr",
+    "place_id": "ChIJzZYxOJsOZ0gRv-ZQyzVVupE",
+    "lat": 53.3409522,
+    "lon": -6.284954300000001,
+    "rating": 4.3,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "GEC, Taylor's Ln, The Liberties, Dublin 8, D08 A36K, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Click Offices - Serviced Office Space Dublin & London",
+    "place_id": "ChIJvdXJepYOZ0gRz4Yoim30UWE",
+    "lat": 53.3394412,
+    "lon": -6.2454105,
+    "rating": 5,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lodging",
+      "real_estate_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "64 Mount Street Lower, Dublin 2, D02 TH77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "tcube coworking",
+    "place_id": "ChIJEcJiiI8PZ0gR2SEVE-6Turs",
+    "lat": 53.3477614,
+    "lon": -6.2589286,
+    "rating": 4.8,
+    "user_ratings_total": 88,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 O'Connell Street Lower, North City, Dublin, D01 TX31, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Seapoint Building",
+    "place_id": "ChIJUZh6fVQOZ0gRnMt7JzJxx4M",
+    "lat": 53.3636169,
+    "lon": -6.2195253,
+    "rating": 4.3,
+    "user_ratings_total": 33,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "44-45, Clontarf Rd, Clontarf West, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sandyford Business District",
+    "place_id": "ChIJEUltHQcJZ0gRoMZDe0bZeD4",
+    "lat": 53.2753374,
+    "lon": -6.2060214,
+    "rating": 4,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Leopardstown Office Park, 10 Burton Hall Ave, Sandyford Business Park, Dublin, D18 FK72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus - Dublin, Santry",
+    "place_id": "ChIJ5wlWfOERZ0gRcLDtfYhvvXQ",
+    "lat": 53.40281,
+    "lon": -6.26017,
+    "rating": 4.4,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block B, The Crescent Building, Northwood Cres, Santry Demesne, Dublin, D09 C6X8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus - Dublin 4 Ballsbridge",
+    "place_id": "ChIJK7hhDMQOZ0gR8CNryOYM4Cw",
+    "lat": 53.33050590000001,
+    "lon": -6.228152,
+    "rating": 4.1,
+    "user_ratings_total": 61,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Alexandra House, Ballsbridge Park 3, 3 Ballsbridge Park, Ballsbridge, Dublin 4, D04 C7H2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus - Dublin, The Chase",
+    "place_id": "ChIJL1UxGwYJZ0gRDEz3EUE2Nrw",
+    "lat": 53.2769106,
+    "lon": -6.2101896,
+    "rating": 3.8,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Level 1, Carmanhall Rd, The Chase, Blackthorn, Dublin, D18 Y3X2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Infosys BPO",
+    "place_id": "ChIJt90z9Ih0Z0gRrn5ZKw74x-4",
+    "lat": 53.2920667,
+    "lon": -6.4210126,
+    "rating": 4.9,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3050 Lake Dr, Citywest, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus - Dublin, Ormond",
+    "place_id": "ChIJkQhrZCgMZ0gRtqSubS9wN1c",
+    "lat": 53.345852,
+    "lon": -6.2715062,
+    "rating": 4.5,
+    "user_ratings_total": 70,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "31-36 Ormond Quay Upper, Dublin, D07 EE37, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Grafter Leeson House",
+    "place_id": "ChIJM2MRHB0PZ0gR5ikC1Yb4fE4",
+    "lat": 53.33321609999999,
+    "lon": -6.254215299999999,
+    "rating": 4.9,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "41 Leeson Street Lower, Saint Kevin's, Dublin, D02 R968, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Kings Building",
+    "place_id": "ChIJcSyx0S4MZ0gRTwewfbd8kzM",
+    "lat": 53.3479387,
+    "lon": -6.2750359,
+    "rating": 4.7,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "152-155, 152-155 Church St, Arran Quay, Dublin 7, D07 A0TN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Drinan Enterprise Centre",
+    "place_id": "ChIJZaJIF4oQZ0gROQVCfaft4Og",
+    "lat": 53.4481975,
+    "lon": -6.201663900000001,
+    "rating": 4.2,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block K, Swords Enterprise Park, Feltrim Rd, Drinan, Swords, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regus - Dublin 2 Pembroke House",
+    "place_id": "ChIJ57B7QaAOZ0gR5wH48atzEys",
+    "lat": 53.3352029,
+    "lon": -6.2538785,
+    "rating": 4.6,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "28 Pembroke Street Upper, Dublin, D02 NT28, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "officepods Blackrock",
+    "place_id": "ChIJoRWY08YIZ0gRzZnGs0nK6Bg",
+    "lat": 53.3015053,
+    "lon": -6.1783436,
+    "rating": 4.9,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15A Main St, Newtown Blackrock, Blackrock, Co. Dublin, A94 T8P8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hopkins Merchandising Ltd",
+    "place_id": "ChIJPRZ9uZoSZ0gRzhoY47rJW2I",
+    "lat": 53.4008325,
+    "lon": -6.342527100000001,
+    "rating": 4.8,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 47 Rosemount Park Dr, Rosemount Business Park, Dublin, 11, Co. Dublin, D11 R98X, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mine Hill Business Centre",
+    "place_id": "ChIJmTLEpCcIZ0gRxDugKugx89A",
+    "lat": 53.2329514,
+    "lon": -6.170293,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mine Hill Ln, Ballycorus, Dublin 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Convention Centre Dublin",
+    "place_id": "ChIJr2UxuPIOZ0gRWOOhGDyi-iU",
+    "lat": 53.3478621,
+    "lon": -6.2395809,
+    "rating": 4.6,
+    "user_ratings_total": 3541,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Spencer Dock, N Wall Quay, North Wall, Dublin 1, D01 T1W6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

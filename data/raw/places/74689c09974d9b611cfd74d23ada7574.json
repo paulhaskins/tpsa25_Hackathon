@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "Baldoyle Industrial Estate",
+    "place_id": "ChIJORjccEUFZ0gRlRA-bKfEb8M",
+    "lat": 53.3962442,
+    "lon": -6.147476999999999,
+    "rating": 4.2,
+    "user_ratings_total": 729,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Baldoyle, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ballymount Industrial Estate",
+    "place_id": "ChIJuRAtj5MMZ0gRTyOz-lpQDkE",
+    "lat": 53.3164273,
+    "lon": -6.349515999999999,
+    "rating": 4.1,
+    "user_ratings_total": 640,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballymount, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Industrial Estate",
+    "place_id": "ChIJH5WD-8INZ0gRgELqN6nHABg",
+    "lat": 53.3739082,
+    "lon": -6.2902721,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "neighborhood",
+      "political"
+    ],
+    "formatted_address": "Dublin Industrial Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cherrywood Business Park",
+    "place_id": "ChIJBfKEWAgIZ0gR_zyIomkREkM",
+    "lat": 53.24447079999999,
+    "lon": -6.1396347,
+    "rating": 4.3,
+    "user_ratings_total": 435,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Level 2, Building 10, Cherrywood Business Park, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenogue Business Park",
+    "place_id": "ChIJI3hHLQR0Z0gR_zlS4wvGa-o",
+    "lat": 53.2965039,
+    "lon": -6.4717768,
+    "rating": 4,
+    "user_ratings_total": 121,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 43 block 528, Grants Rd, Westmanstown, Rathcoole, Co. Dublin, D24 DVX7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Premier Business Park",
+    "place_id": "ChIJA_264H8SZ0gRRsC0GhRruJI",
+    "lat": 53.3973345,
+    "lon": -6.336328,
+    "rating": 4.4,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Ballycoolin Rd, Cappoge, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clondalkin Industrial Estate",
+    "place_id": "ChIJGUqK4zZzZ0gRMD7qN6nHABg",
+    "lat": 53.331315,
+    "lon": -6.3887402,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "neighborhood",
+      "political"
+    ],
+    "formatted_address": "Clondalkin Industrial Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Millennium Trade Park",
+    "place_id": "ChIJFZTd8ogSZ0gRVBS8bEZ4TVQ",
+    "lat": 53.4072908,
+    "lon": -6.342884199999999,
+    "rating": 4.4,
+    "user_ratings_total": 62,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "115 Millennium Trade Park, Ballycoolen, Dublin, D11 R656, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Western Industrial Estate",
+    "place_id": "ChIJi8t1R7cMZ0gRIFPqN6nHABg",
+    "lat": 53.3223705,
+    "lon": -6.36292,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "neighborhood",
+      "political"
+    ],
+    "formatted_address": "Western Industrial Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IBM Campus - Building 4",
+    "place_id": "ChIJZWSCgUhtZ0gRlpocOomRhVQ",
+    "lat": 53.4176213,
+    "lon": -6.416845599999999,
+    "rating": 4.5,
+    "user_ratings_total": 96,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Damastown Industrial Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Building Industry Directory",
+    "place_id": "ChIJteH30DYGZ0gRu_DkXP_ugwY",
+    "lat": 53.284493,
+    "lon": -6.120673999999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9 Albert Park, Bullock, Dublin, A96 W6H6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Eight Building",
+    "place_id": "ChIJY_GWmSMMZ0gROjyPl2Y7Blk",
+    "lat": 53.3378112,
+    "lon": -6.277690799999999,
+    "rating": 4.8,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Newmarket, The Liberties, Dublin 8, D08 T2TX, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Building GRCQ1",
+    "place_id": "ChIJ_7ZfrJQOZ0gRh-izyzZB8lE",
+    "lat": 53.3408413,
+    "lon": -6.2393379,
+    "rating": 4.6,
+    "user_ratings_total": 112,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Grand Canal Quay, Dublin, D02 FF61, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Building Profiles and Systems Ltd",
+    "place_id": "ChIJXScgocAMZ0gRbpWRpdsXa9Y",
+    "lat": 53.3298217,
+    "lon": -6.3542121,
+    "rating": 4.7,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit C2, Bluebell Industrial Estate, Bluebell, Dublin 12, D12 AD96, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MSS Building Services",
+    "place_id": "ChIJfwa9q6gMZ0gRwpa2Q2iVqRg",
+    "lat": 53.314804,
+    "lon": -6.3635712,
+    "rating": 4.7,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballymount Cross Industrial Estate, Huntsman House, Dublin 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ABS",
+    "place_id": "ChIJy8df8bgMZ0gRK_PKszUMB5I",
+    "lat": 53.3274961,
+    "lon": -6.3582939,
+    "rating": 4.7,
+    "user_ratings_total": 277,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "home_goods_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "John F Kennedy Rd, John F Kennedy Industrial Estate, Dublin, D12 YXR4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IBM Campus - Building 2",
+    "place_id": "ChIJjVzHtTttZ0gRRyt0i6Dxbdo",
+    "lat": 53.4200277,
+    "lon": -6.416661299999999,
+    "rating": 4.3,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Damastown Industrial Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Airways Industrial Estate",
+    "place_id": "ChIJe46RykIQZ0gRQFTqN6nHABg",
+    "lat": 53.4055404,
+    "lon": -6.2329672,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "neighborhood",
+      "political"
+    ],
+    "formatted_address": "Airways Industrial Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HARVEY | Industrial Property Specialists",
+    "place_id": "ChIJ035f9RkMZ0gRmKouabymesc",
+    "lat": 53.3137038,
+    "lon": -6.3435826,
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Calmount Park, E12, Calmount Ave, Dublin, D12 F8F5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Igoe International Ltd",
+    "place_id": "ChIJu3lx6twNZ0gRzDQeGtyjwXs",
+    "lat": 53.3733327,
+    "lon": -6.2882397,
+    "rating": 4.6,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "home_goods_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "135 Slaney Rd, Dublin Industrial Estate, Dublin, D11 AW6D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "West Pharma - Building 2",
+    "place_id": "ChIJA_tSdkhtZ0gRENZhH4GIFzs",
+    "lat": 53.411611,
+    "lon": -6.4102972,
+    "rating": 4.3,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Damastown, Dublin, D15 YH2F, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ossory Business Park",
+    "place_id": "ChIJb8sVLDsPZ0gRyybBglbvp_c",
+    "lat": 53.3547935,
+    "lon": -6.2400521,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ossory Rd, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "South West Business Park",
+    "place_id": "ChIJI6YIpWV1Z0gREb2F1KTvkHw",
+    "lat": 53.2930181,
+    "lon": -6.4089849,
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cheeverstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Freeman",
+    "place_id": "ChIJw82O1VcOZ0gRmN3T7RhEd7c",
+    "lat": 53.358418,
+    "lon": -6.2256619,
+    "rating": 4.3,
+    "user_ratings_total": 92,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block L, Eastpoint Business Park, North Wall, Dublin, D03 XF70, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Toolfast Ltd",
+    "place_id": "ChIJB3KIuzZzZ0gRHoD8Z9D19DA",
+    "lat": 53.32925609999999,
+    "lon": -6.3880244,
+    "rating": 4.3,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 18, Crag Terrace, Clondalkin Industrial Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SIG Construction Accessories",
+    "place_id": "ChIJ85eKUckMZ0gRWBDBGm3sCvI",
+    "lat": 53.31622840000001,
+    "lon": -6.360020899999999,
+    "rating": 4.9,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "SIG Ireland, Turnpike Rd, Ballymount Industrial Estate, Dublin, D22 P5R7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PW Thermal Building Solutions Ltd",
+    "place_id": "ChIJfReumLLYXEgRWqEej9Wzke8",
+    "lat": 53.2934454,
+    "lon": -6.3769214,
+    "rating": 4.9,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "44 Third Ave, Cookstown Industrial Estate, Dublin, D24 DT02, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Northwest Logistics Park",
+    "place_id": "ChIJn2e1Pp8NZ0gR0vs2SekYmeQ",
+    "lat": 53.4173711,
+    "lon": -6.3539337,
+    "rating": 4.7,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Site Compound, Northwest Logistics Park, Kilshane Ave, Ballycoolen, Dublin, D11 X258, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sika Ireland Ltd.",
+    "place_id": "ChIJHYtvPDEZZ0gR2cQV1gznuSg",
+    "lat": 53.4031616,
+    "lon": -6.2728872,
+    "rating": 4.4,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Sika House, Ballymun Industrial Estate, Dublin, D11 DA2V, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amazon Ireland",
+    "place_id": "ChIJ2dYqhrwOZ0gRpF6T5yBBuNI",
+    "lat": 53.3306114,
+    "lon": -6.2474102,
+    "rating": 4,
+    "user_ratings_total": 281,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Burlington Rd, Dublin 4, D04 HH21, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Heineken Ireland",
+    "place_id": "ChIJHZ8QU0UMZ0gRvkpwPDfnsUU",
+    "lat": 53.3423375,
+    "lon": -6.3095376,
+    "rating": 4.3,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One Kilmainham Square,, Kilmainham Square,, Inchicore Road,, Dublin 8,, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SteelSmith / CME Industrial Specialist Limited",
+    "place_id": "ChIJ37ozZvwRZ0gR3PLhoLck8_8",
+    "lat": 53.397362,
+    "lon": -6.2993196,
+    "rating": 3.8,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 18 Jamestown Business Park, Finglas, Dublin, D11 T8PA, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Apex Building",
+    "place_id": "ChIJGfBXKEsNZ0gRJNDAoNBJt4o",
+    "lat": 53.3279989,
+    "lon": -6.2797204,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenmount Industrial Estate, Greenmount Ave, Harold's Cross, Dublin 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CONTICO MANUFACTURING IRELAND LTD",
+    "place_id": "ChIJB7OCF64MZ0gRosg9xgPZEBQ",
+    "lat": 53.3169615,
+    "lon": -6.365809,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hardware_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 4 Red Cow Interchange Estate, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Chocolate Factory",
+    "place_id": "ChIJ45q5k4EOZ0gRq0gRx18-Odw",
+    "lat": 53.3513714,
+    "lon": -6.2674395,
+    "rating": 4.5,
+    "user_ratings_total": 257,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "gym",
+      "cafe",
+      "point_of_interest",
+      "food",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "26 King's Inns St, Rotunda, Dublin 1, D01 P2W7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "B&Q Dublin - Liffey Valley",
+    "place_id": "ChIJS7_jGipzZ0gReKKjHvuC-ZE",
+    "lat": 53.3484038,
+    "lon": -6.3882591,
+    "rating": 4.1,
+    "user_ratings_total": 3801,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "furniture_store",
+      "car_repair",
+      "home_goods_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Retail Park East, Liffey Valley Shopping Centre, Coldcut Rd, Irishtown, Dublin, D22 E892, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "Irish Pipeline Components Ltd",
+    "place_id": "ChIJ44I3vnh0Z0gRbHQcpQWhvig",
+    "lat": 53.3005435,
+    "lon": -6.4767354,
+    "rating": 4.6,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenogue Industrial Estate, 524 Grants Pl, Westmanstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Farrelly Industrial Supplies Ltd",
+    "place_id": "ChIJzQa0wAWCZ0gRBMCnYnq_eXo",
+    "lat": 53.3296759,
+    "lon": -6.3528797,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit B1A, Bluebell Industrial Estate, Bluebell Ave, Bluebell, Dublin 12, D12 YF53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mannions",
+    "place_id": "ChIJddlAzKIMZ0gRfyhwKrl7VMA",
+    "lat": 53.3181111,
+    "lon": -6.3490788,
+    "rating": 4.6,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 5a, Robinhood Industrial Estate, Robinhood Rd, Ballymount, Dublin 22, D22 F302, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ray Cooke Auctioneers | Estate Agents Dublin - Mobhi Road, Glasnevin Office",
+    "place_id": "ChIJlagzbBoPZ0gRTF9xn4Gs3lg",
+    "lat": 53.37061079999999,
+    "lon": -6.2683236,
+    "rating": 4.8,
+    "user_ratings_total": 259,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "169 St Mobhi Rd, Glasnevin, Dublin 9, D09 PYH2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "OUTHAUS",
+    "place_id": "ChIJ87rnRtERZ0gRvoVIuEA4Fv8",
+    "lat": 53.407051,
+    "lon": -6.234295899999999,
+    "rating": 4.4,
+    "user_ratings_total": 58,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "furniture_store",
+      "home_goods_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 26, Airways Industrial, Turnapin Ln, Turnapin Little, Dublin 17, D17 TH93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mounttown Business Park",
+    "place_id": "ChIJmVwFLZ0IZ0gRJ4fYyYzzdrY",
+    "lat": 53.2866373,
+    "lon": -6.1455513,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mountashton, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Barlon Industrial Park",
+    "place_id": "ChIJ8ypZaSp3Z0gRs8qww4kn9gc",
+    "lat": 53.2737262,
+    "lon": -6.5121369,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Blackchurch, Rathcoole, Co. Dublin, D24 CP83, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CS Construction Spares",
+    "place_id": "ChIJLb7vEK4MZ0gREy2quaJl_DU",
+    "lat": 53.317426,
+    "lon": -6.3663712,
+    "rating": 4.6,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 1, Red Cow Interchange Estate, Ballymount Road, Turnpike Road, Dublin, D22 PA62, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CHQ Dublin",
+    "place_id": "ChIJ0zvFKowOZ0gR5C2GLV36FLM",
+    "lat": 53.3490142,
+    "lon": -6.2480492,
+    "rating": 4.3,
+    "user_ratings_total": 3505,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "shopping_mall",
+      "gym",
+      "food",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Custom House Quay, North Wall, Dublin 1, D01 KF84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hendron's building",
+    "place_id": "ChIJA3M29owNZ0gRqNOE9KSMDlA",
+    "lat": 53.3546039,
+    "lon": -6.2717918,
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "36-40, 36-40 Dominick Street Upper, Phibsborough, Dublin 7, D07 KDV5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Drury Buildings",
+    "place_id": "ChIJPS_UT5wOZ0gRmOgA9V8Jp8M",
+    "lat": 53.34193519999999,
+    "lon": -6.263341,
+    "rating": 4.3,
+    "user_ratings_total": 1751,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "52-55 Drury St, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "Human Digital",
+    "place_id": "ChIJo_1FTRcMZ0gR7_DFLDnrcFs",
+    "lat": 53.3283023,
+    "lon": -6.279389699999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "First Floor, The Mill Building, Greenmount Industrial Estate, Harold's Cross, Dublin, D12 K2RV, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "NorDan Vinduer",
+    "place_id": "ChIJ7SZreMAMZ0gRjgp1t0l_dwk",
+    "lat": 53.3302975,
+    "lon": -6.351044099999999,
+    "rating": 4.2,
+    "user_ratings_total": 80,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bluebell Industrial Estate, Bluebell, Dublin 12, D12 A073, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Murdock Builders Merchants Ballymount",
+    "place_id": "ChIJ1YFPiJkMZ0gR6Og7WwTPq5w",
+    "lat": 53.3181735,
+    "lon": -6.340439,
+    "rating": 4.6,
+    "user_ratings_total": 97,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Howard McGarvey Industrial Estate, Ballymount Rd Lower, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Building Materials Federation",
+    "place_id": "ChIJu8J7i70OZ0gRkBpuEwh2y_0",
+    "lat": 53.3350878,
+    "lon": -6.2467712,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Confederation House, Baggot Street Lower, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Maginn Woodworking Machinery & Tooling Ireland",
+    "place_id": "ChIJCfPKNb8MZ0gRRg6duMkyAgA",
+    "lat": 53.3279066,
+    "lon": -6.3550784,
+    "rating": 4.8,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "John F Kennedy Rd, John F Kennedy Industrial Estate, Dublin 12, D12 FX04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Microsoft Ireland",
+    "place_id": "ChIJpWo5fFkIZ0gRTvYFD4sd2TY",
+    "lat": 53.2689339,
+    "lon": -6.1968054,
+    "rating": 4.5,
+    "user_ratings_total": 767,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "One Microsoft Place, South County Business Park, Carmanhall And Leopardstown, Dublin, D18 P521, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Proline Architectural Hardware - Showroom & Trade Counter",
+    "place_id": "ChIJvU8IRfIMZ0gRFdy4zyecTl0",
+    "lat": 53.3342983,
+    "lon": -6.332887400000001,
+    "rating": 4.7,
+    "user_ratings_total": 86,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "home_goods_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Jamestown Industrial Centre, 10 Jamestown Rd, Inchicore, Dublin 8, D08 TX64, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Actavo - Head Office",
+    "place_id": "ChIJQeUdILcMZ0gRwLRPaMRipd8",
+    "lat": 53.3263726,
+    "lon": -6.3627059,
+    "rating": 3.1,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Westland House, Willow Rd, New Nangor Road, Fox-And-Geese Common, Dublin 12, D12 DK12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Factory Outlet",
+    "place_id": "ChIJl28UMkRzZ0gRvo8ze-DsPcg",
+    "lat": 53.3216949,
+    "lon": -6.3933278,
+    "rating": 4.6,
+    "user_ratings_total": 159,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "furniture_store",
+      "home_goods_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "2 Orchard Rd, Clondalkin, Dublin 22, D22 PV44, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guinness Enterprise Centre (GEC)",
+    "place_id": "ChIJJdhahFoNZ0gRdyQFk_vDZ1Q",
+    "lat": 53.3412725,
+    "lon": -6.2839597,
+    "rating": 4.8,
+    "user_ratings_total": 57,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Taylor's Ln, The Liberties, Dublin 8, D08 YPP9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Edwards Service Technology Centre (STC) Dublin",
+    "place_id": "ChIJ2-w1eLoTZ0gRr-BGulNESOA",
+    "lat": 53.40204259999999,
+    "lon": -6.365425,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 1, Blanchardstown Industrial Park, Snugborough Rd, Snugborough, Dublin 15, D15 CD3C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Domestic & General Property Support Services.",
+    "place_id": "ChIJfVjLXxh0Z0gRSxGtL5jgDnY",
+    "lat": 53.295932,
+    "lon": -6.4803225,
+    "rating": 3.8,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 12, Block G, Greenogue Business Park, Greenoge, Rathcoole, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FedEx Trade Networks Transport & Brokerage (Ireland) Limited",
+    "place_id": "ChIJDSyvMyEOZ0gRWGq-UoNXxl0",
+    "lat": 53.4027865,
+    "lon": -6.260169299999999,
+    "rating": 1.2,
+    "user_ratings_total": 59,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Crescent Building Block B, Room 300 & 300A, Airways Industrial Estate, Dublin, D09 C6X8, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  }
+]

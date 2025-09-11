@@ -1,0 +1,736 @@
+[
+  {
+    "name": "TU Dublin, Grangegorman Campus",
+    "place_id": "ChIJZbQuzywMZ0gR7LNOrFuzlpI",
+    "lat": 53.3548669,
+    "lon": -6.279486299999999,
+    "rating": 4.6,
+    "user_ratings_total": 261,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grangegorman Lower, Dublin 7, D07 H6K8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin School of Architecture, Building and Environment, TU Dublin",
+    "place_id": "ChIJ29tY3IEOZ0gRSFKWKJE-s5M",
+    "lat": 53.3520347,
+    "lon": -6.269151900000001,
+    "rating": 4.9,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Technological University Dublin, Bolton St, Inns Quay, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU St. Patrick's Campus",
+    "place_id": "ChIJY0NdGW8OZ0gR6PN8BCgKjsI",
+    "lat": 53.371575,
+    "lon": -6.2552091,
+    "rating": 4.4,
+    "user_ratings_total": 117,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Drumcondra Rd Upper, Drumcondra, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, East Quad",
+    "place_id": "ChIJl6vl0HENZ0gRcZwF76yftHk",
+    "lat": 53.3539767,
+    "lon": -6.2780003,
+    "rating": 4.4,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grangegorman Lower, Dublin 7, D07 XFF2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin Academic Hub and Library",
+    "place_id": "ChIJfSMkdToNZ0gRP-iRI5GJ6xM",
+    "lat": 53.356415,
+    "lon": -6.2834001,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grangegorman, Dublin 7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Aungier Street Campus",
+    "place_id": "ChIJLZkSH54OZ0gRxcSb69bRrmU",
+    "lat": 53.3385303,
+    "lon": -6.266542599999999,
+    "rating": 4.5,
+    "user_ratings_total": 108,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Aungier St, Dublin 2, D02 HW71, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Park House",
+    "place_id": "ChIJdY1YywIMZ0gR1pxQnAnUiNI",
+    "lat": 53.3579196,
+    "lon": -6.2872779,
+    "rating": 3.6,
+    "user_ratings_total": 77,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Park House, N Circular Rd, Cabra East, Dublin 7, D07 EWV4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "University College Dublin",
+    "place_id": "ChIJYzrIIDEJZ0gRz78kFPMqdjY",
+    "lat": 53.3097268,
+    "lon": -6.2215897,
+    "rating": 4.6,
+    "user_ratings_total": 993,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City University",
+    "place_id": "ChIJA12dLxsOZ0gRqMIHQZhFuxI",
+    "lat": 53.38533169999999,
+    "lon": -6.2588403,
+    "rating": 4.4,
+    "user_ratings_total": 558,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin City University, Collins Ave Ext, Whitehall, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Planning & Environmental Policy Building, University College Dublin",
+    "place_id": "ChIJ15MIU0oJZ0gRAffCPzsNp5w",
+    "lat": 53.3108552,
+    "lon": -6.2351831,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Richview Campus, University College, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU All Hallows Campus",
+    "place_id": "ChIJQUJOVGgOZ0gRiC9ZvtbxlYE",
+    "lat": 53.3708985,
+    "lon": -6.2489963,
+    "rating": 4.4,
+    "user_ratings_total": 63,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grace Park Rd, Drumcondra, Dublin, D09 N920, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Central Quad",
+    "place_id": "ChIJk0QSvGgNZ0gRahMEa83yBqk",
+    "lat": 53.3564454,
+    "lon": -6.281725,
+    "rating": 4.8,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grangegorman Lower, Dublin 7, D07 ADY7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Building 71",
+    "place_id": "ChIJZZKuDf4JZ0gR7h-arYCqSaQ",
+    "lat": 53.3048967,
+    "lon": -6.2204934,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Roebuck, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TCD Arts Building",
+    "place_id": "ChIJSegs_poOZ0gR_0L9GooYsZg",
+    "lat": 53.3432495,
+    "lon": -6.2571249,
+    "rating": 4.7,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "College Green, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Henry Grattan Building (C)",
+    "place_id": "ChIJ8xjRVRAOZ0gRcFN9mXuay9U",
+    "lat": 53.38640609999999,
+    "lon": -6.260275900000001,
+    "rating": 3.3,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Glasnevin, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU - School of Nursing & Human Sciences (H)",
+    "place_id": "ChIJiRhu3RYOZ0gRKm8F575PRNM",
+    "lat": 53.3858432,
+    "lon": -6.254898600000001,
+    "rating": 4.8,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Collins Ave Ext, Whitehall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Academy Building",
+    "place_id": "ChIJfTiJvDRzZ0gRe5eVY3kmavQ",
+    "lat": 53.33267919999999,
+    "lon": -6.3791202,
+    "rating": 3.7,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Park West Pointe, Yeats Way, Park West Business Park, Dublin, 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU Stokes Building",
+    "place_id": "ChIJR4oozBYOZ0gRWJH5IkOcT_Q",
+    "lat": 53.3856766,
+    "lon": -6.255684599999999,
+    "rating": 4.5,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Collins Ave Ext Collins Ave Ext, Whitehall, Dublin 9, D09 E432, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Fitzgerald Building, School of Physics",
+    "place_id": "ChIJmVeLXZAOZ0gRxQRYRjt43tw",
+    "lat": 53.3436366,
+    "lon": -6.2520718,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Campanile of Trinity College, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU International Academy",
+    "place_id": "ChIJow_yS0sOZ0gRqltoQT9-Cag",
+    "lat": 53.3847305,
+    "lon": -6.2534796,
+    "rating": 4,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin City University, Invent Building, Collins Ave Ext, Whitehall, Dublin 9, D09 PH2K, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Academic Bridge",
+    "place_id": "ChIJ7dMJnbcPZ0gRRsYHCSPerqI",
+    "lat": 53.336759,
+    "lon": -6.2633254,
+    "rating": 3.8,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Harcourt St, Dublin 2, D02 WR96, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Glasnevin Campus",
+    "place_id": "ChIJ4xBIOREOZ0gRUKRlmx0DDCw",
+    "lat": 53.3850942,
+    "lon": -6.257676099999999,
+    "rating": 3.1,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Administration building, The Mall, 630-, 672 Collins Ave Ext, Artane - Whitehall, Dublin 9, 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Business School",
+    "place_id": "ChIJvds1A50OZ0gRWHEQVoSmbh8",
+    "lat": 53.3434159,
+    "lon": -6.264575700000001,
+    "rating": 4.3,
+    "user_ratings_total": 109,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Wicklow House, 84/88 South Great George's Street, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Newstead Building, UCD International Study Centre",
+    "place_id": "ChIJ73BVIUoJZ0gRXZJ253anaHA",
+    "lat": 53.309729,
+    "lon": -6.234845399999999,
+    "rating": 3,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Roebuck, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "School of Physics, Marconi Building (L)",
+    "place_id": "ChIJM7KLNokPZ0gRkjWm9SsaAeU",
+    "lat": 53.3850444,
+    "lon": -6.2558504,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "School of Physics, Whitehall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Student Centre \"U\" Building",
+    "place_id": "ChIJCcmnPi0PZ0gRGVLQ0ekxGj0",
+    "lat": 53.38533169999999,
+    "lon": -6.2588403,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University, Collins Ave Ext, Whitehall, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IADT Carriglea building",
+    "place_id": "ChIJxdR7FIYIZ0gRFAQ2E7t_3og",
+    "lat": 53.2797738,
+    "lon": -6.1535736,
+    "rating": 4.8,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kill Ave, Woodpark, Dublin, A96 K735, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "School of Histories and Humanities, Arts Building, Trinity College Dublin",
+    "place_id": "ChIJR7bZ_ZoOZ0gREyRsNAZsxr8",
+    "lat": 53.3432962,
+    "lon": -6.2571341,
+    "rating": 3.5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity College Academic Registry",
+    "place_id": "ChIJE1DZCakPZ0gRd0bo3OXKeMI",
+    "lat": 53.342755,
+    "lon": -6.250687999999999,
+    "rating": 4.2,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Watts Building, Trinity College Dublin - Houses, College Green, Dublin, D02 W272, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Museum Building (Geology, Geography and Civil Engineering)",
+    "place_id": "ChIJrQSKkZoOZ0gRSP7NcesTbPg",
+    "lat": 53.3439388,
+    "lon": -6.255202,
+    "rating": 4.5,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Museum Building, 1 Park Ln E, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Kaplan School Building 2",
+    "place_id": "ChIJt-A3HZ0OZ0gREqhTWBJl964",
+    "lat": 53.3432764,
+    "lon": -6.2646662,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "247 South Great George's Street, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Griffith College Dublin Main Campus",
+    "place_id": "ChIJxxW5MxgMZ0gRLgb1Fq6sg08",
+    "lat": 53.3313617,
+    "lon": -6.2785669,
+    "rating": 4,
+    "user_ratings_total": 255,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "S Circular Rd, Dublin 8, D08 V04N, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU:Innovate Hub",
+    "place_id": "ChIJVdVXyXQOZ0gRY41c-PDWO0Q",
+    "lat": 53.37624779999999,
+    "lon": -6.2706675,
+    "rating": 4.8,
+    "user_ratings_total": 53,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DCU Alpha, Old Finglas Rd, Glasnevin, Dublin, D11 KXN4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Business School",
+    "place_id": "ChIJl85j6J0OZ0gRJ4pU5EFa_dU",
+    "lat": 53.340538,
+    "lon": -6.265492,
+    "rating": 3.6,
+    "user_ratings_total": 261,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13/14 Aungier St, Dublin, D02 WC04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lloyd Institute",
+    "place_id": "ChIJ1amlnJoOZ0gRRgnHM5HHIlk",
+    "lat": 53.3438303,
+    "lon": -6.251043,
+    "rating": 4.8,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42A Pearse St, Dublin, D02 R123, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Academic Bridge English School - Gardiner",
+    "place_id": "ChIJ_aQTeYcOZ0gRvNNIGLewtJA",
+    "lat": 53.3559603,
+    "lon": -6.2605742,
+    "rating": 3.8,
+    "user_ratings_total": 192,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "33 Gardiner Pl, Rotunda, Dublin, D01 W625, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Lochlann Quinn School of Business",
+    "place_id": "ChIJ6_OlfjAJZ0gR62nYnY4Yeiw",
+    "lat": 53.3045918,
+    "lon": -6.2199917,
+    "rating": 4.7,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Lochlann Quinn School of Business, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Bolton Street Campus",
+    "place_id": "ChIJ-So4CCoMZ0gRVBHGl0s4fVA",
+    "lat": 53.3515213,
+    "lon": -6.2692712,
+    "rating": 4.2,
+    "user_ratings_total": 83,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bolton St, Rotunda, Dublin 1, D01 K822, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Engineering Building",
+    "place_id": "ChIJyQV0QywPZ0gRrGRo0GSbles",
+    "lat": 53.37805059999999,
+    "lon": -6.2708428,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Finglas Rd, Glasnevin, Dublin, D11 KXN4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Brien Centre for Science",
+    "place_id": "ChIJkbG3RzEJZ0gRyUvO_j1Djqc",
+    "lat": 53.30828,
+    "lon": -6.223724,
+    "rating": 4.8,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD O'Brien Science Centre West, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU Institute of Education",
+    "place_id": "ChIJIyGtpG4OZ0gRDKhr8CHc9hY",
+    "lat": 53.3722187,
+    "lon": -6.2547316,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Teachers' Centre, DCU St. Patrick's Campus, 9, Drumcondra Rd Upper, Drumcondra, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Tallaght Campus",
+    "place_id": "ChIJ9XHAjksLZ0gRKlLZ4AF1z7Y",
+    "lat": 53.2910794,
+    "lon": -6.363455099999999,
+    "rating": 4.2,
+    "user_ratings_total": 118,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Blessington Rd, Tallaght, Dublin 24, D24 FKT9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "College of Engineering & Architecture",
+    "place_id": "ChIJmzM_NzAJZ0gRoe6X1UqJPEQ",
+    "lat": 53.3064683,
+    "lon": -6.218691199999999,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Engineering & Materials Science Centre, Stillorgan Rd, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU Business School",
+    "place_id": "ChIJlUhq2BAOZ0gRMxEiiFDcqXo",
+    "lat": 53.3862005,
+    "lon": -6.2574405,
+    "rating": 4.8,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University, Collins Ave Ext, Whitehall, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

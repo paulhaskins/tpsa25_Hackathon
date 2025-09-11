@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Tesco Distribution Depot - Santry",
+    "place_id": "ChIJtyt0cecRZ0gRS-EGpLk_7og",
+    "lat": 53.40755660000001,
+    "lon": -6.2556245,
+    "rating": 3.9,
+    "user_ratings_total": 267,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Ballymun Rd, Santry, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 1
+  },
+  {
+    "name": "Musgrave Central Distribution Centre",
+    "place_id": "ChIJqWIVGJUSZ0gR6dhor5BdtGk",
+    "lat": 53.4133896,
+    "lon": -6.3685273,
+    "rating": 4.1,
+    "user_ratings_total": 123,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballycoolen, Dublin, D15 F434, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amazon SNN5",
+    "place_id": "ChIJbXCrzwV1Z0gRkSB2qltEQ4I",
+    "lat": 53.2891004,
+    "lon": -6.4514723,
+    "rating": 3.5,
+    "user_ratings_total": 103,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit E, Baldonnell Business Park, Baldonnell, Co. Dublin, D22 V5R3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "VTL",
+    "place_id": "ChIJm6Aa35oSZ0gRRQImB7B-wJE",
+    "lat": 53.4029408,
+    "lon": -6.3535373,
+    "rating": 4.5,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Rosemount Business Park, Unit 1B, Ballycoolin Rd, Ballycoolen, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "2Flow - Fulfillment,Warehousing and Order Processing Dublin",
+    "place_id": "ChIJzSvMnnYSZ0gRMV407NfLETM",
+    "lat": 53.40068850000001,
+    "lon": -6.317658799999999,
+    "rating": 4.5,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 9, 11 North Park, Finglas, Dublin 11, D11 RW30, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BWG Foods NDC",
+    "place_id": "ChIJUxi0nZlzZ0gR-53CFM6ItDE",
+    "lat": 53.320456,
+    "lon": -6.4421759,
+    "rating": 4.1,
+    "user_ratings_total": 152,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Nangor Cres, Ballybane, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JYSK",
+    "place_id": "ChIJw3svILQMZ0gReF0vp9xZAZ4",
+    "lat": 53.32384039999999,
+    "lon": -6.37127,
+    "rating": 3.7,
+    "user_ratings_total": 165,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12, DHL, Oak Rd, Western Business Park, Dublin, D12 XC80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IKEA Training & Distribution Centre",
+    "place_id": "ChIJVd6V9NsRZ0gRfy0hhrz_THY",
+    "lat": 53.4070902,
+    "lon": -6.246900999999999,
+    "rating": 4.2,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit D, Furry Park Industrial Estate, Swords Rd, Turnapin Great, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JDC Warehousing ( Storage & Distribution )",
+    "place_id": "ChIJpb1iZskMZ0gRfwtvlKBLUM4",
+    "lat": 53.3325555,
+    "lon": -6.3695521,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Parkwest Drive, 1, 12 O'Casey Ave, Park West Industrial Park, Dublin 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IE Distribution",
+    "place_id": "ChIJpY02TZoSZ0gRmBToSvQT7ew",
+    "lat": 53.39911859999999,
+    "lon": -6.3443054,
+    "rating": 3.8,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 34a Rosemount Business Park, Ballycoolin Rd, Blanchardstown, Dublin 11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DHL Supply Chain Life Sciences and Healthcare",
+    "place_id": "ChIJIV85jhgSZ0gRzIoFDZ3DFJM",
+    "lat": 53.41855229999999,
+    "lon": -6.294628599999999,
+    "rating": 4.6,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Harristown, Swords, Co. Dublin, K67 N5C3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Quantum Distribution Park",
+    "place_id": "ChIJH7DZBj8TZ0gRVI9EBgUGWVs",
+    "lat": 53.4207851,
+    "lon": -6.3233447,
+    "rating": 4.9,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Newtown, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SIG National Distribution Centre",
+    "place_id": "ChIJWQqDma8MZ0gR3KJWe0pZOXo",
+    "lat": 53.3165759,
+    "lon": -6.3607549,
+    "rating": 4.2,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "home_goods_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Turnpike Rd, Fox-And-Geese, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rexel Ireland Distribution Centre",
+    "place_id": "ChIJkYCvSx-k-28RYe-Uyc9By4I",
+    "lat": 53.2886301,
+    "lon": -6.4562849,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit G Mountpark, Baldonnell Business Park, Dublin 22, D22 N9C9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

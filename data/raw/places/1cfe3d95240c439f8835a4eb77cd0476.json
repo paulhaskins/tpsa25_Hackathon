@@ -1,0 +1,655 @@
+[
+  {
+    "name": "Dogpatch Labs",
+    "place_id": "ChIJldBrYesOZ0gRTwYjH0-BG3I",
+    "lat": 53.3493381,
+    "lon": -6.2475564,
+    "rating": 4.5,
+    "user_ratings_total": 254,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Chq Building, Custom House Quay, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "strikepay\u2122 and striketip\u2122",
+    "place_id": "ChIJlYoyxF4JZ0gROJrabLMbFdY",
+    "lat": 53.29953769999999,
+    "lon": -6.1770097,
+    "rating": 4.5,
+    "user_ratings_total": 418,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Glasshouses, Frascati Hall, Sweetman's Ave, Blackrock, Co. Dublin, A94 F9N7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "StartupIreland",
+    "place_id": "ChIJc5VOS-0FZ0gRJgTWEOCEZKc",
+    "lat": 53.39088,
+    "lon": -6.0711733,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "W Pier, Howth, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Company Start-Ups - The Company Formation Specialists",
+    "place_id": "ChIJxZePRMoMZ0gRdbS9T9UFFD0",
+    "lat": 53.33102239999999,
+    "lon": -6.3732318,
+    "rating": 3.8,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20B Beckett Way, Park West Business Park, Dublin, D12 T2NF, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Huckletree Dublin - Coworking & Office Space",
+    "place_id": "ChIJbb5OtJEOZ0gR20VNkknzwjg",
+    "lat": 53.34447429999999,
+    "lon": -6.250229,
+    "rating": 4.7,
+    "user_ratings_total": 148,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Academy, 42 Pearse St, Dublin, D02 HV59, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "StartUp Ballymun",
+    "place_id": "ChIJY1uPStMPZ0gR5Bj-QXLVg3M",
+    "lat": 53.39529289999999,
+    "lon": -6.2638034,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd Floor, Civic Centre, Main St, Ballymun, Dublin, D09 C8P5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Furthr",
+    "place_id": "ChIJzZYxOJsOZ0gRv-ZQyzVVupE",
+    "lat": 53.3409522,
+    "lon": -6.284954300000001,
+    "rating": 4.3,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "GEC, Taylor's Ln, The Liberties, Dublin 8, D08 A36K, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Skippio",
+    "place_id": "ChIJGaZPyt4JZ0gRh71TSDWlkNU",
+    "lat": 53.3024769,
+    "lon": -6.211820599999999,
+    "rating": 4.9,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, NovaUCD, Stillorgan Rd, Belfield, Dublin 4, D04 V2P1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Digital Depot at The Digital Hub",
+    "place_id": "ChIJezr9lzoMZ0gRYGq1ZoA-bh0",
+    "lat": 53.3440308,
+    "lon": -6.283706,
+    "rating": 4.6,
+    "user_ratings_total": 76,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Digital Hub, Roe Ln, The Liberties, Dublin 8, D08 TCV4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Office of the Dublin Commissioner for Startups",
+    "place_id": "ChIJmQSP2I0OZ0gRvEx55oBKlVs",
+    "lat": 53.34794489999999,
+    "lon": -6.2476556,
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DDDA Building, 1, Custom House Quay, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU:Innovate Hub",
+    "place_id": "ChIJVdVXyXQOZ0gRY41c-PDWO0Q",
+    "lat": 53.37624779999999,
+    "lon": -6.2706675,
+    "rating": 4.8,
+    "user_ratings_total": 53,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DCU Alpha, Old Finglas Rd, Glasnevin, Dublin, D11 KXN4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Open Forest",
+    "place_id": "ChIJk_pO5xoPZ0gR9khSNPWRe3U",
+    "lat": 53.3480012,
+    "lon": -6.2687417,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Venture Hub, 136 Capel St, North City, Dublin 1, D01 T2C9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zalando Dublin Tech Hub",
+    "place_id": "ChIJKWMCZ-sOZ0gRuhUZSuN0aqM",
+    "lat": 53.3458349,
+    "lon": -6.2453025,
+    "rating": 4,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2WML, 2 Windmill Ln, Dublin 2, D02 KX66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Startup Journey",
+    "place_id": "ChIJQx_e_Z4OZ0gRMYgbAgIJzhA",
+    "lat": 53.3360139,
+    "lon": -6.2636081,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Harcourt St, Saint Kevin's, Dublin 2, D02 H364, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bowsy",
+    "place_id": "ChIJb-gAHDsMZ0gR-8cSG1m6TtU",
+    "lat": 53.2764544,
+    "lon": -6.214637799999999,
+    "rating": 4.5,
+    "user_ratings_total": 172,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Corrig Rd, Sandyford Business Park, Dublin 18, D18 N6K8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guinness Enterprise Centre (GEC)",
+    "place_id": "ChIJJdhahFoNZ0gRdyQFk_vDZ1Q",
+    "lat": 53.3412725,
+    "lon": -6.2839597,
+    "rating": 4.8,
+    "user_ratings_total": 57,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Taylor's Ln, The Liberties, Dublin 8, D08 YPP9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Workhub - Virtual Office Space Dublin",
+    "place_id": "ChIJlb-GwfYPZ0gRrJF5nXMgrfQ",
+    "lat": 53.3353511,
+    "lon": -6.265422,
+    "rating": 4.9,
+    "user_ratings_total": 149,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Camden Street Lower, Saint Kevin's, Dublin, D02 XE80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SoapBox Labs",
+    "place_id": "ChIJRYdKwRgMZ0gRIuq7zhtDtbU",
+    "lat": 53.3386722,
+    "lon": -6.2552134,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Huguenot House, 35-38 St Stephen's Green, Dublin 2, D02 NY63, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Square Root Solutions",
+    "place_id": "ChIJ-Qbe0yM-XUgRy1fIElzayjM",
+    "lat": 53.34126819999999,
+    "lon": -6.283957900000001,
+    "rating": 4.9,
+    "user_ratings_total": 54,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Taylor's Ln, The Liberties, Dublin 8, D08 YPP9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Evervault",
+    "place_id": "ChIJz0NbaUAPZ0gR1DUOpQv1AGM",
+    "lat": 53.3431161,
+    "lon": -6.2629153,
+    "rating": 4.3,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Exchequer Chambers, 23 Exchequer St, Dublin, D02 AC82, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TechMeetup.Space",
+    "place_id": "ChIJUwxvyYQOZ0gRbcXWByTWGsw",
+    "lat": 53.3455094,
+    "lon": -6.259436099999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9 2 Westmoreland St, Temple Bar, Dublin 2, D02 NW22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "OpenApp",
+    "place_id": "ChIJ5wKAcIYOZ0gR9RROBLYRpAY",
+    "lat": 53.356013,
+    "lon": -6.225033499999999,
+    "rating": 4.5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Business Park, Block P1, Eastpoint St, Alfie Byrne Rd, Dublin 3, D03 C825, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "LearnUpon",
+    "place_id": "ChIJv0yFmZcOZ0gRXLvm6m3yKzY",
+    "lat": 53.3464099,
+    "lon": -6.2784575,
+    "rating": 4.3,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1st Floor, Ocean House, Arran Quay, Dublin, D07 DHT3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "intive",
+    "place_id": "ChIJL0rB34QOZ0gRUBv_xTdES38",
+    "lat": 53.3468215,
+    "lon": -6.2582634,
+    "rating": 4.6,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Connell Bridge House, D'Olier Street, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Communify",
+    "place_id": "ChIJg__lK5b3xokRdacM6bal5II",
+    "lat": 53.3043918,
+    "lon": -6.212247199999999,
+    "rating": 5,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "NovaUCD, Innovation Park, Belfield, Dublin, D04 V2P1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ACE Enterprise Park",
+    "place_id": "ChIJT3yEdwpzZ0gRx5NchH9Amq0",
+    "lat": 53.3245022,
+    "lon": -6.413271099999999,
+    "rating": 4.6,
+    "user_ratings_total": 105,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bawnogue Rd, Clondalkin, Dublin, D22 P6E8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Spark CrowdFunding",
+    "place_id": "ChIJXcOsSJwOZ0gRbOJqy5I_ueg",
+    "lat": 53.335622,
+    "lon": -6.2441464,
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13 Herbert Pl, Dublin 2, D02 YD32, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Kitman Labs",
+    "place_id": "ChIJt7pzMokOZ0gRDRGD1zrLS9s",
+    "lat": 53.3484454,
+    "lon": -6.2479488,
+    "rating": 3.9,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North Wall, Dublin 1, D01 Y6H7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Flipdish",
+    "place_id": "ChIJsVxkNZsOZ0gR_nXIavKwp_I",
+    "lat": 53.2761532,
+    "lon": -6.215541,
+    "rating": 3.6,
+    "user_ratings_total": 79,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Heron House, First, 18 Corrig Rd, Sandyford Business Park, Dublin, D18 Y2X6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "10-13 Thomas Street",
+    "place_id": "ChIJ73ufvToMZ0gRqXGSqPsDY1A",
+    "lat": 53.34327829999999,
+    "lon": -6.283274599999999,
+    "rating": 4.7,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Digital Hub, 10-13 Thomas St, The Liberties, Dublin 8, D08 PX8H, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HireUp",
+    "place_id": "ChIJwXIdlgYJZ0gR5P1TgaofE0s",
+    "lat": 53.2775885,
+    "lon": -6.215598200000001,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 9, The Cubes Offices Beacon South Quarter, Sandyford, Dublin, D18 WP30, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Circit",
+    "place_id": "ChIJaSLBR56fVmoRTYOim3atQyU",
+    "lat": 53.34947709999999,
+    "lon": -6.244477,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North Wall, Dublin 1, D01 A6C5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "WeWork - Office Space & Coworking",
+    "place_id": "ChIJK1gN95cPZ0gRX8VPqCocbm4",
+    "lat": 53.348026,
+    "lon": -6.2336597,
+    "rating": 4.5,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Dublin Landings, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CHQ Dublin",
+    "place_id": "ChIJ0zvFKowOZ0gR5C2GLV36FLM",
+    "lat": 53.3490142,
+    "lon": -6.2480492,
+    "rating": 4.3,
+    "user_ratings_total": 3505,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "shopping_mall",
+      "gym",
+      "food",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Custom House Quay, North Wall, Dublin 1, D01 KF84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dataships",
+    "place_id": "ChIJp0rS2PYPZ0gRLxMo4UTL4ig",
+    "lat": 53.3046196,
+    "lon": -6.2126531,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "NovaUCD, Stillorgan Rd, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "EdgeTier",
+    "place_id": "ChIJcRAE9h4LZ0gRPNerGtdHZLQ",
+    "lat": 53.34480869999999,
+    "lon": -6.2610132,
+    "rating": 5,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Foster Pl, Temple Bar, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Shopbox AI",
+    "place_id": "ChIJacodqEQPZ0gRlSBEzVCSo28",
+    "lat": 53.3447433,
+    "lon": -6.2499103,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Huckletree D2, 42 Pearse St, Dublin 2, D02 YX88, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Travelport",
+    "place_id": "ChIJcxaY0DoMZ0gRse_X7V5QaoY",
+    "lat": 53.34177039999999,
+    "lon": -6.248215600000001,
+    "rating": 4.8,
+    "user_ratings_total": 46,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cumberland House, 1 Cumberland St S, Fenian St, Dublin 2, D02 FF20, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DIGIT Game Studios",
+    "place_id": "ChIJcQ9kL44OZ0gReqD65_FJNko",
+    "lat": 53.3464451,
+    "lon": -6.2501355,
+    "rating": 4.7,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4 Prince's St S, City Quay, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dev Centre House Ireland",
+    "place_id": "ChIJR_5oeC4MZ0gRJ6CyZ-FM7e8",
+    "lat": 53.412101,
+    "lon": -6.365437,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 5, Plaza 256, Blanchardstown Corporate Park 2, Dublin 15, D15 VE24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

@@ -1,0 +1,1020 @@
+[
+  {
+    "name": "Embassy of the United States of America",
+    "place_id": "ChIJF0umLscOZ0gRgd94lRmd9ts",
+    "lat": 53.3302944,
+    "lon": -6.2337132,
+    "rating": 3.7,
+    "user_ratings_total": 172,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42 Elgin Rd, Dublin 4, D04 TP03, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "British Embassy Dublin",
+    "place_id": "ChIJb4MOks8OZ0gRVUeecVIjC3w",
+    "lat": 53.32506619999999,
+    "lon": -6.2239282,
+    "rating": 2.8,
+    "user_ratings_total": 61,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "29 Merrion Rd, Ballsbridge, Dublin 4, D04 P272, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of India",
+    "place_id": "ChIJUwaiJqUOZ0gRVldg2fCftOk",
+    "lat": 53.3221572,
+    "lon": -6.2184308,
+    "rating": 3.8,
+    "user_ratings_total": 486,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "69 Merrion Rd, Ballsbridge, Dublin-4, Co. Dublin, D04 ER85, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embaixada do Brasil em Dublin",
+    "place_id": "ChIJy8pEFqAOZ0gRQ59gorVNNlI",
+    "lat": 53.3219493,
+    "lon": -6.235587499999999,
+    "rating": 3.9,
+    "user_ratings_total": 219,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Donnybrook House, 36-42 Donnybrook Rd, Dublin 4, D04 E6X0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "French Embassy in Dublin",
+    "place_id": "ChIJ27mv4s0OZ0gRDlCthR6UG_U",
+    "lat": 53.33806620000001,
+    "lon": -6.2501585,
+    "rating": 3,
+    "user_ratings_total": 226,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "66 Fitzwilliam Ln, Dublin 2, D02 HP38, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ambasciata d'Italia Dublino",
+    "place_id": "ChIJ4c-wfMAOZ0gR0preDLTQb9M",
+    "lat": 53.3334942,
+    "lon": -6.2365647,
+    "rating": 3,
+    "user_ratings_total": 415,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "63-65 Northumberland Rd, Dublin, D04 VA89, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Australian Embassy Ireland",
+    "place_id": "ChIJHYVwML0OZ0gR1_tDinx4ohk",
+    "lat": 53.3375965,
+    "lon": -6.2558241,
+    "rating": 4.5,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Level 3 47, 49 St Stephen's Green, Dublin 2, D02 W634, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of South Africa",
+    "place_id": "ChIJTRWrDqIOZ0gRoelOFDf6tdA",
+    "lat": 53.3345582,
+    "lon": -6.257122799999999,
+    "rating": 3.7,
+    "user_ratings_total": 115,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Alexandra House, Earlsfort Centre, Earlsfort Terrace, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Romania",
+    "place_id": "ChIJ6RoHp74OZ0gR6dcpnZIgxw8",
+    "lat": 53.3306963,
+    "lon": -6.2438543,
+    "rating": 3.9,
+    "user_ratings_total": 451,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "26 Waterloo Rd, Dublin 4, D04 Y654, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Germany",
+    "place_id": "ChIJp6h749UIZ0gRBK4At6qK__U",
+    "lat": 53.3107056,
+    "lon": -6.203060799999999,
+    "rating": 3.2,
+    "user_ratings_total": 205,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "31 Trimleston Ave, Booterstown, Dublin, A94 TX94, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "VFS Global Visa Application Centre in Dublin",
+    "place_id": "ChIJRWgtzvwNZ0gR55MyLo4Kj-Q",
+    "lat": 53.3394537,
+    "lon": -6.3063898,
+    "rating": 2.2,
+    "user_ratings_total": 179,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "130 Francis Street, The Liberties, Dublin, 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Nigeria Dublin, Ireland",
+    "place_id": "ChIJUwaiJqUOZ0gRDdBOgD-uAvE",
+    "lat": 53.3271963,
+    "lon": -6.250634799999999,
+    "rating": 3.3,
+    "user_ratings_total": 160,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "56 Leeson Park, Ranelagh, Dublin 6, D06 W981, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Spain",
+    "place_id": "ChIJQevoWtEOZ0gRuDHjXQ-X_Do",
+    "lat": 53.3220205,
+    "lon": -6.21428,
+    "rating": 2.8,
+    "user_ratings_total": 396,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17a, 4 Merlyn Park, Ballsbridge, Dublin, D04 HF53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Poland - Consular Section",
+    "place_id": "ChIJBfA5AoUOZ0gRJLfCQw0hd6Y",
+    "lat": 53.3478874,
+    "lon": -6.2584651,
+    "rating": 3.9,
+    "user_ratings_total": 330,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4-8 Eden Quay, North City, Dublin 1, D01 WY93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Kingdom of the Netherlands",
+    "place_id": "ChIJ_SHeY9EOZ0gRwrLs9DcJYcA",
+    "lat": 53.33204929999999,
+    "lon": -6.216893499999999,
+    "rating": 4.4,
+    "user_ratings_total": 79,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Claremont Rd, Sandymount, Dublin 4, D04 XY86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Pakistan",
+    "place_id": "ChIJ7U4pj8UHZ0gRQF3L-qbf-dQ",
+    "lat": 53.3203539,
+    "lon": -6.2136184,
+    "rating": 3.8,
+    "user_ratings_total": 204,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ailesbury Villa, 1-B Ailesbury Rd, Ballsbridge, Dublin 4, D04 PR68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Greece in Dublin",
+    "place_id": "ChIJ7asYoKIOZ0gRmvDBxR5-R0Y",
+    "lat": 53.33494580000001,
+    "lon": -6.253684,
+    "rating": 4.3,
+    "user_ratings_total": 199,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Pembroke Street Upper, Dublin 2, D02 V250, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Malaysia",
+    "place_id": "ChIJI1oEcsEOZ0gR_cH_EoJeT7g",
+    "lat": 53.3326219,
+    "lon": -6.2321773,
+    "rating": 4.3,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Shelbourne House, Shelbourne Rd, Ballsbridge, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Republic of Turkiye in Dublin",
+    "place_id": "ChIJpzMAYMcOZ0gRlv45S_N8CXg",
+    "lat": 53.3301172,
+    "lon": -6.237864999999999,
+    "rating": 4,
+    "user_ratings_total": 137,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Raglan Rd, Ballsbridge, Dublin 4, D04 EA36, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Czech Republic",
+    "place_id": "ChIJvRuNcMAOZ0gRwVyfFpmvWsY",
+    "lat": 53.3339432,
+    "lon": -6.2368773,
+    "rating": 4,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "57 Northumberland Rd, Ballsbridge, Dublin 4, D04 PF51, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Arab Republic of Egypt",
+    "place_id": "ChIJn_ean7gOZ0gR8D4KUfsGdAg",
+    "lat": 53.3291441,
+    "lon": -6.2366541,
+    "rating": 3.6,
+    "user_ratings_total": 55,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Clyde Rd, Ballsbridge, Dublin 4, D04 P302, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the United Arab Emirates",
+    "place_id": "ChIJA5vJEL8OZ0gRevVfk5Nu-tU",
+    "lat": 53.3319212,
+    "lon": -6.2396462,
+    "rating": 4.5,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "47 Pembroke Rd, Ballsbridge, Dublin, D04 V5N0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Hungary",
+    "place_id": "ChIJB2uKTr0OZ0gRlpMArKMoOGQ",
+    "lat": 53.334287,
+    "lon": -6.2512835,
+    "rating": 4.5,
+    "user_ratings_total": 180,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Fitzwilliam Pl, Dublin 2, D02 K227, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "New Zealand Embassy",
+    "place_id": "ChIJ14bq7wUPZ0gRBEvNswiSffw",
+    "lat": 53.3383948,
+    "lon": -6.2540043,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Level 3, 2-4 Merrion Row, Dublin 2, D02 YN56, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Algeria in Dublin",
+    "place_id": "ChIJey_Q5zcPZ0gROUhkuZS9U_Q",
+    "lat": 53.3290306,
+    "lon": -6.2370529,
+    "rating": 4.7,
+    "user_ratings_total": 69,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "14 Clyde Rd, Ballsbridge, Dublin, D04 KP74, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the I.R. of Iran",
+    "place_id": "ChIJxx5aiNwIZ0gRULaIsEFS5To",
+    "lat": 53.29961350000001,
+    "lon": -6.1910379,
+    "rating": 3.7,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "72 Mount Merrion Ave, Blackrock, Co. Dublin, A94 W320, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Mexico",
+    "place_id": "ChIJixDp780OZ0gRk8McS2Kukh8",
+    "lat": 53.3303097,
+    "lon": -6.238731,
+    "rating": 4.7,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "19 Raglan Rd, Dublin 4, D04 TX89, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Belgium",
+    "place_id": "ChIJKb6krrgOZ0gRAq17B3zpKbs",
+    "lat": 53.3300742,
+    "lon": -6.237221799999999,
+    "rating": 2.6,
+    "user_ratings_total": 96,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Elgin Rd, Ballsbridge, Dublin 4, D04 Y9K4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Canada to Ireland",
+    "place_id": "ChIJfwNiJgsPZ0gR0WWCnyyQeb4",
+    "lat": 53.3341782,
+    "lon": -6.2469284,
+    "rating": 3,
+    "user_ratings_total": 51,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7-8 Wilton Terrace 3rd floor, Dublin, D02 KC57, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Argentina",
+    "place_id": "ChIJCRnMU4UOZ0gRbk6Cj_d3ucg",
+    "lat": 53.32084,
+    "lon": -6.2281977,
+    "rating": 4.4,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15 Ailesbury Dr, Ballsbridge, Dublin 4, D04 KF50, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lithuanian Embassy",
+    "place_id": "ChIJX4Wv6M0OZ0gRlba59bXdlzw",
+    "lat": 53.3197415,
+    "lon": -6.2216767,
+    "rating": 4,
+    "user_ratings_total": 314,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "47 Ailesbury Rd, Dublin 4, D04 P224, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Denmark",
+    "place_id": "ChIJRyYNQqAOZ0gRucjAha43-o4",
+    "lat": 53.3325076,
+    "lon": -6.261855,
+    "rating": 3.4,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7th floor, Block E, Block E, Harcourt Rd, Saint Kevin's, Dublin, D02 YT22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Israel to Ireland",
+    "place_id": "ChIJ0RnlmcAOZ0gRXgOrqM2dHo4",
+    "lat": 53.3323634,
+    "lon": -6.2322478,
+    "rating": 2.7,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "23 Shelbourne Rd, Ballsbridge, Dublin, D04 PY68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Russia",
+    "place_id": "ChIJabDtY_0LZ0gRZCbNGB7wUM8",
+    "lat": 53.3039133,
+    "lon": -6.2596035,
+    "rating": 3.9,
+    "user_ratings_total": 135,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "186 Orwell Rd, Newtown Little, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Bulgaria",
+    "place_id": "ChIJ-ykHe7wOZ0gRUnCDyD_-XHs",
+    "lat": 53.3304872,
+    "lon": -6.246743,
+    "rating": 3.5,
+    "user_ratings_total": 82,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "22 Burlington Rd, Dublin 4, D04 N9C1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Saudi Arabian Embassy",
+    "place_id": "ChIJiygxjYwOZ0gRqyVMdLC08wY",
+    "lat": 53.33475379999999,
+    "lon": -6.2509028,
+    "rating": 3.5,
+    "user_ratings_total": 46,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Fitzwilliam Square E, Dublin 2, D02 HD85, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of The Republic of Estonia",
+    "place_id": "ChIJF-eUQ6AOZ0gRxt43TCy1wgM",
+    "lat": 53.3325691,
+    "lon": -6.262032899999999,
+    "rating": 4.1,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3rd Floor, Block E, Block E, Harcourt Rd, Saint Kevin's, Dublin 2, D02 YT22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Japan",
+    "place_id": "ChIJE2iAhtMOZ0gRk8CuR4ScTco",
+    "lat": 53.3186561,
+    "lon": -6.213475799999999,
+    "rating": 4.7,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Nutley Building, Merrion Centre, Nutley Ln, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Passport Office",
+    "place_id": "ChIJs9vxqZUOZ0gRI5oj_agaX9E",
+    "lat": 53.3380065,
+    "lon": -6.24207,
+    "rating": 2.4,
+    "user_ratings_total": 1145,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Knockmaun House, 42-47 Mount Street Lower, Dublin, D02 TN83, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of The Kingdom of Morocco",
+    "place_id": "ChIJ808AxbgOZ0gReM4RRtB4VIE",
+    "lat": 53.3295149,
+    "lon": -6.2389271,
+    "rating": 4.2,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "39 Raglan Rd, Dublin, D04 KW35, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Finland",
+    "place_id": "ChIJa56V4s0OZ0gRzyGSK4nVJrU",
+    "lat": 53.3367196,
+    "lon": -6.261648399999999,
+    "rating": 4,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6th fl, Russell House, Stokes Pl, St Stephen's Green, Saint Kevin's, Dublin, D02 KD93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Ukraine",
+    "place_id": "ChIJTf7MoOGZXUgR66zEjFVKnRI",
+    "lat": 53.3305596,
+    "lon": -6.2364009,
+    "rating": 4.1,
+    "user_ratings_total": 113,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "16 Elgin Rd, Ballsbridge, Dublin 4, D04 NY31, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Portugal",
+    "place_id": "ChIJSeIEwqQOZ0gRzcEiSUZLp3Y",
+    "lat": 53.3277575,
+    "lon": -6.245807399999999,
+    "rating": 3.3,
+    "user_ratings_total": 274,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "70 Leeson Street Upper, Ranelagh, Dublin 4, D04 N968, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of The Republic of Cyprus",
+    "place_id": "ChIJoS3rjqIOZ0gR6B-QJgauQcc",
+    "lat": 53.3334541,
+    "lon": -6.252120300000001,
+    "rating": 3.4,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "14 Fitzwilliam Pl, Dublin 2, D02 W025, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the People's Republic of China",
+    "place_id": "ChIJ85PC380OZ0gRjJUNoVUP6ag",
+    "lat": 53.3202776,
+    "lon": -6.2222671,
+    "rating": 4.3,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "40 Ailesbury Rd, Ballsbridge, Dublin 4, D04 YR83, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of The Republic of Croatia",
+    "place_id": "ChIJTSmrH9YOZ0gRNBPiI1_dfsU",
+    "lat": 53.3394395,
+    "lon": -6.267707,
+    "rating": 4.3,
+    "user_ratings_total": 143,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Adelaide Chambers, Peter St, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of Foreign Affairs and Trade",
+    "place_id": "ChIJl3qoNJ8OZ0gRpbWSwqvLNac",
+    "lat": 53.3364988,
+    "lon": -6.2593777,
+    "rating": 2.8,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "80 St Stephen's Green, Saint Kevin's, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Consulate of China",
+    "place_id": "ChIJhXWuO9AOZ0gRJ3_Xsvsph44",
+    "lat": 53.3240719,
+    "lon": -6.220181999999999,
+    "rating": 2.7,
+    "user_ratings_total": 156,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "118 Merrion Rd, Dublin 4, D04 DY73, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Republic of Korea",
+    "place_id": "ChIJUV8w7LgOZ0gRIdevntWWMsA",
+    "lat": 53.3389805,
+    "lon": -6.2502226,
+    "rating": 4.2,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "72 Merrion Square S, Dublin 2, D02 TW54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Malta",
+    "place_id": "ChIJU3_7H6IOZ0gRe3tCNAtw3ug",
+    "lat": 53.3350482,
+    "lon": -6.256210299999999,
+    "rating": 3.9,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15 Leeson Street Lower, Saint Kevin's, Dublin 2, D02 PD32, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Slovakia",
+    "place_id": "ChIJgaIFQJcOZ0gRqtp4U3UZ1nU",
+    "lat": 53.3392931,
+    "lon": -6.2511006,
+    "rating": 4.6,
+    "user_ratings_total": 102,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "80 Merrion Square S, Dublin, D02 YT28, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Republic of Moldova",
+    "place_id": "ChIJXcBi3UIPZ0gRJk_5Hf6RFGk",
+    "lat": 53.3381181,
+    "lon": -6.247045099999999,
+    "rating": 4.8,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Mount Street Upper, Dublin 2, D02 E006, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of the Republic of Latvia, Ireland",
+    "place_id": "ChIJh8LoIZ8OZ0gRE93BrzHLZGY",
+    "lat": 53.332927,
+    "lon": -6.2526655,
+    "rating": 3.9,
+    "user_ratings_total": 117,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "23 Fitzwilliam Pl, Dublin, D02 EK77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of The Republic of Kenya",
+    "place_id": "ChIJj6HLJMcOZ0gRXhxZr1YQutM",
+    "lat": 53.3297158,
+    "lon": -6.233977299999999,
+    "rating": 3.6,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "11 Elgin Rd, Ballsbridge, Dublin, D04 YW13, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cuban Embassy",
+    "place_id": "ChIJTfZ1j5EOZ0gRs1sjRQYU3gE",
+    "lat": 53.3440822,
+    "lon": -6.247563,
+    "rating": 4.1,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Westland Square, 32b, Pearse St, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Sudan",
+    "place_id": "ChIJcRTe4pUOZ0gRIg7DJUNqopw",
+    "lat": 53.3360657,
+    "lon": -6.2390588,
+    "rating": 4.5,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "72 Haddington Rd, Dublin 4, D04 E097, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Chile",
+    "place_id": "ChIJRdplJbkOZ0gR-Lk5nCGzusQ",
+    "lat": 53.3295454,
+    "lon": -6.2408378,
+    "rating": 4.8,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "44 Wellington Rd, Dublin 4, D04 KD23, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Royal Norwegian Embassy",
+    "place_id": "ChIJsW1UzZsOZ0gRphraED1jceA",
+    "lat": 53.3378516,
+    "lon": -6.2416129,
+    "rating": 4.4,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ferry House, 48-53 Mount Street Lower, Dublin 2, D02 PT98, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Switzerland",
+    "place_id": "ChIJpdsmKNIOZ0gRsDEBcKYPmhI",
+    "lat": 53.32057959999999,
+    "lon": -6.2177447,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Ailesbury Rd, Dublin 4, D04 W205, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Embassy of Austria",
+    "place_id": "ChIJmZw0xMsOZ0gRRAlOkL0I2B4",
+    "lat": 53.320588,
+    "lon": -6.2176163,
+    "rating": 3.8,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "embassy",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Ailesbury Rd, Dublin 4, D04 W205, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

@@ -1,0 +1,1017 @@
+[
+  {
+    "name": "My Life Insurance",
+    "place_id": "ChIJD6asPcEPZ0gRVS7LSxNUJqQ",
+    "lat": 53.33102359999999,
+    "lon": -6.261233799999999,
+    "rating": 5,
+    "user_ratings_total": 462,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Charlemont House, 33 Charlemont St, Saint Kevin's, Dublin 2, D02 RW89, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "First Ireland",
+    "place_id": "ChIJTf7MoOGZXUgRFQBmp0MkGKQ",
+    "lat": 53.3480826,
+    "lon": -6.2914591,
+    "rating": 3.4,
+    "user_ratings_total": 614,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15 Parkgate St, Stoneybatter, Dublin 8, D08 W866, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCompare - Insurance comparison Ireland",
+    "place_id": "ChIJxRMzwn8OZ0gRMmLp-M4SER8",
+    "lat": 53.35682420000001,
+    "lon": -6.2689692,
+    "rating": 4.8,
+    "user_ratings_total": 230,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "49 Blessington St, Phibsborough, Dublin 7, D07 YW81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The AA Ireland - Insurance Broker",
+    "place_id": "ChIJPS_UT5wOZ0gRB2DWJdrS11U",
+    "lat": 53.33584399999999,
+    "lon": -6.263058,
+    "rating": 4.2,
+    "user_ratings_total": 2419,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3rd Floor, 80 Harcourt St, Saint Kevin's, Dublin, D02 F449, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Aviva Insurance Ireland",
+    "place_id": "ChIJg9QszKEOZ0gRCYbq0DMu8TY",
+    "lat": 53.2424561,
+    "lon": -6.140336899999999,
+    "rating": 4.3,
+    "user_ratings_total": 514,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Building 12, Cherrywood Business Park, Loughlinstown, Dublin, D18 W2P5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "KennCo Insurance",
+    "place_id": "ChIJ68o9Zl6FREgR0uogN363Xao",
+    "lat": 53.2773492,
+    "lon": -6.265224799999999,
+    "rating": 4.1,
+    "user_ratings_total": 1016,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 5-7, Grange Road Office Park, Rathfarnham, Dublin 16, D16 WK65, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Glennon Insurance",
+    "place_id": "ChIJhW3rY6EOZ0gRDtsJRGXz3mE",
+    "lat": 53.3312025,
+    "lon": -6.258263299999999,
+    "rating": 4.1,
+    "user_ratings_total": 123,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Charlemont House, Charlemont Pl, Saint Kevin's, Dublin 2, D02 PY86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Best Insurance Quotes",
+    "place_id": "ChIJtXVvD8AOZ0gRgRG6hcNv1r4",
+    "lat": 53.335102,
+    "lon": -6.250293999999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 5049, 5 Fitzwilliam Square, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AIG Ireland",
+    "place_id": "ChIJzc-KPoQOZ0gRoWQ6EIOASg0",
+    "lat": 53.3480934,
+    "lon": -6.242563899999999,
+    "rating": 3.4,
+    "user_ratings_total": 176,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30 N Wall Quay, International Financial Services Centre, Dublin, D01 R8H7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cover in a Click (coverinaclick.ie)",
+    "place_id": "ChIJO_T7DwoMZ0gRGfbqrO11V5w",
+    "lat": 53.3127254,
+    "lon": -6.2834451,
+    "rating": 4.6,
+    "user_ratings_total": 731,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 5, Insurance House, 62A Terenure Rd N, Terenure, Dublin 6W, Co. Dublin, D6W CF54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AXA Insurance Ireland",
+    "place_id": "ChIJoUwhrFsPZ0gRsM6k6D4__ys",
+    "lat": 53.3485889,
+    "lon": -6.2674574,
+    "rating": 3.5,
+    "user_ratings_total": 439,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Wolfe Tone House, Wolfe Tone St, North City, Dublin 1, D01 HP90, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Carole Nash Insurance Consultants",
+    "place_id": "ChIJBXPUL4kOZ0gRFXkj13Ztp7A",
+    "lat": 53.3519143,
+    "lon": -6.2508819,
+    "rating": 4,
+    "user_ratings_total": 324,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "car_dealer",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ulysses House, 22/24 Foley St, Mountjoy, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "insurance company",
+    "place_id": "ChIJJS5DzEIPZ0gRtaMPF-XkIoM",
+    "lat": 53.3415235,
+    "lon": -6.2570881,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3/4 Frederick St S, Dublin, D02 DK11, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cross Insurances Ltd",
+    "place_id": "ChIJef1ZEt0MZ0gR1uYRFnYU7ik",
+    "lat": 53.3424929,
+    "lon": -6.353837,
+    "rating": 4.5,
+    "user_ratings_total": 78,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "310 Ballyfermot Rd, Drumfinn, Dublin 10, D10 AC85, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Compare Insurance Ireland - Car Insurance, Home, Travel, Business, Van Insurance",
+    "place_id": "ChIJ_Q3mz8YIZ0gR6Mfnn05i2rs",
+    "lat": 53.301626,
+    "lon": -6.1785581,
+    "rating": 3.2,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Carraig Court, George's Ave, Newtown Blackrock, Blackrock, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "OUTsurance Ireland",
+    "place_id": "ChIJm_UdbwAJZ0gRZ4TTIia8rY4",
+    "lat": 53.2450763,
+    "lon": -6.1387571,
+    "rating": 4.9,
+    "user_ratings_total": 1742,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd floor, Building 3, The Campus, Cherrywood Business Park, Cherrywood, Dublin 18, D18 TF72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cornmarket Group Financial Services",
+    "place_id": "ChIJyySzXCYMZ0gRJGmHAK_ViuQ",
+    "lat": 53.3428216,
+    "lon": -6.272696799999999,
+    "rating": 4.4,
+    "user_ratings_total": 466,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Christchurch Square, 1-2 Back Ln, The Liberties, Dublin, D08 FP21, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Allianz Ireland",
+    "place_id": "ChIJi73KgyoJZ0gRVKSXHwiyTsk",
+    "lat": 53.3135022,
+    "lon": -6.2051655,
+    "rating": 3.2,
+    "user_ratings_total": 766,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Allianz House, Elm Park, Merrion Rd, Dublin 4, D04 Y6Y6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Pembroke Insurance Brokers Dublin",
+    "place_id": "ChIJSdyRg6IOZ0gR3Fhl7k7Cpp8",
+    "lat": 53.33481099999999,
+    "lon": -6.254518,
+    "rating": 4.2,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "22 - 23 Pembroke Street Upper, Dublin 2, D02 DH02, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Royal London Ireland",
+    "place_id": "ChIJFVEVVZgOZ0gRP48dCaEb0kE",
+    "lat": 53.3375587,
+    "lon": -6.2559007,
+    "rating": 4.5,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Royal London Ireland, 47-49, St Stephen's Green, Dublin 2, D02 W634, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "123.ie Insurance",
+    "place_id": "ChIJnQWNHaoJZ0gRsWj-akGOCCI",
+    "lat": 53.2858433,
+    "lon": -6.2389522,
+    "rating": 2.7,
+    "user_ratings_total": 458,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "RSA House, Sandyford Rd, Dundrum, Dublin, D16 FC92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IPB Insurance",
+    "place_id": "ChIJE7viOpQOZ0gR4lIvBhfiIr0",
+    "lat": 53.343573,
+    "lon": -6.239241,
+    "rating": 3.2,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Grand Canal Square Grand Canal Harbour, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Insure My House (insuremyhouse.ie)",
+    "place_id": "ChIJO_T7DwoMZ0gRAxVBJEaWOl0",
+    "lat": 53.3127298,
+    "lon": -6.2834077,
+    "rating": 4.2,
+    "user_ratings_total": 755,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 3, 62A Terenure Rd N, Terenure, Dublin 6W, Co. Dublin, D6W CF54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Insurance Ireland",
+    "place_id": "ChIJjTJPzpsOZ0gRIdtuY_lG5vU",
+    "lat": 53.3512867,
+    "lon": -6.249217199999999,
+    "rating": 2.7,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Harbourmaster Pl, International Financial Services Centre, Dublin, D01 E7E8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "OBF Insurance Group",
+    "place_id": "ChIJV5ifwr0OZ0gRDIRTAzVWlqU",
+    "lat": 53.33421689999999,
+    "lon": -6.2454259,
+    "rating": 4.2,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bridge House, Baggot St Bridge, Dublin, D04 X2P1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Marsh Ireland",
+    "place_id": "ChIJ5VertKMOZ0gRVF-ma4GnYvM",
+    "lat": 53.3321616,
+    "lon": -6.2624379,
+    "rating": 4,
+    "user_ratings_total": 40,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Charlotte House, Charlemont St, Saint Kevin's, Dublin, D02 NV26, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Athora Ireland",
+    "place_id": "ChIJU__CFY0OZ0gRvu7Tr44gxXM",
+    "lat": 53.3485889,
+    "lon": -6.250449499999999,
+    "rating": 3.6,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd Floor, IFSC House, Custom House Quay, Dublin, D01 R2P9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dolmen Insurance Limited",
+    "place_id": "ChIJPz0i2csPZ0gRQsqr45ncEHI",
+    "lat": 53.38424699999999,
+    "lon": -6.2137612,
+    "rating": 4,
+    "user_ratings_total": 85,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Unit 39, Butterly Business Park, Kilmore Rd, Beaumont, Dublin 5, D05 A372, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Campion Insurance - Dublin Branch",
+    "place_id": "ChIJIbEe7roMZ0gRspMhJ1yiado",
+    "lat": 53.32024759999999,
+    "lon": -6.359122999999999,
+    "rating": 4.4,
+    "user_ratings_total": 273,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2nd Floor, Otter House, Naas Rd, Fox-And-Geese, Dublin 22, D22 CR92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Motor Insurers' Bureau of Ireland",
+    "place_id": "ChIJdQwPrI4OZ0gR6Cpxq_5aviw",
+    "lat": 53.3513059,
+    "lon": -6.2491862,
+    "rating": 3.4,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Harbourmaster Pl, North Wall, Dublin 1, D01 E7E8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MissQuote | Car Insurance Broker",
+    "place_id": "ChIJz2KhKZkNZ0gRvj02YRwxArU",
+    "lat": 53.3127254,
+    "lon": -6.2834451,
+    "rating": 4.8,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Insurance House, 62A Terenure Rd N, Terenure, Dublin, D6W CF54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Life",
+    "place_id": "ChIJbz81kIUOZ0gRT-ReRBUsODk",
+    "lat": 53.34959060000001,
+    "lon": -6.2552768,
+    "rating": 3.6,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Irish Life Centre, 10 Abbey Street Lower, North City, Dublin 1, D01 V5Y2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RedClick",
+    "place_id": "ChIJ4ajFrVUNZ0gR4YeofyRa-a4",
+    "lat": 53.3934223,
+    "lon": -6.3858189,
+    "rating": 2.6,
+    "user_ratings_total": 625,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "RedClick, Blanchardstown Retail Park, The Generali Building, Blanchardstown, Dublin 15, D15 YT2H, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zurich Insurance Ireland - Zurich Insurance Europe AG",
+    "place_id": "ChIJ9WU-IMQOZ0gRq_cpzF3qbMw",
+    "lat": 53.30129909999999,
+    "lon": -6.1802367,
+    "rating": 3.6,
+    "user_ratings_total": 203,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Zurich House, Frascati Rd, Blackrock, Co. Dublin, A94 KX54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Insure My Van",
+    "place_id": "ChIJDVX61WsNZ0gRdf45ch6ars8",
+    "lat": 53.3127298,
+    "lon": -6.2834077,
+    "rating": 4.2,
+    "user_ratings_total": 171,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "62A Terenure Rd N, Terenure, Dublin 6W, Co. Dublin, D6W CF54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FBD Insurance - Head Office",
+    "place_id": "ChIJcVfKspUMZ0gREcEkERGmW_w",
+    "lat": 53.3267861,
+    "lon": -6.3449212,
+    "rating": 3.5,
+    "user_ratings_total": 116,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fbd House, Naas Rd, Bluebell, Dublin 12, D12 Y0HE, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Brokers Ireland",
+    "place_id": "ChIJI6I5RZcOZ0gRlLIW8zPS2cU",
+    "lat": 53.3395806,
+    "lon": -6.2519078,
+    "rating": 3.8,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "87 Merrion Square S, Dublin 2, D02 DR40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Life Insurance Company",
+    "place_id": "ChIJSygvjoUOZ0gRESG1cfnOj-Y",
+    "lat": 53.34934209999999,
+    "lon": -6.256844699999999,
+    "rating": 3.6,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "North City, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chill",
+    "place_id": "ChIJg13__cEIZ0gR1CT0Q_XeYfk",
+    "lat": 53.27506229999999,
+    "lon": -6.209559500000001,
+    "rating": 3.7,
+    "user_ratings_total": 2407,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block B, Ravenscourt Business Park, Three Rock Rd, Sandyford, Dublin, D18 K267, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Arachas - Corporate & Personal Insurance (Previously Sheeran Insurances Limited)",
+    "place_id": "ChIJwXIdlgYJZ0gRwT01JrHuWtc",
+    "lat": 53.2775008,
+    "lon": -6.211117499999999,
+    "rating": 4.1,
+    "user_ratings_total": 200,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Courtyard, Carmanhall Rd, Sandyford Business Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RSA Insurance",
+    "place_id": "ChIJ_ZTI93EJZ0gRkHdvRkv3HGE",
+    "lat": 53.2857772,
+    "lon": -6.2389918,
+    "rating": 2.9,
+    "user_ratings_total": 102,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "RSA House, Sandyford Rd, Dundrum, Dublin, D16 FC92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Insurance Claim Solutions | Loss Assessor Dublin",
+    "place_id": "ChIJRYX1tTgZZ0gRLBumOrBgxuo",
+    "lat": 53.5165091,
+    "lon": -6.1017429,
+    "rating": 5,
+    "user_ratings_total": 334,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Golf Rd, Rush, Co. Dublin, K56 E261, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Aon",
+    "place_id": "ChIJNbl0v4gOZ0gREezHAJU1YGo",
+    "lat": 53.3472616,
+    "lon": -6.253403700000001,
+    "rating": 3,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15 George's Quay, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Insuremycars.ie",
+    "place_id": "ChIJO_T7DwoMZ0gR1VUhlpflNGg",
+    "lat": 53.3127254,
+    "lon": -6.2834451,
+    "rating": 4,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 4, Insurance House, 62A Terenure Rd N, Terenure, Dublin 6W, Co. Dublin, D6W CF54, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "AXA Insurance Long Mile Road",
+    "place_id": "ChIJg3ZObJEMZ0gRcGCnweGITKg",
+    "lat": 53.32400690000001,
+    "lon": -6.337618099999999,
+    "rating": 4.3,
+    "user_ratings_total": 313,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Long Mile Rd, Walkinstown, Dublin 12, D12 VKE3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "XS Direct Insurance Brokers Limited",
+    "place_id": "ChIJg51BXZcOZ0gREKtrKCon4Ao",
+    "lat": 53.3379719,
+    "lon": -6.2539567,
+    "rating": 1.7,
+    "user_ratings_total": 118,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Saint Peter's, 23 Ely Pl, Dublin, D02 N285, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Car Insurance Companies Ireland",
+    "place_id": "ChIJn5jf9HwOZ0gR3B7FNsV1rIo",
+    "lat": 53.36031,
+    "lon": -6.2610627,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "9 Dorset Street Lower, Phibsborough, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Principal Insurance",
+    "place_id": "ChIJX1enMeIRZ0gRdatU1RpbOXA",
+    "lat": 53.4699395,
+    "lon": -6.215774499999999,
+    "rating": 4.4,
+    "user_ratings_total": 120,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Balheary Demesne, Swords, Co. Dublin, K67 TY09, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National Insurance",
+    "place_id": "ChIJbyB_Hn4OZ0gRbr_sYzRIyUY",
+    "lat": 53.3561759,
+    "lon": -6.2649003,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "National House, 47 Dorset Street Upper, Rotunda, Dublin 1, D01 V8N5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "McMahon Galvin Ltd",
+    "place_id": "ChIJk2Wgz4sOZ0gRz-zfnIxSezs",
+    "lat": 53.3536732,
+    "lon": -6.248106399999999,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "59 Amiens St, Mountjoy, Dublin, D01 P786, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chubb Insurance Company of Europe SE",
+    "place_id": "ChIJ8XO2ZZsOZ0gRoy_S6jDE_tM",
+    "lat": 53.34370819999999,
+    "lon": -6.2602118,
+    "rating": 1,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "10 Suffolk St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Peopl Insurance",
+    "place_id": "ChIJBdQt7OMNZ0gRaMMs7DDVA6s",
+    "lat": 53.3469673,
+    "lon": -6.2692707,
+    "rating": 3.7,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 511, The Capel Building, Mary's Abbey, North City, Dublin 7, D07 FK22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Quote Devil",
+    "place_id": "ChIJJUzzg6IOZ0gR_ZuQpoJwZgk",
+    "lat": 53.2750897,
+    "lon": -6.2098325,
+    "rating": 2.5,
+    "user_ratings_total": 391,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Ravenscourt Business Park, Three Rock Rd, Sandyford, Dublin 18, D18 K267, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenval Insurance",
+    "place_id": "ChIJYTdKdZoOZ0gRuOjcCR6J8Q8",
+    "lat": 53.3462687,
+    "lon": -6.243887099999999,
+    "rating": 1.5,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Anchorage, Sir John Rogerson's Quay, Dublin Docklands, Dublin 2, 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ivernia Insurance",
+    "place_id": "ChIJ713uKQYJZ0gRAIuFa1lNwpM",
+    "lat": 53.2754142,
+    "lon": -6.2101621,
+    "rating": 2,
+    "user_ratings_total": 33,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ivernia House Block D, Ravenscourt Office Park, 18, Sandyford, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Campion Insurance - Sandyford Branch",
+    "place_id": "ChIJE4ru6Z8JZ0gRqgVyB_a5u24",
+    "lat": 53.27599559999999,
+    "lon": -6.207228499999999,
+    "rating": 4.4,
+    "user_ratings_total": 89,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 7, Insurance Centre, Sandyford Business Centre, Sandyford, Dublin 18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Zurich Insurance Europe AG",
+    "place_id": "ChIJnxzXu-YPZ0gRecSoH0aJNyQ",
+    "lat": 53.3495739,
+    "lon": -6.2502536,
+    "rating": 3.3,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "La Touche House, 3rd Floor, Custom House Quay, Spencer Dock, International Financial Services Centre, Dublin, D01 R5P3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Accident & General Insurance Services Limited",
+    "place_id": "ChIJj72IqoUOZ0gR9WgItjuQHr0",
+    "lat": 53.3360139,
+    "lon": -6.2636081,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 Harcourt St, Saint Kevin's, Dublin 2, D02 H364, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Blue Insurance - Travel, Pet, Gadget & Car Hire Excess Insurance",
+    "place_id": "ChIJT_54fJQSZ0gRRM81k_h5r-w",
+    "lat": 53.4132305,
+    "lon": -6.366184,
+    "rating": 3.2,
+    "user_ratings_total": 243,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Blanchardstown Corporate Park, Suite 11, Fifth Floor, No. 2 Stemple Exchange, Blanchardstown, Dublin 15, D15 E4FN, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Insurance Claim Solutions",
+    "place_id": "ChIJcyQJ9I0OZ0gRmxw3eiJqoI8",
+    "lat": 53.346368,
+    "lon": -6.246147000000001,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "insurance_agency",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 9959 77, 1 Sir John Rogerson's Quay, Dublin 2, D02 RW87, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

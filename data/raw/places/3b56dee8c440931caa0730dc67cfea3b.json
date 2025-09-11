@@ -1,0 +1,1038 @@
+[
+  {
+    "name": "Warehouse Dublin Arnotts",
+    "place_id": "ChIJNRJJ2MkPZ0gRBlMo-nNfQEM",
+    "lat": 53.3491066,
+    "lon": -6.2641578,
+    "rating": 3.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Jervis Street Shopping Centre, c/o Arnotts Department Store, Jervis St, Dublin, D01 E6N4, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "Tesco Distribution Depot - Santry",
+    "place_id": "ChIJtyt0cecRZ0gRS-EGpLk_7og",
+    "lat": 53.40755660000001,
+    "lon": -6.2556245,
+    "rating": 3.9,
+    "user_ratings_total": 267,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Ballymun Rd, Santry, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 1
+  },
+  {
+    "name": "2Flow - Fulfillment,Warehousing and Order Processing Dublin",
+    "place_id": "ChIJzSvMnnYSZ0gRMV407NfLETM",
+    "lat": 53.40068850000001,
+    "lon": -6.317658799999999,
+    "rating": 4.5,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 9, 11 North Park, Finglas, Dublin 11, D11 RW30, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Harvey Norman Heron House Electrical Warehouse",
+    "place_id": "ChIJOxoPNkMTZ0gRLEA9hSFxDIM",
+    "lat": 53.4185446,
+    "lon": -6.3175995,
+    "rating": 4.3,
+    "user_ratings_total": 109,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Harvey norman, Heron House, Elm Rd, St Margaret's Rd, Newtown, Dublin, K67 V3Y0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Macs Warehouse",
+    "place_id": "ChIJ-7VjN04MZ0gRxwTgZtzxQ48",
+    "lat": 53.3462335,
+    "lon": -6.3100216,
+    "rating": 4.5,
+    "user_ratings_total": 221,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "car_repair",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "749 S Circular Rd, Kilmainham, Dublin 8, D08 RWF1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amazon SNN5",
+    "place_id": "ChIJbXCrzwV1Z0gRkSB2qltEQ4I",
+    "lat": 53.2891004,
+    "lon": -6.4514723,
+    "rating": 3.5,
+    "user_ratings_total": 103,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit E, Baldonnell Business Park, Baldonnell, Co. Dublin, D22 V5R3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mountain Warehouse",
+    "place_id": "ChIJZa_E9qcSZ0gRDJKr3nvy9Q0",
+    "lat": 53.3906877,
+    "lon": -6.3861008,
+    "rating": 4.3,
+    "user_ratings_total": 605,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 3A, Westend Retail Park, Blanchardstown, Dublin, D15 NY74, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "Musgrave Central Distribution Centre",
+    "place_id": "ChIJqWIVGJUSZ0gR6dhor5BdtGk",
+    "lat": 53.4133896,
+    "lon": -6.3685273,
+    "rating": 4.1,
+    "user_ratings_total": 123,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ballycoolen, Dublin, D15 F434, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Warehouse HX",
+    "place_id": "ChIJqbusUxcMZ0gRQajcV_tcgWQ",
+    "lat": 53.3281734,
+    "lon": -6.27964,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenmount Industrial Estate, Greenmount Ave, Harold's Cross, Dublin 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PRL- P&G Ireland Warehouse",
+    "place_id": "ChIJRTpDLppzZ0gRMIrawL-K0mg",
+    "lat": 53.3188189,
+    "lon": -6.4444158,
+    "rating": 4.1,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Nangor, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "McQuaid O'Flanagan Warehouse",
+    "place_id": "ChIJZ6pTSQIPZ0gRBM7nOeGU1C0",
+    "lat": 53.4298307,
+    "lon": -6.4571956,
+    "rating": 4.4,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bracetown, Co. Meath, D15 YDC1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "warehousesale",
+    "place_id": "ChIJG2Hit8ITZ0gRJKG5JELF54E",
+    "lat": 53.40068850000001,
+    "lon": -6.317658799999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "u store it D2, Unit 1 North Park, North Road, Finglas, dublin 11, D11 E6C3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JDC Warehousing ( Storage & Distribution )",
+    "place_id": "ChIJpb1iZskMZ0gRfwtvlKBLUM4",
+    "lat": 53.3325555,
+    "lon": -6.3695521,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Parkwest Drive, 1, 12 O'Casey Ave, Park West Industrial Park, Dublin 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "JYSK",
+    "place_id": "ChIJw3svILQMZ0gReF0vp9xZAZ4",
+    "lat": 53.32384039999999,
+    "lon": -6.37127,
+    "rating": 3.7,
+    "user_ratings_total": 165,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12, DHL, Oak Rd, Western Business Park, Dublin, D12 XC80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Harvey Norman North City Bedding Warehouse",
+    "place_id": "ChIJpcFSazkTZ0gRrDWHTZDbdfQ",
+    "lat": 53.3985426,
+    "lon": -6.3227761,
+    "rating": 4.4,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit A7, N City Business Park, Cappoge, Dublin, D11 P29C, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Warehouse - WELL PACK Ireland",
+    "place_id": "ChIJczEv-6F1Z0gRQ-A1arzvsdQ",
+    "lat": 53.2934748,
+    "lon": -6.3767247,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Third Ave, Cookstown, Dublin, D03 KH93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mountain Warehouse",
+    "place_id": "ChIJj5ZD6kgPZ0gRqKjJVMHFXCk",
+    "lat": 53.3496008,
+    "lon": -6.2596479,
+    "rating": 4.4,
+    "user_ratings_total": 216,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30/31 O'Connell Street Lower, North City, Dublin 1, D01 DH58, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Easons Warehouse",
+    "place_id": "ChIJYw-qt2sNZ0gRZrOPBQv9Cdo",
+    "lat": 53.39440930000001,
+    "lon": -6.300008699999999,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "McKee Ave, Est, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Warehouse Cafe",
+    "place_id": "ChIJf6zKJcIMZ0gRlu_e9aUzDlw",
+    "lat": 53.3357694,
+    "lon": -6.3526183,
+    "rating": 4.2,
+    "user_ratings_total": 161,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "meal_delivery",
+      "cafe",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kylemore Park N, Ballyfermot, Dublin 10, Ireland",
+    "vicinity": "",
+    "price_level": 1
+  },
+  {
+    "name": "Gist Distribution",
+    "place_id": "ChIJU2qR7ysQZ0gR18r7BDqO_Pk",
+    "lat": 53.4069037,
+    "lon": -6.221176000000001,
+    "rating": 4.3,
+    "user_ratings_total": 63,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Willsborough Industrial Estate, Oscar Traynor Rd, Clonshaugh, Coolock, Co. Dublin, D17 FV58, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rhenus Chemical Logistics (C+G Logistics)",
+    "place_id": "ChIJp9yRIERtZ0gRLXVSGu_onC8",
+    "lat": 53.4080705,
+    "lon": -6.415510299999999,
+    "rating": 4.1,
+    "user_ratings_total": 55,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Westpoint Business Park, Navan Rd, Parslickstown, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RIGHTSTYLE WAREHOUSE",
+    "place_id": "ChIJS1xCOo0NZ0gR3226JubfsYM",
+    "lat": 53.3310711,
+    "lon": -6.3501213,
+    "rating": 3.9,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5a Bluebell Ave, Bluebell, Dublin, D12 PY76, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Harvey Norman Quantum Warehouse",
+    "place_id": "ChIJt44Mfm0NZ0gRLGXEFXRC5Dw",
+    "lat": 53.4233112,
+    "lon": -6.3210443,
+    "rating": 3,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 2, Quantum Distribution Park, Finglas, Dublin 11, D11 V09R, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "N2N Warehouse",
+    "place_id": "ChIJ5xKRXAMNZ0gR15bmep1e8oQ",
+    "lat": 53.4005533,
+    "lon": -6.3146868,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 24, North Park, North Road, Kildonan, Dublin 11, D11 N2FE, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Veritas Warehouse",
+    "place_id": "ChIJRa6HN4ISZ0gRXjxO9-cqZwA",
+    "lat": 53.41039430000001,
+    "lon": -6.3551747,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 8, Orion Business Centre, NW Business Park, Ballycoolen, Dublin, 15, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Unit 6",
+    "place_id": "ChIJOWXPv9kNZ0gRaYDMpit4s6Y",
+    "lat": 53.3181375,
+    "lon": -6.364823899999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Red Cow Interchange Estate, Ballymount Rd, Ballymount, Dublin 22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "BWG Foods NDC",
+    "place_id": "ChIJUxi0nZlzZ0gR-53CFM6ItDE",
+    "lat": 53.320456,
+    "lon": -6.4421759,
+    "rating": 4.1,
+    "user_ratings_total": 152,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Nangor Cres, Ballybane, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "EuroGeneral Warehouse",
+    "place_id": "ChIJLz6i9XgNZ0gR9zWkpXqn6NQ",
+    "lat": 53.3159073,
+    "lon": -6.3489607,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "26 Ballymount Rd Lower, Ballymount Great, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "David Lowe & Company Warehouse",
+    "place_id": "ChIJ-YsJpYV0Z0gRVxiWMRpBvg0",
+    "lat": 53.2959115,
+    "lon": -6.415576499999999,
+    "rating": 4.5,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4048 Kingswood Ave, Citywest Business Campus, Dublin, D24 WN73, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chemist Warehouse Henry St",
+    "place_id": "ChIJo6g17fsPZ0gRPXnRMjzyGwE",
+    "lat": 53.3490994,
+    "lon": -6.2638981,
+    "rating": 3.7,
+    "user_ratings_total": 262,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "pharmacy",
+      "health",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "5 Henry St, North City, Dublin, D01 AP04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenogue Logistics Park",
+    "place_id": "ChIJBYoXjUJ1Z0gRrkVGlsMxlEs",
+    "lat": 53.2919564,
+    "lon": -6.4732691,
+    "rating": 4.1,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenoge, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "LifeStyle Sports Warehouse",
+    "place_id": "ChIJDUbH4Ip1Z0gR7jkTKiHlzr0",
+    "lat": 53.29073899999999,
+    "lon": -6.4675408,
+    "rating": 3.9,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block G, Rathcoole, Aerodrome Business Park, Co. Dublin, D24 R2HE, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Carrolls Irish Gifts HQ & Warehouse",
+    "place_id": "ChIJU4hCOrRzZ0gR8smhwsxhdg4",
+    "lat": 53.3512176,
+    "lon": -6.4096473,
+    "rating": 4,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fonthill Business Park, unit 20, Dublin, D22 RF90, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Edit Office Warehouse & Showroom",
+    "place_id": "ChIJNwUSAQR0Z0gRxqCvqVOI92I",
+    "lat": 53.3010902,
+    "lon": -6.475542799999999,
+    "rating": 4.8,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenogue Business Park, 523, College Road, Rathcoole, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amazon DIS1",
+    "place_id": "ChIJHxNGCyBzZ0gRGIdaqbK1ZLU",
+    "lat": 53.3016855,
+    "lon": -6.479311099999999,
+    "rating": 4.6,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grants Hill, Westmanstown, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Actavo Sky Warehouse",
+    "place_id": "ChIJ95d3viZ1Z0gRYd2pflpL0F0",
+    "lat": 53.2950246,
+    "lon": -6.3755967,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cookstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Aosom Ireland Ltd(warehouse only,not a showroom)",
+    "place_id": "ChIJS83iSw51Z0gRjGxCVzVkmwE",
+    "lat": 53.2988857,
+    "lon": -6.4662899,
+    "rating": 3.4,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 605 Jordanstown Road, Jordanstown, Greenogue Business Park, Co. Dublin, D24 P08H, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amazon DIS2",
+    "place_id": "ChIJj51W1hUTZ0gRu6eqxHn2sMs",
+    "lat": 53.4181651,
+    "lon": -6.354551799999999,
+    "rating": 3.6,
+    "user_ratings_total": 58,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kilshane Ave, Northwest Business Park, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tilestyle Warehouse",
+    "place_id": "ChIJpRqc-70NZ0gR1UDwCQUxk1A",
+    "lat": 53.3167966,
+    "lon": -6.3578682,
+    "rating": 4.4,
+    "user_ratings_total": 40,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hardware_store",
+      "storage",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Merrywell Industrial Estate, Turnpike Rd, Ballymount, Dublin 22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Diamond Furniture Warehouse",
+    "place_id": "ChIJf7exxUANZ0gRHPZYoCkVjG8",
+    "lat": 53.3249009,
+    "lon": -6.3384502,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 5, Finches Industrial Park, Long Mile Rd, Walkinstown, Dublin 12, D12 P62N, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CGI Cold Stores",
+    "place_id": "ChIJfbShjpUSZ0gRmviG1rclOQQ",
+    "lat": 53.4120548,
+    "lon": -6.3677437,
+    "rating": 4.2,
+    "user_ratings_total": 97,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 12 Blanchardstown corporate park, Dublin 15, D15 V2YF, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Alltrans Warehousing & Distribution",
+    "place_id": "ChIJe7VhX9YRZ0gRk3LjgOVj-t4",
+    "lat": 53.4022407,
+    "lon": -6.3422646,
+    "rating": 4,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "moving_company",
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Huntstown Business Park, Cappagh Rd, Grange, Dublin, D11 HFP4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Decor Warehouse",
+    "place_id": "ChIJWeiGhJEMZ0gRWPzT5lW7mGk",
+    "lat": 53.32456910000001,
+    "lon": -6.3368509,
+    "rating": 4.9,
+    "user_ratings_total": 96,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "home_goods_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 5, Long Mile Business Park, Long Mile Rd, Walkinstown, Dublin 12, D12 XD5F, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nippon Express Ireland Ltd",
+    "place_id": "ChIJgeC_cXWcY0ERZRYBShVlb8o",
+    "lat": 53.4167475,
+    "lon": -6.3132907,
+    "rating": 4.8,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "23 Cedar Dr, Newtown, St Margaret's, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bond Freeze Ltd",
+    "place_id": "ChIJm72qVUcPZ0gRxR0bos_N8Lc",
+    "lat": 53.3564446,
+    "lon": -6.2230827,
+    "rating": 4.5,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bond Rd, North Wall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Me Group Ireland Warehouse",
+    "place_id": "ChIJo_c25v4TZ0gRxK_tBbmD6_w",
+    "lat": 53.4078106,
+    "lon": -6.342596599999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 98, Millennium Trade Park, Cappagh Rd, Ballycoolen, Dublin, D11 VN30, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hopkins Merchandising Ltd",
+    "place_id": "ChIJPRZ9uZoSZ0gRzhoY47rJW2I",
+    "lat": 53.4008325,
+    "lon": -6.342527100000001,
+    "rating": 4.8,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 47 Rosemount Park Dr, Rosemount Business Park, Dublin, 11, Co. Dublin, D11 R98X, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "YunExpress Ireland Limited (Shipper only, not seller)",
+    "place_id": "ChIJj6sAVVV1Z0gRdyarOA3E40I",
+    "lat": 53.2962545,
+    "lon": -6.469712599999999,
+    "rating": 1.9,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenogue Business Park, BLOCK 662, JORDANSTOWN VIEW, Rathcoole, Co. Dublin, D24 HWX2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Buzz Late Night Venue",
+    "place_id": "ChIJRyJfPLAMZ0gR8HzSqyyd7G0",
+    "lat": 53.3191113,
+    "lon": -6.3634841,
+    "rating": 2.9,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "night_club",
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Red Cow Complex, Naas Rd, Clondalkin, Dublin 22, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "The Schoolwear House",
+    "place_id": "ChIJrWKD0JoMZ0gRg2OXkdwQkEo",
+    "lat": 53.3145471,
+    "lon": -6.3622926,
+    "rating": 4.3,
+    "user_ratings_total": 287,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit D7, Ballymount Cross Industrial Estate, Ballymount Rd Lower, Ballymount, Dublin 24, D24 XRH3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DB Schenker 635 dub111",
+    "place_id": "ChIJtUY-YIQTZ0gRwfXl1VDEExk",
+    "lat": 53.4159659,
+    "lon": -6.3506237,
+    "rating": 4.4,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "NW Business Park, Cloghran, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DVL",
+    "place_id": "ChIJU1ysxpISZ0gRZGo9pPaTqpk",
+    "lat": 53.4134587,
+    "lon": -6.3496327,
+    "rating": 4.8,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 507A Mitchelstown Rd, Ballycoolen, Dublin, D15 WD37, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "South West Business Park",
+    "place_id": "ChIJI6YIpWV1Z0gREb2F1KTvkHw",
+    "lat": 53.2930181,
+    "lon": -6.4089849,
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cheeverstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TPN DUBLIN",
+    "place_id": "ChIJwxBAWY4SZ0gRoC85d90KQHs",
+    "lat": 53.4121211,
+    "lon": -6.3460085,
+    "rating": 3.7,
+    "user_ratings_total": 13,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grange, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "A D Cash and Carry Ltd",
+    "place_id": "ChIJ_c1zefIMZ0gRjuSazAPf7CM",
+    "lat": 53.3338572,
+    "lon": -6.3355921,
+    "rating": 3.7,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Inchicore, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UPS Furry Park",
+    "place_id": "ChIJ13qJSdoRZ0gRPl6NUBZGuB8",
+    "lat": 53.40719439999999,
+    "lon": -6.2432251,
+    "rating": 3.5,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Furry Park Industrial Estate, Swords Rd, Santry, Dublin, 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Crown Workspace - Business Storage | Dublin",
+    "place_id": "ChIJnZ3R1BITZ0gRFSIz2lSXqAE",
+    "lat": 53.4011592,
+    "lon": -6.3154622,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 3&4, Northern Cross Business Park, North Park, Finglas, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nissan & Renault Group - Parts Logistics Warehouse -",
+    "place_id": "ChIJRc2XFi0NZ0gRy4OkFPkHj4Y",
+    "lat": 53.3335114,
+    "lon": -6.3614475,
+    "rating": 4.4,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Units S1a Henry Road, Park West Industrial Park, Dublin, D12 HFF2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Maersk Dublin",
+    "place_id": "ChIJ42aHupUSZ0gRcHw2s46I4IM",
+    "lat": 53.4213301,
+    "lon": -6.3234295,
+    "rating": 2.7,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Quantum Distribution Pk, Newtown, Dublin 11, D11 WEC3, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dnata Catering & Retail, Dnata 1 building",
+    "place_id": "ChIJl71-TLITZ0gREogn6-NEHq8",
+    "lat": 53.4167675,
+    "lon": -6.3141798,
+    "rating": 4.4,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "storage",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DNATA, 4 Cedar Dr, Newtown, St Margaret's, Co. Dublin, K67 YW68, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

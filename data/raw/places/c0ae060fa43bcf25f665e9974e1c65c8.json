@@ -1,0 +1,1004 @@
+[
+  {
+    "name": "McKenna & Co Solicitors",
+    "place_id": "ChIJ1yRHUU4MZ0gRKW1G25iWNWc",
+    "lat": 53.336854,
+    "lon": -6.249783,
+    "rating": 5,
+    "user_ratings_total": 310,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "115 Baggot Street Lower, Dublin 2, D02 FN88, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IMK Law Solicitors",
+    "place_id": "ChIJmzL3kKMNZ0gRwL8TAWcDkDg",
+    "lat": 53.35452979999999,
+    "lon": -6.247258899999999,
+    "rating": 4.9,
+    "user_ratings_total": 1612,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "75 Amiens St, Mountjoy, Dublin, D01 X535, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Gary Matthews Solicitors - Injury Law",
+    "place_id": "ChIJzWLmQXfaYEgRMFbF08xbDb8",
+    "lat": 53.3458355,
+    "lon": -6.2713829,
+    "rating": 4.8,
+    "user_ratings_total": 1099,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Personal injury and medical negligence solicitors division, Ormond Building, Ormond Quay Upper, Dublin 7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Anthony Joyce & Co. Solicitors",
+    "place_id": "ChIJoXsmjyUMZ0gRtiS3011oUyI",
+    "lat": 53.3442728,
+    "lon": -6.2775789,
+    "rating": 4.9,
+    "user_ratings_total": 125,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Augustine House, Oliver Bond St, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "RNL Solicitors LLP",
+    "place_id": "ChIJ6371y5UPZ0gRFSPhhUFsL80",
+    "lat": 53.3442746,
+    "lon": -6.2775981,
+    "rating": 5,
+    "user_ratings_total": 413,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Augustine House, Oliver Bond St, Usher's Quay, Dublin 8, D08 Y9NR, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Berkeley Solicitors",
+    "place_id": "ChIJZcyqXokOZ0gRN25YKK4lqfg",
+    "lat": 53.3430648,
+    "lon": -6.2736123,
+    "rating": 4.8,
+    "user_ratings_total": 661,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit 3, Christchurch Hall, High St, The Liberties, Dublin 8, D08 P403, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Peter Connolly Solicitors",
+    "place_id": "ChIJr8ALm4IOZ0gR2uw4G_9vkTU",
+    "lat": 53.3464568,
+    "lon": -6.2678037,
+    "rating": 4.6,
+    "user_ratings_total": 93,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "First Floor, 6 Capel St, Level, Dublin 1, D01 A9N9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Phelim O'Neill",
+    "place_id": "ChIJTwSBkMAOZ0gR39d5RNOvioo",
+    "lat": 53.3481708,
+    "lon": -6.291792999999999,
+    "rating": 4.9,
+    "user_ratings_total": 90,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17-22 Parkgate St, Stoneybatter, Dublin 7, D02 CK72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "David Walley & Co Solicitors",
+    "place_id": "ChIJrfb-2osOZ0gRpsT5KpX86Mc",
+    "lat": 53.3534035,
+    "lon": -6.2483831,
+    "rating": 4.8,
+    "user_ratings_total": 138,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "54 Amiens St, Mountjoy, Dublin 1, D01 P5F1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wayne Kenny Solicitors",
+    "place_id": "ChIJYT0_3y4MZ0gRLDZDqOPZeRo",
+    "lat": 53.35131089999999,
+    "lon": -6.283129400000001,
+    "rating": 4.8,
+    "user_ratings_total": 129,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "92 Manor St, Stoneybatter, Dublin 7, D07 Y827, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "KOD Lyons LLP",
+    "place_id": "ChIJ89f5wiMNZ0gRSrGzC5CPFsk",
+    "lat": 53.345794,
+    "lon": -6.2791972,
+    "rating": 4.8,
+    "user_ratings_total": 558,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "31-33, Usher's Quay, Dublin 8, D08 E4YD, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Shea Cullen Solicitors",
+    "place_id": "ChIJ895U26IOZ0gRlbesdape3Zk",
+    "lat": 53.33964539999999,
+    "lon": -6.258944000000001,
+    "rating": 4.9,
+    "user_ratings_total": 198,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Park Chambers, 13 St Stephen's Green, Dublin 2, D02 A364, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sean O Toghda Solicitors",
+    "place_id": "ChIJKd9rl5wOZ0gRUiCfz8dxLYs",
+    "lat": 53.3438195,
+    "lon": -6.261888,
+    "rating": 4.9,
+    "user_ratings_total": 192,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6-9 Trinity St, Dublin, D02 EY47, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "John Gaynor & Co Solicitors",
+    "place_id": "ChIJE0qXESUMZ0gRGrHqQAupTS8",
+    "lat": 53.3426139,
+    "lon": -6.2793064,
+    "rating": 4.9,
+    "user_ratings_total": 187,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "42 Thomas St, The Liberties, Dublin 8, D08 AW86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PBN Litigation Solicitors",
+    "place_id": "ChIJm5TqVuQPZ0gRP7EdER3j3sY",
+    "lat": 53.3369095,
+    "lon": -6.244606,
+    "rating": 5,
+    "user_ratings_total": 119,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "PBN Litigation Solicitors, 34 Mount St Cres, Mount Street Upper, Dublin 2, D02 FT72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Hanrahan D'alton Solicitors Dublin 1",
+    "place_id": "ChIJD57aNo8OZ0gRy8gcO_Qx5oA",
+    "lat": 53.350786,
+    "lon": -6.2533349,
+    "rating": 4.9,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin Law Chambers, Talbot St, Mountjoy, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "William Fry",
+    "place_id": "ChIJX7tbML0OZ0gRozOPEhHnuhk",
+    "lat": 53.3436706,
+    "lon": -6.2398966,
+    "rating": 4.3,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Grand Canal Quay, Grand Canal Dock, Dublin 2, D02 A342, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Maurice Leahy Wade & Company Solicitors",
+    "place_id": "ChIJZ4xX1u8QZ0gRb132bZBBrQs",
+    "lat": 53.3574954,
+    "lon": -6.2641664,
+    "rating": 4.7,
+    "user_ratings_total": 106,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "81 Eccles St, Phibsborough, Dublin 7, D07 T6XV, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hussey Fraser Solicitors",
+    "place_id": "ChIJ3ZJDUJUOZ0gR3hT6aH3ugd4",
+    "lat": 53.3364372,
+    "lon": -6.2388382,
+    "rating": 4.9,
+    "user_ratings_total": 580,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 Northumberland Rd, Ballsbridge, Dublin 4, D04 KF76, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tracey Solicitors LLP",
+    "place_id": "ChIJLWaBzIQOZ0gR0myQNGYQpRs",
+    "lat": 53.34347529999999,
+    "lon": -6.2619452,
+    "rating": 4.7,
+    "user_ratings_total": 192,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "17 St Andrew's St, Dublin 2, D02 HP66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Crushell Law | Employment Solicitors",
+    "place_id": "ChIJGT6HnqIOZ0gRm3ylGag39mA",
+    "lat": 53.3465782,
+    "lon": -6.2769183,
+    "rating": 4.7,
+    "user_ratings_total": 220,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Arran Square, 1 Lincoln Ln, Arran Quay, Dublin 7, D07 PA0D, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Sullivan Kenny LLP",
+    "place_id": "ChIJwzJ8By8MZ0gRixWAQwLfJD0",
+    "lat": 53.3471858,
+    "lon": -6.2688085,
+    "rating": 4.8,
+    "user_ratings_total": 64,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 203,, The Capel Building,, Mary's Abbey, Dublin 7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Peter Boyle & Co. Solicitors",
+    "place_id": "ChIJ9yoNti8MZ0gRYhbe2ZRBH30",
+    "lat": 53.3468394,
+    "lon": -6.2791386,
+    "rating": 4.9,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Level 4, The Glass House, 11 Coke Ln, Smithfield, Dublin 7, D07 WNP2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "McCann FitzGerald LLP",
+    "place_id": "ChIJE42FqWAMZ0gRp0_D3sBAFpk",
+    "lat": 53.3459134,
+    "lon": -6.2400075,
+    "rating": 4.4,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Riverside One, Sir John Rogerson's Quay, Grand Canal Dock, Dublin 2, D02 X576, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ben O'Rafferty Solicitors",
+    "place_id": "ChIJebwhz5kOZ0gRmfhtoXz3MQQ",
+    "lat": 53.3392031,
+    "lon": -6.252074899999999,
+    "rating": 5,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Merrion Pl, Dublin 2, D02 R129, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Corcoran & Company Solicitors",
+    "place_id": "ChIJTZtvMe8OZ0gRQDDuo7ECN-c",
+    "lat": 53.3425048,
+    "lon": -6.2277833,
+    "rating": 5,
+    "user_ratings_total": 81,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "doctor",
+      "lawyer",
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "24 Thorncastle St, Ringsend, Dublin, D04 F3X8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Whitney Moore",
+    "place_id": "ChIJ7eTmbL0OZ0gRdzLOXE7Q9A8",
+    "lat": 53.33202350000001,
+    "lon": -6.230950399999999,
+    "rating": 4.7,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Shelbourne Buildings, Crampton Ave., Shelbourne Rd, Ballsbridge, Dublin 4, D04 W3V6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "McGinley Solicitors",
+    "place_id": "ChIJn1UFQJcOZ0gR0YHUvCwGE78",
+    "lat": 53.3458291,
+    "lon": -6.2712888,
+    "rating": 4.9,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ormond Building, 31-36 Ormond Quay Upper, Northside, Dublin, D07 N5YH, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "FSK Solicitors",
+    "place_id": "ChIJgWhZBUMPZ0gRpRvkZWeEpvE",
+    "lat": 53.3472106,
+    "lon": -6.2686216,
+    "rating": 4.6,
+    "user_ratings_total": 107,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 510 The Capel Building, Mary's Abbey, Dublin, D07 HN82, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Summit Law",
+    "place_id": "ChIJ__8_ZCgMZ0gRUOIgyuzsBKU",
+    "lat": 53.3229149,
+    "lon": -6.370944499999999,
+    "rating": 4.9,
+    "user_ratings_total": 46,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "H4, Oak Rd, Knockmitten, Centrepoint Business Park, Co. Dublin, D12 CX37, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tracy Horan & Company Solicitors",
+    "place_id": "ChIJ453tkzYMZ0gRN-67a5cqVNw",
+    "lat": 53.3481187,
+    "lon": -6.2922702,
+    "rating": 4.4,
+    "user_ratings_total": 142,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kingsbridge House, 17-22 Parkgate St, Stoneybatter, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Daly Lynch Crowe & Morris Solicitors LLP",
+    "place_id": "ChIJKUL_FIUOZ0gR2jmc1FGBrb4",
+    "lat": 53.3472333,
+    "lon": -6.2568774,
+    "rating": 4.8,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The, Corn Exchange Pl, Burgh Quay, Dublin 2, D02 K188, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Williams Solicitors LLP",
+    "place_id": "ChIJgQfR3JwOZ0gRAHkl-bXf7bE",
+    "lat": 53.3424652,
+    "lon": -6.2576808,
+    "rating": 4.8,
+    "user_ratings_total": 62,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3 Dawson St, Dublin, D02 E528, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lawlor Kiernan Solicitors",
+    "place_id": "ChIJBVL3PVgNZ0gROp1RuVPZCeM",
+    "lat": 53.3466208,
+    "lon": -6.276561699999999,
+    "rating": 5,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Arran Square, Lincoln Ln, Arran Quay, Smithfield, Dublin, 7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Setanta Solicitors",
+    "place_id": "ChIJ77uTwWIPZ0gRQLQz50Am0LE",
+    "lat": 53.337207,
+    "lon": -6.2452274,
+    "rating": 4.8,
+    "user_ratings_total": 105,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "39/40 Mount Street Upper, Dublin, D02 X7H6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mannion Solicitors LLP",
+    "place_id": "ChIJ_6LmVV0JZ0gROal9LRCh6uc",
+    "lat": 53.2913489,
+    "lon": -6.2454391,
+    "rating": 4.7,
+    "user_ratings_total": 133,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Main St, Dundrum, Dublin, D14 Y3Y4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Regan Solicitors",
+    "place_id": "ChIJI-3_x6IOZ0gR2QZpVj_IFFw",
+    "lat": 53.3354981,
+    "lon": -6.2535827,
+    "rating": 4.9,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38/39 Fitzwilliam Square W, Dublin, D02 NX53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Abbey Law Solicitors",
+    "place_id": "ChIJfaRtK0APZ0gRvwEE7S7Tvjw",
+    "lat": 53.3448906,
+    "lon": -6.267263,
+    "rating": 4.6,
+    "user_ratings_total": 53,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "travel_agency",
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4th Floor, entrance on, Castle River House, 14-15 Parliament St, Essex St E, Temple Bar, Dublin 2, D02 FW60, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Byrne Wallace Shields LLP",
+    "place_id": "ChIJX1K7J5MOZ0gRC6i6xUbm8Ns",
+    "lat": 53.3364491,
+    "lon": -6.2629901,
+    "rating": 4.5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "88 Harcourt St, Saint Kevin's, Dublin 2, D02 DK18, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MKS Michael Kelleher Solicitors",
+    "place_id": "ChIJsfpJzDkMZ0gR1IzQBmefuK0",
+    "lat": 53.3429136,
+    "lon": -6.2922718,
+    "rating": 4.6,
+    "user_ratings_total": 69,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "149 James's St, Saint James, Dublin 8, D08 N2K8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Eamonn J Walsh & Company Solicitors",
+    "place_id": "ChIJ11xoUJkOZ0gR1tJLRg9cH2A",
+    "lat": 53.3481447,
+    "lon": -6.260984,
+    "rating": 4.9,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "68 Middle Abbey St, North City, Dublin 1, D01 PW89, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "French Solicitors",
+    "place_id": "ChIJXRnHfh0PZ0gRGzs0291iTrI",
+    "lat": 53.3351708,
+    "lon": -6.2538409,
+    "rating": 5,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "28-32 Pembroke Street Upper, Dublin, D02 EK84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Anderson & Gallagher Solicitors",
+    "place_id": "ChIJ9RhfxYQOZ0gRqbHNEjkhH78",
+    "lat": 53.3462292,
+    "lon": -6.2588332,
+    "rating": 4.9,
+    "user_ratings_total": 36,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "29 Westmoreland St, Dublin 2, D02 NH61, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Hugh McCabe Solicitors",
+    "place_id": "ChIJm76W2B8MZ0gReaxq266mrR4",
+    "lat": 53.33611,
+    "lon": -6.2669301,
+    "rating": 4.8,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Camden Row, Saint Kevin's, Dublin 8, D08 FP38, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sinnott Solicitors",
+    "place_id": "ChIJhY4vyakOZ0gRdGD_LqMJ3Nw",
+    "lat": 53.3202265,
+    "lon": -6.2633456,
+    "rating": 4.6,
+    "user_ratings_total": 474,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Church Ave, Rathmines, Dublin 6, D06 K2X8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "PLUNKETT KIRWAN & CO. LLP",
+    "place_id": "ChIJP4r6OrAPZ0gRagwhzDciLKA",
+    "lat": 53.370717,
+    "lon": -6.206427,
+    "rating": 4.9,
+    "user_ratings_total": 108,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "DX 155002, 175 Howth Rd, Killester, Dublin 3, D03 C803, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Philip Hannon Solicitors",
+    "place_id": "ChIJwbrFJSgMZ0gRKfxT1yZSJDw",
+    "lat": 53.3472588,
+    "lon": -6.2692646,
+    "rating": 4.5,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Suite 306, The Capel Building, 7 Mary's Abbey, Smithfield, Dublin 7, D07 FH67, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wendy Doyle Solicitors",
+    "place_id": "ChIJj1zDf5cOZ0gRtxZZz4s7M3w",
+    "lat": 53.33518350000001,
+    "lon": -6.2538474,
+    "rating": 4.7,
+    "user_ratings_total": 33,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Fitzwilliam House, 3-4 Pembroke Street Upper, Dublin 2, D02 VN24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lavelle Partners LLP",
+    "place_id": "ChIJQdejFqIOZ0gR9A1tj8i6eOg",
+    "lat": 53.3309083,
+    "lon": -6.2600802,
+    "rating": 4.4,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bankside, Charlemont St, Saint Kevin's, Dublin 2, D02 VN88, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ferrys Solicitors | Ormond Quay",
+    "place_id": "ChIJwdwjESgMZ0gR1SBXtjnk3Uw",
+    "lat": 53.3460747,
+    "lon": -6.2695874,
+    "rating": 4.7,
+    "user_ratings_total": 137,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15 Ormond Quay Upper, North City, Dublin, D07 YK6A, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Reddy Charlton LLP, Solicitors",
+    "place_id": "ChIJdbfRyaIOZ0gRKhX1hYBYueA",
+    "lat": 53.3335749,
+    "lon": -6.2519953,
+    "rating": 4.9,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Fitzwilliam Pl, Dublin 2, D02 VN56, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "MB Solicitors",
+    "place_id": "ChIJMZPPbDgOZ0gRvxsNOZgQQFc",
+    "lat": 53.3725628,
+    "lon": -6.222466799999999,
+    "rating": 4.7,
+    "user_ratings_total": 165,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "97 Malahide Rd, Grace Park, Dublin 3, D03 X2P6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Amorys Solicitors LLP",
+    "place_id": "ChIJm3s30wsJZ0gRw22OyirRiy0",
+    "lat": 53.2757368,
+    "lon": -6.2194441,
+    "rating": 4.5,
+    "user_ratings_total": 86,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Beacon Court, Suite 10, The Mall, Sandyford Business Park, Dublin 18, D18 RX03, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Donnell McKenna Solicitors",
+    "place_id": "ChIJz7NEj5cOZ0gRpWko0zPtgd8",
+    "lat": 53.3347876,
+    "lon": -6.253831600000001,
+    "rating": 4.6,
+    "user_ratings_total": 91,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4 Pembroke Street Upper, Dublin 2, D02 VN24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Matheson LLP",
+    "place_id": "ChIJW4n3v-0OZ0gRjZbvDftT0qM",
+    "lat": 53.345423,
+    "lon": -6.2349209,
+    "rating": 4,
+    "user_ratings_total": 92,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "70 Sir John Rogerson's Quay, Grand Canal Dock, Dublin 2, D02 R296, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Keenan & Company Solicitors LLP",
+    "place_id": "ChIJSeO9M30MZ0gRqNCxuV0LIlI",
+    "lat": 53.3204358,
+    "lon": -6.316568999999999,
+    "rating": 5,
+    "user_ratings_total": 193,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 St Agnes Rd, Crumlin, Dublin, D12 PTR8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mark A Quinn Solicitors",
+    "place_id": "ChIJ_____y4MZ0gRwlI9CB3TGDI",
+    "lat": 53.3469151,
+    "lon": -6.2794887,
+    "rating": 5,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Orby Chambers, 7 Coke Ln, Smithfield, Dublin, D07 T0FA, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Marcus Lynch Solicitors",
+    "place_id": "ChIJWyimxIIOZ0gRWPR0aj8X9Jo",
+    "lat": 53.3462729,
+    "lon": -6.2664121,
+    "rating": 4.5,
+    "user_ratings_total": 26,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "12 Ormond Quay Lower, North City, Dublin, D01 P9W0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Mason Hayes & Curran",
+    "place_id": "ChIJyztuY6-0WkgRjYswg-NXjoM",
+    "lat": 53.3407868,
+    "lon": -6.236686000000001,
+    "rating": 4.2,
+    "user_ratings_total": 78,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "South Bank House, Barrow St, Dublin 4, D04 TR29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Good & Murray Smith LLP",
+    "place_id": "ChIJBcB2CpsOZ0gROjviKiCXIKE",
+    "lat": 53.3411552,
+    "lon": -6.260388,
+    "rating": 5,
+    "user_ratings_total": 7,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "lawyer",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Medical Centre, 34 Grafton Street, Dublin, D02 XY06, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

@@ -1,0 +1,1016 @@
+[
+  {
+    "name": "University College Dublin",
+    "place_id": "ChIJYzrIIDEJZ0gRz78kFPMqdjY",
+    "lat": 53.3097268,
+    "lon": -6.2215897,
+    "rating": 4.6,
+    "user_ratings_total": 993,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity College Dublin",
+    "place_id": "ChIJ3Y7HLZsOZ0gRZ2FxjA3-ACc",
+    "lat": 53.3437935,
+    "lon": -6.254571599999999,
+    "rating": 4.5,
+    "user_ratings_total": 5098,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "College Green, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City University",
+    "place_id": "ChIJA12dLxsOZ0gRqMIHQZhFuxI",
+    "lat": 53.38533169999999,
+    "lon": -6.2588403,
+    "rating": 4.4,
+    "user_ratings_total": 558,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin City University, Collins Ave Ext, Whitehall, Dublin 9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Wesley College Dublin",
+    "place_id": "ChIJL0kIRnsJZ0gRNN_Bt-RgjUA",
+    "lat": 53.2784808,
+    "lon": -6.2420304,
+    "rating": 4.3,
+    "user_ratings_total": 50,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "36 R826, Sandyford, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Griffith College Dublin Main Campus",
+    "place_id": "ChIJxxW5MxgMZ0gRLgb1Fq6sg08",
+    "lat": 53.3313617,
+    "lon": -6.2785669,
+    "rating": 4,
+    "user_ratings_total": 255,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "S Circular Rd, Dublin 8, D08 V04N, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "IBAT Dublin",
+    "place_id": "ChIJ1Q4V0oIOZ0gRSD8aL8SG0Gs",
+    "lat": 53.3454787,
+    "lon": -6.265684299999999,
+    "rating": 4.3,
+    "user_ratings_total": 419,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "16-19 Wellington Quay, Temple Bar, Dublin 8, D02 TX49, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "SEDA College - Dublin Campus",
+    "place_id": "ChIJ7zIFACoMZ0gRbTF7eUD-URI",
+    "lat": 53.3503888,
+    "lon": -6.2692967,
+    "rating": 4.2,
+    "user_ratings_total": 528,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin Institute of Technology, 68-72, CAPEL STREET SEDA COLLEGE, ZHIVAGO'S CORNER, 68-72 Capel St, Dublin 1, D01 AR29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Liffey College",
+    "place_id": "ChIJ14ftNiQMZ0gRK54O_x2tb8E",
+    "lat": 53.3348309,
+    "lon": -6.2630155,
+    "rating": 4,
+    "user_ratings_total": 283,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "67 Harcourt St, Saint Kevin's, Dublin 2, D02 FF64, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish American University",
+    "place_id": "ChIJo5yw0ZAOZ0gRHeRZTJrSRfk",
+    "lat": 53.3411883,
+    "lon": -6.2504237,
+    "rating": 4.1,
+    "user_ratings_total": 20,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1 Merrion Square N, Dublin 2, D02 NH98, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Erin College",
+    "place_id": "ChIJD09OIJ0OZ0gREpQ99qQ1msU",
+    "lat": 53.3547284,
+    "lon": -6.260804599999999,
+    "rating": 4.4,
+    "user_ratings_total": 674,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "43 N Great George's St, Rotunda, Dublin, D01 N6P2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "CCT College Dublin",
+    "place_id": "ChIJv5zMz4QOZ0gR3w0qExx9nGg",
+    "lat": 53.3460406,
+    "lon": -6.2588753,
+    "rating": 4.2,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "30-34 Westmoreland St, Dublin 2, D02 HK35, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National College of Ireland",
+    "place_id": "ChIJ55du2IwOZ0gRNal_7nS3UW0",
+    "lat": 53.3489292,
+    "lon": -6.2429928,
+    "rating": 4.1,
+    "user_ratings_total": 221,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mayor Street Lower, International Financial Services Centre, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Chanel Catholic College",
+    "place_id": "ChIJccNmklAOZ0gRSfc-y0rHgoo",
+    "lat": 53.3876927,
+    "lon": -6.2038831,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Coolock Village, Malahide Rd, Dublin, D05 EY86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "City Colleges",
+    "place_id": "ChIJRf8CH50OZ0gR6BKRecmyNhw",
+    "lat": 53.3436913,
+    "lon": -6.2646804,
+    "rating": 4.7,
+    "user_ratings_total": 106,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "accounting",
+      "finance",
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "wicklow house, 84-86 South Great George's Street, Dublin 2, D02 TX84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Independent College",
+    "place_id": "ChIJi5CZpZsOZ0gRUyOizIPuYnI",
+    "lat": 53.352644,
+    "lon": -6.250363999999999,
+    "rating": 4.4,
+    "user_ratings_total": 80,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Stealworks, Block B, The Steelworks, 1 Foley St, Mountjoy, Dublin 1, D01 X997, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "ADC College Dublin",
+    "place_id": "ChIJlYOwayAMZ0gRXaD_6n3r2TE",
+    "lat": 53.3232381,
+    "lon": -6.3685348,
+    "rating": 4.7,
+    "user_ratings_total": 428,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Centrepoint Business Park, Unit A1 (lower ground floor, Oak Rd, Dublin, D12 K248, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ashfield College",
+    "place_id": "ChIJV_4DcZsLZ0gRlMY640PDyKU",
+    "lat": 53.2867037,
+    "lon": -6.2394639,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Sandyford Rd, Dundrum, Dublin 16, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Grangegorman Campus",
+    "place_id": "ChIJZbQuzywMZ0gR7LNOrFuzlpI",
+    "lat": 53.3548669,
+    "lon": -6.279486299999999,
+    "rating": 4.6,
+    "user_ratings_total": 261,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grangegorman Lower, Dublin 7, D07 H6K8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU All Hallows Campus",
+    "place_id": "ChIJQUJOVGgOZ0gRiC9ZvtbxlYE",
+    "lat": 53.3708985,
+    "lon": -6.2489963,
+    "rating": 4.4,
+    "user_ratings_total": 63,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grace Park Rd, Drumcondra, Dublin, D09 N920, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dorset College Dublin",
+    "place_id": "ChIJZ8j7NH0OZ0gRmehy8rlCa5U",
+    "lat": 53.3581552,
+    "lon": -6.2574167,
+    "rating": 3.9,
+    "user_ratings_total": 56,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "8 Belvedere Pl, Mountjoy, Dublin 1, D01 EV27, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin College Of Advanced Studies Ltd",
+    "place_id": "ChIJ0xIz_ikMZ0gRX-FcwZFWCeY",
+    "lat": 53.35018549999999,
+    "lon": -6.2695827,
+    "rating": 4.6,
+    "user_ratings_total": 127,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "98 Capel St, Rotunda, Dublin 1, D01 HP52, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "NED College | English School in Dublin",
+    "place_id": "ChIJIfIMu4EOZ0gRTALp9u_vyuk",
+    "lat": 53.35230079999999,
+    "lon": -6.2674403,
+    "rating": 4.5,
+    "user_ratings_total": 691,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "40 Dominick Street Lower, Rotunda, Dublin 1, D01 P9P4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Castleforbes College English School Dublin",
+    "place_id": "ChIJzVKCbX0OZ0gRsz0265fv9Rg",
+    "lat": 53.3574268,
+    "lon": -6.2595702,
+    "rating": 4.9,
+    "user_ratings_total": 502,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "77 Gardiner Street Upper, Mountjoy, Dublin, D01 HH87, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Andrew's College",
+    "place_id": "ChIJ07tFM9gIZ0gRd87tXEv6POw",
+    "lat": 53.30542149999999,
+    "lon": -6.2021048,
+    "rating": 4,
+    "user_ratings_total": 38,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Booterstown Ave, Booterstown, Blackrock, Co. Dublin, A94 XN72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "DCU St. Patrick's Campus",
+    "place_id": "ChIJY0NdGW8OZ0gR6PN8BCgKjsI",
+    "lat": 53.371575,
+    "lon": -6.2552091,
+    "rating": 4.4,
+    "user_ratings_total": 117,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Drumcondra Rd Upper, Drumcondra, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Citas College Dublin",
+    "place_id": "ChIJK4VFR4kOZ0gR-sgj3T4Hcfk",
+    "lat": 53.3523885,
+    "lon": -6.250514799999999,
+    "rating": 3.5,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Millhouse The Steelworks, Foley St, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Liberties College",
+    "place_id": "ChIJkaQi3CYMZ0gRWXljlDmAxE8",
+    "lat": 53.3407138,
+    "lon": -6.2711543,
+    "rating": 4.1,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Liberties College, Bull Alley St, Wood Quay, Dublin 8, 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Columba's College",
+    "place_id": "ChIJ150bjzQKZ0gRM_EOnupsooE",
+    "lat": 53.2662974,
+    "lon": -6.269626,
+    "rating": 3.8,
+    "user_ratings_total": 39,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kilmashogue Ln, Whitechurch, Dublin 16, D16 CH92, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "University College Dublin Belfield",
+    "place_id": "ChIJi26CxCIJZ0gRCVbHZNN7leg",
+    "lat": 53.3047647,
+    "lon": -6.2215517,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, Stillorgan Rd, Belfield, Dublin 4, D04 V2P1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "American College Dublin",
+    "place_id": "ChIJuRVdaoUOZ0gRCoa3trzKU18",
+    "lat": 53.3412249,
+    "lon": -6.2504219,
+    "rating": 3.3,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Brien Centre for Science",
+    "place_id": "ChIJkbG3RzEJZ0gRyUvO_j1Djqc",
+    "lat": 53.30828,
+    "lon": -6.223724,
+    "rating": 4.8,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD O'Brien Science Centre West, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Boston College Ireland",
+    "place_id": "ChIJXUhLr5kOZ0gRe3CNk09ZRCE",
+    "lat": 53.3382621,
+    "lon": -6.255359599999999,
+    "rating": 4.7,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "43 St Stephen's Green, Dublin 2, D02 DY80, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Global | International University Dublin",
+    "place_id": "ChIJuz5ZijAJZ0gRd-mrat2P-6g",
+    "lat": 53.3054113,
+    "lon": -6.2207022,
+    "rating": 4.5,
+    "user_ratings_total": 44,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Global, Gerard Manley Hopkins Centre (UCD International Office), Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Griffith College Dublin City Centre Campus",
+    "place_id": "ChIJbd4xlKIPZ0gRRGOZh6lvtsI",
+    "lat": 53.3493987,
+    "lon": -6.267821,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "25 Wolfe Tone St, North City, Dublin, 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Business School",
+    "place_id": "ChIJl85j6J0OZ0gRJ4pU5EFa_dU",
+    "lat": 53.340538,
+    "lon": -6.265492,
+    "rating": 3.6,
+    "user_ratings_total": 261,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "13/14 Aungier St, Dublin, D02 WC04, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "St. Mary's College",
+    "place_id": "ChIJzZS7sB0MZ0gRnVtm8nw3UB8",
+    "lat": 53.3274498,
+    "lon": -6.2672497,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "73-79 Rathmines Rd Lower, Rathmines, Dublin 6, D06 CH79, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Larkin Community College",
+    "place_id": "ChIJgTCQFoYOZ0gRq3gV0jEBcuo",
+    "lat": 53.3523268,
+    "lon": -6.257612,
+    "rating": 3.6,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Champions Ave, North City, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Clinton Institute for American Studies",
+    "place_id": "ChIJySLDJ_MJZ0gRCW1j9vZ9Gyo",
+    "lat": 53.3065177,
+    "lon": -6.2158262,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Clinton Centre for American Studies (Belfield House), Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Aungier Street Campus",
+    "place_id": "ChIJLZkSH54OZ0gRxcSb69bRrmU",
+    "lat": 53.3385303,
+    "lon": -6.266542599999999,
+    "rating": 4.5,
+    "user_ratings_total": 108,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Aungier St, Dublin 2, D02 HW71, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity College Library",
+    "place_id": "ChIJVdIER5sOZ0gRbNBq2VcIW9Q",
+    "lat": 53.34399759999999,
+    "lon": -6.2566326,
+    "rating": 4,
+    "user_ratings_total": 1291,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "library",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old Library, College Green, South-East Inner City, Dublin 2, D02 VR66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin International Study Centre",
+    "place_id": "ChIJjagKvZgOZ0gRY7R8CgjDrgc",
+    "lat": 53.3095973,
+    "lon": -6.2348387,
+    "rating": 4.8,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, Richview Newstead Block A, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Bolton Street Campus",
+    "place_id": "ChIJ-So4CCoMZ0gRVBHGl0s4fVA",
+    "lat": 53.3515213,
+    "lon": -6.2692712,
+    "rating": 4.2,
+    "user_ratings_total": 83,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bolton St, Rotunda, Dublin 1, D01 K822, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Greenhills Community College, Dublin - Secondary & Further Education",
+    "place_id": "ChIJOaLpEGILZ0gRn5Jj26RwOPs",
+    "lat": 53.3069555,
+    "lon": -6.335248399999999,
+    "rating": 4.1,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Limekiln Ave, Walkinstown, Dublin 12, D12 DP8W, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Clonturk Community College",
+    "place_id": "ChIJYxGmWRUOZ0gRiUJGw-SQ0Js",
+    "lat": 53.37945449999999,
+    "lon": -6.2482653,
+    "rating": 3,
+    "user_ratings_total": 53,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Plunket College, 9, Ireland, Swords Rd, Whitehall, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cathal Brugha FET, North Strand Campus",
+    "place_id": "ChIJnfF294oOZ0gRZY7IMB-DEHM",
+    "lat": 53.3552167,
+    "lon": -6.2457496,
+    "rating": 4.4,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Connolly House, 171 N Strand Rd, North Wall, Dublin, D01 Y160, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Students' Union",
+    "place_id": "ChIJ1U0N6jYJZ0gRmbxLXQo9_o4",
+    "lat": 53.3084116,
+    "lon": -6.226714899999999,
+    "rating": 4,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "University College Dublin, Student Centre, Belfield, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TU Dublin, Tallaght Campus",
+    "place_id": "ChIJ9XHAjksLZ0gRKlLZ4AF1z7Y",
+    "lat": 53.2910794,
+    "lon": -6.363455099999999,
+    "rating": 4.2,
+    "user_ratings_total": 118,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Blessington Rd, Tallaght, Dublin 24, D24 FKT9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "National College of Art and Design",
+    "place_id": "ChIJHWBUCSUMZ0gRn724YgUfkHM",
+    "lat": 53.3429575,
+    "lon": -6.278839899999999,
+    "rating": 4.2,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "100 Thomas St, Usher's Quay, Dublin 8, D08 K521, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ringsend College",
+    "place_id": "ChIJcSY-luUOZ0gRSH0iqkCIp7Q",
+    "lat": 53.3436635,
+    "lon": -6.2245448,
+    "rating": 4,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cambridge Rd, Dublin 4, 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Holmes Institute Dublin",
+    "place_id": "ChIJi-gJ5i0PZ0gRUdLWw4DzToU",
+    "lat": 53.34113860000001,
+    "lon": -6.2502445,
+    "rating": 4.1,
+    "user_ratings_total": 21,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 3 Merrion Square N, Dublin 2, D02 W224, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Trinity Business School",
+    "place_id": "ChIJ60tDQZAOZ0gRvJ_MbtfzNxs",
+    "lat": 53.34447669999999,
+    "lon": -6.252134499999999,
+    "rating": 4.9,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "182 Pearse St, Dublin 2, D02 F6N2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin International Foundation College",
+    "place_id": "ChIJaTo0LBgMZ0gRpDZst6QwnMI",
+    "lat": 53.3313135,
+    "lon": -6.2787802,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "school",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "145 S Circular Rd, Dublin, D08 HY40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "TCD Arts Building",
+    "place_id": "ChIJSegs_poOZ0gR_0L9GooYsZg",
+    "lat": 53.3432495,
+    "lon": -6.2571249,
+    "rating": 4.7,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "College Green, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Moyle Park College",
+    "place_id": "ChIJecLek0NzZ0gRkGMn9qKml-g",
+    "lat": 53.3203356,
+    "lon": -6.3971863,
+    "rating": 4,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Convent Rd, Clondalkin, Dublin 22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD Student Centre",
+    "place_id": "ChIJpQtoiTYJZ0gRa2l9m0BWpyc",
+    "lat": 53.30810169999999,
+    "lon": -6.226565799999999,
+    "rating": 4.7,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "UCD Student Centre, Stillorgan Rd, Clonskeagh, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rathmines College of Further Education",
+    "place_id": "ChIJq31lIx0MZ0gR_uek0Ecfcog",
+    "lat": 53.3240934,
+    "lon": -6.2652429,
+    "rating": 4.4,
+    "user_ratings_total": 56,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Townhall, Rathmines Rd Lower, Rathmines, Dublin 6, 6, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Inchicore College of Further Education",
+    "place_id": "ChIJtVAD_1oMZ0gRRltdVflh0JQ",
+    "lat": 53.340115,
+    "lon": -6.312399699999999,
+    "rating": 4.2,
+    "user_ratings_total": 48,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "College of Further Education, Luby Rd, Inchicore, Dublin 8, D08 PX93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Deansrath Community College",
+    "place_id": "ChIJt1kP7nJzZ0gRRRkJo8j2auw",
+    "lat": 53.3241682,
+    "lon": -6.4203392,
+    "rating": 3.9,
+    "user_ratings_total": 24,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Westbourne Rise, Clondalkin, Dublin 22, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "UCD School of History",
+    "place_id": "ChIJkceGxjAJZ0gRcquvkQhvrNA",
+    "lat": 53.3057873,
+    "lon": -6.2230364,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "university",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "John Henry Newman Building, University College Dublin, Stillorgan Rd, Belfield, Dublin 4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Crumlin College of Further Education",
+    "place_id": "ChIJEUrOBGkMZ0gRzbBzem7IuVI",
+    "lat": 53.3290527,
+    "lon": -6.3036713,
+    "rating": 4.4,
+    "user_ratings_total": 37,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Crumlin Rd, Drimnagh, Dublin 12, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

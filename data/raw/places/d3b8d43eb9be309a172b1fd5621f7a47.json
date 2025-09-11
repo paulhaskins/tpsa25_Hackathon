@@ -1,0 +1,907 @@
+[
+  {
+    "name": "Button Factory",
+    "place_id": "ChIJp_CB1pwOZ0gRxcFX0Egkqd8",
+    "lat": 53.3449334,
+    "lon": -6.2645228,
+    "rating": 4.3,
+    "user_ratings_total": 2305,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "night_club",
+      "meal_takeaway",
+      "bar",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "Curved St, Temple Bar, Dublin, D02 RD26, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guinness Storehouse",
+    "place_id": "ChIJawXFQIQOZ0gRoucFdZIzGbM",
+    "lat": 53.3416655,
+    "lon": -6.2867288,
+    "rating": 4.4,
+    "user_ratings_total": 22716,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "St. James's Gate, Dublin 8, D08 VF8H, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Chocolate Factory",
+    "place_id": "ChIJ45q5k4EOZ0gRq0gRx18-Odw",
+    "lat": 53.3513714,
+    "lon": -6.2674395,
+    "rating": 4.5,
+    "user_ratings_total": 257,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "gym",
+      "point_of_interest",
+      "health",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "26 King's Inns St, Rotunda, Dublin 1, D01 P2W7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Vintage Factory",
+    "place_id": "ChIJH3Gf0hYPZ0gRAtWrll96YaA",
+    "lat": 53.3448844,
+    "lon": -6.2632167,
+    "rating": 4.3,
+    "user_ratings_total": 165,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "behind Central Plaza, 1-2 Cope St, Temple Bar, Dublin, D02 P840, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Butlers. The Chocolate Factory Tour",
+    "place_id": "ChIJbcDgUDERZ0gR4_XX_umlRIE",
+    "lat": 53.4037215,
+    "lon": -6.219272699999999,
+    "rating": 4.6,
+    "user_ratings_total": 262,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Clonshaugh Business & Technology Park, Dublin 17, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Jelly Bean Factory",
+    "place_id": "ChIJOV2xwKISZ0gRRrw5SbuTLrY",
+    "lat": 53.40408189999999,
+    "lon": -6.3682293,
+    "rating": 4.4,
+    "user_ratings_total": 29,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "IDA Business and Technology Park, Snugborough Rd, Blanchardstown, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Jameson Distillery Bow St.",
+    "place_id": "ChIJs0Ciwy4MZ0gRFFpl7MaNZAQ",
+    "lat": 53.3481851,
+    "lon": -6.277028899999999,
+    "rating": 4.7,
+    "user_ratings_total": 5271,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "travel_agency",
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Bow St, Smithfield, Dublin 7, D07 N9VH, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Street Food Factory",
+    "place_id": "ChIJbRi1FpAPZ0gRncjOgCjpNJc",
+    "lat": 53.3454036,
+    "lon": -6.262719,
+    "rating": 4.5,
+    "user_ratings_total": 100,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "5 Crown Alley, Temple Bar, Dublin, D02 NY07, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guinness Brewery Diageo",
+    "place_id": "ChIJaRd3uTAMZ0gRZH3xNhRN9-g",
+    "lat": 53.3452016,
+    "lon": -6.287306999999999,
+    "rating": 4.4,
+    "user_ratings_total": 189,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "108 James's St, The Liberties, Dublin 8, D08 PV2T, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Icon Walk & The Icon Factory",
+    "place_id": "ChIJq2EtpYQOZ0gRDbZ7QNj-luQ",
+    "lat": 53.3461621,
+    "lon": -6.260565499999999,
+    "rating": 4.6,
+    "user_ratings_total": 74,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "art_gallery",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Aston Pl, Temple Bar, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Sofa Factory",
+    "place_id": "ChIJHbUZml4MZ0gRqa5VobJFtyo",
+    "lat": 53.3244747,
+    "lon": -6.3580142,
+    "rating": 4.9,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Knockmitten Ln, Western Industrial Estate, Dublin, D12 DK50, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Furniturefactory",
+    "place_id": "ChIJp6vu9FAOZ0gRfa39CjGo9Bc",
+    "lat": 53.3978541,
+    "lon": -6.1917065,
+    "rating": 4.4,
+    "user_ratings_total": 192,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "furniture_store",
+      "home_goods_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 2J, Newtown Rd, Malahide Road Industrial Park, Dublin, D17 FR58, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bubble Waffle Factory",
+    "place_id": "ChIJv6L_VyMPZ0gRFB51fjXywRE",
+    "lat": 53.3454036,
+    "lon": -6.262719,
+    "rating": 4.6,
+    "user_ratings_total": 316,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "5 Crown Alley, Temple Bar, Dublin 2, D02 NY07, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Wood Factory",
+    "place_id": "ChIJhSl8tlESZ0gR_-l6xVbgd_A",
+    "lat": 53.5302276,
+    "lon": -6.339279599999999,
+    "rating": 5,
+    "user_ratings_total": 43,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3, Jordanstown, Oldtown, Co. Dublin, A45 A297, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "O'Neills Sports Store Dublin",
+    "place_id": "ChIJDYdKoZEMZ0gR9NFq_QPjBhk",
+    "lat": 53.3223716,
+    "lon": -6.337219600000001,
+    "rating": 4.5,
+    "user_ratings_total": 767,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Long Mile Rd, Walkinstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Jam Art Factory Irish Art and Design Shop",
+    "place_id": "ChIJu3aRtZwOZ0gRRTTUW865zeo",
+    "lat": 53.345149,
+    "lon": -6.2628761,
+    "rating": 4.6,
+    "user_ratings_total": 354,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "art_gallery",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "14A Crown Alley, Temple Bar, Dublin 2, D02 RX36, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Broderick's Brothers Chocolate factory Ireland, Food service",
+    "place_id": "ChIJn0yXaZwMZ0gRG9eNOk7L0OM",
+    "lat": 53.2783966,
+    "lon": -6.3769111,
+    "rating": 4.8,
+    "user_ratings_total": 28,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 3, South City Business Park, Whitestown, Dublin 24, D24 HH77, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Guinness Open Gate Brewery",
+    "place_id": "ChIJndW7EjoMZ0gRD0tk9yARsOw",
+    "lat": 53.3433442,
+    "lon": -6.2869934,
+    "rating": 4.5,
+    "user_ratings_total": 618,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "53 James's St, St. James's Gate, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Ink Factory Tattoo & Piercing",
+    "place_id": "ChIJCWXSzYIOZ0gRMERJwBOzsgc",
+    "lat": 53.3454468,
+    "lon": -6.2659386,
+    "rating": 4.9,
+    "user_ratings_total": 4013,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "hair_care",
+      "point_of_interest",
+      "health",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "15 Wellington Quay, Temple Bar, Dublin 2, D02 KW44, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Butlers Chocolates",
+    "place_id": "ChIJ4943MCoQZ0gR9LEJo3ld6Jo",
+    "lat": 53.4039535,
+    "lon": -6.2197831,
+    "rating": 4.5,
+    "user_ratings_total": 391,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Clonshaugh Business & Technology Park, Coolock, Co. Dublin, D17 A076, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "Kilmainham Square (The Old Chocolate Factory) Apartments",
+    "place_id": "ChIJozcCfloMZ0gRhRQFSHeoVkM",
+    "lat": 53.3423374,
+    "lon": -6.3094157,
+    "rating": 4.6,
+    "user_ratings_total": 36,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Inchicore Rd, Kilmainham, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sing Factory",
+    "place_id": "ChIJDyGlXJcOZ0gRJCORUgM6I5A",
+    "lat": 53.3393689,
+    "lon": -6.252063499999999,
+    "rating": 4.7,
+    "user_ratings_total": 27,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Sing Factory, 32 Merrion St Upper, Dublin 02, D02 FD39, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Silent-Aire Manufacturing",
+    "place_id": "ChIJLdoYkMYMZ0gRCPSvZ7bOZ_U",
+    "lat": 53.3340873,
+    "lon": -6.3627406,
+    "rating": 3.9,
+    "user_ratings_total": 16,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit S1, Friel Avenue, Park West Industrial Park, Dublin 12, D12 XV40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "R & A Bailey Limited",
+    "place_id": "ChIJ38h8MrYMZ0gReciuoK2XEzk",
+    "lat": 53.3278093,
+    "lon": -6.3664027,
+    "rating": 2.8,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Nangor House, Nangor Road, Gallanstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Jam Art Factory Irish Art and Design Shop, Patrick Street",
+    "place_id": "ChIJXVBK6SYMZ0gRoALoWfDf29A",
+    "lat": 53.3411828,
+    "lon": -6.2720841,
+    "rating": 4.8,
+    "user_ratings_total": 206,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "art_gallery",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "64 Patrick St, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cadbury",
+    "place_id": "ChIJ1xEqP8MPZ0gRNi2dGMGv4zI",
+    "lat": 53.3874661,
+    "lon": -6.2008874,
+    "rating": 3.9,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Old, Malahide Rd, Kilmore, Coolock, Co. Dublin, 5, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Caffrey's Confectionery Limited",
+    "place_id": "ChIJn-agVZsMZ0gRT1DHNj6GbQA",
+    "lat": 53.315704,
+    "lon": -6.3345049,
+    "rating": 4.1,
+    "user_ratings_total": 34,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Greenhills Rd, Walkinstown, Dublin 12, D12 N273, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Botany Weaving Mill",
+    "place_id": "ChIJN_uP6ukiZ0gR-3W5cV-DBqI",
+    "lat": 53.33620080000001,
+    "lon": -6.290683,
+    "rating": 4.1,
+    "user_ratings_total": 18,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Emerald Square, Ushers, Dublin, D08 K752, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "K Factory - T-Shirt Printing and Embroidery Dublin",
+    "place_id": "ChIJ73rGF-tzZ0gRvj7ryI7Sdqc",
+    "lat": 53.3244499,
+    "lon": -6.4133552,
+    "rating": 5,
+    "user_ratings_total": 159,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 17, ACE Enterprise Park Clondalkin, Dublin 22, D22 V272, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nestle (Ireland)",
+    "place_id": "ChIJuQDwcoh0Z0gR2Z3gNNK7YqQ",
+    "lat": 53.2919931,
+    "lon": -6.4228543,
+    "rating": 2.9,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3009 Lake Dr, Citywest Business Campus, Dublin, 24, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Props Factory",
+    "place_id": "ChIJJZDFG_EOZ0gRs_WlYrpGeNk",
+    "lat": 53.355805,
+    "lon": -6.242077099999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Ossory Court, unit 12 Ossory Rd, N Strand Rd, North Wall, Dublin 1, D03 CA39, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Nike Unite Blanchardstown",
+    "place_id": "ChIJ4ajFrVUNZ0gRYI_AYRgdu9o",
+    "lat": 53.3933224,
+    "lon": -6.3901753,
+    "rating": 4.2,
+    "user_ratings_total": 1774,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "shoe_store",
+      "clothing_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 111/112, Blanchardstown Centre, Blanchardstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Diamond Factory",
+    "place_id": "ChIJaaqJ1ZwOZ0gR7XXqMqbTnTg",
+    "lat": 53.3450328,
+    "lon": -6.2647048,
+    "rating": 4.9,
+    "user_ratings_total": 135,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "jewelry_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "18 Eustace St, Temple Bar, Dublin, D02 WR53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Granby Sausages",
+    "place_id": "ChIJBfIKD4EOZ0gRkffnEu_rF9g",
+    "lat": 53.3526238,
+    "lon": -6.265506299999999,
+    "rating": 4.8,
+    "user_ratings_total": 36,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "38 Granby Pl, Rotunda, Dublin, D01 VY53, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bagel Factory",
+    "place_id": "ChIJp74zlZgOZ0gRmGbpSev1UL4",
+    "lat": 53.3360643,
+    "lon": -6.2568001,
+    "rating": 3.9,
+    "user_ratings_total": 33,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bakery",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "103 Leeson Street Lower, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "The Ink Factory Tattoo & Piercing",
+    "place_id": "ChIJp-l8rYIOZ0gRPsaDw2zS5s4",
+    "lat": 53.3452561,
+    "lon": -6.2674335,
+    "rating": 4.8,
+    "user_ratings_total": 366,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "19 Parliament St, Temple Bar, Dublin, D02 T952, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Card Factory",
+    "place_id": "ChIJcUDJYYEOZ0gRUYPlQdihe3o",
+    "lat": 53.34979389999999,
+    "lon": -6.2646141,
+    "rating": 4.1,
+    "user_ratings_total": 81,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 25, Central Mall, Ilac Centre, Henry St, Dublin 1, D01 CK75, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The Flower Factory",
+    "place_id": "ChIJgbhtMPgQZ0gRfC8hTstbCoc",
+    "lat": 53.4442214,
+    "lon": -6.218142900000001,
+    "rating": 4.2,
+    "user_ratings_total": 286,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "florist",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Airside Business Park Unit B3, Swords, Co. Dublin, K67 CC85, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ballymaguire Foods",
+    "place_id": "ChIJu1Bjd0cYZ0gR2x8U_HUBOk4",
+    "lat": 53.5479873,
+    "lon": -6.1748143,
+    "rating": 4.1,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Rathmooney, Dublin, K45 NP03, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Batchelors",
+    "place_id": "ChIJ1b0XHsUNZ0gR-ywPljp-F_M",
+    "lat": 53.3688408,
+    "lon": -6.2897692,
+    "rating": 3.6,
+    "user_ratings_total": 36,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "72-74 Bannow Rd, Cabra West, Dublin 7, D07 XR71, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ardmore film factory",
+    "place_id": "ChIJF5m_aIOoZ0gR7TCR_HwQm3Y",
+    "lat": 53.1811788,
+    "lon": -6.112855499999999,
+    "rating": 4.5,
+    "user_ratings_total": 65,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Industrial Development Agency Business Park, Southern Cross Rd, Irishtown, Bray, Co. Wicklow, A98 F7D7, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Valeo Foods Group",
+    "place_id": "ChIJgbQP87ARZ0gReeirfB3Xryw",
+    "lat": 53.429916,
+    "lon": -6.243507999999999,
+    "rating": 3.7,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "3rd Floor, Skybridge House, Dublin Airport, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Sound Factory",
+    "place_id": "ChIJxTAuq5cMZ0gRMOMaeM5_iPg",
+    "lat": 53.3219463,
+    "lon": -6.345178799999999,
+    "rating": 4.9,
+    "user_ratings_total": 155,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Unit 14, Parkmore Industrial Estate, Long Mile Rd, Walkinstown, Dublin 12, D12 WY29, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Vedoneire Ltd",
+    "place_id": "ChIJg6vno5wMZ0gRx0QWEaMRcPE",
+    "lat": 53.314186,
+    "lon": -6.3326663,
+    "rating": 4.6,
+    "user_ratings_total": 30,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "clothing_store",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Greenhills Industrial Estate, Greenhills Rd, Walkinstown, Dublin, D12 TCN8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Warehouse & Factory Automation",
+    "place_id": "ChIJSf10L_caZ0gR2XEjMjsCqog",
+    "lat": 53.4355658,
+    "lon": -6.169346399999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6B Connolly Ave, Kinsealy Ln, Kinsealy, Malahide, Co. Dublin, K36 NF84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dance Factory",
+    "place_id": "ChIJ3RpqUQkSZ0gRJYers-bh6Vg",
+    "lat": 53.4024756,
+    "lon": -6.3020057,
+    "rating": 4.7,
+    "user_ratings_total": 22,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "gym",
+      "point_of_interest",
+      "health",
+      "establishment"
+    ],
+    "formatted_address": "Charlestown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Lynas Foodservice Dublin",
+    "place_id": "ChIJsfKNASsYZ0gRjwaP5mg4AP4",
+    "lat": 53.53551539999999,
+    "lon": -6.1966435,
+    "rating": 4.2,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "formatted_address": "Lynas Foodservice, Ballough, Lusk, Co. Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "House of Waterford",
+    "place_id": "ChIJtRw-Z5nGQkgR9_fr-PePmuY",
+    "lat": 52.2592731,
+    "lon": -7.1067703,
+    "rating": 4.6,
+    "user_ratings_total": 4566,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "28 The Mall, Waterford, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Roe & Co Distillery",
+    "place_id": "ChIJ6ZnJQ5UNZ0gRWKIwt2v3pC8",
+    "lat": 53.3438458,
+    "lon": -6.285818099999999,
+    "rating": 4.9,
+    "user_ratings_total": 553,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "92 James's St, The Liberties, Dublin 8, D08 YYW9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "The FACTORY",
+    "place_id": "ChIJtZMxHnFWXEgRVpkewmAR1Vc",
+    "lat": 53.1624784,
+    "lon": -7.8214467,
+    "rating": 5,
+    "user_ratings_total": 25,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Ballykealy, Fivealley, Co. Offaly, R42 W657, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bagel Factory",
+    "place_id": "ChIJEYmXn6oSZ0gRXj-HPiSz29U",
+    "lat": 53.3926795,
+    "lon": -6.3891785,
+    "rating": 3.6,
+    "user_ratings_total": 55,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "bakery",
+      "point_of_interest",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "Blanchardstown Centre, Blanchardstown, Dublin 15, Ireland., Blanchardstown Rd S, Coolmine, Dublin 15, Ireland",
+    "vicinity": "",
+    "price_level": 2
+  },
+  {
+    "name": "The Dublin Liberties Distillery",
+    "place_id": "ChIJuRsKpSMMZ0gRza0_qOTgHyk",
+    "lat": 53.3373258,
+    "lon": -6.2763529,
+    "rating": 4.8,
+    "user_ratings_total": 246,
+    "business_status": "CLOSED_TEMPORARILY",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "33 Mill St, The Liberties, Dublin, D08 V221, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

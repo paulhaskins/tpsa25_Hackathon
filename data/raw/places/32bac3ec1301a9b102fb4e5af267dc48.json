@@ -1,0 +1,862 @@
+[
+  {
+    "name": "Office of Public Works",
+    "place_id": "ChIJ37A69gwPZ0gRvT66GH1jN6M",
+    "lat": 53.3470603,
+    "lon": -6.2524548,
+    "rating": 3.2,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1GQ, George's Quay, Dublin, D02 Y098, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Central Revenue Information Office",
+    "place_id": "ChIJ_9iRcp0OZ0gRlsXbDkJpUtc",
+    "lat": 53.3505307,
+    "lon": -6.2599281,
+    "rating": 2.4,
+    "user_ratings_total": 193,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Cathedral St, North City, Dublin 1, D01 EF86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of Public Expenditure and Reform",
+    "place_id": "ChIJCVvwuJkOZ0gRMbaH2weiLrA",
+    "lat": 53.33864639999999,
+    "lon": -6.253306100000001,
+    "rating": 2,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Government Buildings, Merrion St Upper, Dublin 2, D02 R583, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Cork Street Personal Public Service (PPS) Number and Public Service Card (PSC) Centre",
+    "place_id": "ChIJD9jVWyMMZ0gRFwRjmpYAudc",
+    "lat": 53.33876249999999,
+    "lon": -6.2800065,
+    "rating": 2.9,
+    "user_ratings_total": 131,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Guild Building, Cork St, The Liberties, Dublin 8, D08 XH90, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Parnell Street, Dublin 1",
+    "place_id": "ChIJI3DjFekPZ0gRj-Ga3LBbx6I",
+    "lat": 53.3506185,
+    "lon": -6.2662603,
+    "rating": 2.6,
+    "user_ratings_total": 82,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "197 Parnell St, Rotunda, Dublin 1, D01 P382, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Revenue Commissioners",
+    "place_id": "ChIJyQprnoYOZ0gRlyKYOEjNsS4",
+    "lat": 53.3505374,
+    "lon": -6.2598853,
+    "rating": 2.2,
+    "user_ratings_total": 156,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "accounting",
+      "finance",
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "15 O'Connell Street Upper, North City, Dublin, D01 R635, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of the Taoiseach",
+    "place_id": "ChIJbRmx55kOZ0gRBtjQrOd_HXM",
+    "lat": 53.3390235,
+    "lon": -6.252951299999999,
+    "rating": 3.8,
+    "user_ratings_total": 68,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Merrion St Upper, Dublin 2, D02 R583, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Property Registration Authority",
+    "place_id": "ChIJaUTZHxUPZ0gRBYqACUDrK38",
+    "lat": 53.34936889999999,
+    "lon": -6.2549257,
+    "rating": 1,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "finance",
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block 2, Main Plaza, Irish Life Centre, North City, Dublin 1, D01 E9X0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Standards In Public Office Commission",
+    "place_id": "ChIJ5RaYeKIOZ0gRAJ2P4M5se68",
+    "lat": 53.3344761,
+    "lon": -6.2573485,
+    "rating": 1,
+    "user_ratings_total": 6,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Earlsfort Terrace, Saint Kevin's, Dublin 2, D02 W773, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Office of the Government Chief Information Officer Department of Public Expenditure and Reform",
+    "place_id": "ChIJMcg84_IOZ0gRyjK2y7EdLOY",
+    "lat": 53.3491015,
+    "lon": -6.2385134,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "3A Mayor Street Upper, North Wall, Dublin 1, D01 PF72, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Civil Registration Service",
+    "place_id": "ChIJZeqR65EOZ0gRFtPuLHE-mhM",
+    "lat": 53.3448551,
+    "lon": -6.2486418,
+    "rating": 3.8,
+    "user_ratings_total": 84,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2, 8-11 Lombard St E, Dublin, D02 Y729, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council - Chief Valuers Department",
+    "place_id": "ChIJs-A9tTKDY0ERFZIRWuAvZ_4",
+    "lat": 53.344843,
+    "lon": -6.271882499999999,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Richmond Apartment, Wood Quay, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of Health",
+    "place_id": "ChIJq6qqqoUOZ0gR2USNrpJOseo",
+    "lat": 53.3365114,
+    "lon": -6.2469521,
+    "rating": 2.8,
+    "user_ratings_total": 12,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "50 \u2013 58, Block 1, Miesian Plaza, Baggot Street Lower, Dublin 2, D02 XW14, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Uisce \u00c9ireann",
+    "place_id": "ChIJXSjSM48OZ0gRpKgYAA5SjWs",
+    "lat": 53.35113399999999,
+    "lon": -6.2532919,
+    "rating": 1.8,
+    "user_ratings_total": 103,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Colvill House, 24-26 Talbot St, Mountjoy, Dublin, D01 NP86, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Office of the Director of Public Prosecutions",
+    "place_id": "ChIJqbST6zUMZ0gRKmCl3gT9Ax0",
+    "lat": 53.3499756,
+    "lon": -6.2967564,
+    "rating": 2.3,
+    "user_ratings_total": 14,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Defence Forces Headquarters, 7 Infirmary Rd, Saint James, Dublin 7, D07 FHN8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council",
+    "place_id": "ChIJFRyT0CcMZ0gR2gdbwjCe7d0",
+    "lat": 53.3449733,
+    "lon": -6.2707241,
+    "rating": 3.3,
+    "user_ratings_total": 109,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Civic Offices, Wood Quay, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "publicjobs",
+    "place_id": "ChIJY17eAYMOZ0gRRl1cVaNk_k4",
+    "lat": 53.3476377,
+    "lon": -6.2651429,
+    "rating": 4.4,
+    "user_ratings_total": 154,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Chapter House, 26/30 1, Abbey Street Upper, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "An Post, General Post Office",
+    "place_id": "ChIJebysQYQOZ0gRpgPPd8gjejc",
+    "lat": 53.3494452,
+    "lon": -6.2603496,
+    "rating": 4.2,
+    "user_ratings_total": 675,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "post_office",
+      "tourist_attraction",
+      "finance",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "O'Connell Street Lower, North City, Dublin 1, D01 F5P2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Office of Public Works - Furniture Division",
+    "place_id": "ChIJCeaskK0NZ0gRrvQnzuyibGk",
+    "lat": 53.337657,
+    "lon": -6.302804699999999,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mountshannon Rd, Kilmainham, Dublin 8, D08 XA06, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Local Enterprise Office Dublin City",
+    "place_id": "ChIJDY0-moQOZ0gR4IiLkx6TqzQ",
+    "lat": 53.3447118,
+    "lon": -6.270434499999999,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "4, Civic Offices, Wood Quay, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Google Velasco",
+    "place_id": "ChIJEzYC15QOZ0gR0TrrIy6zBTc",
+    "lat": 53.3385256,
+    "lon": -6.239833399999999,
+    "rating": 4.7,
+    "user_ratings_total": 142,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Grand Canal Block, Clanwilliam Pl, Dublin, D02 KW81, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Revenue Commissioners",
+    "place_id": "ChIJC60-r50OZ0gRSMufLGTRz6M",
+    "lat": 53.3421438,
+    "lon": -6.2649235,
+    "rating": 2.4,
+    "user_ratings_total": 8,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "S Great, George's Street Arcade, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Motor Tax Office (Appointment Only)",
+    "place_id": "ChIJKxCw9C4MZ0gR2T_ufiS10Ao",
+    "lat": 53.3485342,
+    "lon": -6.2796015,
+    "rating": 2.7,
+    "user_ratings_total": 186,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Block B, Blackhall Walk, Queen St, Smithfield, Dublin 7, D07 ENC4, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "General Register Office (GRO), Research Room",
+    "place_id": "ChIJudvNnicMZ0gRP70msLtlu6A",
+    "lat": 53.34260159999999,
+    "lon": -6.2692744,
+    "rating": 3.7,
+    "user_ratings_total": 15,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Werburgh St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of Social Protection",
+    "place_id": "ChIJceYXgIEOZ0gRzhB6oL7F1Mc",
+    "lat": 53.3506666,
+    "lon": -6.2660512,
+    "rating": 4,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "199 Parnell St, Rotunda, Dublin 1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Blanchardstown",
+    "place_id": "ChIJHRlof1YNZ0gRUEU4Bw0NDHc",
+    "lat": 53.3911658,
+    "lon": -6.3843326,
+    "rating": 2.9,
+    "user_ratings_total": 86,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Westend House, Snugborough Rd, Blanchardstown, Dublin, D15 WA27, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Department of Social Protection melo",
+    "place_id": "ChIJCY9wnSAMZ0gRBawQOCNJfc0",
+    "lat": 53.3378521,
+    "lon": -6.2667126,
+    "rating": 2.2,
+    "user_ratings_total": 11,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "24-15 Bishop St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Social Welfare Office",
+    "place_id": "ChIJ-13CgIEOZ0gR4EmOXmiY2Lo",
+    "lat": 53.3507055,
+    "lon": -6.2663442,
+    "rating": 2.6,
+    "user_ratings_total": 67,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "20 King's Inns St, Rotunda, Dublin 1, D01 P382, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Dun Laoghaire",
+    "place_id": "ChIJo_OafSAGZ0gREx8owBj4oo8",
+    "lat": 53.294814,
+    "lon": -6.1438662,
+    "rating": 2.5,
+    "user_ratings_total": 145,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "18-21 Cumberland St, D\u00fan Laoghaire, Dublin, A96 T209, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "We Are DublinTown",
+    "place_id": "ChIJp2GK3oQOZ0gRRc9aSkkNk0E",
+    "lat": 53.3478976,
+    "lon": -6.2631915,
+    "rating": 2.5,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "43 Middle Abbey St, North City, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Seanad \u00c9ireann (Upper House of the Irish Parliament)",
+    "place_id": "ChIJN1NGA5oOZ0gRTwOQ91HZYbw",
+    "lat": 53.3406915,
+    "lon": -6.2541094,
+    "rating": 3.4,
+    "user_ratings_total": 23,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Kildare St, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin Passport Office",
+    "place_id": "ChIJs9vxqZUOZ0gRI5oj_agaX9E",
+    "lat": 53.3380065,
+    "lon": -6.24207,
+    "rating": 2.4,
+    "user_ratings_total": 1145,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Knockmaun House, 42-47 Mount Street Lower, Dublin, D02 TN83, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Tailte \u00c9ireann Valuation Office",
+    "place_id": "ChIJ56fnk4UOZ0gRhibOozzapUM",
+    "lat": 53.3494544,
+    "lon": -6.2547007,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Abbey Street Lower, North City, Dublin, D01 E9X0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Bank of Ireland",
+    "place_id": "ChIJqSQTAL0OZ0gR-FV4HgIqyRA",
+    "lat": 53.3333053,
+    "lon": -6.2442818,
+    "rating": 3.7,
+    "user_ratings_total": 69,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Unit, 27, Baggot Street Upper, Dublin, D04 N1W9, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Commission for Public Service Appointments",
+    "place_id": "ChIJk-xakOcPZ0gRo3w1wMk4sjE",
+    "lat": 53.3344823,
+    "lon": -6.2573915,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Earlsfort Terrace, Saint Kevin's, Dublin 2, D02 W773, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Public Services Card Centre",
+    "place_id": "ChIJUxjPebV0Z0gRbbV9CvYi_oQ",
+    "lat": 53.2865699,
+    "lon": -6.3695276,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Square, Tallaght, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin District Court County Office",
+    "place_id": "ChIJZ-Yt5CgMZ0gRZg3HILvydlk",
+    "lat": 53.3471122,
+    "lon": -6.2734215,
+    "rating": 4.3,
+    "user_ratings_total": 3,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "courthouse",
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Metropolitan District Court House, Chancery St, Smithfield, Dublin 7, D07 A599, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Citizens Information Centre",
+    "place_id": "ChIJvXvMJoQOZ0gR0Iv81GuZXvo",
+    "lat": 53.3517434,
+    "lon": -6.2536724,
+    "rating": 4,
+    "user_ratings_total": 60,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Montgomery House, James Joyce Street, North City, Dublin 1, D01 H5F1, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Tallaght",
+    "place_id": "ChIJfSnCQbV0Z0gRu3eHd9zubfo",
+    "lat": 53.2867617,
+    "lon": -6.3690262,
+    "rating": 3.3,
+    "user_ratings_total": 73,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Square Tallaght Belgard Square South, Dublin 24, D24 DR40, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Public Affairs Ireland",
+    "place_id": "ChIJnb1CrmIOZ0gRGISNPuSPvC0",
+    "lat": 53.3526473,
+    "lon": -6.2500794,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Steelworks, Foley St, Mountjoy, Dublin 1, D01 X997, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "NorthWest Dublin Local Health Office",
+    "place_id": "ChIJQ9hM7L4SZ0gRaNjClRyuGFQ",
+    "lat": 53.4115558,
+    "lon": -6.3727776,
+    "rating": 2.6,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ground Floor, Unit 4 and 5, Nexus Building, Block 6A, Corporate Park, Blanchardstown, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Ballyfermot",
+    "place_id": "ChIJ0XRpa9wMZ0gRou0Fc0CwopA",
+    "lat": 53.3443155,
+    "lon": -6.3582712,
+    "rating": 2.9,
+    "user_ratings_total": 52,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Rossmore Ave, Drumfinn, Dublin 10, D10 R840, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Office of the Ombudsman",
+    "place_id": "ChIJ5RaYeKIOZ0gRiywN9VqhR70",
+    "lat": 53.3344827,
+    "lon": -6.257394199999999,
+    "rating": 1.4,
+    "user_ratings_total": 31,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "6 Earlsfort Terrace, Saint Kevin's, Dublin 2, D02 W773, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "HSE Ireland",
+    "place_id": "ChIJPxo2aTcMZ0gRoOypDlGIa7s",
+    "lat": 53.3456043,
+    "lon": -6.292180999999999,
+    "rating": 1.7,
+    "user_ratings_total": 19,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Dr. Steevens' Hospital, Dublin 8, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Dublin City Council, Public Lighting Dept",
+    "place_id": "ChIJ6Z_TnTsMZ0gRTt79wnf0RX4",
+    "lat": 53.4058189,
+    "lon": -6.2701255,
+    "rating": 4.9,
+    "user_ratings_total": 9,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "St Margaret's Rd, Balcurris, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ordnance Survey Ireland",
+    "place_id": "ChIJMb7PuBANZ0gRJ4AHgi-ZEFY",
+    "lat": 53.3636785,
+    "lon": -6.3487165,
+    "rating": 4.8,
+    "user_ratings_total": 10,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Phoenix Park, Dublin 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Citizens Information Board (Head Office)",
+    "place_id": "ChIJXy1ZKMEOZ0gRFZKm9uXxabg",
+    "lat": 53.3461978,
+    "lon": -6.2524099,
+    "rating": 3.4,
+    "user_ratings_total": 5,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Ground Floor, George's Quay House, 43 Townsend St, Dublin 2, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Finglas",
+    "place_id": "ChIJyyIar_MNZ0gRleBtYSNjwGk",
+    "lat": 53.3897328,
+    "lon": -6.3025329,
+    "rating": 2.6,
+    "user_ratings_total": 45,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Mellowes Rd, Finglas North, Dublin, D11 A395, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Intreo Centre Swords",
+    "place_id": "ChIJhwu0U-4QZ0gRl0_v3hqEc-M",
+    "lat": 53.45821369999999,
+    "lon": -6.219926399999999,
+    "rating": 3.3,
+    "user_ratings_total": 57,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "23 Main St, Mainscourt, Swords, Co. Dublin, K67 H9P0, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "VFS Global Visa Application Centre in Dublin",
+    "place_id": "ChIJRWgtzvwNZ0gR55MyLo4Kj-Q",
+    "lat": 53.3394537,
+    "lon": -6.3063898,
+    "rating": 2.2,
+    "user_ratings_total": 179,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "130 Francis Street, The Liberties, Dublin, 8, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Rockwood Public Affairs",
+    "place_id": "ChIJU7tNXvMPZ0gRE5C-aveZUQM",
+    "lat": 53.3374412,
+    "lon": -6.250273099999999,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "29/30, Baggot Street Lower, Dublin, D02 XT93, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Irish Aviation Authority",
+    "place_id": "ChIJdaTeGc2cY0ERs0Rf5z6i7zs",
+    "lat": 53.3462259,
+    "lon": -6.2580731,
+    "rating": 3.1,
+    "user_ratings_total": 32,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "local_government_office",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "The Times Building, 11-12 D'Olier Street, Dublin 2, D02 T449, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

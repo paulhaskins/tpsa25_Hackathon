@@ -1,0 +1,17 @@
+[
+  {
+    "name": "block",
+    "place_id": "ChIJS8ZuAMsMZ0gRielJIEbqmH4",
+    "lat": 53.3314345,
+    "lon": -6.3742063,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "premise"
+    ],
+    "formatted_address": "block, Unit 8 Beckett Way, Park West Business Park, Dublin 12, D12 AK84, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]

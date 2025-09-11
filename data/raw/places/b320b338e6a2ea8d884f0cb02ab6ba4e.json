@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Assembly Of God Ireland Ministry Dublin",
+    "place_id": "ChIJFxoFH4cOZ0gROoEAUpMAR6o",
+    "lat": 53.3537617,
+    "lon": -6.261283300000001,
+    "rating": 4.7,
+    "user_ratings_total": 49,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "church",
+      "place_of_worship",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "2 Rutland Pl, Rotunda, Dublin, D01 FP66, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Ministry of Jesus",
+    "place_id": "ChIJVVVVVUYMZ0gRbnXuN-n-xvo",
+    "lat": 53.342181,
+    "lon": -6.3565955,
+    "rating": 4.8,
+    "user_ratings_total": 17,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "church",
+      "place_of_worship",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "7 Le Fanu Rd, Ballyfermot Rd, Cherry Orchard, Dublin, D10 NH74, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  },
+  {
+    "name": "Church's Ministry of Healing Ireland",
+    "place_id": "ChIJn2GGKCkMZ0gR6rndeLsRMas",
+    "lat": 53.3476077,
+    "lon": -6.2750391,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "business_status": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "Egan House, St Michan\u2019s Church, Church St, Inns Quay, Dublin, Ireland",
+    "vicinity": "",
+    "price_level": 0
+  }
+]
