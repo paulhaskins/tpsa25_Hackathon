@@ -1,4 +1,4 @@
-# ==================== Full Traffic + Density + Correlation Script ====================
+# ==================== Full Traffic + Density + Correlation Script with PNG Export ====================
 
 import networkx as nx
 import numpy as np
@@ -8,8 +8,8 @@ import matplotlib as mpl
 import random
 import matplotlib.animation as animation
 import scipy.sparse as sp
-import datetime
 from matplotlib.collections import LineCollection
+import os
 
 # ----------- Parameters -------------
 num_nodes = 100
@@ -52,10 +52,11 @@ for i in range(num_nodes):
     if node_types[i] == 'source':
         external_flow[i] = random.randint(15, 50)
     elif node_types[i] == 'sink':
-        external_flow[i] = -random.randint(15, 50)
+        external_flow[i] = 0  # sinks start empty
     else:
         external_flow[i] = 0
 
+# --- Add nodes with inflow/outflow and S (external source/sink term)
 for i in range(num_nodes):
     internal_inflow = random.randint(10, 50)
     internal_outflow = random.randint(10, 50)
@@ -66,6 +67,13 @@ for i in range(num_nodes):
                outflow=total_outflow,
                node_type=node_types[i],
                S=external_flow[i])
+
+# --- Node capacities
+for i in range(num_nodes):
+    if node_types[i] == 'sink':
+        G.nodes[i]['capacity'] = rho_max  # sinks can accumulate up to rho_max
+    else:
+        G.nodes[i]['capacity'] = G.nodes[i]['inflow']  # others capped by inflow
 
 # --- Node positions ---
 grid_size = int(np.ceil(np.sqrt(num_nodes)))
@@ -141,7 +149,7 @@ def remove_edge_crossings_and_add_minor_roads(G, positions, minor_road_prob=0.5)
 
 remove_edge_crossings_and_add_minor_roads(G, positions, minor_road_prob=minor_road_prob)
 
-# --- Ensure all nodes can reach a sink ---
+# --- Ensure connectivity to sinks ---
 def ensure_connectivity_to_sink(G, sinks, positions):
     for node in G.nodes():
         if G.nodes[node]['node_type'] == 'sink':
@@ -157,7 +165,7 @@ def ensure_connectivity_to_sink(G, sinks, positions):
 
 ensure_connectivity_to_sink(G, sinks, positions)
 
-# --- Ensure sinks have at least one incoming edge ---
+# --- Connect sinks if they have no incoming edges ---
 def connect_sinks_to_network(G, sinks, positions, max_attempts=10):
     non_sinks = [n for n in G.nodes if G.nodes[n]['node_type'] != 'sink']
     for sink in sinks:
@@ -174,17 +182,13 @@ connect_sinks_to_network(G, sinks, positions)
 
 # ================= Vectorized density evolution =================
 num_nodes = G.number_of_nodes()
-
-# sinks start empty, others start with inflow
 rho_current = np.array([0 if G.nodes[i]['node_type']=='sink' else G.nodes[i]['inflow'] for i in range(num_nodes)], dtype=float)
-rho_current = np.clip(rho_current, 0, rho_max)
 S = np.array([G.nodes[i]['S'] for i in range(num_nodes)], dtype=float)
 
-# Adjacency matrices
 A_out = nx.adjacency_matrix(G, nodelist=range(num_nodes)).tocsc()
 A_in = A_out.transpose().tocsc()
 
-# --- Sink attraction factor, safe division ---
+# --- Sink attraction factor ---
 sink_distances = {}
 for node in G.nodes():
     lengths = nx.single_source_shortest_path_length(G, node)
@@ -221,14 +225,16 @@ for step in range(time_steps):
     F_out = sp.coo_matrix((data_out, (rows_out, cols_out)), shape=A_out.shape).tocsc()
     outflow = np.array(F_out.sum(axis=1)).flatten()
 
+    # Update density and enforce per-node capacity
     rho_next = rho_current + dt * (inflow - outflow + S)
-    rho_next = np.clip(rho_next, 0, rho_max)
+    for i in range(num_nodes):
+        rho_next[i] = min(rho_next[i], G.nodes[i]['capacity'])
+        rho_next[i] = max(rho_next[i], 0)
 
     rho_t_list.append(rho_next)
     mean_rho = np.mean(rho_next)
     delta_next = (rho_next - mean_rho) / mean_rho if mean_rho != 0 else np.zeros_like(rho_next)
     delta_t_list.append(delta_next)
-
     rho_current = rho_next
 
 # ================== Nearest-neighbor correlations ==================
@@ -264,16 +270,11 @@ for t in range(time_steps):
 print("\n✅ Average adjacency correlation over x nearest neighbors (normalized):")
 print(avg_corr_x_nearest)
 
-# ================== Animation & plotting scripts ==================
-# ... Keep all previous animation code here (combined node+edge, two-point correlation, delta evolution) ...
-# Use delta_t_list and nearest_neighbors to compute node colors and edge correlations.
-# Ensure node colors are normalized between -1 and 1.
-
-
-# ---------------- Combined Animation ----------------
+# ---------------- Combined Animation (Updated for PNG export) ----------------
+# ---------------- Combined Animation (Updated for PNG export) ----------------
 fig, ax = plt.subplots(figsize=(10,10))
 ax.axis('off')
-ax.set_title('Node Density (nodes) + Edge Correlation (edges)')
+ax.set_title('Node Density (ρ_i) + Edge Correlation (δ_iδ_j)')
 
 edges_list = list(G.edges())
 edge_corrs_per_frame = [
@@ -281,49 +282,88 @@ edge_corrs_per_frame = [
     for f in range(time_steps)
 ]
 
-# Node colors
-cmap_rho = plt.cm.viridis
-rho_min, rho_max_val = np.min(np.concatenate(rho_t_list)), np.max(np.concatenate(rho_t_list))
-norm_rho = mpl.colors.Normalize(vmin=rho_min, vmax=rho_max_val)
-nodes_collection = nx.draw_networkx_nodes(G, positions,
-                                          node_color=[cmap_rho(norm_rho(rho_t_list[0][n])) for n in G.nodes()],
-                                          node_size=60, ax=ax)
+# Define source/sink nodes for clarity
+source_nodes = sources
+sink_nodes = sinks
 
-# Edge colors
+
+# Edge collection (drawn first, zorder=1)
 cmap_edge = plt.cm.coolwarm
 all_edge_vals = [val for frame in edge_corrs_per_frame for val in frame]
 norm_edge = mpl.colors.Normalize(vmin=min(all_edge_vals), vmax=max(all_edge_vals))
 edge_segments = [(positions[u], positions[v]) for (u,v) in edges_list]
-edge_collection = LineCollection(edge_segments, cmap=cmap_edge, norm=norm_edge, linewidths=2.0)
+edge_collection = LineCollection(edge_segments, cmap=cmap_edge, norm=norm_edge, linewidths=2.0, zorder=1)
 edge_collection.set_array(np.array(edge_corrs_per_frame[0]))
 ax.add_collection(edge_collection)
 
+# Node color map
+cmap_rho = plt.cm.viridis
+rho_min_val, rho_max_val = 0, max(np.max(rho_t_list), rho_max)
+norm_rho = mpl.colors.Normalize(vmin=rho_min_val, vmax=rho_max_val)
+
+# Draw nodes on top of edges
+nodes_collection = nx.draw_networkx_nodes(
+    G, positions,
+    node_color=[cmap_rho(norm_rho(rho_t_list[0][n])) for n in G.nodes()],
+    node_size=150,
+    ax=ax,
+    linewidths=1.5,
+    edgecolors='black',
+)
+
 # Highlight sources and sinks
-source_nodes = [n for n in G.nodes if G.nodes[n]['node_type']=='source']
-sink_nodes = [n for n in G.nodes if G.nodes[n]['node_type']=='sink']
 nx.draw_networkx_nodes(G, positions, nodelist=source_nodes, node_color='none',
-                       edgecolors='green', node_shape='s', node_size=80, linewidths=1.5, ax=ax)
+                       edgecolors='green', node_shape='s', node_size=180, linewidths=2.0, ax=ax)
 nx.draw_networkx_nodes(G, positions, nodelist=sink_nodes, node_color='none',
-                       edgecolors='red', node_shape='^', node_size=80, linewidths=1.5, ax=ax)
+                       edgecolors='red', node_shape='^', node_size=180, linewidths=2.0, ax=ax)
+
+# Node density labels
+node_texts = {}
+for n in G.nodes():
+    x, y = positions[n]
+    node_texts[n] = ax.text(x, y+0.3, f"{rho_t_list[0][n]:.0f}", ha='center', fontsize=8,
+                            color='black', zorder=3)
 
 # Colorbars
-cbar_nodes = plt.colorbar(plt.cm.ScalarMappable(norm=norm_rho, cmap=cmap_rho), ax=ax, fraction=0.046, pad=0.04)
+cbar_nodes = plt.colorbar(plt.cm.ScalarMappable(norm=norm_rho, cmap=cmap_rho),
+                          ax=ax, fraction=0.046, pad=0.04)
 cbar_nodes.set_label('Node Density ρ_i')
-cbar_edges = plt.colorbar(plt.cm.ScalarMappable(norm=norm_edge, cmap=cmap_edge), ax=ax, fraction=0.046, pad=0.08)
+cbar_edges = plt.colorbar(plt.cm.ScalarMappable(norm=norm_edge, cmap=cmap_edge),
+                          ax=ax, fraction=0.046, pad=0.08)
 cbar_edges.set_label('Edge Correlation δ_iδ_j')
 
-# Animation update
+# Animation update function
 def update_combined(frame):
-    # Update nodes
+    # Update node colors
     node_colors = [cmap_rho(norm_rho(rho_t_list[frame][n])) for n in G.nodes()]
     nodes_collection.set_facecolor(node_colors)
-    # Update edges
+    
+    # Update edge correlations
     edge_collection.set_array(np.array(edge_corrs_per_frame[frame]))
+    
+    # Update node density labels
+    for n in G.nodes():
+        val = rho_t_list[frame][n]
+        node_texts[n].set_text(f"{val:.0f}")
+        if node_types[n] == 'source':
+            node_texts[n].set_color('green')
+        elif node_types[n] == 'sink':
+            node_texts[n].set_color('red')
+        else:
+            node_texts[n].set_color('black')
+    
+    # Export every 5th frame as PNG
+    if frame % 5 == 0:
+        plt.savefig(f'frame_{frame:03d}.png', dpi=200)
+    
     ax.set_title(f'Density & Edge Correlation timestep {frame+1}/{time_steps}')
-    return nodes_collection, edge_collection
+    return nodes_collection, edge_collection, *node_texts.values()
 
+# Create animation
 combined_anim = animation.FuncAnimation(fig, update_combined,
-                                        frames=time_steps, interval=100, blit=False)
+                                        frames=time_steps, interval=200, blit=False)
 
-combined_anim.save('density_correlation_overlay.gif', writer='pillow', fps=10)
+# Display and save GIF
 plt.show()
+combined_anim.save('density_correlation_overlay.gif', writer='pillow', fps=5)
+
